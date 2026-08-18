@@ -1,0 +1,66 @@
+[
+  {
+    "id": "GCS27-CD-M-MCQ-166",
+    "subject": "CD",
+    "topic": "Code Optimization",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "Which of the following represents a loop optimization technique where loop-independent computations are moved outside the loop?",
+    "options": [
+      "Loop Unrolling",
+      "Loop Invariant Code Motion",
+      "Loop Fusion",
+      "Dead Code Elimination"
+    ],
+    "answer_id": "GCS27-CD-M-MCQ-166",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "optimization verification"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CD-M-MSQ-166",
+    "subject": "CD",
+    "topic": "IR Generation",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MSQ",
+    "question": "Which of the following represent intermediate representations (IR) commonly used in compilers?",
+    "options": [
+      "Three-Address Code (TAC)",
+      "Abstract Syntax Tree (AST)",
+      "Static Single Assignment (SSA) form",
+      "Control Flow Graph (CFG)"
+    ],
+    "answer_id": "GCS27-CD-M-MSQ-166",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "ir classification"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CD-M-NAT-166",
+    "subject": "CD",
+    "topic": "Syntax Analysis",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "NAT",
+    "question": "Consider the grammar: S -> a S b | e. Find the number of elements in the set FIRST(S).",
+    "options": null,
+    "answer_id": "GCS27-CD-M-NAT-166",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "grammar FIRST calculation"
+    ],
+    "representation": [
+      "text"
+    ]
+  }
+]

@@ -1,0 +1,1602 @@
+[
+  {
+    "id": "GCS27-CD-H-MCQ-526",
+    "subject": "CD",
+    "topic": "Syntax-Directed Translation",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider the Syntax-Directed Translation (SDT) scheme containing rules:\n\n`S -> E  { print(E.val) }`\n`E -> E + T  { E.val = E.val + T.val }`\n`E -> T  { E.val = T.val }`\n`T -> 3  { T.val = 3 * 5 }`\n\nWhat value is printed by this SDT for input expression `3`?",
+    "options": [
+      "6",
+      "15",
+      "3",
+      "8"
+    ],
+    "answer_id": "GCS27-CD-H-MCQ-526",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "SDT syntax tree trace"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-MCQ-527",
+    "subject": "CD",
+    "topic": "Syntax-Directed Translation",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider the Syntax-Directed Translation (SDT) scheme containing rules:\n\n`S -> E  { print(E.val) }`\n`E -> E + T  { E.val = E.val + T.val }`\n`E -> T  { E.val = T.val }`\n`T -> 4  { T.val = 4 * 5 }`\n\nWhat value is printed by this SDT for input expression `4`?",
+    "options": [
+      "9",
+      "4",
+      "8",
+      "20"
+    ],
+    "answer_id": "GCS27-CD-H-MCQ-527",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "SDT syntax tree trace"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-MCQ-528",
+    "subject": "CD",
+    "topic": "Syntax-Directed Translation",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider the Syntax-Directed Translation (SDT) scheme containing rules:\n\n`S -> E  { print(E.val) }`\n`E -> E + T  { E.val = E.val + T.val }`\n`E -> T  { E.val = T.val }`\n`T -> 2  { T.val = 2 * 5 }`\n\nWhat value is printed by this SDT for input expression `2`?",
+    "options": [
+      "10",
+      "4",
+      "7",
+      "2"
+    ],
+    "answer_id": "GCS27-CD-H-MCQ-528",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "SDT syntax tree trace"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-MCQ-529",
+    "subject": "CD",
+    "topic": "Syntax-Directed Translation",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider the Syntax-Directed Translation (SDT) scheme containing rules:\n\n`S -> E  { print(E.val) }`\n`E -> E + T  { E.val = E.val + T.val }`\n`E -> T  { E.val = T.val }`\n`T -> 3  { T.val = 3 * 5 }`\n\nWhat value is printed by this SDT for input expression `3`?",
+    "options": [
+      "6",
+      "3",
+      "15",
+      "8"
+    ],
+    "answer_id": "GCS27-CD-H-MCQ-529",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "SDT syntax tree trace"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-MCQ-530",
+    "subject": "CD",
+    "topic": "Syntax-Directed Translation",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider the Syntax-Directed Translation (SDT) scheme containing rules:\n\n`S -> E  { print(E.val) }`\n`E -> E + T  { E.val = E.val + T.val }`\n`E -> T  { E.val = T.val }`\n`T -> 4  { T.val = 4 * 5 }`\n\nWhat value is printed by this SDT for input expression `4`?",
+    "options": [
+      "8",
+      "20",
+      "4",
+      "9"
+    ],
+    "answer_id": "GCS27-CD-H-MCQ-530",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "SDT syntax tree trace"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-MCQ-531",
+    "subject": "CD",
+    "topic": "Syntax-Directed Translation",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider the Syntax-Directed Translation (SDT) scheme containing rules:\n\n`S -> E  { print(E.val) }`\n`E -> E + T  { E.val = E.val + T.val }`\n`E -> T  { E.val = T.val }`\n`T -> 2  { T.val = 2 * 5 }`\n\nWhat value is printed by this SDT for input expression `2`?",
+    "options": [
+      "2",
+      "10",
+      "7",
+      "4"
+    ],
+    "answer_id": "GCS27-CD-H-MCQ-531",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "SDT syntax tree trace"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-MCQ-532",
+    "subject": "CD",
+    "topic": "Syntax-Directed Translation",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider the Syntax-Directed Translation (SDT) scheme containing rules:\n\n`S -> E  { print(E.val) }`\n`E -> E + T  { E.val = E.val + T.val }`\n`E -> T  { E.val = T.val }`\n`T -> 3  { T.val = 3 * 5 }`\n\nWhat value is printed by this SDT for input expression `3`?",
+    "options": [
+      "6",
+      "3",
+      "15",
+      "8"
+    ],
+    "answer_id": "GCS27-CD-H-MCQ-532",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "SDT syntax tree trace"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-MCQ-533",
+    "subject": "CD",
+    "topic": "Syntax-Directed Translation",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider the Syntax-Directed Translation (SDT) scheme containing rules:\n\n`S -> E  { print(E.val) }`\n`E -> E + T  { E.val = E.val + T.val }`\n`E -> T  { E.val = T.val }`\n`T -> 4  { T.val = 4 * 5 }`\n\nWhat value is printed by this SDT for input expression `4`?",
+    "options": [
+      "9",
+      "8",
+      "4",
+      "20"
+    ],
+    "answer_id": "GCS27-CD-H-MCQ-533",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "SDT syntax tree trace"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-MCQ-534",
+    "subject": "CD",
+    "topic": "Syntax-Directed Translation",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider the Syntax-Directed Translation (SDT) scheme containing rules:\n\n`S -> E  { print(E.val) }`\n`E -> E + T  { E.val = E.val + T.val }`\n`E -> T  { E.val = T.val }`\n`T -> 2  { T.val = 2 * 5 }`\n\nWhat value is printed by this SDT for input expression `2`?",
+    "options": [
+      "4",
+      "2",
+      "7",
+      "10"
+    ],
+    "answer_id": "GCS27-CD-H-MCQ-534",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "SDT syntax tree trace"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-MCQ-535",
+    "subject": "CD",
+    "topic": "Syntax-Directed Translation",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider the Syntax-Directed Translation (SDT) scheme containing rules:\n\n`S -> E  { print(E.val) }`\n`E -> E + T  { E.val = E.val + T.val }`\n`E -> T  { E.val = T.val }`\n`T -> 3  { T.val = 3 * 5 }`\n\nWhat value is printed by this SDT for input expression `3`?",
+    "options": [
+      "3",
+      "15",
+      "6",
+      "8"
+    ],
+    "answer_id": "GCS27-CD-H-MCQ-535",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "SDT syntax tree trace"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-MCQ-536",
+    "subject": "CD",
+    "topic": "Syntax-Directed Translation",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider the Syntax-Directed Translation (SDT) scheme containing rules:\n\n`S -> E  { print(E.val) }`\n`E -> E + T  { E.val = E.val + T.val }`\n`E -> T  { E.val = T.val }`\n`T -> 4  { T.val = 4 * 5 }`\n\nWhat value is printed by this SDT for input expression `4`?",
+    "options": [
+      "20",
+      "4",
+      "9",
+      "8"
+    ],
+    "answer_id": "GCS27-CD-H-MCQ-536",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "SDT syntax tree trace"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-MCQ-537",
+    "subject": "CD",
+    "topic": "Syntax-Directed Translation",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider the Syntax-Directed Translation (SDT) scheme containing rules:\n\n`S -> E  { print(E.val) }`\n`E -> E + T  { E.val = E.val + T.val }`\n`E -> T  { E.val = T.val }`\n`T -> 2  { T.val = 2 * 5 }`\n\nWhat value is printed by this SDT for input expression `2`?",
+    "options": [
+      "4",
+      "7",
+      "2",
+      "10"
+    ],
+    "answer_id": "GCS27-CD-H-MCQ-537",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "SDT syntax tree trace"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-MCQ-538",
+    "subject": "CD",
+    "topic": "Syntax-Directed Translation",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider the Syntax-Directed Translation (SDT) scheme containing rules:\n\n`S -> E  { print(E.val) }`\n`E -> E + T  { E.val = E.val + T.val }`\n`E -> T  { E.val = T.val }`\n`T -> 3  { T.val = 3 * 5 }`\n\nWhat value is printed by this SDT for input expression `3`?",
+    "options": [
+      "6",
+      "3",
+      "8",
+      "15"
+    ],
+    "answer_id": "GCS27-CD-H-MCQ-538",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "SDT syntax tree trace"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-MCQ-539",
+    "subject": "CD",
+    "topic": "Syntax-Directed Translation",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider the Syntax-Directed Translation (SDT) scheme containing rules:\n\n`S -> E  { print(E.val) }`\n`E -> E + T  { E.val = E.val + T.val }`\n`E -> T  { E.val = T.val }`\n`T -> 4  { T.val = 4 * 5 }`\n\nWhat value is printed by this SDT for input expression `4`?",
+    "options": [
+      "8",
+      "20",
+      "4",
+      "9"
+    ],
+    "answer_id": "GCS27-CD-H-MCQ-539",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "SDT syntax tree trace"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-MCQ-540",
+    "subject": "CD",
+    "topic": "Syntax-Directed Translation",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider the Syntax-Directed Translation (SDT) scheme containing rules:\n\n`S -> E  { print(E.val) }`\n`E -> E + T  { E.val = E.val + T.val }`\n`E -> T  { E.val = T.val }`\n`T -> 2  { T.val = 2 * 5 }`\n\nWhat value is printed by this SDT for input expression `2`?",
+    "options": [
+      "10",
+      "4",
+      "2",
+      "7"
+    ],
+    "answer_id": "GCS27-CD-H-MCQ-540",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "SDT syntax tree trace"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-MCQ-541",
+    "subject": "CD",
+    "topic": "Syntax-Directed Translation",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider the Syntax-Directed Translation (SDT) scheme containing rules:\n\n`S -> E  { print(E.val) }`\n`E -> E + T  { E.val = E.val + T.val }`\n`E -> T  { E.val = T.val }`\n`T -> 3  { T.val = 3 * 5 }`\n\nWhat value is printed by this SDT for input expression `3`?",
+    "options": [
+      "6",
+      "8",
+      "3",
+      "15"
+    ],
+    "answer_id": "GCS27-CD-H-MCQ-541",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "SDT syntax tree trace"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-MCQ-542",
+    "subject": "CD",
+    "topic": "Syntax-Directed Translation",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider the Syntax-Directed Translation (SDT) scheme containing rules:\n\n`S -> E  { print(E.val) }`\n`E -> E + T  { E.val = E.val + T.val }`\n`E -> T  { E.val = T.val }`\n`T -> 4  { T.val = 4 * 5 }`\n\nWhat value is printed by this SDT for input expression `4`?",
+    "options": [
+      "8",
+      "9",
+      "4",
+      "20"
+    ],
+    "answer_id": "GCS27-CD-H-MCQ-542",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "SDT syntax tree trace"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-MCQ-543",
+    "subject": "CD",
+    "topic": "Syntax-Directed Translation",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider the Syntax-Directed Translation (SDT) scheme containing rules:\n\n`S -> E  { print(E.val) }`\n`E -> E + T  { E.val = E.val + T.val }`\n`E -> T  { E.val = T.val }`\n`T -> 2  { T.val = 2 * 5 }`\n\nWhat value is printed by this SDT for input expression `2`?",
+    "options": [
+      "7",
+      "10",
+      "2",
+      "4"
+    ],
+    "answer_id": "GCS27-CD-H-MCQ-543",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "SDT syntax tree trace"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-MCQ-544",
+    "subject": "CD",
+    "topic": "Syntax-Directed Translation",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider the Syntax-Directed Translation (SDT) scheme containing rules:\n\n`S -> E  { print(E.val) }`\n`E -> E + T  { E.val = E.val + T.val }`\n`E -> T  { E.val = T.val }`\n`T -> 3  { T.val = 3 * 5 }`\n\nWhat value is printed by this SDT for input expression `3`?",
+    "options": [
+      "6",
+      "8",
+      "3",
+      "15"
+    ],
+    "answer_id": "GCS27-CD-H-MCQ-544",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "SDT syntax tree trace"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-MCQ-545",
+    "subject": "CD",
+    "topic": "Syntax-Directed Translation",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider the Syntax-Directed Translation (SDT) scheme containing rules:\n\n`S -> E  { print(E.val) }`\n`E -> E + T  { E.val = E.val + T.val }`\n`E -> T  { E.val = T.val }`\n`T -> 4  { T.val = 4 * 5 }`\n\nWhat value is printed by this SDT for input expression `4`?",
+    "options": [
+      "20",
+      "4",
+      "9",
+      "8"
+    ],
+    "answer_id": "GCS27-CD-H-MCQ-545",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "SDT syntax tree trace"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-MCQ-546",
+    "subject": "CD",
+    "topic": "Syntax-Directed Translation",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider the Syntax-Directed Translation (SDT) scheme containing rules:\n\n`S -> E  { print(E.val) }`\n`E -> E + T  { E.val = E.val + T.val }`\n`E -> T  { E.val = T.val }`\n`T -> 2  { T.val = 2 * 5 }`\n\nWhat value is printed by this SDT for input expression `2`?",
+    "options": [
+      "10",
+      "7",
+      "4",
+      "2"
+    ],
+    "answer_id": "GCS27-CD-H-MCQ-546",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "SDT syntax tree trace"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-MCQ-547",
+    "subject": "CD",
+    "topic": "Syntax-Directed Translation",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider the Syntax-Directed Translation (SDT) scheme containing rules:\n\n`S -> E  { print(E.val) }`\n`E -> E + T  { E.val = E.val + T.val }`\n`E -> T  { E.val = T.val }`\n`T -> 3  { T.val = 3 * 5 }`\n\nWhat value is printed by this SDT for input expression `3`?",
+    "options": [
+      "15",
+      "8",
+      "6",
+      "3"
+    ],
+    "answer_id": "GCS27-CD-H-MCQ-547",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "SDT syntax tree trace"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-MCQ-548",
+    "subject": "CD",
+    "topic": "Syntax-Directed Translation",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider the Syntax-Directed Translation (SDT) scheme containing rules:\n\n`S -> E  { print(E.val) }`\n`E -> E + T  { E.val = E.val + T.val }`\n`E -> T  { E.val = T.val }`\n`T -> 4  { T.val = 4 * 5 }`\n\nWhat value is printed by this SDT for input expression `4`?",
+    "options": [
+      "8",
+      "9",
+      "20",
+      "4"
+    ],
+    "answer_id": "GCS27-CD-H-MCQ-548",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "SDT syntax tree trace"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-MCQ-549",
+    "subject": "CD",
+    "topic": "Syntax-Directed Translation",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider the Syntax-Directed Translation (SDT) scheme containing rules:\n\n`S -> E  { print(E.val) }`\n`E -> E + T  { E.val = E.val + T.val }`\n`E -> T  { E.val = T.val }`\n`T -> 2  { T.val = 2 * 5 }`\n\nWhat value is printed by this SDT for input expression `2`?",
+    "options": [
+      "7",
+      "2",
+      "10",
+      "4"
+    ],
+    "answer_id": "GCS27-CD-H-MCQ-549",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "SDT syntax tree trace"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-MCQ-550",
+    "subject": "CD",
+    "topic": "Syntax-Directed Translation",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider the Syntax-Directed Translation (SDT) scheme containing rules:\n\n`S -> E  { print(E.val) }`\n`E -> E + T  { E.val = E.val + T.val }`\n`E -> T  { E.val = T.val }`\n`T -> 3  { T.val = 3 * 5 }`\n\nWhat value is printed by this SDT for input expression `3`?",
+    "options": [
+      "15",
+      "3",
+      "8",
+      "6"
+    ],
+    "answer_id": "GCS27-CD-H-MCQ-550",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "SDT syntax tree trace"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-MSQ-526",
+    "subject": "CD",
+    "topic": "Code Optimization",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Which of the following optimization techniques can be safely applied to basic block Control Flow Graphs (CFGs) during compiler compilation?",
+    "options": [
+      "Common Subexpression Elimination (CSE) replaces redundant computations with a single temporary variable reference.",
+      "Loop Invariant Code Motion (LICM) shifts computations that yield identical outputs in every iteration out of the loop body.",
+      "Dead Code Elimination (DCE) removes instruction statements whose results are never read or used on any path.",
+      "Constant Folding evaluates constant expressions at compile-time instead of generating run-time instructions."
+    ],
+    "answer_id": "GCS27-CD-H-MSQ-526",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "optimization verification"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-MSQ-527",
+    "subject": "CD",
+    "topic": "Code Optimization",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Which of the following optimization techniques can be safely applied to basic block Control Flow Graphs (CFGs) during compiler compilation?",
+    "options": [
+      "Common Subexpression Elimination (CSE) replaces redundant computations with a single temporary variable reference.",
+      "Loop Invariant Code Motion (LICM) shifts computations that yield identical outputs in every iteration out of the loop body.",
+      "Dead Code Elimination (DCE) removes instruction statements whose results are never read or used on any path.",
+      "Constant Folding evaluates constant expressions at compile-time instead of generating run-time instructions."
+    ],
+    "answer_id": "GCS27-CD-H-MSQ-527",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "optimization verification"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-MSQ-528",
+    "subject": "CD",
+    "topic": "Code Optimization",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Which of the following optimization techniques can be safely applied to basic block Control Flow Graphs (CFGs) during compiler compilation?",
+    "options": [
+      "Common Subexpression Elimination (CSE) replaces redundant computations with a single temporary variable reference.",
+      "Loop Invariant Code Motion (LICM) shifts computations that yield identical outputs in every iteration out of the loop body.",
+      "Dead Code Elimination (DCE) removes instruction statements whose results are never read or used on any path.",
+      "Constant Folding evaluates constant expressions at compile-time instead of generating run-time instructions."
+    ],
+    "answer_id": "GCS27-CD-H-MSQ-528",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "optimization verification"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-MSQ-529",
+    "subject": "CD",
+    "topic": "Code Optimization",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Which of the following optimization techniques can be safely applied to basic block Control Flow Graphs (CFGs) during compiler compilation?",
+    "options": [
+      "Common Subexpression Elimination (CSE) replaces redundant computations with a single temporary variable reference.",
+      "Loop Invariant Code Motion (LICM) shifts computations that yield identical outputs in every iteration out of the loop body.",
+      "Dead Code Elimination (DCE) removes instruction statements whose results are never read or used on any path.",
+      "Constant Folding evaluates constant expressions at compile-time instead of generating run-time instructions."
+    ],
+    "answer_id": "GCS27-CD-H-MSQ-529",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "optimization verification"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-MSQ-530",
+    "subject": "CD",
+    "topic": "Code Optimization",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Which of the following optimization techniques can be safely applied to basic block Control Flow Graphs (CFGs) during compiler compilation?",
+    "options": [
+      "Common Subexpression Elimination (CSE) replaces redundant computations with a single temporary variable reference.",
+      "Loop Invariant Code Motion (LICM) shifts computations that yield identical outputs in every iteration out of the loop body.",
+      "Dead Code Elimination (DCE) removes instruction statements whose results are never read or used on any path.",
+      "Constant Folding evaluates constant expressions at compile-time instead of generating run-time instructions."
+    ],
+    "answer_id": "GCS27-CD-H-MSQ-530",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "optimization verification"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-MSQ-531",
+    "subject": "CD",
+    "topic": "Code Optimization",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Which of the following optimization techniques can be safely applied to basic block Control Flow Graphs (CFGs) during compiler compilation?",
+    "options": [
+      "Common Subexpression Elimination (CSE) replaces redundant computations with a single temporary variable reference.",
+      "Loop Invariant Code Motion (LICM) shifts computations that yield identical outputs in every iteration out of the loop body.",
+      "Dead Code Elimination (DCE) removes instruction statements whose results are never read or used on any path.",
+      "Constant Folding evaluates constant expressions at compile-time instead of generating run-time instructions."
+    ],
+    "answer_id": "GCS27-CD-H-MSQ-531",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "optimization verification"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-MSQ-532",
+    "subject": "CD",
+    "topic": "Code Optimization",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Which of the following optimization techniques can be safely applied to basic block Control Flow Graphs (CFGs) during compiler compilation?",
+    "options": [
+      "Common Subexpression Elimination (CSE) replaces redundant computations with a single temporary variable reference.",
+      "Loop Invariant Code Motion (LICM) shifts computations that yield identical outputs in every iteration out of the loop body.",
+      "Dead Code Elimination (DCE) removes instruction statements whose results are never read or used on any path.",
+      "Constant Folding evaluates constant expressions at compile-time instead of generating run-time instructions."
+    ],
+    "answer_id": "GCS27-CD-H-MSQ-532",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "optimization verification"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-MSQ-533",
+    "subject": "CD",
+    "topic": "Code Optimization",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Which of the following optimization techniques can be safely applied to basic block Control Flow Graphs (CFGs) during compiler compilation?",
+    "options": [
+      "Common Subexpression Elimination (CSE) replaces redundant computations with a single temporary variable reference.",
+      "Loop Invariant Code Motion (LICM) shifts computations that yield identical outputs in every iteration out of the loop body.",
+      "Dead Code Elimination (DCE) removes instruction statements whose results are never read or used on any path.",
+      "Constant Folding evaluates constant expressions at compile-time instead of generating run-time instructions."
+    ],
+    "answer_id": "GCS27-CD-H-MSQ-533",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "optimization verification"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-MSQ-534",
+    "subject": "CD",
+    "topic": "Code Optimization",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Which of the following optimization techniques can be safely applied to basic block Control Flow Graphs (CFGs) during compiler compilation?",
+    "options": [
+      "Common Subexpression Elimination (CSE) replaces redundant computations with a single temporary variable reference.",
+      "Loop Invariant Code Motion (LICM) shifts computations that yield identical outputs in every iteration out of the loop body.",
+      "Dead Code Elimination (DCE) removes instruction statements whose results are never read or used on any path.",
+      "Constant Folding evaluates constant expressions at compile-time instead of generating run-time instructions."
+    ],
+    "answer_id": "GCS27-CD-H-MSQ-534",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "optimization verification"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-MSQ-535",
+    "subject": "CD",
+    "topic": "Code Optimization",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Which of the following optimization techniques can be safely applied to basic block Control Flow Graphs (CFGs) during compiler compilation?",
+    "options": [
+      "Common Subexpression Elimination (CSE) replaces redundant computations with a single temporary variable reference.",
+      "Loop Invariant Code Motion (LICM) shifts computations that yield identical outputs in every iteration out of the loop body.",
+      "Dead Code Elimination (DCE) removes instruction statements whose results are never read or used on any path.",
+      "Constant Folding evaluates constant expressions at compile-time instead of generating run-time instructions."
+    ],
+    "answer_id": "GCS27-CD-H-MSQ-535",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "optimization verification"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-MSQ-536",
+    "subject": "CD",
+    "topic": "Code Optimization",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Which of the following optimization techniques can be safely applied to basic block Control Flow Graphs (CFGs) during compiler compilation?",
+    "options": [
+      "Common Subexpression Elimination (CSE) replaces redundant computations with a single temporary variable reference.",
+      "Loop Invariant Code Motion (LICM) shifts computations that yield identical outputs in every iteration out of the loop body.",
+      "Dead Code Elimination (DCE) removes instruction statements whose results are never read or used on any path.",
+      "Constant Folding evaluates constant expressions at compile-time instead of generating run-time instructions."
+    ],
+    "answer_id": "GCS27-CD-H-MSQ-536",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "optimization verification"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-MSQ-537",
+    "subject": "CD",
+    "topic": "Code Optimization",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Which of the following optimization techniques can be safely applied to basic block Control Flow Graphs (CFGs) during compiler compilation?",
+    "options": [
+      "Common Subexpression Elimination (CSE) replaces redundant computations with a single temporary variable reference.",
+      "Loop Invariant Code Motion (LICM) shifts computations that yield identical outputs in every iteration out of the loop body.",
+      "Dead Code Elimination (DCE) removes instruction statements whose results are never read or used on any path.",
+      "Constant Folding evaluates constant expressions at compile-time instead of generating run-time instructions."
+    ],
+    "answer_id": "GCS27-CD-H-MSQ-537",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "optimization verification"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-MSQ-538",
+    "subject": "CD",
+    "topic": "Code Optimization",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Which of the following optimization techniques can be safely applied to basic block Control Flow Graphs (CFGs) during compiler compilation?",
+    "options": [
+      "Common Subexpression Elimination (CSE) replaces redundant computations with a single temporary variable reference.",
+      "Loop Invariant Code Motion (LICM) shifts computations that yield identical outputs in every iteration out of the loop body.",
+      "Dead Code Elimination (DCE) removes instruction statements whose results are never read or used on any path.",
+      "Constant Folding evaluates constant expressions at compile-time instead of generating run-time instructions."
+    ],
+    "answer_id": "GCS27-CD-H-MSQ-538",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "optimization verification"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-MSQ-539",
+    "subject": "CD",
+    "topic": "Code Optimization",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Which of the following optimization techniques can be safely applied to basic block Control Flow Graphs (CFGs) during compiler compilation?",
+    "options": [
+      "Common Subexpression Elimination (CSE) replaces redundant computations with a single temporary variable reference.",
+      "Loop Invariant Code Motion (LICM) shifts computations that yield identical outputs in every iteration out of the loop body.",
+      "Dead Code Elimination (DCE) removes instruction statements whose results are never read or used on any path.",
+      "Constant Folding evaluates constant expressions at compile-time instead of generating run-time instructions."
+    ],
+    "answer_id": "GCS27-CD-H-MSQ-539",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "optimization verification"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-MSQ-540",
+    "subject": "CD",
+    "topic": "Code Optimization",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Which of the following optimization techniques can be safely applied to basic block Control Flow Graphs (CFGs) during compiler compilation?",
+    "options": [
+      "Common Subexpression Elimination (CSE) replaces redundant computations with a single temporary variable reference.",
+      "Loop Invariant Code Motion (LICM) shifts computations that yield identical outputs in every iteration out of the loop body.",
+      "Dead Code Elimination (DCE) removes instruction statements whose results are never read or used on any path.",
+      "Constant Folding evaluates constant expressions at compile-time instead of generating run-time instructions."
+    ],
+    "answer_id": "GCS27-CD-H-MSQ-540",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "optimization verification"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-MSQ-541",
+    "subject": "CD",
+    "topic": "Code Optimization",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Which of the following optimization techniques can be safely applied to basic block Control Flow Graphs (CFGs) during compiler compilation?",
+    "options": [
+      "Common Subexpression Elimination (CSE) replaces redundant computations with a single temporary variable reference.",
+      "Loop Invariant Code Motion (LICM) shifts computations that yield identical outputs in every iteration out of the loop body.",
+      "Dead Code Elimination (DCE) removes instruction statements whose results are never read or used on any path.",
+      "Constant Folding evaluates constant expressions at compile-time instead of generating run-time instructions."
+    ],
+    "answer_id": "GCS27-CD-H-MSQ-541",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "optimization verification"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-MSQ-542",
+    "subject": "CD",
+    "topic": "Code Optimization",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Which of the following optimization techniques can be safely applied to basic block Control Flow Graphs (CFGs) during compiler compilation?",
+    "options": [
+      "Common Subexpression Elimination (CSE) replaces redundant computations with a single temporary variable reference.",
+      "Loop Invariant Code Motion (LICM) shifts computations that yield identical outputs in every iteration out of the loop body.",
+      "Dead Code Elimination (DCE) removes instruction statements whose results are never read or used on any path.",
+      "Constant Folding evaluates constant expressions at compile-time instead of generating run-time instructions."
+    ],
+    "answer_id": "GCS27-CD-H-MSQ-542",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "optimization verification"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-MSQ-543",
+    "subject": "CD",
+    "topic": "Code Optimization",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Which of the following optimization techniques can be safely applied to basic block Control Flow Graphs (CFGs) during compiler compilation?",
+    "options": [
+      "Common Subexpression Elimination (CSE) replaces redundant computations with a single temporary variable reference.",
+      "Loop Invariant Code Motion (LICM) shifts computations that yield identical outputs in every iteration out of the loop body.",
+      "Dead Code Elimination (DCE) removes instruction statements whose results are never read or used on any path.",
+      "Constant Folding evaluates constant expressions at compile-time instead of generating run-time instructions."
+    ],
+    "answer_id": "GCS27-CD-H-MSQ-543",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "optimization verification"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-MSQ-544",
+    "subject": "CD",
+    "topic": "Code Optimization",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Which of the following optimization techniques can be safely applied to basic block Control Flow Graphs (CFGs) during compiler compilation?",
+    "options": [
+      "Common Subexpression Elimination (CSE) replaces redundant computations with a single temporary variable reference.",
+      "Loop Invariant Code Motion (LICM) shifts computations that yield identical outputs in every iteration out of the loop body.",
+      "Dead Code Elimination (DCE) removes instruction statements whose results are never read or used on any path.",
+      "Constant Folding evaluates constant expressions at compile-time instead of generating run-time instructions."
+    ],
+    "answer_id": "GCS27-CD-H-MSQ-544",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "optimization verification"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-MSQ-545",
+    "subject": "CD",
+    "topic": "Code Optimization",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Which of the following optimization techniques can be safely applied to basic block Control Flow Graphs (CFGs) during compiler compilation?",
+    "options": [
+      "Common Subexpression Elimination (CSE) replaces redundant computations with a single temporary variable reference.",
+      "Loop Invariant Code Motion (LICM) shifts computations that yield identical outputs in every iteration out of the loop body.",
+      "Dead Code Elimination (DCE) removes instruction statements whose results are never read or used on any path.",
+      "Constant Folding evaluates constant expressions at compile-time instead of generating run-time instructions."
+    ],
+    "answer_id": "GCS27-CD-H-MSQ-545",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "optimization verification"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-MSQ-546",
+    "subject": "CD",
+    "topic": "Code Optimization",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Which of the following optimization techniques can be safely applied to basic block Control Flow Graphs (CFGs) during compiler compilation?",
+    "options": [
+      "Common Subexpression Elimination (CSE) replaces redundant computations with a single temporary variable reference.",
+      "Loop Invariant Code Motion (LICM) shifts computations that yield identical outputs in every iteration out of the loop body.",
+      "Dead Code Elimination (DCE) removes instruction statements whose results are never read or used on any path.",
+      "Constant Folding evaluates constant expressions at compile-time instead of generating run-time instructions."
+    ],
+    "answer_id": "GCS27-CD-H-MSQ-546",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "optimization verification"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-MSQ-547",
+    "subject": "CD",
+    "topic": "Code Optimization",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Which of the following optimization techniques can be safely applied to basic block Control Flow Graphs (CFGs) during compiler compilation?",
+    "options": [
+      "Common Subexpression Elimination (CSE) replaces redundant computations with a single temporary variable reference.",
+      "Loop Invariant Code Motion (LICM) shifts computations that yield identical outputs in every iteration out of the loop body.",
+      "Dead Code Elimination (DCE) removes instruction statements whose results are never read or used on any path.",
+      "Constant Folding evaluates constant expressions at compile-time instead of generating run-time instructions."
+    ],
+    "answer_id": "GCS27-CD-H-MSQ-547",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "optimization verification"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-MSQ-548",
+    "subject": "CD",
+    "topic": "Code Optimization",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Which of the following optimization techniques can be safely applied to basic block Control Flow Graphs (CFGs) during compiler compilation?",
+    "options": [
+      "Common Subexpression Elimination (CSE) replaces redundant computations with a single temporary variable reference.",
+      "Loop Invariant Code Motion (LICM) shifts computations that yield identical outputs in every iteration out of the loop body.",
+      "Dead Code Elimination (DCE) removes instruction statements whose results are never read or used on any path.",
+      "Constant Folding evaluates constant expressions at compile-time instead of generating run-time instructions."
+    ],
+    "answer_id": "GCS27-CD-H-MSQ-548",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "optimization verification"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-MSQ-549",
+    "subject": "CD",
+    "topic": "Code Optimization",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Which of the following optimization techniques can be safely applied to basic block Control Flow Graphs (CFGs) during compiler compilation?",
+    "options": [
+      "Common Subexpression Elimination (CSE) replaces redundant computations with a single temporary variable reference.",
+      "Loop Invariant Code Motion (LICM) shifts computations that yield identical outputs in every iteration out of the loop body.",
+      "Dead Code Elimination (DCE) removes instruction statements whose results are never read or used on any path.",
+      "Constant Folding evaluates constant expressions at compile-time instead of generating run-time instructions."
+    ],
+    "answer_id": "GCS27-CD-H-MSQ-549",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "optimization verification"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-MSQ-550",
+    "subject": "CD",
+    "topic": "Code Optimization",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Which of the following optimization techniques can be safely applied to basic block Control Flow Graphs (CFGs) during compiler compilation?",
+    "options": [
+      "Common Subexpression Elimination (CSE) replaces redundant computations with a single temporary variable reference.",
+      "Loop Invariant Code Motion (LICM) shifts computations that yield identical outputs in every iteration out of the loop body.",
+      "Dead Code Elimination (DCE) removes instruction statements whose results are never read or used on any path.",
+      "Constant Folding evaluates constant expressions at compile-time instead of generating run-time instructions."
+    ],
+    "answer_id": "GCS27-CD-H-MSQ-550",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "optimization verification"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-NAT-526",
+    "subject": "CD",
+    "topic": "Intermediate Code Generation",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a intermediate code sequence:\n\n```\n1: a = 1\n2: if a > 0 goto 4\n3: b = 2\n4: c = 3\n```\nHow many basic blocks exist in the Control Flow Graph (CFG) of this code snippet?",
+    "options": [],
+    "answer_id": "GCS27-CD-H-NAT-526",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "CFG basic blocks count"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-NAT-527",
+    "subject": "CD",
+    "topic": "Intermediate Code Generation",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a intermediate code sequence:\n\n```\n1: a = 1\n2: if a > 0 goto 4\n3: b = 2\n4: c = 3\n```\nHow many basic blocks exist in the Control Flow Graph (CFG) of this code snippet?",
+    "options": [],
+    "answer_id": "GCS27-CD-H-NAT-527",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "CFG basic blocks count"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-NAT-528",
+    "subject": "CD",
+    "topic": "Intermediate Code Generation",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a intermediate code sequence:\n\n```\n1: a = 1\n2: if a > 0 goto 4\n3: b = 2\n4: c = 3\n```\nHow many basic blocks exist in the Control Flow Graph (CFG) of this code snippet?",
+    "options": [],
+    "answer_id": "GCS27-CD-H-NAT-528",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "CFG basic blocks count"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-NAT-529",
+    "subject": "CD",
+    "topic": "Intermediate Code Generation",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a intermediate code sequence:\n\n```\n1: a = 1\n2: if a > 0 goto 4\n3: b = 2\n4: c = 3\n```\nHow many basic blocks exist in the Control Flow Graph (CFG) of this code snippet?",
+    "options": [],
+    "answer_id": "GCS27-CD-H-NAT-529",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "CFG basic blocks count"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-NAT-530",
+    "subject": "CD",
+    "topic": "Intermediate Code Generation",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a intermediate code sequence:\n\n```\n1: a = 1\n2: if a > 0 goto 4\n3: b = 2\n4: c = 3\n```\nHow many basic blocks exist in the Control Flow Graph (CFG) of this code snippet?",
+    "options": [],
+    "answer_id": "GCS27-CD-H-NAT-530",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "CFG basic blocks count"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-NAT-531",
+    "subject": "CD",
+    "topic": "Intermediate Code Generation",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a intermediate code sequence:\n\n```\n1: a = 1\n2: if a > 0 goto 4\n3: b = 2\n4: c = 3\n```\nHow many basic blocks exist in the Control Flow Graph (CFG) of this code snippet?",
+    "options": [],
+    "answer_id": "GCS27-CD-H-NAT-531",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "CFG basic blocks count"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-NAT-532",
+    "subject": "CD",
+    "topic": "Intermediate Code Generation",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a intermediate code sequence:\n\n```\n1: a = 1\n2: if a > 0 goto 4\n3: b = 2\n4: c = 3\n```\nHow many basic blocks exist in the Control Flow Graph (CFG) of this code snippet?",
+    "options": [],
+    "answer_id": "GCS27-CD-H-NAT-532",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "CFG basic blocks count"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-NAT-533",
+    "subject": "CD",
+    "topic": "Intermediate Code Generation",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a intermediate code sequence:\n\n```\n1: a = 1\n2: if a > 0 goto 4\n3: b = 2\n4: c = 3\n```\nHow many basic blocks exist in the Control Flow Graph (CFG) of this code snippet?",
+    "options": [],
+    "answer_id": "GCS27-CD-H-NAT-533",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "CFG basic blocks count"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-NAT-534",
+    "subject": "CD",
+    "topic": "Intermediate Code Generation",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a intermediate code sequence:\n\n```\n1: a = 1\n2: if a > 0 goto 4\n3: b = 2\n4: c = 3\n```\nHow many basic blocks exist in the Control Flow Graph (CFG) of this code snippet?",
+    "options": [],
+    "answer_id": "GCS27-CD-H-NAT-534",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "CFG basic blocks count"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-NAT-535",
+    "subject": "CD",
+    "topic": "Intermediate Code Generation",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a intermediate code sequence:\n\n```\n1: a = 1\n2: if a > 0 goto 4\n3: b = 2\n4: c = 3\n```\nHow many basic blocks exist in the Control Flow Graph (CFG) of this code snippet?",
+    "options": [],
+    "answer_id": "GCS27-CD-H-NAT-535",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "CFG basic blocks count"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-NAT-536",
+    "subject": "CD",
+    "topic": "Intermediate Code Generation",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a intermediate code sequence:\n\n```\n1: a = 1\n2: if a > 0 goto 4\n3: b = 2\n4: c = 3\n```\nHow many basic blocks exist in the Control Flow Graph (CFG) of this code snippet?",
+    "options": [],
+    "answer_id": "GCS27-CD-H-NAT-536",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "CFG basic blocks count"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-NAT-537",
+    "subject": "CD",
+    "topic": "Intermediate Code Generation",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a intermediate code sequence:\n\n```\n1: a = 1\n2: if a > 0 goto 4\n3: b = 2\n4: c = 3\n```\nHow many basic blocks exist in the Control Flow Graph (CFG) of this code snippet?",
+    "options": [],
+    "answer_id": "GCS27-CD-H-NAT-537",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "CFG basic blocks count"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-NAT-538",
+    "subject": "CD",
+    "topic": "Intermediate Code Generation",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a intermediate code sequence:\n\n```\n1: a = 1\n2: if a > 0 goto 4\n3: b = 2\n4: c = 3\n```\nHow many basic blocks exist in the Control Flow Graph (CFG) of this code snippet?",
+    "options": [],
+    "answer_id": "GCS27-CD-H-NAT-538",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "CFG basic blocks count"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-NAT-539",
+    "subject": "CD",
+    "topic": "Intermediate Code Generation",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a intermediate code sequence:\n\n```\n1: a = 1\n2: if a > 0 goto 4\n3: b = 2\n4: c = 3\n```\nHow many basic blocks exist in the Control Flow Graph (CFG) of this code snippet?",
+    "options": [],
+    "answer_id": "GCS27-CD-H-NAT-539",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "CFG basic blocks count"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-NAT-540",
+    "subject": "CD",
+    "topic": "Intermediate Code Generation",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a intermediate code sequence:\n\n```\n1: a = 1\n2: if a > 0 goto 4\n3: b = 2\n4: c = 3\n```\nHow many basic blocks exist in the Control Flow Graph (CFG) of this code snippet?",
+    "options": [],
+    "answer_id": "GCS27-CD-H-NAT-540",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "CFG basic blocks count"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-NAT-541",
+    "subject": "CD",
+    "topic": "Intermediate Code Generation",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a intermediate code sequence:\n\n```\n1: a = 1\n2: if a > 0 goto 4\n3: b = 2\n4: c = 3\n```\nHow many basic blocks exist in the Control Flow Graph (CFG) of this code snippet?",
+    "options": [],
+    "answer_id": "GCS27-CD-H-NAT-541",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "CFG basic blocks count"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-NAT-542",
+    "subject": "CD",
+    "topic": "Intermediate Code Generation",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a intermediate code sequence:\n\n```\n1: a = 1\n2: if a > 0 goto 4\n3: b = 2\n4: c = 3\n```\nHow many basic blocks exist in the Control Flow Graph (CFG) of this code snippet?",
+    "options": [],
+    "answer_id": "GCS27-CD-H-NAT-542",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "CFG basic blocks count"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-NAT-543",
+    "subject": "CD",
+    "topic": "Intermediate Code Generation",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a intermediate code sequence:\n\n```\n1: a = 1\n2: if a > 0 goto 4\n3: b = 2\n4: c = 3\n```\nHow many basic blocks exist in the Control Flow Graph (CFG) of this code snippet?",
+    "options": [],
+    "answer_id": "GCS27-CD-H-NAT-543",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "CFG basic blocks count"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-NAT-544",
+    "subject": "CD",
+    "topic": "Intermediate Code Generation",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a intermediate code sequence:\n\n```\n1: a = 1\n2: if a > 0 goto 4\n3: b = 2\n4: c = 3\n```\nHow many basic blocks exist in the Control Flow Graph (CFG) of this code snippet?",
+    "options": [],
+    "answer_id": "GCS27-CD-H-NAT-544",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "CFG basic blocks count"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-NAT-545",
+    "subject": "CD",
+    "topic": "Intermediate Code Generation",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a intermediate code sequence:\n\n```\n1: a = 1\n2: if a > 0 goto 4\n3: b = 2\n4: c = 3\n```\nHow many basic blocks exist in the Control Flow Graph (CFG) of this code snippet?",
+    "options": [],
+    "answer_id": "GCS27-CD-H-NAT-545",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "CFG basic blocks count"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-NAT-546",
+    "subject": "CD",
+    "topic": "Intermediate Code Generation",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a intermediate code sequence:\n\n```\n1: a = 1\n2: if a > 0 goto 4\n3: b = 2\n4: c = 3\n```\nHow many basic blocks exist in the Control Flow Graph (CFG) of this code snippet?",
+    "options": [],
+    "answer_id": "GCS27-CD-H-NAT-546",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "CFG basic blocks count"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-NAT-547",
+    "subject": "CD",
+    "topic": "Intermediate Code Generation",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a intermediate code sequence:\n\n```\n1: a = 1\n2: if a > 0 goto 4\n3: b = 2\n4: c = 3\n```\nHow many basic blocks exist in the Control Flow Graph (CFG) of this code snippet?",
+    "options": [],
+    "answer_id": "GCS27-CD-H-NAT-547",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "CFG basic blocks count"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-NAT-548",
+    "subject": "CD",
+    "topic": "Intermediate Code Generation",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a intermediate code sequence:\n\n```\n1: a = 1\n2: if a > 0 goto 4\n3: b = 2\n4: c = 3\n```\nHow many basic blocks exist in the Control Flow Graph (CFG) of this code snippet?",
+    "options": [],
+    "answer_id": "GCS27-CD-H-NAT-548",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "CFG basic blocks count"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-NAT-549",
+    "subject": "CD",
+    "topic": "Intermediate Code Generation",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a intermediate code sequence:\n\n```\n1: a = 1\n2: if a > 0 goto 4\n3: b = 2\n4: c = 3\n```\nHow many basic blocks exist in the Control Flow Graph (CFG) of this code snippet?",
+    "options": [],
+    "answer_id": "GCS27-CD-H-NAT-549",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "CFG basic blocks count"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-NAT-550",
+    "subject": "CD",
+    "topic": "Intermediate Code Generation",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a intermediate code sequence:\n\n```\n1: a = 1\n2: if a > 0 goto 4\n3: b = 2\n4: c = 3\n```\nHow many basic blocks exist in the Control Flow Graph (CFG) of this code snippet?",
+    "options": [],
+    "answer_id": "GCS27-CD-H-NAT-550",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "CFG basic blocks count"
+    ],
+    "representation": [
+      "code"
+    ]
+  }
+]

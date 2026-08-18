@@ -1,0 +1,1602 @@
+[
+  {
+    "id": "GCS27-PDS-M-MCQ-201",
+    "subject": "PDS",
+    "topic": "Storage Classes and Scoping Rules",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "What is the output of the following C program?\n\n```c\n#include <stdio.h>\nvoid solve() {\n    static int x = 2;\n    int y = 2;\n    x += 1;\n    y += 1;\n    printf(\"%d %d \", x, y);\n}\nint main() {\n    solve();\n    solve();\n    return 0;\n}\n```",
+    "options": [
+      "2 2 3 3",
+      "3 3 3 3",
+      "3 3 4 4",
+      "3 3 4 3"
+    ],
+    "answer_id": "GCS27-PDS-M-MCQ-201",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "variable scoping"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-MCQ-202",
+    "subject": "PDS",
+    "topic": "Storage Classes and Scoping Rules",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "What is the output of the following C program?\n\n```c\n#include <stdio.h>\nvoid solve() {\n    static int x = 2;\n    int y = 2;\n    x += 2;\n    y += 2;\n    printf(\"%d %d \", x, y);\n}\nint main() {\n    solve();\n    solve();\n    return 0;\n}\n```",
+    "options": [
+      "4 4 6 4",
+      "4 4 4 4",
+      "4 4 6 6",
+      "2 2 4 4"
+    ],
+    "answer_id": "GCS27-PDS-M-MCQ-202",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "variable scoping"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-MCQ-203",
+    "subject": "PDS",
+    "topic": "Storage Classes and Scoping Rules",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "What is the output of the following C program?\n\n```c\n#include <stdio.h>\nvoid solve() {\n    static int x = 2;\n    int y = 2;\n    x += 3;\n    y += 3;\n    printf(\"%d %d \", x, y);\n}\nint main() {\n    solve();\n    solve();\n    return 0;\n}\n```",
+    "options": [
+      "5 5 8 8",
+      "5 5 5 5",
+      "2 2 5 5",
+      "5 5 8 5"
+    ],
+    "answer_id": "GCS27-PDS-M-MCQ-203",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "variable scoping"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-MCQ-204",
+    "subject": "PDS",
+    "topic": "Storage Classes and Scoping Rules",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "What is the output of the following C program?\n\n```c\n#include <stdio.h>\nvoid solve() {\n    static int x = 2;\n    int y = 2;\n    x += 1;\n    y += 1;\n    printf(\"%d %d \", x, y);\n}\nint main() {\n    solve();\n    solve();\n    return 0;\n}\n```",
+    "options": [
+      "3 3 3 3",
+      "3 3 4 4",
+      "3 3 4 3",
+      "2 2 3 3"
+    ],
+    "answer_id": "GCS27-PDS-M-MCQ-204",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "variable scoping"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-MCQ-205",
+    "subject": "PDS",
+    "topic": "Storage Classes and Scoping Rules",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "What is the output of the following C program?\n\n```c\n#include <stdio.h>\nvoid solve() {\n    static int x = 2;\n    int y = 2;\n    x += 2;\n    y += 2;\n    printf(\"%d %d \", x, y);\n}\nint main() {\n    solve();\n    solve();\n    return 0;\n}\n```",
+    "options": [
+      "4 4 6 6",
+      "4 4 6 4",
+      "4 4 4 4",
+      "2 2 4 4"
+    ],
+    "answer_id": "GCS27-PDS-M-MCQ-205",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "variable scoping"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-MCQ-206",
+    "subject": "PDS",
+    "topic": "Storage Classes and Scoping Rules",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "What is the output of the following C program?\n\n```c\n#include <stdio.h>\nvoid solve() {\n    static int x = 2;\n    int y = 2;\n    x += 3;\n    y += 3;\n    printf(\"%d %d \", x, y);\n}\nint main() {\n    solve();\n    solve();\n    return 0;\n}\n```",
+    "options": [
+      "5 5 8 8",
+      "5 5 5 5",
+      "2 2 5 5",
+      "5 5 8 5"
+    ],
+    "answer_id": "GCS27-PDS-M-MCQ-206",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "variable scoping"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-MCQ-207",
+    "subject": "PDS",
+    "topic": "Storage Classes and Scoping Rules",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "What is the output of the following C program?\n\n```c\n#include <stdio.h>\nvoid solve() {\n    static int x = 2;\n    int y = 2;\n    x += 1;\n    y += 1;\n    printf(\"%d %d \", x, y);\n}\nint main() {\n    solve();\n    solve();\n    return 0;\n}\n```",
+    "options": [
+      "2 2 3 3",
+      "3 3 4 3",
+      "3 3 4 4",
+      "3 3 3 3"
+    ],
+    "answer_id": "GCS27-PDS-M-MCQ-207",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "variable scoping"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-MCQ-208",
+    "subject": "PDS",
+    "topic": "Storage Classes and Scoping Rules",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "What is the output of the following C program?\n\n```c\n#include <stdio.h>\nvoid solve() {\n    static int x = 2;\n    int y = 2;\n    x += 2;\n    y += 2;\n    printf(\"%d %d \", x, y);\n}\nint main() {\n    solve();\n    solve();\n    return 0;\n}\n```",
+    "options": [
+      "4 4 4 4",
+      "4 4 6 4",
+      "2 2 4 4",
+      "4 4 6 6"
+    ],
+    "answer_id": "GCS27-PDS-M-MCQ-208",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "variable scoping"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-MCQ-209",
+    "subject": "PDS",
+    "topic": "Storage Classes and Scoping Rules",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "What is the output of the following C program?\n\n```c\n#include <stdio.h>\nvoid solve() {\n    static int x = 2;\n    int y = 2;\n    x += 3;\n    y += 3;\n    printf(\"%d %d \", x, y);\n}\nint main() {\n    solve();\n    solve();\n    return 0;\n}\n```",
+    "options": [
+      "5 5 8 8",
+      "5 5 5 5",
+      "2 2 5 5",
+      "5 5 8 5"
+    ],
+    "answer_id": "GCS27-PDS-M-MCQ-209",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "variable scoping"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-MCQ-210",
+    "subject": "PDS",
+    "topic": "Storage Classes and Scoping Rules",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "What is the output of the following C program?\n\n```c\n#include <stdio.h>\nvoid solve() {\n    static int x = 2;\n    int y = 2;\n    x += 1;\n    y += 1;\n    printf(\"%d %d \", x, y);\n}\nint main() {\n    solve();\n    solve();\n    return 0;\n}\n```",
+    "options": [
+      "3 3 4 4",
+      "3 3 3 3",
+      "3 3 4 3",
+      "2 2 3 3"
+    ],
+    "answer_id": "GCS27-PDS-M-MCQ-210",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "variable scoping"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-MCQ-211",
+    "subject": "PDS",
+    "topic": "Storage Classes and Scoping Rules",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "What is the output of the following C program?\n\n```c\n#include <stdio.h>\nvoid solve() {\n    static int x = 2;\n    int y = 2;\n    x += 2;\n    y += 2;\n    printf(\"%d %d \", x, y);\n}\nint main() {\n    solve();\n    solve();\n    return 0;\n}\n```",
+    "options": [
+      "4 4 4 4",
+      "4 4 6 4",
+      "2 2 4 4",
+      "4 4 6 6"
+    ],
+    "answer_id": "GCS27-PDS-M-MCQ-211",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "variable scoping"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-MCQ-212",
+    "subject": "PDS",
+    "topic": "Storage Classes and Scoping Rules",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "What is the output of the following C program?\n\n```c\n#include <stdio.h>\nvoid solve() {\n    static int x = 2;\n    int y = 2;\n    x += 3;\n    y += 3;\n    printf(\"%d %d \", x, y);\n}\nint main() {\n    solve();\n    solve();\n    return 0;\n}\n```",
+    "options": [
+      "5 5 5 5",
+      "5 5 8 5",
+      "5 5 8 8",
+      "2 2 5 5"
+    ],
+    "answer_id": "GCS27-PDS-M-MCQ-212",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "variable scoping"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-MCQ-213",
+    "subject": "PDS",
+    "topic": "Storage Classes and Scoping Rules",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "What is the output of the following C program?\n\n```c\n#include <stdio.h>\nvoid solve() {\n    static int x = 2;\n    int y = 2;\n    x += 1;\n    y += 1;\n    printf(\"%d %d \", x, y);\n}\nint main() {\n    solve();\n    solve();\n    return 0;\n}\n```",
+    "options": [
+      "3 3 4 4",
+      "3 3 4 3",
+      "2 2 3 3",
+      "3 3 3 3"
+    ],
+    "answer_id": "GCS27-PDS-M-MCQ-213",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "variable scoping"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-MCQ-214",
+    "subject": "PDS",
+    "topic": "Storage Classes and Scoping Rules",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "What is the output of the following C program?\n\n```c\n#include <stdio.h>\nvoid solve() {\n    static int x = 2;\n    int y = 2;\n    x += 2;\n    y += 2;\n    printf(\"%d %d \", x, y);\n}\nint main() {\n    solve();\n    solve();\n    return 0;\n}\n```",
+    "options": [
+      "4 4 6 4",
+      "2 2 4 4",
+      "4 4 4 4",
+      "4 4 6 6"
+    ],
+    "answer_id": "GCS27-PDS-M-MCQ-214",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "variable scoping"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-MCQ-215",
+    "subject": "PDS",
+    "topic": "Storage Classes and Scoping Rules",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "What is the output of the following C program?\n\n```c\n#include <stdio.h>\nvoid solve() {\n    static int x = 2;\n    int y = 2;\n    x += 3;\n    y += 3;\n    printf(\"%d %d \", x, y);\n}\nint main() {\n    solve();\n    solve();\n    return 0;\n}\n```",
+    "options": [
+      "2 2 5 5",
+      "5 5 5 5",
+      "5 5 8 8",
+      "5 5 8 5"
+    ],
+    "answer_id": "GCS27-PDS-M-MCQ-215",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "variable scoping"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-MCQ-216",
+    "subject": "PDS",
+    "topic": "Storage Classes and Scoping Rules",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "What is the output of the following C program?\n\n```c\n#include <stdio.h>\nvoid solve() {\n    static int x = 2;\n    int y = 2;\n    x += 1;\n    y += 1;\n    printf(\"%d %d \", x, y);\n}\nint main() {\n    solve();\n    solve();\n    return 0;\n}\n```",
+    "options": [
+      "2 2 3 3",
+      "3 3 4 3",
+      "3 3 4 4",
+      "3 3 3 3"
+    ],
+    "answer_id": "GCS27-PDS-M-MCQ-216",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "variable scoping"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-MCQ-217",
+    "subject": "PDS",
+    "topic": "Storage Classes and Scoping Rules",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "What is the output of the following C program?\n\n```c\n#include <stdio.h>\nvoid solve() {\n    static int x = 2;\n    int y = 2;\n    x += 2;\n    y += 2;\n    printf(\"%d %d \", x, y);\n}\nint main() {\n    solve();\n    solve();\n    return 0;\n}\n```",
+    "options": [
+      "4 4 4 4",
+      "2 2 4 4",
+      "4 4 6 4",
+      "4 4 6 6"
+    ],
+    "answer_id": "GCS27-PDS-M-MCQ-217",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "variable scoping"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-MCQ-218",
+    "subject": "PDS",
+    "topic": "Storage Classes and Scoping Rules",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "What is the output of the following C program?\n\n```c\n#include <stdio.h>\nvoid solve() {\n    static int x = 2;\n    int y = 2;\n    x += 3;\n    y += 3;\n    printf(\"%d %d \", x, y);\n}\nint main() {\n    solve();\n    solve();\n    return 0;\n}\n```",
+    "options": [
+      "5 5 5 5",
+      "2 2 5 5",
+      "5 5 8 5",
+      "5 5 8 8"
+    ],
+    "answer_id": "GCS27-PDS-M-MCQ-218",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "variable scoping"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-MCQ-219",
+    "subject": "PDS",
+    "topic": "Storage Classes and Scoping Rules",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "What is the output of the following C program?\n\n```c\n#include <stdio.h>\nvoid solve() {\n    static int x = 2;\n    int y = 2;\n    x += 1;\n    y += 1;\n    printf(\"%d %d \", x, y);\n}\nint main() {\n    solve();\n    solve();\n    return 0;\n}\n```",
+    "options": [
+      "3 3 3 3",
+      "3 3 4 3",
+      "2 2 3 3",
+      "3 3 4 4"
+    ],
+    "answer_id": "GCS27-PDS-M-MCQ-219",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "variable scoping"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-MCQ-220",
+    "subject": "PDS",
+    "topic": "Storage Classes and Scoping Rules",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "What is the output of the following C program?\n\n```c\n#include <stdio.h>\nvoid solve() {\n    static int x = 2;\n    int y = 2;\n    x += 2;\n    y += 2;\n    printf(\"%d %d \", x, y);\n}\nint main() {\n    solve();\n    solve();\n    return 0;\n}\n```",
+    "options": [
+      "2 2 4 4",
+      "4 4 6 4",
+      "4 4 6 6",
+      "4 4 4 4"
+    ],
+    "answer_id": "GCS27-PDS-M-MCQ-220",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "variable scoping"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-MCQ-221",
+    "subject": "PDS",
+    "topic": "Storage Classes and Scoping Rules",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "What is the output of the following C program?\n\n```c\n#include <stdio.h>\nvoid solve() {\n    static int x = 2;\n    int y = 2;\n    x += 3;\n    y += 3;\n    printf(\"%d %d \", x, y);\n}\nint main() {\n    solve();\n    solve();\n    return 0;\n}\n```",
+    "options": [
+      "5 5 8 8",
+      "5 5 8 5",
+      "2 2 5 5",
+      "5 5 5 5"
+    ],
+    "answer_id": "GCS27-PDS-M-MCQ-221",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "variable scoping"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-MCQ-222",
+    "subject": "PDS",
+    "topic": "Storage Classes and Scoping Rules",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "What is the output of the following C program?\n\n```c\n#include <stdio.h>\nvoid solve() {\n    static int x = 2;\n    int y = 2;\n    x += 1;\n    y += 1;\n    printf(\"%d %d \", x, y);\n}\nint main() {\n    solve();\n    solve();\n    return 0;\n}\n```",
+    "options": [
+      "3 3 4 4",
+      "3 3 3 3",
+      "2 2 3 3",
+      "3 3 4 3"
+    ],
+    "answer_id": "GCS27-PDS-M-MCQ-222",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "variable scoping"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-MCQ-223",
+    "subject": "PDS",
+    "topic": "Storage Classes and Scoping Rules",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "What is the output of the following C program?\n\n```c\n#include <stdio.h>\nvoid solve() {\n    static int x = 2;\n    int y = 2;\n    x += 2;\n    y += 2;\n    printf(\"%d %d \", x, y);\n}\nint main() {\n    solve();\n    solve();\n    return 0;\n}\n```",
+    "options": [
+      "4 4 6 4",
+      "2 2 4 4",
+      "4 4 4 4",
+      "4 4 6 6"
+    ],
+    "answer_id": "GCS27-PDS-M-MCQ-223",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "variable scoping"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-MCQ-224",
+    "subject": "PDS",
+    "topic": "Storage Classes and Scoping Rules",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "What is the output of the following C program?\n\n```c\n#include <stdio.h>\nvoid solve() {\n    static int x = 2;\n    int y = 2;\n    x += 3;\n    y += 3;\n    printf(\"%d %d \", x, y);\n}\nint main() {\n    solve();\n    solve();\n    return 0;\n}\n```",
+    "options": [
+      "5 5 8 8",
+      "5 5 5 5",
+      "2 2 5 5",
+      "5 5 8 5"
+    ],
+    "answer_id": "GCS27-PDS-M-MCQ-224",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "variable scoping"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-MCQ-225",
+    "subject": "PDS",
+    "topic": "Storage Classes and Scoping Rules",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "What is the output of the following C program?\n\n```c\n#include <stdio.h>\nvoid solve() {\n    static int x = 2;\n    int y = 2;\n    x += 1;\n    y += 1;\n    printf(\"%d %d \", x, y);\n}\nint main() {\n    solve();\n    solve();\n    return 0;\n}\n```",
+    "options": [
+      "2 2 3 3",
+      "3 3 4 4",
+      "3 3 4 3",
+      "3 3 3 3"
+    ],
+    "answer_id": "GCS27-PDS-M-MCQ-225",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "variable scoping"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-MSQ-201",
+    "subject": "PDS",
+    "topic": "Structures, Unions, and Padding",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MSQ",
+    "question": "On a standard compiler where pointers/ints take 4 bytes, which of the following statements about struct size padding are CORRECT?",
+    "options": [
+      "The size of struct { char c; int i; char d; } is 12 bytes.",
+      "The size of struct { char c; char d; int i; } is 8 bytes.",
+      "The size of struct { int i; double d; } is 12 bytes.",
+      "Sorting structure elements from largest to smallest minimizes padding."
+    ],
+    "answer_id": "GCS27-PDS-M-MSQ-201",
+    "pattern_type": "memory reasoning",
+    "reasoning_type": [
+      "alignment rules"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-MSQ-202",
+    "subject": "PDS",
+    "topic": "Structures, Unions, and Padding",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MSQ",
+    "question": "On a standard compiler where pointers/ints take 4 bytes, which of the following statements about struct size padding are CORRECT?",
+    "options": [
+      "The size of struct { char c; int i; char d; } is 12 bytes.",
+      "The size of struct { char c; char d; int i; } is 8 bytes.",
+      "The size of struct { int i; double d; } is 12 bytes.",
+      "Sorting structure elements from largest to smallest minimizes padding."
+    ],
+    "answer_id": "GCS27-PDS-M-MSQ-202",
+    "pattern_type": "memory reasoning",
+    "reasoning_type": [
+      "alignment rules"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-MSQ-203",
+    "subject": "PDS",
+    "topic": "Structures, Unions, and Padding",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MSQ",
+    "question": "On a standard compiler where pointers/ints take 4 bytes, which of the following statements about struct size padding are CORRECT?",
+    "options": [
+      "The size of struct { char c; int i; char d; } is 12 bytes.",
+      "The size of struct { char c; char d; int i; } is 8 bytes.",
+      "The size of struct { int i; double d; } is 12 bytes.",
+      "Sorting structure elements from largest to smallest minimizes padding."
+    ],
+    "answer_id": "GCS27-PDS-M-MSQ-203",
+    "pattern_type": "memory reasoning",
+    "reasoning_type": [
+      "alignment rules"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-MSQ-204",
+    "subject": "PDS",
+    "topic": "Structures, Unions, and Padding",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MSQ",
+    "question": "On a standard compiler where pointers/ints take 4 bytes, which of the following statements about struct size padding are CORRECT?",
+    "options": [
+      "The size of struct { char c; int i; char d; } is 12 bytes.",
+      "The size of struct { char c; char d; int i; } is 8 bytes.",
+      "The size of struct { int i; double d; } is 12 bytes.",
+      "Sorting structure elements from largest to smallest minimizes padding."
+    ],
+    "answer_id": "GCS27-PDS-M-MSQ-204",
+    "pattern_type": "memory reasoning",
+    "reasoning_type": [
+      "alignment rules"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-MSQ-205",
+    "subject": "PDS",
+    "topic": "Structures, Unions, and Padding",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MSQ",
+    "question": "On a standard compiler where pointers/ints take 4 bytes, which of the following statements about struct size padding are CORRECT?",
+    "options": [
+      "The size of struct { char c; int i; char d; } is 12 bytes.",
+      "The size of struct { char c; char d; int i; } is 8 bytes.",
+      "The size of struct { int i; double d; } is 12 bytes.",
+      "Sorting structure elements from largest to smallest minimizes padding."
+    ],
+    "answer_id": "GCS27-PDS-M-MSQ-205",
+    "pattern_type": "memory reasoning",
+    "reasoning_type": [
+      "alignment rules"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-MSQ-206",
+    "subject": "PDS",
+    "topic": "Structures, Unions, and Padding",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MSQ",
+    "question": "On a standard compiler where pointers/ints take 4 bytes, which of the following statements about struct size padding are CORRECT?",
+    "options": [
+      "The size of struct { char c; int i; char d; } is 12 bytes.",
+      "The size of struct { char c; char d; int i; } is 8 bytes.",
+      "The size of struct { int i; double d; } is 12 bytes.",
+      "Sorting structure elements from largest to smallest minimizes padding."
+    ],
+    "answer_id": "GCS27-PDS-M-MSQ-206",
+    "pattern_type": "memory reasoning",
+    "reasoning_type": [
+      "alignment rules"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-MSQ-207",
+    "subject": "PDS",
+    "topic": "Structures, Unions, and Padding",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MSQ",
+    "question": "On a standard compiler where pointers/ints take 4 bytes, which of the following statements about struct size padding are CORRECT?",
+    "options": [
+      "The size of struct { char c; int i; char d; } is 12 bytes.",
+      "The size of struct { char c; char d; int i; } is 8 bytes.",
+      "The size of struct { int i; double d; } is 12 bytes.",
+      "Sorting structure elements from largest to smallest minimizes padding."
+    ],
+    "answer_id": "GCS27-PDS-M-MSQ-207",
+    "pattern_type": "memory reasoning",
+    "reasoning_type": [
+      "alignment rules"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-MSQ-208",
+    "subject": "PDS",
+    "topic": "Structures, Unions, and Padding",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MSQ",
+    "question": "On a standard compiler where pointers/ints take 4 bytes, which of the following statements about struct size padding are CORRECT?",
+    "options": [
+      "The size of struct { char c; int i; char d; } is 12 bytes.",
+      "The size of struct { char c; char d; int i; } is 8 bytes.",
+      "The size of struct { int i; double d; } is 12 bytes.",
+      "Sorting structure elements from largest to smallest minimizes padding."
+    ],
+    "answer_id": "GCS27-PDS-M-MSQ-208",
+    "pattern_type": "memory reasoning",
+    "reasoning_type": [
+      "alignment rules"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-MSQ-209",
+    "subject": "PDS",
+    "topic": "Structures, Unions, and Padding",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MSQ",
+    "question": "On a standard compiler where pointers/ints take 4 bytes, which of the following statements about struct size padding are CORRECT?",
+    "options": [
+      "The size of struct { char c; int i; char d; } is 12 bytes.",
+      "The size of struct { char c; char d; int i; } is 8 bytes.",
+      "The size of struct { int i; double d; } is 12 bytes.",
+      "Sorting structure elements from largest to smallest minimizes padding."
+    ],
+    "answer_id": "GCS27-PDS-M-MSQ-209",
+    "pattern_type": "memory reasoning",
+    "reasoning_type": [
+      "alignment rules"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-MSQ-210",
+    "subject": "PDS",
+    "topic": "Structures, Unions, and Padding",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MSQ",
+    "question": "On a standard compiler where pointers/ints take 4 bytes, which of the following statements about struct size padding are CORRECT?",
+    "options": [
+      "The size of struct { char c; int i; char d; } is 12 bytes.",
+      "The size of struct { char c; char d; int i; } is 8 bytes.",
+      "The size of struct { int i; double d; } is 12 bytes.",
+      "Sorting structure elements from largest to smallest minimizes padding."
+    ],
+    "answer_id": "GCS27-PDS-M-MSQ-210",
+    "pattern_type": "memory reasoning",
+    "reasoning_type": [
+      "alignment rules"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-MSQ-211",
+    "subject": "PDS",
+    "topic": "Structures, Unions, and Padding",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MSQ",
+    "question": "On a standard compiler where pointers/ints take 4 bytes, which of the following statements about struct size padding are CORRECT?",
+    "options": [
+      "The size of struct { char c; int i; char d; } is 12 bytes.",
+      "The size of struct { char c; char d; int i; } is 8 bytes.",
+      "The size of struct { int i; double d; } is 12 bytes.",
+      "Sorting structure elements from largest to smallest minimizes padding."
+    ],
+    "answer_id": "GCS27-PDS-M-MSQ-211",
+    "pattern_type": "memory reasoning",
+    "reasoning_type": [
+      "alignment rules"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-MSQ-212",
+    "subject": "PDS",
+    "topic": "Structures, Unions, and Padding",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MSQ",
+    "question": "On a standard compiler where pointers/ints take 4 bytes, which of the following statements about struct size padding are CORRECT?",
+    "options": [
+      "The size of struct { char c; int i; char d; } is 12 bytes.",
+      "The size of struct { char c; char d; int i; } is 8 bytes.",
+      "The size of struct { int i; double d; } is 12 bytes.",
+      "Sorting structure elements from largest to smallest minimizes padding."
+    ],
+    "answer_id": "GCS27-PDS-M-MSQ-212",
+    "pattern_type": "memory reasoning",
+    "reasoning_type": [
+      "alignment rules"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-MSQ-213",
+    "subject": "PDS",
+    "topic": "Structures, Unions, and Padding",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MSQ",
+    "question": "On a standard compiler where pointers/ints take 4 bytes, which of the following statements about struct size padding are CORRECT?",
+    "options": [
+      "The size of struct { char c; int i; char d; } is 12 bytes.",
+      "The size of struct { char c; char d; int i; } is 8 bytes.",
+      "The size of struct { int i; double d; } is 12 bytes.",
+      "Sorting structure elements from largest to smallest minimizes padding."
+    ],
+    "answer_id": "GCS27-PDS-M-MSQ-213",
+    "pattern_type": "memory reasoning",
+    "reasoning_type": [
+      "alignment rules"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-MSQ-214",
+    "subject": "PDS",
+    "topic": "Structures, Unions, and Padding",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MSQ",
+    "question": "On a standard compiler where pointers/ints take 4 bytes, which of the following statements about struct size padding are CORRECT?",
+    "options": [
+      "The size of struct { char c; int i; char d; } is 12 bytes.",
+      "The size of struct { char c; char d; int i; } is 8 bytes.",
+      "The size of struct { int i; double d; } is 12 bytes.",
+      "Sorting structure elements from largest to smallest minimizes padding."
+    ],
+    "answer_id": "GCS27-PDS-M-MSQ-214",
+    "pattern_type": "memory reasoning",
+    "reasoning_type": [
+      "alignment rules"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-MSQ-215",
+    "subject": "PDS",
+    "topic": "Structures, Unions, and Padding",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MSQ",
+    "question": "On a standard compiler where pointers/ints take 4 bytes, which of the following statements about struct size padding are CORRECT?",
+    "options": [
+      "The size of struct { char c; int i; char d; } is 12 bytes.",
+      "The size of struct { char c; char d; int i; } is 8 bytes.",
+      "The size of struct { int i; double d; } is 12 bytes.",
+      "Sorting structure elements from largest to smallest minimizes padding."
+    ],
+    "answer_id": "GCS27-PDS-M-MSQ-215",
+    "pattern_type": "memory reasoning",
+    "reasoning_type": [
+      "alignment rules"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-MSQ-216",
+    "subject": "PDS",
+    "topic": "Structures, Unions, and Padding",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MSQ",
+    "question": "On a standard compiler where pointers/ints take 4 bytes, which of the following statements about struct size padding are CORRECT?",
+    "options": [
+      "The size of struct { char c; int i; char d; } is 12 bytes.",
+      "The size of struct { char c; char d; int i; } is 8 bytes.",
+      "The size of struct { int i; double d; } is 12 bytes.",
+      "Sorting structure elements from largest to smallest minimizes padding."
+    ],
+    "answer_id": "GCS27-PDS-M-MSQ-216",
+    "pattern_type": "memory reasoning",
+    "reasoning_type": [
+      "alignment rules"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-MSQ-217",
+    "subject": "PDS",
+    "topic": "Structures, Unions, and Padding",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MSQ",
+    "question": "On a standard compiler where pointers/ints take 4 bytes, which of the following statements about struct size padding are CORRECT?",
+    "options": [
+      "The size of struct { char c; int i; char d; } is 12 bytes.",
+      "The size of struct { char c; char d; int i; } is 8 bytes.",
+      "The size of struct { int i; double d; } is 12 bytes.",
+      "Sorting structure elements from largest to smallest minimizes padding."
+    ],
+    "answer_id": "GCS27-PDS-M-MSQ-217",
+    "pattern_type": "memory reasoning",
+    "reasoning_type": [
+      "alignment rules"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-MSQ-218",
+    "subject": "PDS",
+    "topic": "Structures, Unions, and Padding",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MSQ",
+    "question": "On a standard compiler where pointers/ints take 4 bytes, which of the following statements about struct size padding are CORRECT?",
+    "options": [
+      "The size of struct { char c; int i; char d; } is 12 bytes.",
+      "The size of struct { char c; char d; int i; } is 8 bytes.",
+      "The size of struct { int i; double d; } is 12 bytes.",
+      "Sorting structure elements from largest to smallest minimizes padding."
+    ],
+    "answer_id": "GCS27-PDS-M-MSQ-218",
+    "pattern_type": "memory reasoning",
+    "reasoning_type": [
+      "alignment rules"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-MSQ-219",
+    "subject": "PDS",
+    "topic": "Structures, Unions, and Padding",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MSQ",
+    "question": "On a standard compiler where pointers/ints take 4 bytes, which of the following statements about struct size padding are CORRECT?",
+    "options": [
+      "The size of struct { char c; int i; char d; } is 12 bytes.",
+      "The size of struct { char c; char d; int i; } is 8 bytes.",
+      "The size of struct { int i; double d; } is 12 bytes.",
+      "Sorting structure elements from largest to smallest minimizes padding."
+    ],
+    "answer_id": "GCS27-PDS-M-MSQ-219",
+    "pattern_type": "memory reasoning",
+    "reasoning_type": [
+      "alignment rules"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-MSQ-220",
+    "subject": "PDS",
+    "topic": "Structures, Unions, and Padding",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MSQ",
+    "question": "On a standard compiler where pointers/ints take 4 bytes, which of the following statements about struct size padding are CORRECT?",
+    "options": [
+      "The size of struct { char c; int i; char d; } is 12 bytes.",
+      "The size of struct { char c; char d; int i; } is 8 bytes.",
+      "The size of struct { int i; double d; } is 12 bytes.",
+      "Sorting structure elements from largest to smallest minimizes padding."
+    ],
+    "answer_id": "GCS27-PDS-M-MSQ-220",
+    "pattern_type": "memory reasoning",
+    "reasoning_type": [
+      "alignment rules"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-MSQ-221",
+    "subject": "PDS",
+    "topic": "Structures, Unions, and Padding",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MSQ",
+    "question": "On a standard compiler where pointers/ints take 4 bytes, which of the following statements about struct size padding are CORRECT?",
+    "options": [
+      "The size of struct { char c; int i; char d; } is 12 bytes.",
+      "The size of struct { char c; char d; int i; } is 8 bytes.",
+      "The size of struct { int i; double d; } is 12 bytes.",
+      "Sorting structure elements from largest to smallest minimizes padding."
+    ],
+    "answer_id": "GCS27-PDS-M-MSQ-221",
+    "pattern_type": "memory reasoning",
+    "reasoning_type": [
+      "alignment rules"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-MSQ-222",
+    "subject": "PDS",
+    "topic": "Structures, Unions, and Padding",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MSQ",
+    "question": "On a standard compiler where pointers/ints take 4 bytes, which of the following statements about struct size padding are CORRECT?",
+    "options": [
+      "The size of struct { char c; int i; char d; } is 12 bytes.",
+      "The size of struct { char c; char d; int i; } is 8 bytes.",
+      "The size of struct { int i; double d; } is 12 bytes.",
+      "Sorting structure elements from largest to smallest minimizes padding."
+    ],
+    "answer_id": "GCS27-PDS-M-MSQ-222",
+    "pattern_type": "memory reasoning",
+    "reasoning_type": [
+      "alignment rules"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-MSQ-223",
+    "subject": "PDS",
+    "topic": "Structures, Unions, and Padding",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MSQ",
+    "question": "On a standard compiler where pointers/ints take 4 bytes, which of the following statements about struct size padding are CORRECT?",
+    "options": [
+      "The size of struct { char c; int i; char d; } is 12 bytes.",
+      "The size of struct { char c; char d; int i; } is 8 bytes.",
+      "The size of struct { int i; double d; } is 12 bytes.",
+      "Sorting structure elements from largest to smallest minimizes padding."
+    ],
+    "answer_id": "GCS27-PDS-M-MSQ-223",
+    "pattern_type": "memory reasoning",
+    "reasoning_type": [
+      "alignment rules"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-MSQ-224",
+    "subject": "PDS",
+    "topic": "Structures, Unions, and Padding",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MSQ",
+    "question": "On a standard compiler where pointers/ints take 4 bytes, which of the following statements about struct size padding are CORRECT?",
+    "options": [
+      "The size of struct { char c; int i; char d; } is 12 bytes.",
+      "The size of struct { char c; char d; int i; } is 8 bytes.",
+      "The size of struct { int i; double d; } is 12 bytes.",
+      "Sorting structure elements from largest to smallest minimizes padding."
+    ],
+    "answer_id": "GCS27-PDS-M-MSQ-224",
+    "pattern_type": "memory reasoning",
+    "reasoning_type": [
+      "alignment rules"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-MSQ-225",
+    "subject": "PDS",
+    "topic": "Structures, Unions, and Padding",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MSQ",
+    "question": "On a standard compiler where pointers/ints take 4 bytes, which of the following statements about struct size padding are CORRECT?",
+    "options": [
+      "The size of struct { char c; int i; char d; } is 12 bytes.",
+      "The size of struct { char c; char d; int i; } is 8 bytes.",
+      "The size of struct { int i; double d; } is 12 bytes.",
+      "Sorting structure elements from largest to smallest minimizes padding."
+    ],
+    "answer_id": "GCS27-PDS-M-MSQ-225",
+    "pattern_type": "memory reasoning",
+    "reasoning_type": [
+      "alignment rules"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-NAT-201",
+    "subject": "PDS",
+    "topic": "Recursion and Call Stack",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "NAT",
+    "question": "What is the output of the following recursive call tree program?\n\n```c\n#include <stdio.h>\nint count = 0;\nint f(int n) {\n    count++;\n    if (n <= 1) return 1;\n    return f(n-1) + f(n-2);\n}\nint main() {\n    f(3);\n    printf(\"%d\", count);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-M-NAT-201",
+    "pattern_type": "output prediction",
+    "reasoning_type": [
+      "recursion analysis"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-NAT-202",
+    "subject": "PDS",
+    "topic": "Recursion and Call Stack",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "NAT",
+    "question": "What is the output of the following recursive call tree program?\n\n```c\n#include <stdio.h>\nint count = 0;\nint f(int n) {\n    count++;\n    if (n <= 1) return 1;\n    return f(n-1) + f(n-2);\n}\nint main() {\n    f(4);\n    printf(\"%d\", count);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-M-NAT-202",
+    "pattern_type": "output prediction",
+    "reasoning_type": [
+      "recursion analysis"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-NAT-203",
+    "subject": "PDS",
+    "topic": "Recursion and Call Stack",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "NAT",
+    "question": "What is the output of the following recursive call tree program?\n\n```c\n#include <stdio.h>\nint count = 0;\nint f(int n) {\n    count++;\n    if (n <= 1) return 1;\n    return f(n-1) + f(n-2);\n}\nint main() {\n    f(5);\n    printf(\"%d\", count);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-M-NAT-203",
+    "pattern_type": "output prediction",
+    "reasoning_type": [
+      "recursion analysis"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-NAT-204",
+    "subject": "PDS",
+    "topic": "Recursion and Call Stack",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "NAT",
+    "question": "What is the output of the following recursive call tree program?\n\n```c\n#include <stdio.h>\nint count = 0;\nint f(int n) {\n    count++;\n    if (n <= 1) return 1;\n    return f(n-1) + f(n-2);\n}\nint main() {\n    f(3);\n    printf(\"%d\", count);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-M-NAT-204",
+    "pattern_type": "output prediction",
+    "reasoning_type": [
+      "recursion analysis"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-NAT-205",
+    "subject": "PDS",
+    "topic": "Recursion and Call Stack",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "NAT",
+    "question": "What is the output of the following recursive call tree program?\n\n```c\n#include <stdio.h>\nint count = 0;\nint f(int n) {\n    count++;\n    if (n <= 1) return 1;\n    return f(n-1) + f(n-2);\n}\nint main() {\n    f(4);\n    printf(\"%d\", count);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-M-NAT-205",
+    "pattern_type": "output prediction",
+    "reasoning_type": [
+      "recursion analysis"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-NAT-206",
+    "subject": "PDS",
+    "topic": "Recursion and Call Stack",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "NAT",
+    "question": "What is the output of the following recursive call tree program?\n\n```c\n#include <stdio.h>\nint count = 0;\nint f(int n) {\n    count++;\n    if (n <= 1) return 1;\n    return f(n-1) + f(n-2);\n}\nint main() {\n    f(5);\n    printf(\"%d\", count);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-M-NAT-206",
+    "pattern_type": "output prediction",
+    "reasoning_type": [
+      "recursion analysis"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-NAT-207",
+    "subject": "PDS",
+    "topic": "Recursion and Call Stack",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "NAT",
+    "question": "What is the output of the following recursive call tree program?\n\n```c\n#include <stdio.h>\nint count = 0;\nint f(int n) {\n    count++;\n    if (n <= 1) return 1;\n    return f(n-1) + f(n-2);\n}\nint main() {\n    f(3);\n    printf(\"%d\", count);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-M-NAT-207",
+    "pattern_type": "output prediction",
+    "reasoning_type": [
+      "recursion analysis"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-NAT-208",
+    "subject": "PDS",
+    "topic": "Recursion and Call Stack",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "NAT",
+    "question": "What is the output of the following recursive call tree program?\n\n```c\n#include <stdio.h>\nint count = 0;\nint f(int n) {\n    count++;\n    if (n <= 1) return 1;\n    return f(n-1) + f(n-2);\n}\nint main() {\n    f(4);\n    printf(\"%d\", count);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-M-NAT-208",
+    "pattern_type": "output prediction",
+    "reasoning_type": [
+      "recursion analysis"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-NAT-209",
+    "subject": "PDS",
+    "topic": "Recursion and Call Stack",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "NAT",
+    "question": "What is the output of the following recursive call tree program?\n\n```c\n#include <stdio.h>\nint count = 0;\nint f(int n) {\n    count++;\n    if (n <= 1) return 1;\n    return f(n-1) + f(n-2);\n}\nint main() {\n    f(5);\n    printf(\"%d\", count);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-M-NAT-209",
+    "pattern_type": "output prediction",
+    "reasoning_type": [
+      "recursion analysis"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-NAT-210",
+    "subject": "PDS",
+    "topic": "Recursion and Call Stack",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "NAT",
+    "question": "What is the output of the following recursive call tree program?\n\n```c\n#include <stdio.h>\nint count = 0;\nint f(int n) {\n    count++;\n    if (n <= 1) return 1;\n    return f(n-1) + f(n-2);\n}\nint main() {\n    f(3);\n    printf(\"%d\", count);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-M-NAT-210",
+    "pattern_type": "output prediction",
+    "reasoning_type": [
+      "recursion analysis"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-NAT-211",
+    "subject": "PDS",
+    "topic": "Recursion and Call Stack",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "NAT",
+    "question": "What is the output of the following recursive call tree program?\n\n```c\n#include <stdio.h>\nint count = 0;\nint f(int n) {\n    count++;\n    if (n <= 1) return 1;\n    return f(n-1) + f(n-2);\n}\nint main() {\n    f(4);\n    printf(\"%d\", count);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-M-NAT-211",
+    "pattern_type": "output prediction",
+    "reasoning_type": [
+      "recursion analysis"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-NAT-212",
+    "subject": "PDS",
+    "topic": "Recursion and Call Stack",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "NAT",
+    "question": "What is the output of the following recursive call tree program?\n\n```c\n#include <stdio.h>\nint count = 0;\nint f(int n) {\n    count++;\n    if (n <= 1) return 1;\n    return f(n-1) + f(n-2);\n}\nint main() {\n    f(5);\n    printf(\"%d\", count);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-M-NAT-212",
+    "pattern_type": "output prediction",
+    "reasoning_type": [
+      "recursion analysis"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-NAT-213",
+    "subject": "PDS",
+    "topic": "Recursion and Call Stack",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "NAT",
+    "question": "What is the output of the following recursive call tree program?\n\n```c\n#include <stdio.h>\nint count = 0;\nint f(int n) {\n    count++;\n    if (n <= 1) return 1;\n    return f(n-1) + f(n-2);\n}\nint main() {\n    f(3);\n    printf(\"%d\", count);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-M-NAT-213",
+    "pattern_type": "output prediction",
+    "reasoning_type": [
+      "recursion analysis"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-NAT-214",
+    "subject": "PDS",
+    "topic": "Recursion and Call Stack",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "NAT",
+    "question": "What is the output of the following recursive call tree program?\n\n```c\n#include <stdio.h>\nint count = 0;\nint f(int n) {\n    count++;\n    if (n <= 1) return 1;\n    return f(n-1) + f(n-2);\n}\nint main() {\n    f(4);\n    printf(\"%d\", count);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-M-NAT-214",
+    "pattern_type": "output prediction",
+    "reasoning_type": [
+      "recursion analysis"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-NAT-215",
+    "subject": "PDS",
+    "topic": "Recursion and Call Stack",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "NAT",
+    "question": "What is the output of the following recursive call tree program?\n\n```c\n#include <stdio.h>\nint count = 0;\nint f(int n) {\n    count++;\n    if (n <= 1) return 1;\n    return f(n-1) + f(n-2);\n}\nint main() {\n    f(5);\n    printf(\"%d\", count);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-M-NAT-215",
+    "pattern_type": "output prediction",
+    "reasoning_type": [
+      "recursion analysis"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-NAT-216",
+    "subject": "PDS",
+    "topic": "Recursion and Call Stack",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "NAT",
+    "question": "What is the output of the following recursive call tree program?\n\n```c\n#include <stdio.h>\nint count = 0;\nint f(int n) {\n    count++;\n    if (n <= 1) return 1;\n    return f(n-1) + f(n-2);\n}\nint main() {\n    f(3);\n    printf(\"%d\", count);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-M-NAT-216",
+    "pattern_type": "output prediction",
+    "reasoning_type": [
+      "recursion analysis"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-NAT-217",
+    "subject": "PDS",
+    "topic": "Recursion and Call Stack",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "NAT",
+    "question": "What is the output of the following recursive call tree program?\n\n```c\n#include <stdio.h>\nint count = 0;\nint f(int n) {\n    count++;\n    if (n <= 1) return 1;\n    return f(n-1) + f(n-2);\n}\nint main() {\n    f(4);\n    printf(\"%d\", count);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-M-NAT-217",
+    "pattern_type": "output prediction",
+    "reasoning_type": [
+      "recursion analysis"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-NAT-218",
+    "subject": "PDS",
+    "topic": "Recursion and Call Stack",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "NAT",
+    "question": "What is the output of the following recursive call tree program?\n\n```c\n#include <stdio.h>\nint count = 0;\nint f(int n) {\n    count++;\n    if (n <= 1) return 1;\n    return f(n-1) + f(n-2);\n}\nint main() {\n    f(5);\n    printf(\"%d\", count);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-M-NAT-218",
+    "pattern_type": "output prediction",
+    "reasoning_type": [
+      "recursion analysis"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-NAT-219",
+    "subject": "PDS",
+    "topic": "Recursion and Call Stack",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "NAT",
+    "question": "What is the output of the following recursive call tree program?\n\n```c\n#include <stdio.h>\nint count = 0;\nint f(int n) {\n    count++;\n    if (n <= 1) return 1;\n    return f(n-1) + f(n-2);\n}\nint main() {\n    f(3);\n    printf(\"%d\", count);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-M-NAT-219",
+    "pattern_type": "output prediction",
+    "reasoning_type": [
+      "recursion analysis"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-NAT-220",
+    "subject": "PDS",
+    "topic": "Recursion and Call Stack",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "NAT",
+    "question": "What is the output of the following recursive call tree program?\n\n```c\n#include <stdio.h>\nint count = 0;\nint f(int n) {\n    count++;\n    if (n <= 1) return 1;\n    return f(n-1) + f(n-2);\n}\nint main() {\n    f(4);\n    printf(\"%d\", count);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-M-NAT-220",
+    "pattern_type": "output prediction",
+    "reasoning_type": [
+      "recursion analysis"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-NAT-221",
+    "subject": "PDS",
+    "topic": "Recursion and Call Stack",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "NAT",
+    "question": "What is the output of the following recursive call tree program?\n\n```c\n#include <stdio.h>\nint count = 0;\nint f(int n) {\n    count++;\n    if (n <= 1) return 1;\n    return f(n-1) + f(n-2);\n}\nint main() {\n    f(5);\n    printf(\"%d\", count);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-M-NAT-221",
+    "pattern_type": "output prediction",
+    "reasoning_type": [
+      "recursion analysis"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-NAT-222",
+    "subject": "PDS",
+    "topic": "Recursion and Call Stack",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "NAT",
+    "question": "What is the output of the following recursive call tree program?\n\n```c\n#include <stdio.h>\nint count = 0;\nint f(int n) {\n    count++;\n    if (n <= 1) return 1;\n    return f(n-1) + f(n-2);\n}\nint main() {\n    f(3);\n    printf(\"%d\", count);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-M-NAT-222",
+    "pattern_type": "output prediction",
+    "reasoning_type": [
+      "recursion analysis"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-NAT-223",
+    "subject": "PDS",
+    "topic": "Recursion and Call Stack",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "NAT",
+    "question": "What is the output of the following recursive call tree program?\n\n```c\n#include <stdio.h>\nint count = 0;\nint f(int n) {\n    count++;\n    if (n <= 1) return 1;\n    return f(n-1) + f(n-2);\n}\nint main() {\n    f(4);\n    printf(\"%d\", count);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-M-NAT-223",
+    "pattern_type": "output prediction",
+    "reasoning_type": [
+      "recursion analysis"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-NAT-224",
+    "subject": "PDS",
+    "topic": "Recursion and Call Stack",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "NAT",
+    "question": "What is the output of the following recursive call tree program?\n\n```c\n#include <stdio.h>\nint count = 0;\nint f(int n) {\n    count++;\n    if (n <= 1) return 1;\n    return f(n-1) + f(n-2);\n}\nint main() {\n    f(5);\n    printf(\"%d\", count);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-M-NAT-224",
+    "pattern_type": "output prediction",
+    "reasoning_type": [
+      "recursion analysis"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-NAT-225",
+    "subject": "PDS",
+    "topic": "Recursion and Call Stack",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "NAT",
+    "question": "What is the output of the following recursive call tree program?\n\n```c\n#include <stdio.h>\nint count = 0;\nint f(int n) {\n    count++;\n    if (n <= 1) return 1;\n    return f(n-1) + f(n-2);\n}\nint main() {\n    f(3);\n    printf(\"%d\", count);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-M-NAT-225",
+    "pattern_type": "output prediction",
+    "reasoning_type": [
+      "recursion analysis"
+    ],
+    "representation": [
+      "code"
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "GCS27-ALGO-E-MCQ-159",
+    "explanation": "If the pivot is always the extreme element, partition splits the array into sizes 0 and n-1, leading to a recurrence of T(n) = T(n-1) + O(n) which is O(n^2)."
+  },
+  {
+    "id": "GCS27-ALGO-E-MSQ-159",
+    "explanation": "All of these algorithms use the Greedy strategy by choosing local optima at each step."
+  },
+  {
+    "id": "GCS27-ALGO-E-NAT-159",
+    "explanation": "Here a=2, b=2. n^(log_b a) = n^1. Since f(n) = n, it falls into Master Theorem Case 2. Complexity is Theta(n log n). The exponent k of n is 1."
+  }
+]

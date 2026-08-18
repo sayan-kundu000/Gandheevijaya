@@ -1,0 +1,14 @@
+[
+  {
+    "id": "GCS27-DL-H-MCQ-144",
+    "explanation": "Y = A XOR B = A'B + AB'. First MUX generates A' (with inputs 1, 0, select A). Second MUX generates Y (with inputs B, B' using first MUX, select A). Total = 2 multiplexers."
+  },
+  {
+    "id": "GCS27-DL-H-MSQ-144",
+    "explanation": "All options represent correct definitions and techniques for dealing with hazards."
+  },
+  {
+    "id": "GCS27-DL-H-NAT-144",
+    "explanation": "Number of self-dual functions with n variables is 2^(2^(n-1)). For n=3, 2^(2^(2)) = 2^4 = 16."
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "id": "GCS27-LR-E-MCQ-100",
+    "subject": "LR",
+    "topic": "Blood Relations",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "A is B's brother. B is C's sister. What is A's relation to C?",
+    "options": [
+      "Father",
+      "Brother",
+      "Uncle",
+      "Sister"
+    ],
+    "answer_id": "GCS27-LR-E-MCQ-100",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "relational mapping"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-LR-E-MSQ-100",
+    "subject": "LR",
+    "topic": "Ordering",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MSQ",
+    "question": "Consider the ordering constraints: 'A is taller than B. B is taller than C.' Which of the following statements are CORRECT?",
+    "options": [
+      "A is taller than C.",
+      "C is shorter than A.",
+      "C is shorter than B.",
+      "A is the tallest among the three."
+    ],
+    "answer_id": "GCS27-LR-E-MSQ-100",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "order checks"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-LR-E-NAT-100",
+    "subject": "LR",
+    "topic": "Directions",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "NAT",
+    "question": "A person walks 3 km East, and then turns and walks 4 km North. How far (in km) is the person from their starting point?",
+    "options": null,
+    "answer_id": "GCS27-LR-E-NAT-100",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "vector math"
+    ],
+    "representation": [
+      "text"
+    ]
+  }
+]

@@ -1,0 +1,1602 @@
+[
+  {
+    "id": "GCS27-OS-H-MCQ-301",
+    "subject": "OS",
+    "topic": "Deadlock Prevention and Avoidance",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider a system running three processes (P1, P2, P3) and one resource type R. The current state is defined by the following allocation matrices:\n\n| Process | Allocation | Max Need |\n|---|---|---|\n| P1 | 1 | 2 |\n| P2 | 2 | 4 |\n| P3 | 3 | 4 |\n\nAvailable Resources of type R = 1.\nWhich of the following resource allocation sequences is a CORRECT Safe Sequence that avoids deadlock?",
+    "options": [
+      "P1 -> P3 -> P2",
+      "P2 -> P1 -> P3",
+      "P3 -> P2 -> P1",
+      "No safe sequence exists"
+    ],
+    "answer_id": "GCS27-OS-H-MCQ-301",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "deadlock avoidance matrix"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-MCQ-302",
+    "subject": "OS",
+    "topic": "Deadlock Prevention and Avoidance",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider a system running three processes (P1, P2, P3) and one resource type R. The current state is defined by the following allocation matrices:\n\n| Process | Allocation | Max Need |\n|---|---|---|\n| P1 | 1 | 2 |\n| P2 | 2 | 4 |\n| P3 | 3 | 4 |\n\nAvailable Resources of type R = 1.\nWhich of the following resource allocation sequences is a CORRECT Safe Sequence that avoids deadlock?",
+    "options": [
+      "P3 -> P2 -> P1",
+      "P1 -> P3 -> P2",
+      "P2 -> P1 -> P3",
+      "No safe sequence exists"
+    ],
+    "answer_id": "GCS27-OS-H-MCQ-302",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "deadlock avoidance matrix"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-MCQ-303",
+    "subject": "OS",
+    "topic": "Deadlock Prevention and Avoidance",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider a system running three processes (P1, P2, P3) and one resource type R. The current state is defined by the following allocation matrices:\n\n| Process | Allocation | Max Need |\n|---|---|---|\n| P1 | 1 | 2 |\n| P2 | 2 | 4 |\n| P3 | 3 | 4 |\n\nAvailable Resources of type R = 1.\nWhich of the following resource allocation sequences is a CORRECT Safe Sequence that avoids deadlock?",
+    "options": [
+      "P2 -> P1 -> P3",
+      "P3 -> P2 -> P1",
+      "No safe sequence exists",
+      "P1 -> P3 -> P2"
+    ],
+    "answer_id": "GCS27-OS-H-MCQ-303",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "deadlock avoidance matrix"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-MCQ-304",
+    "subject": "OS",
+    "topic": "Deadlock Prevention and Avoidance",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider a system running three processes (P1, P2, P3) and one resource type R. The current state is defined by the following allocation matrices:\n\n| Process | Allocation | Max Need |\n|---|---|---|\n| P1 | 1 | 2 |\n| P2 | 2 | 4 |\n| P3 | 3 | 4 |\n\nAvailable Resources of type R = 1.\nWhich of the following resource allocation sequences is a CORRECT Safe Sequence that avoids deadlock?",
+    "options": [
+      "P3 -> P2 -> P1",
+      "No safe sequence exists",
+      "P1 -> P3 -> P2",
+      "P2 -> P1 -> P3"
+    ],
+    "answer_id": "GCS27-OS-H-MCQ-304",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "deadlock avoidance matrix"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-MCQ-305",
+    "subject": "OS",
+    "topic": "Deadlock Prevention and Avoidance",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider a system running three processes (P1, P2, P3) and one resource type R. The current state is defined by the following allocation matrices:\n\n| Process | Allocation | Max Need |\n|---|---|---|\n| P1 | 1 | 2 |\n| P2 | 2 | 4 |\n| P3 | 3 | 4 |\n\nAvailable Resources of type R = 1.\nWhich of the following resource allocation sequences is a CORRECT Safe Sequence that avoids deadlock?",
+    "options": [
+      "P1 -> P3 -> P2",
+      "No safe sequence exists",
+      "P3 -> P2 -> P1",
+      "P2 -> P1 -> P3"
+    ],
+    "answer_id": "GCS27-OS-H-MCQ-305",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "deadlock avoidance matrix"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-MCQ-306",
+    "subject": "OS",
+    "topic": "Deadlock Prevention and Avoidance",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider a system running three processes (P1, P2, P3) and one resource type R. The current state is defined by the following allocation matrices:\n\n| Process | Allocation | Max Need |\n|---|---|---|\n| P1 | 1 | 2 |\n| P2 | 2 | 4 |\n| P3 | 3 | 4 |\n\nAvailable Resources of type R = 1.\nWhich of the following resource allocation sequences is a CORRECT Safe Sequence that avoids deadlock?",
+    "options": [
+      "P2 -> P1 -> P3",
+      "P1 -> P3 -> P2",
+      "P3 -> P2 -> P1",
+      "No safe sequence exists"
+    ],
+    "answer_id": "GCS27-OS-H-MCQ-306",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "deadlock avoidance matrix"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-MCQ-307",
+    "subject": "OS",
+    "topic": "Deadlock Prevention and Avoidance",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider a system running three processes (P1, P2, P3) and one resource type R. The current state is defined by the following allocation matrices:\n\n| Process | Allocation | Max Need |\n|---|---|---|\n| P1 | 1 | 2 |\n| P2 | 2 | 4 |\n| P3 | 3 | 4 |\n\nAvailable Resources of type R = 1.\nWhich of the following resource allocation sequences is a CORRECT Safe Sequence that avoids deadlock?",
+    "options": [
+      "P1 -> P3 -> P2",
+      "P2 -> P1 -> P3",
+      "No safe sequence exists",
+      "P3 -> P2 -> P1"
+    ],
+    "answer_id": "GCS27-OS-H-MCQ-307",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "deadlock avoidance matrix"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-MCQ-308",
+    "subject": "OS",
+    "topic": "Deadlock Prevention and Avoidance",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider a system running three processes (P1, P2, P3) and one resource type R. The current state is defined by the following allocation matrices:\n\n| Process | Allocation | Max Need |\n|---|---|---|\n| P1 | 1 | 2 |\n| P2 | 2 | 4 |\n| P3 | 3 | 4 |\n\nAvailable Resources of type R = 1.\nWhich of the following resource allocation sequences is a CORRECT Safe Sequence that avoids deadlock?",
+    "options": [
+      "P3 -> P2 -> P1",
+      "No safe sequence exists",
+      "P1 -> P3 -> P2",
+      "P2 -> P1 -> P3"
+    ],
+    "answer_id": "GCS27-OS-H-MCQ-308",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "deadlock avoidance matrix"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-MCQ-309",
+    "subject": "OS",
+    "topic": "Deadlock Prevention and Avoidance",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider a system running three processes (P1, P2, P3) and one resource type R. The current state is defined by the following allocation matrices:\n\n| Process | Allocation | Max Need |\n|---|---|---|\n| P1 | 1 | 2 |\n| P2 | 2 | 4 |\n| P3 | 3 | 4 |\n\nAvailable Resources of type R = 1.\nWhich of the following resource allocation sequences is a CORRECT Safe Sequence that avoids deadlock?",
+    "options": [
+      "P3 -> P2 -> P1",
+      "No safe sequence exists",
+      "P2 -> P1 -> P3",
+      "P1 -> P3 -> P2"
+    ],
+    "answer_id": "GCS27-OS-H-MCQ-309",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "deadlock avoidance matrix"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-MCQ-310",
+    "subject": "OS",
+    "topic": "Deadlock Prevention and Avoidance",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider a system running three processes (P1, P2, P3) and one resource type R. The current state is defined by the following allocation matrices:\n\n| Process | Allocation | Max Need |\n|---|---|---|\n| P1 | 1 | 2 |\n| P2 | 2 | 4 |\n| P3 | 3 | 4 |\n\nAvailable Resources of type R = 1.\nWhich of the following resource allocation sequences is a CORRECT Safe Sequence that avoids deadlock?",
+    "options": [
+      "P3 -> P2 -> P1",
+      "P2 -> P1 -> P3",
+      "No safe sequence exists",
+      "P1 -> P3 -> P2"
+    ],
+    "answer_id": "GCS27-OS-H-MCQ-310",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "deadlock avoidance matrix"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-MCQ-311",
+    "subject": "OS",
+    "topic": "Deadlock Prevention and Avoidance",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider a system running three processes (P1, P2, P3) and one resource type R. The current state is defined by the following allocation matrices:\n\n| Process | Allocation | Max Need |\n|---|---|---|\n| P1 | 1 | 2 |\n| P2 | 2 | 4 |\n| P3 | 3 | 4 |\n\nAvailable Resources of type R = 1.\nWhich of the following resource allocation sequences is a CORRECT Safe Sequence that avoids deadlock?",
+    "options": [
+      "No safe sequence exists",
+      "P1 -> P3 -> P2",
+      "P2 -> P1 -> P3",
+      "P3 -> P2 -> P1"
+    ],
+    "answer_id": "GCS27-OS-H-MCQ-311",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "deadlock avoidance matrix"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-MCQ-312",
+    "subject": "OS",
+    "topic": "Deadlock Prevention and Avoidance",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider a system running three processes (P1, P2, P3) and one resource type R. The current state is defined by the following allocation matrices:\n\n| Process | Allocation | Max Need |\n|---|---|---|\n| P1 | 1 | 2 |\n| P2 | 2 | 4 |\n| P3 | 3 | 4 |\n\nAvailable Resources of type R = 1.\nWhich of the following resource allocation sequences is a CORRECT Safe Sequence that avoids deadlock?",
+    "options": [
+      "P1 -> P3 -> P2",
+      "No safe sequence exists",
+      "P3 -> P2 -> P1",
+      "P2 -> P1 -> P3"
+    ],
+    "answer_id": "GCS27-OS-H-MCQ-312",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "deadlock avoidance matrix"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-MCQ-313",
+    "subject": "OS",
+    "topic": "Deadlock Prevention and Avoidance",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider a system running three processes (P1, P2, P3) and one resource type R. The current state is defined by the following allocation matrices:\n\n| Process | Allocation | Max Need |\n|---|---|---|\n| P1 | 1 | 2 |\n| P2 | 2 | 4 |\n| P3 | 3 | 4 |\n\nAvailable Resources of type R = 1.\nWhich of the following resource allocation sequences is a CORRECT Safe Sequence that avoids deadlock?",
+    "options": [
+      "P1 -> P3 -> P2",
+      "No safe sequence exists",
+      "P3 -> P2 -> P1",
+      "P2 -> P1 -> P3"
+    ],
+    "answer_id": "GCS27-OS-H-MCQ-313",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "deadlock avoidance matrix"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-MCQ-314",
+    "subject": "OS",
+    "topic": "Deadlock Prevention and Avoidance",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider a system running three processes (P1, P2, P3) and one resource type R. The current state is defined by the following allocation matrices:\n\n| Process | Allocation | Max Need |\n|---|---|---|\n| P1 | 1 | 2 |\n| P2 | 2 | 4 |\n| P3 | 3 | 4 |\n\nAvailable Resources of type R = 1.\nWhich of the following resource allocation sequences is a CORRECT Safe Sequence that avoids deadlock?",
+    "options": [
+      "P3 -> P2 -> P1",
+      "P1 -> P3 -> P2",
+      "No safe sequence exists",
+      "P2 -> P1 -> P3"
+    ],
+    "answer_id": "GCS27-OS-H-MCQ-314",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "deadlock avoidance matrix"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-MCQ-315",
+    "subject": "OS",
+    "topic": "Deadlock Prevention and Avoidance",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider a system running three processes (P1, P2, P3) and one resource type R. The current state is defined by the following allocation matrices:\n\n| Process | Allocation | Max Need |\n|---|---|---|\n| P1 | 1 | 2 |\n| P2 | 2 | 4 |\n| P3 | 3 | 4 |\n\nAvailable Resources of type R = 1.\nWhich of the following resource allocation sequences is a CORRECT Safe Sequence that avoids deadlock?",
+    "options": [
+      "P1 -> P3 -> P2",
+      "P2 -> P1 -> P3",
+      "P3 -> P2 -> P1",
+      "No safe sequence exists"
+    ],
+    "answer_id": "GCS27-OS-H-MCQ-315",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "deadlock avoidance matrix"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-MCQ-316",
+    "subject": "OS",
+    "topic": "Deadlock Prevention and Avoidance",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider a system running three processes (P1, P2, P3) and one resource type R. The current state is defined by the following allocation matrices:\n\n| Process | Allocation | Max Need |\n|---|---|---|\n| P1 | 1 | 2 |\n| P2 | 2 | 4 |\n| P3 | 3 | 4 |\n\nAvailable Resources of type R = 1.\nWhich of the following resource allocation sequences is a CORRECT Safe Sequence that avoids deadlock?",
+    "options": [
+      "P3 -> P2 -> P1",
+      "P2 -> P1 -> P3",
+      "No safe sequence exists",
+      "P1 -> P3 -> P2"
+    ],
+    "answer_id": "GCS27-OS-H-MCQ-316",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "deadlock avoidance matrix"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-MCQ-317",
+    "subject": "OS",
+    "topic": "Deadlock Prevention and Avoidance",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider a system running three processes (P1, P2, P3) and one resource type R. The current state is defined by the following allocation matrices:\n\n| Process | Allocation | Max Need |\n|---|---|---|\n| P1 | 1 | 2 |\n| P2 | 2 | 4 |\n| P3 | 3 | 4 |\n\nAvailable Resources of type R = 1.\nWhich of the following resource allocation sequences is a CORRECT Safe Sequence that avoids deadlock?",
+    "options": [
+      "P3 -> P2 -> P1",
+      "P2 -> P1 -> P3",
+      "P1 -> P3 -> P2",
+      "No safe sequence exists"
+    ],
+    "answer_id": "GCS27-OS-H-MCQ-317",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "deadlock avoidance matrix"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-MCQ-318",
+    "subject": "OS",
+    "topic": "Deadlock Prevention and Avoidance",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider a system running three processes (P1, P2, P3) and one resource type R. The current state is defined by the following allocation matrices:\n\n| Process | Allocation | Max Need |\n|---|---|---|\n| P1 | 1 | 2 |\n| P2 | 2 | 4 |\n| P3 | 3 | 4 |\n\nAvailable Resources of type R = 1.\nWhich of the following resource allocation sequences is a CORRECT Safe Sequence that avoids deadlock?",
+    "options": [
+      "No safe sequence exists",
+      "P3 -> P2 -> P1",
+      "P2 -> P1 -> P3",
+      "P1 -> P3 -> P2"
+    ],
+    "answer_id": "GCS27-OS-H-MCQ-318",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "deadlock avoidance matrix"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-MCQ-319",
+    "subject": "OS",
+    "topic": "Deadlock Prevention and Avoidance",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider a system running three processes (P1, P2, P3) and one resource type R. The current state is defined by the following allocation matrices:\n\n| Process | Allocation | Max Need |\n|---|---|---|\n| P1 | 1 | 2 |\n| P2 | 2 | 4 |\n| P3 | 3 | 4 |\n\nAvailable Resources of type R = 1.\nWhich of the following resource allocation sequences is a CORRECT Safe Sequence that avoids deadlock?",
+    "options": [
+      "P3 -> P2 -> P1",
+      "No safe sequence exists",
+      "P1 -> P3 -> P2",
+      "P2 -> P1 -> P3"
+    ],
+    "answer_id": "GCS27-OS-H-MCQ-319",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "deadlock avoidance matrix"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-MCQ-320",
+    "subject": "OS",
+    "topic": "Deadlock Prevention and Avoidance",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider a system running three processes (P1, P2, P3) and one resource type R. The current state is defined by the following allocation matrices:\n\n| Process | Allocation | Max Need |\n|---|---|---|\n| P1 | 1 | 2 |\n| P2 | 2 | 4 |\n| P3 | 3 | 4 |\n\nAvailable Resources of type R = 1.\nWhich of the following resource allocation sequences is a CORRECT Safe Sequence that avoids deadlock?",
+    "options": [
+      "P2 -> P1 -> P3",
+      "P1 -> P3 -> P2",
+      "P3 -> P2 -> P1",
+      "No safe sequence exists"
+    ],
+    "answer_id": "GCS27-OS-H-MCQ-320",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "deadlock avoidance matrix"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-MCQ-321",
+    "subject": "OS",
+    "topic": "Deadlock Prevention and Avoidance",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider a system running three processes (P1, P2, P3) and one resource type R. The current state is defined by the following allocation matrices:\n\n| Process | Allocation | Max Need |\n|---|---|---|\n| P1 | 1 | 2 |\n| P2 | 2 | 4 |\n| P3 | 3 | 4 |\n\nAvailable Resources of type R = 1.\nWhich of the following resource allocation sequences is a CORRECT Safe Sequence that avoids deadlock?",
+    "options": [
+      "No safe sequence exists",
+      "P1 -> P3 -> P2",
+      "P2 -> P1 -> P3",
+      "P3 -> P2 -> P1"
+    ],
+    "answer_id": "GCS27-OS-H-MCQ-321",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "deadlock avoidance matrix"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-MCQ-322",
+    "subject": "OS",
+    "topic": "Deadlock Prevention and Avoidance",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider a system running three processes (P1, P2, P3) and one resource type R. The current state is defined by the following allocation matrices:\n\n| Process | Allocation | Max Need |\n|---|---|---|\n| P1 | 1 | 2 |\n| P2 | 2 | 4 |\n| P3 | 3 | 4 |\n\nAvailable Resources of type R = 1.\nWhich of the following resource allocation sequences is a CORRECT Safe Sequence that avoids deadlock?",
+    "options": [
+      "P2 -> P1 -> P3",
+      "P3 -> P2 -> P1",
+      "P1 -> P3 -> P2",
+      "No safe sequence exists"
+    ],
+    "answer_id": "GCS27-OS-H-MCQ-322",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "deadlock avoidance matrix"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-MCQ-323",
+    "subject": "OS",
+    "topic": "Deadlock Prevention and Avoidance",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider a system running three processes (P1, P2, P3) and one resource type R. The current state is defined by the following allocation matrices:\n\n| Process | Allocation | Max Need |\n|---|---|---|\n| P1 | 1 | 2 |\n| P2 | 2 | 4 |\n| P3 | 3 | 4 |\n\nAvailable Resources of type R = 1.\nWhich of the following resource allocation sequences is a CORRECT Safe Sequence that avoids deadlock?",
+    "options": [
+      "P3 -> P2 -> P1",
+      "P2 -> P1 -> P3",
+      "No safe sequence exists",
+      "P1 -> P3 -> P2"
+    ],
+    "answer_id": "GCS27-OS-H-MCQ-323",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "deadlock avoidance matrix"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-MCQ-324",
+    "subject": "OS",
+    "topic": "Deadlock Prevention and Avoidance",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider a system running three processes (P1, P2, P3) and one resource type R. The current state is defined by the following allocation matrices:\n\n| Process | Allocation | Max Need |\n|---|---|---|\n| P1 | 1 | 2 |\n| P2 | 2 | 4 |\n| P3 | 3 | 4 |\n\nAvailable Resources of type R = 1.\nWhich of the following resource allocation sequences is a CORRECT Safe Sequence that avoids deadlock?",
+    "options": [
+      "P1 -> P3 -> P2",
+      "No safe sequence exists",
+      "P3 -> P2 -> P1",
+      "P2 -> P1 -> P3"
+    ],
+    "answer_id": "GCS27-OS-H-MCQ-324",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "deadlock avoidance matrix"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-MCQ-325",
+    "subject": "OS",
+    "topic": "Deadlock Prevention and Avoidance",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider a system running three processes (P1, P2, P3) and one resource type R. The current state is defined by the following allocation matrices:\n\n| Process | Allocation | Max Need |\n|---|---|---|\n| P1 | 1 | 2 |\n| P2 | 2 | 4 |\n| P3 | 3 | 4 |\n\nAvailable Resources of type R = 1.\nWhich of the following resource allocation sequences is a CORRECT Safe Sequence that avoids deadlock?",
+    "options": [
+      "No safe sequence exists",
+      "P1 -> P3 -> P2",
+      "P3 -> P2 -> P1",
+      "P2 -> P1 -> P3"
+    ],
+    "answer_id": "GCS27-OS-H-MCQ-325",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "deadlock avoidance matrix"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-MSQ-301",
+    "subject": "OS",
+    "topic": "Disk Scheduling",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "A disk queue contains requests for I/O blocks on cylinders. The initial disk head position is 50. The requests are processed using standard disk scheduling algorithms. Which of the following statements about head movement sequences are CORRECT?",
+    "options": [
+      "Under SSTF (Shortest Seek Time First), the head always moves to the nearest requested cylinder first, minimizing localized seek distances.",
+      "SCAN scheduling (Elevator algorithm) resolves requests only in the current direction of movement until it reaches the edge boundary of the disk.",
+      "C-SCAN (Circular SCAN) scheduling provides a more uniform waiting time than standard SCAN by servicing requests only when moving in one direction.",
+      "Fewer total seek cylinder movements are guaranteed under SCAN compared to SSTF for all possible request queue sequences."
+    ],
+    "answer_id": "GCS27-OS-H-MSQ-301",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "comparative analysis"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-MSQ-302",
+    "subject": "OS",
+    "topic": "Disk Scheduling",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "A disk queue contains requests for I/O blocks on cylinders. The initial disk head position is 50. The requests are processed using standard disk scheduling algorithms. Which of the following statements about head movement sequences are CORRECT?",
+    "options": [
+      "Under SSTF (Shortest Seek Time First), the head always moves to the nearest requested cylinder first, minimizing localized seek distances.",
+      "SCAN scheduling (Elevator algorithm) resolves requests only in the current direction of movement until it reaches the edge boundary of the disk.",
+      "C-SCAN (Circular SCAN) scheduling provides a more uniform waiting time than standard SCAN by servicing requests only when moving in one direction.",
+      "Fewer total seek cylinder movements are guaranteed under SCAN compared to SSTF for all possible request queue sequences."
+    ],
+    "answer_id": "GCS27-OS-H-MSQ-302",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "comparative analysis"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-MSQ-303",
+    "subject": "OS",
+    "topic": "Disk Scheduling",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "A disk queue contains requests for I/O blocks on cylinders. The initial disk head position is 50. The requests are processed using standard disk scheduling algorithms. Which of the following statements about head movement sequences are CORRECT?",
+    "options": [
+      "Under SSTF (Shortest Seek Time First), the head always moves to the nearest requested cylinder first, minimizing localized seek distances.",
+      "SCAN scheduling (Elevator algorithm) resolves requests only in the current direction of movement until it reaches the edge boundary of the disk.",
+      "C-SCAN (Circular SCAN) scheduling provides a more uniform waiting time than standard SCAN by servicing requests only when moving in one direction.",
+      "Fewer total seek cylinder movements are guaranteed under SCAN compared to SSTF for all possible request queue sequences."
+    ],
+    "answer_id": "GCS27-OS-H-MSQ-303",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "comparative analysis"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-MSQ-304",
+    "subject": "OS",
+    "topic": "Disk Scheduling",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "A disk queue contains requests for I/O blocks on cylinders. The initial disk head position is 50. The requests are processed using standard disk scheduling algorithms. Which of the following statements about head movement sequences are CORRECT?",
+    "options": [
+      "Under SSTF (Shortest Seek Time First), the head always moves to the nearest requested cylinder first, minimizing localized seek distances.",
+      "SCAN scheduling (Elevator algorithm) resolves requests only in the current direction of movement until it reaches the edge boundary of the disk.",
+      "C-SCAN (Circular SCAN) scheduling provides a more uniform waiting time than standard SCAN by servicing requests only when moving in one direction.",
+      "Fewer total seek cylinder movements are guaranteed under SCAN compared to SSTF for all possible request queue sequences."
+    ],
+    "answer_id": "GCS27-OS-H-MSQ-304",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "comparative analysis"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-MSQ-305",
+    "subject": "OS",
+    "topic": "Disk Scheduling",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "A disk queue contains requests for I/O blocks on cylinders. The initial disk head position is 50. The requests are processed using standard disk scheduling algorithms. Which of the following statements about head movement sequences are CORRECT?",
+    "options": [
+      "Under SSTF (Shortest Seek Time First), the head always moves to the nearest requested cylinder first, minimizing localized seek distances.",
+      "SCAN scheduling (Elevator algorithm) resolves requests only in the current direction of movement until it reaches the edge boundary of the disk.",
+      "C-SCAN (Circular SCAN) scheduling provides a more uniform waiting time than standard SCAN by servicing requests only when moving in one direction.",
+      "Fewer total seek cylinder movements are guaranteed under SCAN compared to SSTF for all possible request queue sequences."
+    ],
+    "answer_id": "GCS27-OS-H-MSQ-305",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "comparative analysis"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-MSQ-306",
+    "subject": "OS",
+    "topic": "Disk Scheduling",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "A disk queue contains requests for I/O blocks on cylinders. The initial disk head position is 50. The requests are processed using standard disk scheduling algorithms. Which of the following statements about head movement sequences are CORRECT?",
+    "options": [
+      "Under SSTF (Shortest Seek Time First), the head always moves to the nearest requested cylinder first, minimizing localized seek distances.",
+      "SCAN scheduling (Elevator algorithm) resolves requests only in the current direction of movement until it reaches the edge boundary of the disk.",
+      "C-SCAN (Circular SCAN) scheduling provides a more uniform waiting time than standard SCAN by servicing requests only when moving in one direction.",
+      "Fewer total seek cylinder movements are guaranteed under SCAN compared to SSTF for all possible request queue sequences."
+    ],
+    "answer_id": "GCS27-OS-H-MSQ-306",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "comparative analysis"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-MSQ-307",
+    "subject": "OS",
+    "topic": "Disk Scheduling",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "A disk queue contains requests for I/O blocks on cylinders. The initial disk head position is 50. The requests are processed using standard disk scheduling algorithms. Which of the following statements about head movement sequences are CORRECT?",
+    "options": [
+      "Under SSTF (Shortest Seek Time First), the head always moves to the nearest requested cylinder first, minimizing localized seek distances.",
+      "SCAN scheduling (Elevator algorithm) resolves requests only in the current direction of movement until it reaches the edge boundary of the disk.",
+      "C-SCAN (Circular SCAN) scheduling provides a more uniform waiting time than standard SCAN by servicing requests only when moving in one direction.",
+      "Fewer total seek cylinder movements are guaranteed under SCAN compared to SSTF for all possible request queue sequences."
+    ],
+    "answer_id": "GCS27-OS-H-MSQ-307",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "comparative analysis"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-MSQ-308",
+    "subject": "OS",
+    "topic": "Disk Scheduling",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "A disk queue contains requests for I/O blocks on cylinders. The initial disk head position is 50. The requests are processed using standard disk scheduling algorithms. Which of the following statements about head movement sequences are CORRECT?",
+    "options": [
+      "Under SSTF (Shortest Seek Time First), the head always moves to the nearest requested cylinder first, minimizing localized seek distances.",
+      "SCAN scheduling (Elevator algorithm) resolves requests only in the current direction of movement until it reaches the edge boundary of the disk.",
+      "C-SCAN (Circular SCAN) scheduling provides a more uniform waiting time than standard SCAN by servicing requests only when moving in one direction.",
+      "Fewer total seek cylinder movements are guaranteed under SCAN compared to SSTF for all possible request queue sequences."
+    ],
+    "answer_id": "GCS27-OS-H-MSQ-308",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "comparative analysis"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-MSQ-309",
+    "subject": "OS",
+    "topic": "Disk Scheduling",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "A disk queue contains requests for I/O blocks on cylinders. The initial disk head position is 50. The requests are processed using standard disk scheduling algorithms. Which of the following statements about head movement sequences are CORRECT?",
+    "options": [
+      "Under SSTF (Shortest Seek Time First), the head always moves to the nearest requested cylinder first, minimizing localized seek distances.",
+      "SCAN scheduling (Elevator algorithm) resolves requests only in the current direction of movement until it reaches the edge boundary of the disk.",
+      "C-SCAN (Circular SCAN) scheduling provides a more uniform waiting time than standard SCAN by servicing requests only when moving in one direction.",
+      "Fewer total seek cylinder movements are guaranteed under SCAN compared to SSTF for all possible request queue sequences."
+    ],
+    "answer_id": "GCS27-OS-H-MSQ-309",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "comparative analysis"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-MSQ-310",
+    "subject": "OS",
+    "topic": "Disk Scheduling",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "A disk queue contains requests for I/O blocks on cylinders. The initial disk head position is 50. The requests are processed using standard disk scheduling algorithms. Which of the following statements about head movement sequences are CORRECT?",
+    "options": [
+      "Under SSTF (Shortest Seek Time First), the head always moves to the nearest requested cylinder first, minimizing localized seek distances.",
+      "SCAN scheduling (Elevator algorithm) resolves requests only in the current direction of movement until it reaches the edge boundary of the disk.",
+      "C-SCAN (Circular SCAN) scheduling provides a more uniform waiting time than standard SCAN by servicing requests only when moving in one direction.",
+      "Fewer total seek cylinder movements are guaranteed under SCAN compared to SSTF for all possible request queue sequences."
+    ],
+    "answer_id": "GCS27-OS-H-MSQ-310",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "comparative analysis"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-MSQ-311",
+    "subject": "OS",
+    "topic": "Disk Scheduling",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "A disk queue contains requests for I/O blocks on cylinders. The initial disk head position is 50. The requests are processed using standard disk scheduling algorithms. Which of the following statements about head movement sequences are CORRECT?",
+    "options": [
+      "Under SSTF (Shortest Seek Time First), the head always moves to the nearest requested cylinder first, minimizing localized seek distances.",
+      "SCAN scheduling (Elevator algorithm) resolves requests only in the current direction of movement until it reaches the edge boundary of the disk.",
+      "C-SCAN (Circular SCAN) scheduling provides a more uniform waiting time than standard SCAN by servicing requests only when moving in one direction.",
+      "Fewer total seek cylinder movements are guaranteed under SCAN compared to SSTF for all possible request queue sequences."
+    ],
+    "answer_id": "GCS27-OS-H-MSQ-311",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "comparative analysis"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-MSQ-312",
+    "subject": "OS",
+    "topic": "Disk Scheduling",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "A disk queue contains requests for I/O blocks on cylinders. The initial disk head position is 50. The requests are processed using standard disk scheduling algorithms. Which of the following statements about head movement sequences are CORRECT?",
+    "options": [
+      "Under SSTF (Shortest Seek Time First), the head always moves to the nearest requested cylinder first, minimizing localized seek distances.",
+      "SCAN scheduling (Elevator algorithm) resolves requests only in the current direction of movement until it reaches the edge boundary of the disk.",
+      "C-SCAN (Circular SCAN) scheduling provides a more uniform waiting time than standard SCAN by servicing requests only when moving in one direction.",
+      "Fewer total seek cylinder movements are guaranteed under SCAN compared to SSTF for all possible request queue sequences."
+    ],
+    "answer_id": "GCS27-OS-H-MSQ-312",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "comparative analysis"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-MSQ-313",
+    "subject": "OS",
+    "topic": "Disk Scheduling",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "A disk queue contains requests for I/O blocks on cylinders. The initial disk head position is 50. The requests are processed using standard disk scheduling algorithms. Which of the following statements about head movement sequences are CORRECT?",
+    "options": [
+      "Under SSTF (Shortest Seek Time First), the head always moves to the nearest requested cylinder first, minimizing localized seek distances.",
+      "SCAN scheduling (Elevator algorithm) resolves requests only in the current direction of movement until it reaches the edge boundary of the disk.",
+      "C-SCAN (Circular SCAN) scheduling provides a more uniform waiting time than standard SCAN by servicing requests only when moving in one direction.",
+      "Fewer total seek cylinder movements are guaranteed under SCAN compared to SSTF for all possible request queue sequences."
+    ],
+    "answer_id": "GCS27-OS-H-MSQ-313",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "comparative analysis"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-MSQ-314",
+    "subject": "OS",
+    "topic": "Disk Scheduling",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "A disk queue contains requests for I/O blocks on cylinders. The initial disk head position is 50. The requests are processed using standard disk scheduling algorithms. Which of the following statements about head movement sequences are CORRECT?",
+    "options": [
+      "Under SSTF (Shortest Seek Time First), the head always moves to the nearest requested cylinder first, minimizing localized seek distances.",
+      "SCAN scheduling (Elevator algorithm) resolves requests only in the current direction of movement until it reaches the edge boundary of the disk.",
+      "C-SCAN (Circular SCAN) scheduling provides a more uniform waiting time than standard SCAN by servicing requests only when moving in one direction.",
+      "Fewer total seek cylinder movements are guaranteed under SCAN compared to SSTF for all possible request queue sequences."
+    ],
+    "answer_id": "GCS27-OS-H-MSQ-314",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "comparative analysis"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-MSQ-315",
+    "subject": "OS",
+    "topic": "Disk Scheduling",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "A disk queue contains requests for I/O blocks on cylinders. The initial disk head position is 50. The requests are processed using standard disk scheduling algorithms. Which of the following statements about head movement sequences are CORRECT?",
+    "options": [
+      "Under SSTF (Shortest Seek Time First), the head always moves to the nearest requested cylinder first, minimizing localized seek distances.",
+      "SCAN scheduling (Elevator algorithm) resolves requests only in the current direction of movement until it reaches the edge boundary of the disk.",
+      "C-SCAN (Circular SCAN) scheduling provides a more uniform waiting time than standard SCAN by servicing requests only when moving in one direction.",
+      "Fewer total seek cylinder movements are guaranteed under SCAN compared to SSTF for all possible request queue sequences."
+    ],
+    "answer_id": "GCS27-OS-H-MSQ-315",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "comparative analysis"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-MSQ-316",
+    "subject": "OS",
+    "topic": "Disk Scheduling",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "A disk queue contains requests for I/O blocks on cylinders. The initial disk head position is 50. The requests are processed using standard disk scheduling algorithms. Which of the following statements about head movement sequences are CORRECT?",
+    "options": [
+      "Under SSTF (Shortest Seek Time First), the head always moves to the nearest requested cylinder first, minimizing localized seek distances.",
+      "SCAN scheduling (Elevator algorithm) resolves requests only in the current direction of movement until it reaches the edge boundary of the disk.",
+      "C-SCAN (Circular SCAN) scheduling provides a more uniform waiting time than standard SCAN by servicing requests only when moving in one direction.",
+      "Fewer total seek cylinder movements are guaranteed under SCAN compared to SSTF for all possible request queue sequences."
+    ],
+    "answer_id": "GCS27-OS-H-MSQ-316",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "comparative analysis"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-MSQ-317",
+    "subject": "OS",
+    "topic": "Disk Scheduling",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "A disk queue contains requests for I/O blocks on cylinders. The initial disk head position is 50. The requests are processed using standard disk scheduling algorithms. Which of the following statements about head movement sequences are CORRECT?",
+    "options": [
+      "Under SSTF (Shortest Seek Time First), the head always moves to the nearest requested cylinder first, minimizing localized seek distances.",
+      "SCAN scheduling (Elevator algorithm) resolves requests only in the current direction of movement until it reaches the edge boundary of the disk.",
+      "C-SCAN (Circular SCAN) scheduling provides a more uniform waiting time than standard SCAN by servicing requests only when moving in one direction.",
+      "Fewer total seek cylinder movements are guaranteed under SCAN compared to SSTF for all possible request queue sequences."
+    ],
+    "answer_id": "GCS27-OS-H-MSQ-317",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "comparative analysis"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-MSQ-318",
+    "subject": "OS",
+    "topic": "Disk Scheduling",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "A disk queue contains requests for I/O blocks on cylinders. The initial disk head position is 50. The requests are processed using standard disk scheduling algorithms. Which of the following statements about head movement sequences are CORRECT?",
+    "options": [
+      "Under SSTF (Shortest Seek Time First), the head always moves to the nearest requested cylinder first, minimizing localized seek distances.",
+      "SCAN scheduling (Elevator algorithm) resolves requests only in the current direction of movement until it reaches the edge boundary of the disk.",
+      "C-SCAN (Circular SCAN) scheduling provides a more uniform waiting time than standard SCAN by servicing requests only when moving in one direction.",
+      "Fewer total seek cylinder movements are guaranteed under SCAN compared to SSTF for all possible request queue sequences."
+    ],
+    "answer_id": "GCS27-OS-H-MSQ-318",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "comparative analysis"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-MSQ-319",
+    "subject": "OS",
+    "topic": "Disk Scheduling",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "A disk queue contains requests for I/O blocks on cylinders. The initial disk head position is 50. The requests are processed using standard disk scheduling algorithms. Which of the following statements about head movement sequences are CORRECT?",
+    "options": [
+      "Under SSTF (Shortest Seek Time First), the head always moves to the nearest requested cylinder first, minimizing localized seek distances.",
+      "SCAN scheduling (Elevator algorithm) resolves requests only in the current direction of movement until it reaches the edge boundary of the disk.",
+      "C-SCAN (Circular SCAN) scheduling provides a more uniform waiting time than standard SCAN by servicing requests only when moving in one direction.",
+      "Fewer total seek cylinder movements are guaranteed under SCAN compared to SSTF for all possible request queue sequences."
+    ],
+    "answer_id": "GCS27-OS-H-MSQ-319",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "comparative analysis"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-MSQ-320",
+    "subject": "OS",
+    "topic": "Disk Scheduling",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "A disk queue contains requests for I/O blocks on cylinders. The initial disk head position is 50. The requests are processed using standard disk scheduling algorithms. Which of the following statements about head movement sequences are CORRECT?",
+    "options": [
+      "Under SSTF (Shortest Seek Time First), the head always moves to the nearest requested cylinder first, minimizing localized seek distances.",
+      "SCAN scheduling (Elevator algorithm) resolves requests only in the current direction of movement until it reaches the edge boundary of the disk.",
+      "C-SCAN (Circular SCAN) scheduling provides a more uniform waiting time than standard SCAN by servicing requests only when moving in one direction.",
+      "Fewer total seek cylinder movements are guaranteed under SCAN compared to SSTF for all possible request queue sequences."
+    ],
+    "answer_id": "GCS27-OS-H-MSQ-320",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "comparative analysis"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-MSQ-321",
+    "subject": "OS",
+    "topic": "Disk Scheduling",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "A disk queue contains requests for I/O blocks on cylinders. The initial disk head position is 50. The requests are processed using standard disk scheduling algorithms. Which of the following statements about head movement sequences are CORRECT?",
+    "options": [
+      "Under SSTF (Shortest Seek Time First), the head always moves to the nearest requested cylinder first, minimizing localized seek distances.",
+      "SCAN scheduling (Elevator algorithm) resolves requests only in the current direction of movement until it reaches the edge boundary of the disk.",
+      "C-SCAN (Circular SCAN) scheduling provides a more uniform waiting time than standard SCAN by servicing requests only when moving in one direction.",
+      "Fewer total seek cylinder movements are guaranteed under SCAN compared to SSTF for all possible request queue sequences."
+    ],
+    "answer_id": "GCS27-OS-H-MSQ-321",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "comparative analysis"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-MSQ-322",
+    "subject": "OS",
+    "topic": "Disk Scheduling",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "A disk queue contains requests for I/O blocks on cylinders. The initial disk head position is 50. The requests are processed using standard disk scheduling algorithms. Which of the following statements about head movement sequences are CORRECT?",
+    "options": [
+      "Under SSTF (Shortest Seek Time First), the head always moves to the nearest requested cylinder first, minimizing localized seek distances.",
+      "SCAN scheduling (Elevator algorithm) resolves requests only in the current direction of movement until it reaches the edge boundary of the disk.",
+      "C-SCAN (Circular SCAN) scheduling provides a more uniform waiting time than standard SCAN by servicing requests only when moving in one direction.",
+      "Fewer total seek cylinder movements are guaranteed under SCAN compared to SSTF for all possible request queue sequences."
+    ],
+    "answer_id": "GCS27-OS-H-MSQ-322",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "comparative analysis"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-MSQ-323",
+    "subject": "OS",
+    "topic": "Disk Scheduling",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "A disk queue contains requests for I/O blocks on cylinders. The initial disk head position is 50. The requests are processed using standard disk scheduling algorithms. Which of the following statements about head movement sequences are CORRECT?",
+    "options": [
+      "Under SSTF (Shortest Seek Time First), the head always moves to the nearest requested cylinder first, minimizing localized seek distances.",
+      "SCAN scheduling (Elevator algorithm) resolves requests only in the current direction of movement until it reaches the edge boundary of the disk.",
+      "C-SCAN (Circular SCAN) scheduling provides a more uniform waiting time than standard SCAN by servicing requests only when moving in one direction.",
+      "Fewer total seek cylinder movements are guaranteed under SCAN compared to SSTF for all possible request queue sequences."
+    ],
+    "answer_id": "GCS27-OS-H-MSQ-323",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "comparative analysis"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-MSQ-324",
+    "subject": "OS",
+    "topic": "Disk Scheduling",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "A disk queue contains requests for I/O blocks on cylinders. The initial disk head position is 50. The requests are processed using standard disk scheduling algorithms. Which of the following statements about head movement sequences are CORRECT?",
+    "options": [
+      "Under SSTF (Shortest Seek Time First), the head always moves to the nearest requested cylinder first, minimizing localized seek distances.",
+      "SCAN scheduling (Elevator algorithm) resolves requests only in the current direction of movement until it reaches the edge boundary of the disk.",
+      "C-SCAN (Circular SCAN) scheduling provides a more uniform waiting time than standard SCAN by servicing requests only when moving in one direction.",
+      "Fewer total seek cylinder movements are guaranteed under SCAN compared to SSTF for all possible request queue sequences."
+    ],
+    "answer_id": "GCS27-OS-H-MSQ-324",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "comparative analysis"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-MSQ-325",
+    "subject": "OS",
+    "topic": "Disk Scheduling",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "A disk queue contains requests for I/O blocks on cylinders. The initial disk head position is 50. The requests are processed using standard disk scheduling algorithms. Which of the following statements about head movement sequences are CORRECT?",
+    "options": [
+      "Under SSTF (Shortest Seek Time First), the head always moves to the nearest requested cylinder first, minimizing localized seek distances.",
+      "SCAN scheduling (Elevator algorithm) resolves requests only in the current direction of movement until it reaches the edge boundary of the disk.",
+      "C-SCAN (Circular SCAN) scheduling provides a more uniform waiting time than standard SCAN by servicing requests only when moving in one direction.",
+      "Fewer total seek cylinder movements are guaranteed under SCAN compared to SSTF for all possible request queue sequences."
+    ],
+    "answer_id": "GCS27-OS-H-MSQ-325",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "comparative analysis"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-NAT-301",
+    "subject": "OS",
+    "topic": "Page Replacement Algorithms",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a program reference string: `[1, 2, 3, 4, 1, 2, 5, 1]`.\nThe system allocates exactly 4 page frames to the process (initially empty). Using the **Least Recently Used (LRU)** page replacement algorithm, calculate the total number of page faults that occur.",
+    "options": [],
+    "answer_id": "GCS27-OS-H-NAT-301",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "memory trace tracking"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-NAT-302",
+    "subject": "OS",
+    "topic": "Page Replacement Algorithms",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a program reference string: `[7, 0, 1, 2, 0, 3, 0, 4]`.\nThe system allocates exactly 3 page frames to the process (initially empty). Using the **Least Recently Used (LRU)** page replacement algorithm, calculate the total number of page faults that occur.",
+    "options": [],
+    "answer_id": "GCS27-OS-H-NAT-302",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "memory trace tracking"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-NAT-303",
+    "subject": "OS",
+    "topic": "Page Replacement Algorithms",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a program reference string: `[1, 2, 3, 4, 1, 2, 5, 1]`.\nThe system allocates exactly 4 page frames to the process (initially empty). Using the **Least Recently Used (LRU)** page replacement algorithm, calculate the total number of page faults that occur.",
+    "options": [],
+    "answer_id": "GCS27-OS-H-NAT-303",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "memory trace tracking"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-NAT-304",
+    "subject": "OS",
+    "topic": "Page Replacement Algorithms",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a program reference string: `[7, 0, 1, 2, 0, 3, 0, 4]`.\nThe system allocates exactly 3 page frames to the process (initially empty). Using the **Least Recently Used (LRU)** page replacement algorithm, calculate the total number of page faults that occur.",
+    "options": [],
+    "answer_id": "GCS27-OS-H-NAT-304",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "memory trace tracking"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-NAT-305",
+    "subject": "OS",
+    "topic": "Page Replacement Algorithms",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a program reference string: `[1, 2, 3, 4, 1, 2, 5, 1]`.\nThe system allocates exactly 4 page frames to the process (initially empty). Using the **Least Recently Used (LRU)** page replacement algorithm, calculate the total number of page faults that occur.",
+    "options": [],
+    "answer_id": "GCS27-OS-H-NAT-305",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "memory trace tracking"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-NAT-306",
+    "subject": "OS",
+    "topic": "Page Replacement Algorithms",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a program reference string: `[7, 0, 1, 2, 0, 3, 0, 4]`.\nThe system allocates exactly 3 page frames to the process (initially empty). Using the **Least Recently Used (LRU)** page replacement algorithm, calculate the total number of page faults that occur.",
+    "options": [],
+    "answer_id": "GCS27-OS-H-NAT-306",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "memory trace tracking"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-NAT-307",
+    "subject": "OS",
+    "topic": "Page Replacement Algorithms",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a program reference string: `[1, 2, 3, 4, 1, 2, 5, 1]`.\nThe system allocates exactly 4 page frames to the process (initially empty). Using the **Least Recently Used (LRU)** page replacement algorithm, calculate the total number of page faults that occur.",
+    "options": [],
+    "answer_id": "GCS27-OS-H-NAT-307",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "memory trace tracking"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-NAT-308",
+    "subject": "OS",
+    "topic": "Page Replacement Algorithms",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a program reference string: `[7, 0, 1, 2, 0, 3, 0, 4]`.\nThe system allocates exactly 3 page frames to the process (initially empty). Using the **Least Recently Used (LRU)** page replacement algorithm, calculate the total number of page faults that occur.",
+    "options": [],
+    "answer_id": "GCS27-OS-H-NAT-308",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "memory trace tracking"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-NAT-309",
+    "subject": "OS",
+    "topic": "Page Replacement Algorithms",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a program reference string: `[1, 2, 3, 4, 1, 2, 5, 1]`.\nThe system allocates exactly 4 page frames to the process (initially empty). Using the **Least Recently Used (LRU)** page replacement algorithm, calculate the total number of page faults that occur.",
+    "options": [],
+    "answer_id": "GCS27-OS-H-NAT-309",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "memory trace tracking"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-NAT-310",
+    "subject": "OS",
+    "topic": "Page Replacement Algorithms",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a program reference string: `[7, 0, 1, 2, 0, 3, 0, 4]`.\nThe system allocates exactly 3 page frames to the process (initially empty). Using the **Least Recently Used (LRU)** page replacement algorithm, calculate the total number of page faults that occur.",
+    "options": [],
+    "answer_id": "GCS27-OS-H-NAT-310",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "memory trace tracking"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-NAT-311",
+    "subject": "OS",
+    "topic": "Page Replacement Algorithms",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a program reference string: `[1, 2, 3, 4, 1, 2, 5, 1]`.\nThe system allocates exactly 4 page frames to the process (initially empty). Using the **Least Recently Used (LRU)** page replacement algorithm, calculate the total number of page faults that occur.",
+    "options": [],
+    "answer_id": "GCS27-OS-H-NAT-311",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "memory trace tracking"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-NAT-312",
+    "subject": "OS",
+    "topic": "Page Replacement Algorithms",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a program reference string: `[7, 0, 1, 2, 0, 3, 0, 4]`.\nThe system allocates exactly 3 page frames to the process (initially empty). Using the **Least Recently Used (LRU)** page replacement algorithm, calculate the total number of page faults that occur.",
+    "options": [],
+    "answer_id": "GCS27-OS-H-NAT-312",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "memory trace tracking"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-NAT-313",
+    "subject": "OS",
+    "topic": "Page Replacement Algorithms",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a program reference string: `[1, 2, 3, 4, 1, 2, 5, 1]`.\nThe system allocates exactly 4 page frames to the process (initially empty). Using the **Least Recently Used (LRU)** page replacement algorithm, calculate the total number of page faults that occur.",
+    "options": [],
+    "answer_id": "GCS27-OS-H-NAT-313",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "memory trace tracking"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-NAT-314",
+    "subject": "OS",
+    "topic": "Page Replacement Algorithms",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a program reference string: `[7, 0, 1, 2, 0, 3, 0, 4]`.\nThe system allocates exactly 3 page frames to the process (initially empty). Using the **Least Recently Used (LRU)** page replacement algorithm, calculate the total number of page faults that occur.",
+    "options": [],
+    "answer_id": "GCS27-OS-H-NAT-314",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "memory trace tracking"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-NAT-315",
+    "subject": "OS",
+    "topic": "Page Replacement Algorithms",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a program reference string: `[1, 2, 3, 4, 1, 2, 5, 1]`.\nThe system allocates exactly 4 page frames to the process (initially empty). Using the **Least Recently Used (LRU)** page replacement algorithm, calculate the total number of page faults that occur.",
+    "options": [],
+    "answer_id": "GCS27-OS-H-NAT-315",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "memory trace tracking"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-NAT-316",
+    "subject": "OS",
+    "topic": "Page Replacement Algorithms",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a program reference string: `[7, 0, 1, 2, 0, 3, 0, 4]`.\nThe system allocates exactly 3 page frames to the process (initially empty). Using the **Least Recently Used (LRU)** page replacement algorithm, calculate the total number of page faults that occur.",
+    "options": [],
+    "answer_id": "GCS27-OS-H-NAT-316",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "memory trace tracking"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-NAT-317",
+    "subject": "OS",
+    "topic": "Page Replacement Algorithms",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a program reference string: `[1, 2, 3, 4, 1, 2, 5, 1]`.\nThe system allocates exactly 4 page frames to the process (initially empty). Using the **Least Recently Used (LRU)** page replacement algorithm, calculate the total number of page faults that occur.",
+    "options": [],
+    "answer_id": "GCS27-OS-H-NAT-317",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "memory trace tracking"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-NAT-318",
+    "subject": "OS",
+    "topic": "Page Replacement Algorithms",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a program reference string: `[7, 0, 1, 2, 0, 3, 0, 4]`.\nThe system allocates exactly 3 page frames to the process (initially empty). Using the **Least Recently Used (LRU)** page replacement algorithm, calculate the total number of page faults that occur.",
+    "options": [],
+    "answer_id": "GCS27-OS-H-NAT-318",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "memory trace tracking"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-NAT-319",
+    "subject": "OS",
+    "topic": "Page Replacement Algorithms",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a program reference string: `[1, 2, 3, 4, 1, 2, 5, 1]`.\nThe system allocates exactly 4 page frames to the process (initially empty). Using the **Least Recently Used (LRU)** page replacement algorithm, calculate the total number of page faults that occur.",
+    "options": [],
+    "answer_id": "GCS27-OS-H-NAT-319",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "memory trace tracking"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-NAT-320",
+    "subject": "OS",
+    "topic": "Page Replacement Algorithms",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a program reference string: `[7, 0, 1, 2, 0, 3, 0, 4]`.\nThe system allocates exactly 3 page frames to the process (initially empty). Using the **Least Recently Used (LRU)** page replacement algorithm, calculate the total number of page faults that occur.",
+    "options": [],
+    "answer_id": "GCS27-OS-H-NAT-320",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "memory trace tracking"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-NAT-321",
+    "subject": "OS",
+    "topic": "Page Replacement Algorithms",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a program reference string: `[1, 2, 3, 4, 1, 2, 5, 1]`.\nThe system allocates exactly 4 page frames to the process (initially empty). Using the **Least Recently Used (LRU)** page replacement algorithm, calculate the total number of page faults that occur.",
+    "options": [],
+    "answer_id": "GCS27-OS-H-NAT-321",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "memory trace tracking"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-NAT-322",
+    "subject": "OS",
+    "topic": "Page Replacement Algorithms",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a program reference string: `[7, 0, 1, 2, 0, 3, 0, 4]`.\nThe system allocates exactly 3 page frames to the process (initially empty). Using the **Least Recently Used (LRU)** page replacement algorithm, calculate the total number of page faults that occur.",
+    "options": [],
+    "answer_id": "GCS27-OS-H-NAT-322",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "memory trace tracking"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-NAT-323",
+    "subject": "OS",
+    "topic": "Page Replacement Algorithms",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a program reference string: `[1, 2, 3, 4, 1, 2, 5, 1]`.\nThe system allocates exactly 4 page frames to the process (initially empty). Using the **Least Recently Used (LRU)** page replacement algorithm, calculate the total number of page faults that occur.",
+    "options": [],
+    "answer_id": "GCS27-OS-H-NAT-323",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "memory trace tracking"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-NAT-324",
+    "subject": "OS",
+    "topic": "Page Replacement Algorithms",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a program reference string: `[7, 0, 1, 2, 0, 3, 0, 4]`.\nThe system allocates exactly 3 page frames to the process (initially empty). Using the **Least Recently Used (LRU)** page replacement algorithm, calculate the total number of page faults that occur.",
+    "options": [],
+    "answer_id": "GCS27-OS-H-NAT-324",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "memory trace tracking"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-NAT-325",
+    "subject": "OS",
+    "topic": "Page Replacement Algorithms",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a program reference string: `[1, 2, 3, 4, 1, 2, 5, 1]`.\nThe system allocates exactly 4 page frames to the process (initially empty). Using the **Least Recently Used (LRU)** page replacement algorithm, calculate the total number of page faults that occur.",
+    "options": [],
+    "answer_id": "GCS27-OS-H-NAT-325",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "memory trace tracking"
+    ],
+    "representation": [
+      "code"
+    ]
+  }
+]

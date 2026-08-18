@@ -1,0 +1,66 @@
+[
+  {
+    "id": "GCS27-ALGO-E-MCQ-062",
+    "subject": "ALGO",
+    "topic": "Sorting",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "What is the worst-case time complexity of Quick Sort when the pivot is always chosen as the minimum or maximum element?",
+    "options": [
+      "O(n)",
+      "O(n log n)",
+      "O(log n)",
+      "O(n^2)"
+    ],
+    "answer_id": "GCS27-ALGO-E-MCQ-062",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "complexity analysis"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-E-MSQ-062",
+    "subject": "ALGO",
+    "topic": "Design Paradigms",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MSQ",
+    "question": "Which of the following algorithms employ the Greedy design paradigm?",
+    "options": [
+      "Kruskal's algorithm for Minimum Spanning Trees",
+      "Prim's algorithm for Minimum Spanning Trees",
+      "Dijkstra's algorithm for Single Source Shortest Path",
+      "Huffman coding algorithm for compression"
+    ],
+    "answer_id": "GCS27-ALGO-E-MSQ-062",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "paradigm verification"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-E-NAT-062",
+    "subject": "ALGO",
+    "topic": "Recurrences",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "NAT",
+    "question": "According to the Master Theorem, if a recurrence is T(n) = 2T(n/2) + n, the asymptotic complexity is Theta(n^k \\log n). Find the value of k.",
+    "options": null,
+    "answer_id": "GCS27-ALGO-E-NAT-062",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "master theorem application"
+    ],
+    "representation": [
+      "text"
+    ]
+  }
+]

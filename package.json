@@ -1,0 +1,16 @@
+{
+  "name": "gandheevijaya",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Gandheevijaya multi-exam preparation & assessment platform",
+  "scripts": {
+    "dev:backend": "py -m uvicorn backend.app.main:app --host 0.0.0.0 --port 8000 --reload",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "test:backend": "py -m pytest backend/tests",
+    "test:frontend": "npm --prefix frontend test",
+    "test": "npm run test:backend && npm run test:frontend",
+    "db:migrate": "py -m alembic -c backend/alembic.ini upgrade head",
+    "cli": "py scripts/cli.py",
+    "import": "py scripts/import_questions.py"
+  }
+}

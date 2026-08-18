@@ -1,0 +1,66 @@
+[
+  {
+    "id": "GCS27-DM-H-MCQ-033",
+    "subject": "DM",
+    "topic": "Combinatorics",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "What is the generating function for the sequence: 1, 1, 1, 1, ...?",
+    "options": [
+      "1 / (1 + x)",
+      "1 / (1 - x)",
+      "1 / (1 - x)^2",
+      "x / (1 - x)"
+    ],
+    "answer_id": "GCS27-DM-H-MCQ-033",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "generating function check"
+    ],
+    "representation": [
+      "notation"
+    ]
+  },
+  {
+    "id": "GCS27-DM-H-MSQ-033",
+    "subject": "DM",
+    "topic": "Lattices",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Which of the following mathematical structures represent a Lattice (a poset where every pair has a supremum and infimum)?",
+    "options": [
+      "Power set of any set under subset containment (P(S), <=)",
+      "Divisors of any integer n under divisibility (D_n, |)",
+      "A chain poset (elements are totally ordered)",
+      "Real numbers under standard <= relation"
+    ],
+    "answer_id": "GCS27-DM-H-MSQ-033",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "poset structure verification"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-DM-H-NAT-033",
+    "subject": "DM",
+    "topic": "Recurrence Relations",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Solve the recurrence relation: $a_n = a_{n-1} + 2$ with $a_0 = 1$. Find the value of $a_{6}$.",
+    "options": null,
+    "answer_id": "GCS27-DM-H-NAT-033",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "recurrence solving"
+    ],
+    "representation": [
+      "notation"
+    ]
+  }
+]

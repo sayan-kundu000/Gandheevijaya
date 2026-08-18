@@ -1,0 +1,66 @@
+[
+  {
+    "id": "GCS27-DB-H-MCQ-056",
+    "subject": "DB",
+    "topic": "Transactions",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider schedule S: r1(x), r2(x), w1(x), w2(x). Is this schedule conflict serializable?",
+    "options": [
+      "No",
+      "Cannot be determined",
+      "Yes",
+      "Depends on commit order"
+    ],
+    "answer_id": "GCS27-DB-H-MCQ-056",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "serializability check"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-DB-H-MSQ-056",
+    "subject": "DB",
+    "topic": "Transactions",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Which of the following statements about database transaction isolation levels are CORRECT?",
+    "options": [
+      "SERIALIZABLE is the strictest isolation level.",
+      "READ UNCOMMITTED allows dirty reads.",
+      "READ COMMITTED prevents dirty reads but allows non-repeatable reads.",
+      "REPEATABLE READ prevents non-repeatable reads but can allow phantom reads."
+    ],
+    "answer_id": "GCS27-DB-H-MSQ-056",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "isolation level checks"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-DB-H-NAT-056",
+    "subject": "DB",
+    "topic": "Indexing",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "In a B+ Tree index with height 3 (where root is at level 0 and leaves are at level 3), how many disk blocks must be read to retrieve a record for a given search key (excluding the record read itself)?",
+    "options": null,
+    "answer_id": "GCS27-DB-H-NAT-056",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "indexing access math"
+    ],
+    "representation": [
+      "text"
+    ]
+  }
+]

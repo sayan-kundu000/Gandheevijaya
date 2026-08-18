@@ -1,0 +1,66 @@
+[
+  {
+    "id": "GCS27-CD-E-MCQ-169",
+    "subject": "CD",
+    "topic": "Syntax Analysis",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "Which compiler phase is responsible for checking syntax and building the parse tree?",
+    "options": [
+      "Lexical Analysis (Scanner)",
+      "Syntax Analysis (Parser)",
+      "Code Optimization",
+      "Semantic Analysis"
+    ],
+    "answer_id": "GCS27-CD-E-MCQ-169",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "phase mapping"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CD-E-MSQ-169",
+    "subject": "CD",
+    "topic": "Syntax Analysis",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MSQ",
+    "question": "Which of the following parsing algorithms are classified as bottom-up parsing techniques?",
+    "options": [
+      "Shift-Reduce Parsing",
+      "SLR(1) Parsing",
+      "LALR(1) Parsing",
+      "LL(1) Parsing"
+    ],
+    "answer_id": "GCS27-CD-E-MSQ-169",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "parser classification"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CD-E-NAT-169",
+    "subject": "CD",
+    "topic": "Lexical Analysis",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "NAT",
+    "question": "Calculate the number of tokens in the C statement: `int x = a + 5;` according to lexical rules.",
+    "options": null,
+    "answer_id": "GCS27-CD-E-NAT-169",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "token counting"
+    ],
+    "representation": [
+      "code"
+    ]
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "id": "GCS27-DSA-M-MCQ-106",
+    "subject": "DSA",
+    "topic": "Trees",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "If the inorder traversal of a binary search tree is D B E A F C G and its preorder traversal is A B D E C F G, what is its postorder traversal?",
+    "options": [
+      "D E B F G C A",
+      "E D B G F C A",
+      "D E B G F C A",
+      "D B E F G C A"
+    ],
+    "answer_id": "GCS27-DSA-M-MCQ-106",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "tree traversal"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-DSA-M-MSQ-106",
+    "subject": "DSA",
+    "topic": "Heaps",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MSQ",
+    "question": "Which of the following statements about Max-Heaps are CORRECT?",
+    "options": [
+      "The key in the root node must be greater than or equal to the keys of its children.",
+      "A heap is a complete binary tree.",
+      "Insertion in a heap takes O(log n) time.",
+      "Finding the maximum key in a max-heap takes O(1) time."
+    ],
+    "answer_id": "GCS27-DSA-M-MSQ-106",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "property validation"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-DSA-M-NAT-106",
+    "subject": "DSA",
+    "topic": "AVL Trees",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "NAT",
+    "question": "What is the minimum number of nodes required to construct an AVL tree of height 2 (where height of a single node tree is 0)?",
+    "options": null,
+    "answer_id": "GCS27-DSA-M-NAT-106",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "avl recurrence"
+    ],
+    "representation": [
+      "text"
+    ]
+  }
+]

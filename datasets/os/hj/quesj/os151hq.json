@@ -1,0 +1,66 @@
+[
+  {
+    "id": "GCS27-OS-H-MCQ-151",
+    "subject": "OS",
+    "topic": "Deadlocks",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "A system has 3 processes sharing 4 instances of a resource. Each process needs at most k instances. What is the maximum value of k such that deadlock is guaranteed to NOT occur?",
+    "options": [
+      "4",
+      "3",
+      "1",
+      "2"
+    ],
+    "answer_id": "GCS27-OS-H-MCQ-151",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "deadlock avoidance analysis"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-MSQ-151",
+    "subject": "OS",
+    "topic": "Process Synchronization",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Which of the following statements about Semaphores and Mutexes are CORRECT?",
+    "options": [
+      "A binary semaphore can take values 0 and 1.",
+      "A counting semaphore can take arbitrary integer values.",
+      "A mutex is essentially a locking mechanism used to synchronize access to a resource.",
+      "Only the process that locked a mutex can unlock it, whereas any process can signal a semaphore."
+    ],
+    "answer_id": "GCS27-OS-H-MSQ-151",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "property validation"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-OS-H-NAT-151",
+    "subject": "OS",
+    "topic": "Disk Scheduling",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "A disk queue contains requests for I/O to cylinders: 90 and 150. The read/write head is initially at cylinder 100. Find the total head movement using SSTF (Shortest Seek Time First) scheduling.",
+    "options": null,
+    "answer_id": "GCS27-OS-H-NAT-151",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "disk seek distance math"
+    ],
+    "representation": [
+      "text"
+    ]
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "id": "GCS27-TOC-H-MCQ-040",
+    "subject": "TOC",
+    "topic": "Decidability",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Which of the following decision problems is DECIDABLE?",
+    "options": [
+      "Finiteness of a Turing Machine language",
+      "Emptiness of a Turing Machine language",
+      "Equivalence of two PDAs",
+      "Equivalence of two DFAs"
+    ],
+    "answer_id": "GCS27-TOC-H-MCQ-040",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "decidability verification"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-TOC-H-MSQ-040",
+    "subject": "TOC",
+    "topic": "Decidability",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Which of the following problems are known to be UNDECIDABLE?",
+    "options": [
+      "Halting Problem for Turing Machines",
+      "Post Correspondence Problem (PCP)",
+      "Ambiguity of a Context-Free Grammar",
+      "Equivalence of two Context-Free Grammars"
+    ],
+    "answer_id": "GCS27-TOC-H-MSQ-040",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "decidability verification"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-TOC-H-NAT-040",
+    "subject": "TOC",
+    "topic": "Finite Automata",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Find the minimum number of states in a DFA that recognizes the language: { w in {0, 1}* | w parsed as binary is divisible by 3 }.",
+    "options": null,
+    "answer_id": "GCS27-TOC-H-NAT-040",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "dfa minimization"
+    ],
+    "representation": [
+      "text"
+    ]
+  }
+]

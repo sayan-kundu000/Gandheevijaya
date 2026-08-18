@@ -1,0 +1,66 @@
+[
+  {
+    "id": "GCS27-CN-M-MCQ-159",
+    "subject": "CN",
+    "topic": "IP Addressing",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "What is the network ID for the IP address 192.168.10.35 with subnet mask 255.255.255.224 (/27)?",
+    "options": [
+      "192.168.10.0",
+      "192.168.10.32",
+      "192.168.10.16",
+      "192.168.10.48"
+    ],
+    "answer_id": "GCS27-CN-M-MCQ-159",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "bitwise subnet check"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CN-M-MSQ-159",
+    "subject": "CN",
+    "topic": "Transport Layer",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MSQ",
+    "question": "Which of the following statements comparing TCP and UDP are CORRECT?",
+    "options": [
+      "TCP is connection-oriented, whereas UDP is connectionless.",
+      "TCP provides reliable delivery with flow and congestion control.",
+      "UDP has lower overhead and latency compared to TCP.",
+      "TCP guarantees packet ordering, whereas UDP does not."
+    ],
+    "answer_id": "GCS27-CN-M-MSQ-159",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "property validation"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CN-M-NAT-159",
+    "subject": "CN",
+    "topic": "Physical Layer",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "NAT",
+    "question": "A packet of size 1000 bits is sent over a link with bandwidth 1 Mbps. Find the transmission delay in milliseconds.",
+    "options": null,
+    "answer_id": "GCS27-CN-M-NAT-159",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "transmission math"
+    ],
+    "representation": [
+      "text"
+    ]
+  }
+]

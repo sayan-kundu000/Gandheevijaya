@@ -1,0 +1,66 @@
+[
+  {
+    "id": "GCS27-DB-M-MCQ-045",
+    "subject": "DB",
+    "topic": "Normalization",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "A relation R(A, B, C, D) has functional dependencies: A -> B, B -> C, C -> D. The candidate key for R is:",
+    "options": [
+      "A",
+      "B",
+      "D",
+      "C"
+    ],
+    "answer_id": "GCS27-DB-M-MCQ-045",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "candidate key identification"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-DB-M-MSQ-045",
+    "subject": "DB",
+    "topic": "SQL",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MSQ",
+    "question": "Which of the following statements regarding SQL JOINs are CORRECT?",
+    "options": [
+      "INNER JOIN returns only rows that have matching values in both tables.",
+      "LEFT JOIN returns all rows from the left table, and matching rows from the right table.",
+      "RIGHT JOIN returns all rows from the right table, and matching rows from the left table.",
+      "FULL OUTER JOIN returns all rows when there is a match in either left or right table."
+    ],
+    "answer_id": "GCS27-DB-M-MSQ-045",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "property validation"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-DB-M-NAT-045",
+    "subject": "DB",
+    "topic": "Normalization",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "NAT",
+    "question": "For a relation R(A, B, C) with functional dependencies {AB -> C, C -> A}, what is the highest normal form satisfied by R? (Enter 1 for 1NF, 2 for 2NF, 3 for 3NF, 4 for BCNF).",
+    "options": null,
+    "answer_id": "GCS27-DB-M-NAT-045",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "normal form check"
+    ],
+    "representation": [
+      "text"
+    ]
+  }
+]

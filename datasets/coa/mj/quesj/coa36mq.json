@@ -1,0 +1,66 @@
+[
+  {
+    "id": "GCS27-COA-M-MCQ-036",
+    "subject": "COA",
+    "topic": "Cache Memory",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "A 4-way set associative cache has size 16 KB and block size 64 bytes. How many sets are in the cache?",
+    "options": [
+      "64",
+      "256",
+      "128",
+      "32"
+    ],
+    "answer_id": "GCS27-COA-M-MCQ-036",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "cache layout math"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-COA-M-MSQ-036",
+    "subject": "COA",
+    "topic": "Cache Memory",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MSQ",
+    "question": "Which of the following cache replacement policies are commonly used in computer architectures?",
+    "options": [
+      "Least Recently Used (LRU)",
+      "First-In First-Out (FIFO)",
+      "Least Frequently Used (LFU)",
+      "Random Replacement"
+    ],
+    "answer_id": "GCS27-COA-M-MSQ-036",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "property validation"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-COA-M-NAT-036",
+    "subject": "COA",
+    "topic": "Cache Memory",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "NAT",
+    "question": "A system has a cache access time of 1 ns and main memory access time of 10 ns. If the cache hit ratio is 90%, calculate the average memory access time (AMAT) in ns.",
+    "options": null,
+    "answer_id": "GCS27-COA-M-NAT-036",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "cache access math"
+    ],
+    "representation": [
+      "text"
+    ]
+  }
+]

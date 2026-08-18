@@ -1,0 +1,302 @@
+[
+  {
+    "id": "GCS27-CN-M-MCQ-351",
+    "explanation": "Transmission Delay = Frame_Size / Rate = 1000 bits / (200 * 1000 bps) = 5.00 ms.\nRTT = 2 * Propagation_Delay = 2 * 25 ms = 50 ms.\nWindow Size W >= 1 + RTT / T_trans = 1 + 50 / 5.00 = 11.00.\nCeiling value W = 12.\nAnswer Verification: 12 is option D."
+  },
+  {
+    "id": "GCS27-CN-M-MCQ-352",
+    "explanation": "Transmission Delay = Frame_Size / Rate = 1000 bits / (300 * 1000 bps) = 3.33 ms.\nRTT = 2 * Propagation_Delay = 2 * 30 ms = 60 ms.\nWindow Size W >= 1 + RTT / T_trans = 1 + 60 / 3.33 = 19.00.\nCeiling value W = 20.\nAnswer Verification: 20 is option B."
+  },
+  {
+    "id": "GCS27-CN-M-MCQ-353",
+    "explanation": "Transmission Delay = Frame_Size / Rate = 1000 bits / (400 * 1000 bps) = 2.50 ms.\nRTT = 2 * Propagation_Delay = 2 * 35 ms = 70 ms.\nWindow Size W >= 1 + RTT / T_trans = 1 + 70 / 2.50 = 29.00.\nCeiling value W = 30.\nAnswer Verification: 30 is option A."
+  },
+  {
+    "id": "GCS27-CN-M-MCQ-354",
+    "explanation": "Transmission Delay = Frame_Size / Rate = 1000 bits / (500 * 1000 bps) = 2.00 ms.\nRTT = 2 * Propagation_Delay = 2 * 40 ms = 80 ms.\nWindow Size W >= 1 + RTT / T_trans = 1 + 80 / 2.00 = 41.00.\nCeiling value W = 42.\nAnswer Verification: 42 is option D."
+  },
+  {
+    "id": "GCS27-CN-M-MCQ-355",
+    "explanation": "Transmission Delay = Frame_Size / Rate = 1000 bits / (100 * 1000 bps) = 10.00 ms.\nRTT = 2 * Propagation_Delay = 2 * 45 ms = 90 ms.\nWindow Size W >= 1 + RTT / T_trans = 1 + 90 / 10.00 = 10.00.\nCeiling value W = 11.\nAnswer Verification: 11 is option C."
+  },
+  {
+    "id": "GCS27-CN-M-MCQ-356",
+    "explanation": "Transmission Delay = Frame_Size / Rate = 1000 bits / (200 * 1000 bps) = 5.00 ms.\nRTT = 2 * Propagation_Delay = 2 * 50 ms = 100 ms.\nWindow Size W >= 1 + RTT / T_trans = 1 + 100 / 5.00 = 21.00.\nCeiling value W = 22.\nAnswer Verification: 22 is option A."
+  },
+  {
+    "id": "GCS27-CN-M-MCQ-357",
+    "explanation": "Transmission Delay = Frame_Size / Rate = 1000 bits / (300 * 1000 bps) = 3.33 ms.\nRTT = 2 * Propagation_Delay = 2 * 55 ms = 110 ms.\nWindow Size W >= 1 + RTT / T_trans = 1 + 110 / 3.33 = 34.00.\nCeiling value W = 35.\nAnswer Verification: 35 is option C."
+  },
+  {
+    "id": "GCS27-CN-M-MCQ-358",
+    "explanation": "Transmission Delay = Frame_Size / Rate = 1000 bits / (400 * 1000 bps) = 2.50 ms.\nRTT = 2 * Propagation_Delay = 2 * 60 ms = 120 ms.\nWindow Size W >= 1 + RTT / T_trans = 1 + 120 / 2.50 = 49.00.\nCeiling value W = 50.\nAnswer Verification: 50 is option D."
+  },
+  {
+    "id": "GCS27-CN-M-MCQ-359",
+    "explanation": "Transmission Delay = Frame_Size / Rate = 1000 bits / (500 * 1000 bps) = 2.00 ms.\nRTT = 2 * Propagation_Delay = 2 * 65 ms = 130 ms.\nWindow Size W >= 1 + RTT / T_trans = 1 + 130 / 2.00 = 66.00.\nCeiling value W = 67.\nAnswer Verification: 67 is option C."
+  },
+  {
+    "id": "GCS27-CN-M-MCQ-360",
+    "explanation": "Transmission Delay = Frame_Size / Rate = 1000 bits / (100 * 1000 bps) = 10.00 ms.\nRTT = 2 * Propagation_Delay = 2 * 20 ms = 40 ms.\nWindow Size W >= 1 + RTT / T_trans = 1 + 40 / 10.00 = 5.00.\nCeiling value W = 6.\nAnswer Verification: 6 is option C."
+  },
+  {
+    "id": "GCS27-CN-M-MCQ-361",
+    "explanation": "Transmission Delay = Frame_Size / Rate = 1000 bits / (200 * 1000 bps) = 5.00 ms.\nRTT = 2 * Propagation_Delay = 2 * 25 ms = 50 ms.\nWindow Size W >= 1 + RTT / T_trans = 1 + 50 / 5.00 = 11.00.\nCeiling value W = 12.\nAnswer Verification: 12 is option C."
+  },
+  {
+    "id": "GCS27-CN-M-MCQ-362",
+    "explanation": "Transmission Delay = Frame_Size / Rate = 1000 bits / (300 * 1000 bps) = 3.33 ms.\nRTT = 2 * Propagation_Delay = 2 * 30 ms = 60 ms.\nWindow Size W >= 1 + RTT / T_trans = 1 + 60 / 3.33 = 19.00.\nCeiling value W = 20.\nAnswer Verification: 20 is option A."
+  },
+  {
+    "id": "GCS27-CN-M-MCQ-363",
+    "explanation": "Transmission Delay = Frame_Size / Rate = 1000 bits / (400 * 1000 bps) = 2.50 ms.\nRTT = 2 * Propagation_Delay = 2 * 35 ms = 70 ms.\nWindow Size W >= 1 + RTT / T_trans = 1 + 70 / 2.50 = 29.00.\nCeiling value W = 30.\nAnswer Verification: 30 is option B."
+  },
+  {
+    "id": "GCS27-CN-M-MCQ-364",
+    "explanation": "Transmission Delay = Frame_Size / Rate = 1000 bits / (500 * 1000 bps) = 2.00 ms.\nRTT = 2 * Propagation_Delay = 2 * 40 ms = 80 ms.\nWindow Size W >= 1 + RTT / T_trans = 1 + 80 / 2.00 = 41.00.\nCeiling value W = 42.\nAnswer Verification: 42 is option B."
+  },
+  {
+    "id": "GCS27-CN-M-MCQ-365",
+    "explanation": "Transmission Delay = Frame_Size / Rate = 1000 bits / (100 * 1000 bps) = 10.00 ms.\nRTT = 2 * Propagation_Delay = 2 * 45 ms = 90 ms.\nWindow Size W >= 1 + RTT / T_trans = 1 + 90 / 10.00 = 10.00.\nCeiling value W = 11.\nAnswer Verification: 11 is option B."
+  },
+  {
+    "id": "GCS27-CN-M-MCQ-366",
+    "explanation": "Transmission Delay = Frame_Size / Rate = 1000 bits / (200 * 1000 bps) = 5.00 ms.\nRTT = 2 * Propagation_Delay = 2 * 50 ms = 100 ms.\nWindow Size W >= 1 + RTT / T_trans = 1 + 100 / 5.00 = 21.00.\nCeiling value W = 22.\nAnswer Verification: 22 is option B."
+  },
+  {
+    "id": "GCS27-CN-M-MCQ-367",
+    "explanation": "Transmission Delay = Frame_Size / Rate = 1000 bits / (300 * 1000 bps) = 3.33 ms.\nRTT = 2 * Propagation_Delay = 2 * 55 ms = 110 ms.\nWindow Size W >= 1 + RTT / T_trans = 1 + 110 / 3.33 = 34.00.\nCeiling value W = 35.\nAnswer Verification: 35 is option A."
+  },
+  {
+    "id": "GCS27-CN-M-MCQ-368",
+    "explanation": "Transmission Delay = Frame_Size / Rate = 1000 bits / (400 * 1000 bps) = 2.50 ms.\nRTT = 2 * Propagation_Delay = 2 * 60 ms = 120 ms.\nWindow Size W >= 1 + RTT / T_trans = 1 + 120 / 2.50 = 49.00.\nCeiling value W = 50.\nAnswer Verification: 50 is option A."
+  },
+  {
+    "id": "GCS27-CN-M-MCQ-369",
+    "explanation": "Transmission Delay = Frame_Size / Rate = 1000 bits / (500 * 1000 bps) = 2.00 ms.\nRTT = 2 * Propagation_Delay = 2 * 65 ms = 130 ms.\nWindow Size W >= 1 + RTT / T_trans = 1 + 130 / 2.00 = 66.00.\nCeiling value W = 67.\nAnswer Verification: 67 is option D."
+  },
+  {
+    "id": "GCS27-CN-M-MCQ-370",
+    "explanation": "Transmission Delay = Frame_Size / Rate = 1000 bits / (100 * 1000 bps) = 10.00 ms.\nRTT = 2 * Propagation_Delay = 2 * 20 ms = 40 ms.\nWindow Size W >= 1 + RTT / T_trans = 1 + 40 / 10.00 = 5.00.\nCeiling value W = 6.\nAnswer Verification: 6 is option A."
+  },
+  {
+    "id": "GCS27-CN-M-MCQ-371",
+    "explanation": "Transmission Delay = Frame_Size / Rate = 1000 bits / (200 * 1000 bps) = 5.00 ms.\nRTT = 2 * Propagation_Delay = 2 * 25 ms = 50 ms.\nWindow Size W >= 1 + RTT / T_trans = 1 + 50 / 5.00 = 11.00.\nCeiling value W = 12.\nAnswer Verification: 12 is option D."
+  },
+  {
+    "id": "GCS27-CN-M-MCQ-372",
+    "explanation": "Transmission Delay = Frame_Size / Rate = 1000 bits / (300 * 1000 bps) = 3.33 ms.\nRTT = 2 * Propagation_Delay = 2 * 30 ms = 60 ms.\nWindow Size W >= 1 + RTT / T_trans = 1 + 60 / 3.33 = 19.00.\nCeiling value W = 20.\nAnswer Verification: 20 is option A."
+  },
+  {
+    "id": "GCS27-CN-M-MCQ-373",
+    "explanation": "Transmission Delay = Frame_Size / Rate = 1000 bits / (400 * 1000 bps) = 2.50 ms.\nRTT = 2 * Propagation_Delay = 2 * 35 ms = 70 ms.\nWindow Size W >= 1 + RTT / T_trans = 1 + 70 / 2.50 = 29.00.\nCeiling value W = 30.\nAnswer Verification: 30 is option B."
+  },
+  {
+    "id": "GCS27-CN-M-MCQ-374",
+    "explanation": "Transmission Delay = Frame_Size / Rate = 1000 bits / (500 * 1000 bps) = 2.00 ms.\nRTT = 2 * Propagation_Delay = 2 * 40 ms = 80 ms.\nWindow Size W >= 1 + RTT / T_trans = 1 + 80 / 2.00 = 41.00.\nCeiling value W = 42.\nAnswer Verification: 42 is option A."
+  },
+  {
+    "id": "GCS27-CN-M-MCQ-375",
+    "explanation": "Transmission Delay = Frame_Size / Rate = 1000 bits / (100 * 1000 bps) = 10.00 ms.\nRTT = 2 * Propagation_Delay = 2 * 45 ms = 90 ms.\nWindow Size W >= 1 + RTT / T_trans = 1 + 90 / 10.00 = 10.00.\nCeiling value W = 11.\nAnswer Verification: 11 is option B."
+  },
+  {
+    "id": "GCS27-CN-M-MSQ-351",
+    "explanation": "A, B, C are standard properties. Link state can generate more traffic due to flooding advertisements on huge scales, so D is incorrect.\nAnswer Verification: A, B, C are correct."
+  },
+  {
+    "id": "GCS27-CN-M-MSQ-352",
+    "explanation": "A, B, C are standard properties. Link state can generate more traffic due to flooding advertisements on huge scales, so D is incorrect.\nAnswer Verification: A, B, C are correct."
+  },
+  {
+    "id": "GCS27-CN-M-MSQ-353",
+    "explanation": "A, B, C are standard properties. Link state can generate more traffic due to flooding advertisements on huge scales, so D is incorrect.\nAnswer Verification: A, B, C are correct."
+  },
+  {
+    "id": "GCS27-CN-M-MSQ-354",
+    "explanation": "A, B, C are standard properties. Link state can generate more traffic due to flooding advertisements on huge scales, so D is incorrect.\nAnswer Verification: A, B, C are correct."
+  },
+  {
+    "id": "GCS27-CN-M-MSQ-355",
+    "explanation": "A, B, C are standard properties. Link state can generate more traffic due to flooding advertisements on huge scales, so D is incorrect.\nAnswer Verification: A, B, C are correct."
+  },
+  {
+    "id": "GCS27-CN-M-MSQ-356",
+    "explanation": "A, B, C are standard properties. Link state can generate more traffic due to flooding advertisements on huge scales, so D is incorrect.\nAnswer Verification: A, B, C are correct."
+  },
+  {
+    "id": "GCS27-CN-M-MSQ-357",
+    "explanation": "A, B, C are standard properties. Link state can generate more traffic due to flooding advertisements on huge scales, so D is incorrect.\nAnswer Verification: A, B, C are correct."
+  },
+  {
+    "id": "GCS27-CN-M-MSQ-358",
+    "explanation": "A, B, C are standard properties. Link state can generate more traffic due to flooding advertisements on huge scales, so D is incorrect.\nAnswer Verification: A, B, C are correct."
+  },
+  {
+    "id": "GCS27-CN-M-MSQ-359",
+    "explanation": "A, B, C are standard properties. Link state can generate more traffic due to flooding advertisements on huge scales, so D is incorrect.\nAnswer Verification: A, B, C are correct."
+  },
+  {
+    "id": "GCS27-CN-M-MSQ-360",
+    "explanation": "A, B, C are standard properties. Link state can generate more traffic due to flooding advertisements on huge scales, so D is incorrect.\nAnswer Verification: A, B, C are correct."
+  },
+  {
+    "id": "GCS27-CN-M-MSQ-361",
+    "explanation": "A, B, C are standard properties. Link state can generate more traffic due to flooding advertisements on huge scales, so D is incorrect.\nAnswer Verification: A, B, C are correct."
+  },
+  {
+    "id": "GCS27-CN-M-MSQ-362",
+    "explanation": "A, B, C are standard properties. Link state can generate more traffic due to flooding advertisements on huge scales, so D is incorrect.\nAnswer Verification: A, B, C are correct."
+  },
+  {
+    "id": "GCS27-CN-M-MSQ-363",
+    "explanation": "A, B, C are standard properties. Link state can generate more traffic due to flooding advertisements on huge scales, so D is incorrect.\nAnswer Verification: A, B, C are correct."
+  },
+  {
+    "id": "GCS27-CN-M-MSQ-364",
+    "explanation": "A, B, C are standard properties. Link state can generate more traffic due to flooding advertisements on huge scales, so D is incorrect.\nAnswer Verification: A, B, C are correct."
+  },
+  {
+    "id": "GCS27-CN-M-MSQ-365",
+    "explanation": "A, B, C are standard properties. Link state can generate more traffic due to flooding advertisements on huge scales, so D is incorrect.\nAnswer Verification: A, B, C are correct."
+  },
+  {
+    "id": "GCS27-CN-M-MSQ-366",
+    "explanation": "A, B, C are standard properties. Link state can generate more traffic due to flooding advertisements on huge scales, so D is incorrect.\nAnswer Verification: A, B, C are correct."
+  },
+  {
+    "id": "GCS27-CN-M-MSQ-367",
+    "explanation": "A, B, C are standard properties. Link state can generate more traffic due to flooding advertisements on huge scales, so D is incorrect.\nAnswer Verification: A, B, C are correct."
+  },
+  {
+    "id": "GCS27-CN-M-MSQ-368",
+    "explanation": "A, B, C are standard properties. Link state can generate more traffic due to flooding advertisements on huge scales, so D is incorrect.\nAnswer Verification: A, B, C are correct."
+  },
+  {
+    "id": "GCS27-CN-M-MSQ-369",
+    "explanation": "A, B, C are standard properties. Link state can generate more traffic due to flooding advertisements on huge scales, so D is incorrect.\nAnswer Verification: A, B, C are correct."
+  },
+  {
+    "id": "GCS27-CN-M-MSQ-370",
+    "explanation": "A, B, C are standard properties. Link state can generate more traffic due to flooding advertisements on huge scales, so D is incorrect.\nAnswer Verification: A, B, C are correct."
+  },
+  {
+    "id": "GCS27-CN-M-MSQ-371",
+    "explanation": "A, B, C are standard properties. Link state can generate more traffic due to flooding advertisements on huge scales, so D is incorrect.\nAnswer Verification: A, B, C are correct."
+  },
+  {
+    "id": "GCS27-CN-M-MSQ-372",
+    "explanation": "A, B, C are standard properties. Link state can generate more traffic due to flooding advertisements on huge scales, so D is incorrect.\nAnswer Verification: A, B, C are correct."
+  },
+  {
+    "id": "GCS27-CN-M-MSQ-373",
+    "explanation": "A, B, C are standard properties. Link state can generate more traffic due to flooding advertisements on huge scales, so D is incorrect.\nAnswer Verification: A, B, C are correct."
+  },
+  {
+    "id": "GCS27-CN-M-MSQ-374",
+    "explanation": "A, B, C are standard properties. Link state can generate more traffic due to flooding advertisements on huge scales, so D is incorrect.\nAnswer Verification: A, B, C are correct."
+  },
+  {
+    "id": "GCS27-CN-M-MSQ-375",
+    "explanation": "A, B, C are standard properties. Link state can generate more traffic due to flooding advertisements on huge scales, so D is incorrect.\nAnswer Verification: A, B, C are correct."
+  },
+  {
+    "id": "GCS27-CN-M-NAT-351",
+    "explanation": "To support 5 subnets, we need 2^k >= 5. The minimum integer k is 3.\nNew subnet mask prefix = 24 + k = 24 + 3 = 27."
+  },
+  {
+    "id": "GCS27-CN-M-NAT-352",
+    "explanation": "To support 6 subnets, we need 2^k >= 6. The minimum integer k is 3.\nNew subnet mask prefix = 24 + k = 24 + 3 = 27."
+  },
+  {
+    "id": "GCS27-CN-M-NAT-353",
+    "explanation": "To support 7 subnets, we need 2^k >= 7. The minimum integer k is 3.\nNew subnet mask prefix = 24 + k = 24 + 3 = 27."
+  },
+  {
+    "id": "GCS27-CN-M-NAT-354",
+    "explanation": "To support 2 subnets, we need 2^k >= 2. The minimum integer k is 1.\nNew subnet mask prefix = 24 + k = 24 + 1 = 25."
+  },
+  {
+    "id": "GCS27-CN-M-NAT-355",
+    "explanation": "To support 3 subnets, we need 2^k >= 3. The minimum integer k is 2.\nNew subnet mask prefix = 24 + k = 24 + 2 = 26."
+  },
+  {
+    "id": "GCS27-CN-M-NAT-356",
+    "explanation": "To support 4 subnets, we need 2^k >= 4. The minimum integer k is 2.\nNew subnet mask prefix = 24 + k = 24 + 2 = 26."
+  },
+  {
+    "id": "GCS27-CN-M-NAT-357",
+    "explanation": "To support 5 subnets, we need 2^k >= 5. The minimum integer k is 3.\nNew subnet mask prefix = 24 + k = 24 + 3 = 27."
+  },
+  {
+    "id": "GCS27-CN-M-NAT-358",
+    "explanation": "To support 6 subnets, we need 2^k >= 6. The minimum integer k is 3.\nNew subnet mask prefix = 24 + k = 24 + 3 = 27."
+  },
+  {
+    "id": "GCS27-CN-M-NAT-359",
+    "explanation": "To support 7 subnets, we need 2^k >= 7. The minimum integer k is 3.\nNew subnet mask prefix = 24 + k = 24 + 3 = 27."
+  },
+  {
+    "id": "GCS27-CN-M-NAT-360",
+    "explanation": "To support 2 subnets, we need 2^k >= 2. The minimum integer k is 1.\nNew subnet mask prefix = 24 + k = 24 + 1 = 25."
+  },
+  {
+    "id": "GCS27-CN-M-NAT-361",
+    "explanation": "To support 3 subnets, we need 2^k >= 3. The minimum integer k is 2.\nNew subnet mask prefix = 24 + k = 24 + 2 = 26."
+  },
+  {
+    "id": "GCS27-CN-M-NAT-362",
+    "explanation": "To support 4 subnets, we need 2^k >= 4. The minimum integer k is 2.\nNew subnet mask prefix = 24 + k = 24 + 2 = 26."
+  },
+  {
+    "id": "GCS27-CN-M-NAT-363",
+    "explanation": "To support 5 subnets, we need 2^k >= 5. The minimum integer k is 3.\nNew subnet mask prefix = 24 + k = 24 + 3 = 27."
+  },
+  {
+    "id": "GCS27-CN-M-NAT-364",
+    "explanation": "To support 6 subnets, we need 2^k >= 6. The minimum integer k is 3.\nNew subnet mask prefix = 24 + k = 24 + 3 = 27."
+  },
+  {
+    "id": "GCS27-CN-M-NAT-365",
+    "explanation": "To support 7 subnets, we need 2^k >= 7. The minimum integer k is 3.\nNew subnet mask prefix = 24 + k = 24 + 3 = 27."
+  },
+  {
+    "id": "GCS27-CN-M-NAT-366",
+    "explanation": "To support 2 subnets, we need 2^k >= 2. The minimum integer k is 1.\nNew subnet mask prefix = 24 + k = 24 + 1 = 25."
+  },
+  {
+    "id": "GCS27-CN-M-NAT-367",
+    "explanation": "To support 3 subnets, we need 2^k >= 3. The minimum integer k is 2.\nNew subnet mask prefix = 24 + k = 24 + 2 = 26."
+  },
+  {
+    "id": "GCS27-CN-M-NAT-368",
+    "explanation": "To support 4 subnets, we need 2^k >= 4. The minimum integer k is 2.\nNew subnet mask prefix = 24 + k = 24 + 2 = 26."
+  },
+  {
+    "id": "GCS27-CN-M-NAT-369",
+    "explanation": "To support 5 subnets, we need 2^k >= 5. The minimum integer k is 3.\nNew subnet mask prefix = 24 + k = 24 + 3 = 27."
+  },
+  {
+    "id": "GCS27-CN-M-NAT-370",
+    "explanation": "To support 6 subnets, we need 2^k >= 6. The minimum integer k is 3.\nNew subnet mask prefix = 24 + k = 24 + 3 = 27."
+  },
+  {
+    "id": "GCS27-CN-M-NAT-371",
+    "explanation": "To support 7 subnets, we need 2^k >= 7. The minimum integer k is 3.\nNew subnet mask prefix = 24 + k = 24 + 3 = 27."
+  },
+  {
+    "id": "GCS27-CN-M-NAT-372",
+    "explanation": "To support 2 subnets, we need 2^k >= 2. The minimum integer k is 1.\nNew subnet mask prefix = 24 + k = 24 + 1 = 25."
+  },
+  {
+    "id": "GCS27-CN-M-NAT-373",
+    "explanation": "To support 3 subnets, we need 2^k >= 3. The minimum integer k is 2.\nNew subnet mask prefix = 24 + k = 24 + 2 = 26."
+  },
+  {
+    "id": "GCS27-CN-M-NAT-374",
+    "explanation": "To support 4 subnets, we need 2^k >= 4. The minimum integer k is 2.\nNew subnet mask prefix = 24 + k = 24 + 2 = 26."
+  },
+  {
+    "id": "GCS27-CN-M-NAT-375",
+    "explanation": "To support 5 subnets, we need 2^k >= 5. The minimum integer k is 3.\nNew subnet mask prefix = 24 + k = 24 + 3 = 27."
+  }
+]

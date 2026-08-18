@@ -1,0 +1,14 @@
+[
+  {
+    "id": "GCS27-TOC-E-MCQ-040",
+    "explanation": "Pushdown Automata (PDA), which are finite automata with a stack, recognize Context-Free Languages."
+  },
+  {
+    "id": "GCS27-TOC-E-MSQ-040",
+    "explanation": "A, B, and C can be recognized by Finite Automata. D requires counting matching powers (memory), which is CFG but not regular."
+  },
+  {
+    "id": "GCS27-TOC-E-NAT-040",
+    "explanation": "We need 2 states: State 0 (start, ends in b or empty, non-accepting) and State 1 (ends in a, accepting). Transitions: from 0, on a->1, on b->0. From 1, on a->1, on b->0."
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "id": "GCS27-QA-H-MCQ-203",
+    "subject": "QA",
+    "topic": "Quantitative Aptitude",
+    "subtopic": "Probability",
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "A box contains 5 red and 5 blue balls. If two balls are drawn at random without replacement, what is the probability that both are red?",
+    "options": [
+      "2/9",
+      "1/2",
+      "1/4",
+      "5/18"
+    ],
+    "answer_id": "GCS27-QA-H-MCQ-203",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "rates math"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-QA-H-MSQ-203",
+    "subject": "QA",
+    "topic": "Quantitative Aptitude",
+    "subtopic": "Combinatorics",
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Which of the following formulas/identities about permutations and combinations are CORRECT?",
+    "options": [
+      "$P(n, r) = n! / (n-r)!$",
+      "$C(n, r) = n! / (r! (n-r)!)$",
+      "$C(n, r) = C(n, n-r)$",
+      "$C(n, r) + C(n, r-1) = C(n+1, r)$"
+    ],
+    "answer_id": "GCS27-QA-H-MSQ-203",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "property validation"
+    ],
+    "representation": [
+      "notation"
+    ]
+  },
+  {
+    "id": "GCS27-QA-H-NAT-203",
+    "subject": "QA",
+    "topic": "Quantitative Aptitude",
+    "subtopic": "Combinatorics",
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Find the number of positive integer solutions to the equation: $x_1 + x_2 + x_3 = 10$, where $x_1, x_2, x_3 \\ge 1$.",
+    "options": null,
+    "answer_id": "GCS27-QA-H-NAT-203",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "algebra math"
+    ],
+    "representation": [
+      "notation"
+    ]
+  }
+]

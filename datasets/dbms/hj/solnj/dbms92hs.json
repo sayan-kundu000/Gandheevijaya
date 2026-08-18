@@ -1,0 +1,14 @@
+[
+  {
+    "id": "GCS27-DB-H-MCQ-092",
+    "explanation": "Conflicts exist: r1(x)->w2(x) implies T1 must precede T2. r2(x)->w1(x) implies T2 must precede T1. This creates a cycle in the precedence graph, so it is not conflict serializable."
+  },
+  {
+    "id": "GCS27-DB-H-MSQ-092",
+    "explanation": "All options represent correct specifications of standard SQL transaction isolation levels."
+  },
+  {
+    "id": "GCS27-DB-H-NAT-092",
+    "explanation": "To find a key, we traverse from the root to the leaf node. This requires accessing exactly 2 index nodes and 1 leaf node, which equals 3 block accesses."
+  }
+]

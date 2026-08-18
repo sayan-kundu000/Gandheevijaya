@@ -1,0 +1,1602 @@
+[
+  {
+    "id": "GCS27-DB-E-MCQ-301",
+    "subject": "DB",
+    "topic": "SQL Queries",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "Consider the relational database table `R` shown below:\n\n| A | B |\n|---|---|\n| 1 | 8 |\n| 2 | 12 |\n| 2 | 15 |\n| 3 | 9 |\n| 4 | 22 |\n\nWhat is the integer result returned by the SQL query:\n```sql\nSELECT COUNT(DISTINCT A) FROM R WHERE B > 11;\n```",
+    "options": [
+      "1",
+      "3",
+      "2",
+      "5"
+    ],
+    "answer_id": "GCS27-DB-E-MCQ-301",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "query execution"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-MCQ-302",
+    "subject": "DB",
+    "topic": "SQL Queries",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "Consider the relational database table `R` shown below:\n\n| A | B |\n|---|---|\n| 1 | 8 |\n| 2 | 12 |\n| 2 | 15 |\n| 3 | 9 |\n| 4 | 22 |\n\nWhat is the integer result returned by the SQL query:\n```sql\nSELECT COUNT(DISTINCT A) FROM R WHERE B > 12;\n```",
+    "options": [
+      "2",
+      "1",
+      "3",
+      "5"
+    ],
+    "answer_id": "GCS27-DB-E-MCQ-302",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "query execution"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-MCQ-303",
+    "subject": "DB",
+    "topic": "SQL Queries",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "Consider the relational database table `R` shown below:\n\n| A | B |\n|---|---|\n| 1 | 8 |\n| 2 | 12 |\n| 2 | 15 |\n| 3 | 9 |\n| 4 | 22 |\n\nWhat is the integer result returned by the SQL query:\n```sql\nSELECT COUNT(DISTINCT A) FROM R WHERE B > 13;\n```",
+    "options": [
+      "3",
+      "2",
+      "5",
+      "1"
+    ],
+    "answer_id": "GCS27-DB-E-MCQ-303",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "query execution"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-MCQ-304",
+    "subject": "DB",
+    "topic": "SQL Queries",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "Consider the relational database table `R` shown below:\n\n| A | B |\n|---|---|\n| 1 | 8 |\n| 2 | 12 |\n| 2 | 15 |\n| 3 | 9 |\n| 4 | 22 |\n\nWhat is the integer result returned by the SQL query:\n```sql\nSELECT COUNT(DISTINCT A) FROM R WHERE B > 14;\n```",
+    "options": [
+      "2",
+      "5",
+      "1",
+      "3"
+    ],
+    "answer_id": "GCS27-DB-E-MCQ-304",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "query execution"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-MCQ-305",
+    "subject": "DB",
+    "topic": "SQL Queries",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "Consider the relational database table `R` shown below:\n\n| A | B |\n|---|---|\n| 1 | 8 |\n| 2 | 12 |\n| 2 | 15 |\n| 3 | 9 |\n| 4 | 22 |\n\nWhat is the integer result returned by the SQL query:\n```sql\nSELECT COUNT(DISTINCT A) FROM R WHERE B > 15;\n```",
+    "options": [
+      "1",
+      "0",
+      "2",
+      "5"
+    ],
+    "answer_id": "GCS27-DB-E-MCQ-305",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "query execution"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-MCQ-306",
+    "subject": "DB",
+    "topic": "SQL Queries",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "Consider the relational database table `R` shown below:\n\n| A | B |\n|---|---|\n| 1 | 8 |\n| 2 | 12 |\n| 2 | 15 |\n| 3 | 9 |\n| 4 | 22 |\n\nWhat is the integer result returned by the SQL query:\n```sql\nSELECT COUNT(DISTINCT A) FROM R WHERE B > 16;\n```",
+    "options": [
+      "5",
+      "1",
+      "2",
+      "0"
+    ],
+    "answer_id": "GCS27-DB-E-MCQ-306",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "query execution"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-MCQ-307",
+    "subject": "DB",
+    "topic": "SQL Queries",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "Consider the relational database table `R` shown below:\n\n| A | B |\n|---|---|\n| 1 | 8 |\n| 2 | 12 |\n| 2 | 15 |\n| 3 | 9 |\n| 4 | 22 |\n\nWhat is the integer result returned by the SQL query:\n```sql\nSELECT COUNT(DISTINCT A) FROM R WHERE B > 17;\n```",
+    "options": [
+      "1",
+      "5",
+      "0",
+      "2"
+    ],
+    "answer_id": "GCS27-DB-E-MCQ-307",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "query execution"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-MCQ-308",
+    "subject": "DB",
+    "topic": "SQL Queries",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "Consider the relational database table `R` shown below:\n\n| A | B |\n|---|---|\n| 1 | 8 |\n| 2 | 12 |\n| 2 | 15 |\n| 3 | 9 |\n| 4 | 22 |\n\nWhat is the integer result returned by the SQL query:\n```sql\nSELECT COUNT(DISTINCT A) FROM R WHERE B > 18;\n```",
+    "options": [
+      "2",
+      "0",
+      "1",
+      "5"
+    ],
+    "answer_id": "GCS27-DB-E-MCQ-308",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "query execution"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-MCQ-309",
+    "subject": "DB",
+    "topic": "SQL Queries",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "Consider the relational database table `R` shown below:\n\n| A | B |\n|---|---|\n| 1 | 8 |\n| 2 | 12 |\n| 2 | 15 |\n| 3 | 9 |\n| 4 | 22 |\n\nWhat is the integer result returned by the SQL query:\n```sql\nSELECT COUNT(DISTINCT A) FROM R WHERE B > 19;\n```",
+    "options": [
+      "2",
+      "0",
+      "5",
+      "1"
+    ],
+    "answer_id": "GCS27-DB-E-MCQ-309",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "query execution"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-MCQ-310",
+    "subject": "DB",
+    "topic": "SQL Queries",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "Consider the relational database table `R` shown below:\n\n| A | B |\n|---|---|\n| 1 | 8 |\n| 2 | 12 |\n| 2 | 15 |\n| 3 | 9 |\n| 4 | 22 |\n\nWhat is the integer result returned by the SQL query:\n```sql\nSELECT COUNT(DISTINCT A) FROM R WHERE B > 10;\n```",
+    "options": [
+      "2",
+      "3",
+      "5",
+      "1"
+    ],
+    "answer_id": "GCS27-DB-E-MCQ-310",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "query execution"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-MCQ-311",
+    "subject": "DB",
+    "topic": "SQL Queries",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "Consider the relational database table `R` shown below:\n\n| A | B |\n|---|---|\n| 1 | 8 |\n| 2 | 12 |\n| 2 | 15 |\n| 3 | 9 |\n| 4 | 22 |\n\nWhat is the integer result returned by the SQL query:\n```sql\nSELECT COUNT(DISTINCT A) FROM R WHERE B > 11;\n```",
+    "options": [
+      "5",
+      "1",
+      "3",
+      "2"
+    ],
+    "answer_id": "GCS27-DB-E-MCQ-311",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "query execution"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-MCQ-312",
+    "subject": "DB",
+    "topic": "SQL Queries",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "Consider the relational database table `R` shown below:\n\n| A | B |\n|---|---|\n| 1 | 8 |\n| 2 | 12 |\n| 2 | 15 |\n| 3 | 9 |\n| 4 | 22 |\n\nWhat is the integer result returned by the SQL query:\n```sql\nSELECT COUNT(DISTINCT A) FROM R WHERE B > 12;\n```",
+    "options": [
+      "1",
+      "5",
+      "2",
+      "3"
+    ],
+    "answer_id": "GCS27-DB-E-MCQ-312",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "query execution"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-MCQ-313",
+    "subject": "DB",
+    "topic": "SQL Queries",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "Consider the relational database table `R` shown below:\n\n| A | B |\n|---|---|\n| 1 | 8 |\n| 2 | 12 |\n| 2 | 15 |\n| 3 | 9 |\n| 4 | 22 |\n\nWhat is the integer result returned by the SQL query:\n```sql\nSELECT COUNT(DISTINCT A) FROM R WHERE B > 13;\n```",
+    "options": [
+      "1",
+      "5",
+      "2",
+      "3"
+    ],
+    "answer_id": "GCS27-DB-E-MCQ-313",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "query execution"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-MCQ-314",
+    "subject": "DB",
+    "topic": "SQL Queries",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "Consider the relational database table `R` shown below:\n\n| A | B |\n|---|---|\n| 1 | 8 |\n| 2 | 12 |\n| 2 | 15 |\n| 3 | 9 |\n| 4 | 22 |\n\nWhat is the integer result returned by the SQL query:\n```sql\nSELECT COUNT(DISTINCT A) FROM R WHERE B > 14;\n```",
+    "options": [
+      "2",
+      "1",
+      "5",
+      "3"
+    ],
+    "answer_id": "GCS27-DB-E-MCQ-314",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "query execution"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-MCQ-315",
+    "subject": "DB",
+    "topic": "SQL Queries",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "Consider the relational database table `R` shown below:\n\n| A | B |\n|---|---|\n| 1 | 8 |\n| 2 | 12 |\n| 2 | 15 |\n| 3 | 9 |\n| 4 | 22 |\n\nWhat is the integer result returned by the SQL query:\n```sql\nSELECT COUNT(DISTINCT A) FROM R WHERE B > 15;\n```",
+    "options": [
+      "1",
+      "5",
+      "2",
+      "0"
+    ],
+    "answer_id": "GCS27-DB-E-MCQ-315",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "query execution"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-MCQ-316",
+    "subject": "DB",
+    "topic": "SQL Queries",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "Consider the relational database table `R` shown below:\n\n| A | B |\n|---|---|\n| 1 | 8 |\n| 2 | 12 |\n| 2 | 15 |\n| 3 | 9 |\n| 4 | 22 |\n\nWhat is the integer result returned by the SQL query:\n```sql\nSELECT COUNT(DISTINCT A) FROM R WHERE B > 16;\n```",
+    "options": [
+      "2",
+      "5",
+      "0",
+      "1"
+    ],
+    "answer_id": "GCS27-DB-E-MCQ-316",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "query execution"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-MCQ-317",
+    "subject": "DB",
+    "topic": "SQL Queries",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "Consider the relational database table `R` shown below:\n\n| A | B |\n|---|---|\n| 1 | 8 |\n| 2 | 12 |\n| 2 | 15 |\n| 3 | 9 |\n| 4 | 22 |\n\nWhat is the integer result returned by the SQL query:\n```sql\nSELECT COUNT(DISTINCT A) FROM R WHERE B > 17;\n```",
+    "options": [
+      "2",
+      "5",
+      "1",
+      "0"
+    ],
+    "answer_id": "GCS27-DB-E-MCQ-317",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "query execution"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-MCQ-318",
+    "subject": "DB",
+    "topic": "SQL Queries",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "Consider the relational database table `R` shown below:\n\n| A | B |\n|---|---|\n| 1 | 8 |\n| 2 | 12 |\n| 2 | 15 |\n| 3 | 9 |\n| 4 | 22 |\n\nWhat is the integer result returned by the SQL query:\n```sql\nSELECT COUNT(DISTINCT A) FROM R WHERE B > 18;\n```",
+    "options": [
+      "0",
+      "2",
+      "5",
+      "1"
+    ],
+    "answer_id": "GCS27-DB-E-MCQ-318",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "query execution"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-MCQ-319",
+    "subject": "DB",
+    "topic": "SQL Queries",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "Consider the relational database table `R` shown below:\n\n| A | B |\n|---|---|\n| 1 | 8 |\n| 2 | 12 |\n| 2 | 15 |\n| 3 | 9 |\n| 4 | 22 |\n\nWhat is the integer result returned by the SQL query:\n```sql\nSELECT COUNT(DISTINCT A) FROM R WHERE B > 19;\n```",
+    "options": [
+      "2",
+      "0",
+      "1",
+      "5"
+    ],
+    "answer_id": "GCS27-DB-E-MCQ-319",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "query execution"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-MCQ-320",
+    "subject": "DB",
+    "topic": "SQL Queries",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "Consider the relational database table `R` shown below:\n\n| A | B |\n|---|---|\n| 1 | 8 |\n| 2 | 12 |\n| 2 | 15 |\n| 3 | 9 |\n| 4 | 22 |\n\nWhat is the integer result returned by the SQL query:\n```sql\nSELECT COUNT(DISTINCT A) FROM R WHERE B > 10;\n```",
+    "options": [
+      "3",
+      "1",
+      "2",
+      "5"
+    ],
+    "answer_id": "GCS27-DB-E-MCQ-320",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "query execution"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-MCQ-321",
+    "subject": "DB",
+    "topic": "SQL Queries",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "Consider the relational database table `R` shown below:\n\n| A | B |\n|---|---|\n| 1 | 8 |\n| 2 | 12 |\n| 2 | 15 |\n| 3 | 9 |\n| 4 | 22 |\n\nWhat is the integer result returned by the SQL query:\n```sql\nSELECT COUNT(DISTINCT A) FROM R WHERE B > 11;\n```",
+    "options": [
+      "5",
+      "1",
+      "3",
+      "2"
+    ],
+    "answer_id": "GCS27-DB-E-MCQ-321",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "query execution"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-MCQ-322",
+    "subject": "DB",
+    "topic": "SQL Queries",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "Consider the relational database table `R` shown below:\n\n| A | B |\n|---|---|\n| 1 | 8 |\n| 2 | 12 |\n| 2 | 15 |\n| 3 | 9 |\n| 4 | 22 |\n\nWhat is the integer result returned by the SQL query:\n```sql\nSELECT COUNT(DISTINCT A) FROM R WHERE B > 12;\n```",
+    "options": [
+      "3",
+      "2",
+      "1",
+      "5"
+    ],
+    "answer_id": "GCS27-DB-E-MCQ-322",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "query execution"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-MCQ-323",
+    "subject": "DB",
+    "topic": "SQL Queries",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "Consider the relational database table `R` shown below:\n\n| A | B |\n|---|---|\n| 1 | 8 |\n| 2 | 12 |\n| 2 | 15 |\n| 3 | 9 |\n| 4 | 22 |\n\nWhat is the integer result returned by the SQL query:\n```sql\nSELECT COUNT(DISTINCT A) FROM R WHERE B > 13;\n```",
+    "options": [
+      "2",
+      "3",
+      "5",
+      "1"
+    ],
+    "answer_id": "GCS27-DB-E-MCQ-323",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "query execution"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-MCQ-324",
+    "subject": "DB",
+    "topic": "SQL Queries",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "Consider the relational database table `R` shown below:\n\n| A | B |\n|---|---|\n| 1 | 8 |\n| 2 | 12 |\n| 2 | 15 |\n| 3 | 9 |\n| 4 | 22 |\n\nWhat is the integer result returned by the SQL query:\n```sql\nSELECT COUNT(DISTINCT A) FROM R WHERE B > 14;\n```",
+    "options": [
+      "1",
+      "5",
+      "2",
+      "3"
+    ],
+    "answer_id": "GCS27-DB-E-MCQ-324",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "query execution"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-MCQ-325",
+    "subject": "DB",
+    "topic": "SQL Queries",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "Consider the relational database table `R` shown below:\n\n| A | B |\n|---|---|\n| 1 | 8 |\n| 2 | 12 |\n| 2 | 15 |\n| 3 | 9 |\n| 4 | 22 |\n\nWhat is the integer result returned by the SQL query:\n```sql\nSELECT COUNT(DISTINCT A) FROM R WHERE B > 15;\n```",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "5"
+    ],
+    "answer_id": "GCS27-DB-E-MCQ-325",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "query execution"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-MSQ-301",
+    "subject": "DB",
+    "topic": "Functional Dependencies",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MSQ",
+    "question": "Which of the following statements regarding candidate keys and functional dependencies (FDs) on a relation schema R are CORRECT?",
+    "options": [
+      "A candidate key is a minimal superkey; no proper subset of a candidate key can be a superkey.",
+      "The closure of a set of attributes X, denoted as X+, contains all attributes functionally determined by X.",
+      "If X -> Y holds, then any transaction updating R must ensure that duplicate X values map to identical Y values.",
+      "An attribute that is not part of any candidate key is called a non-prime attribute."
+    ],
+    "answer_id": "GCS27-DB-E-MSQ-301",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "FD properties"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-MSQ-302",
+    "subject": "DB",
+    "topic": "Functional Dependencies",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MSQ",
+    "question": "Which of the following statements regarding candidate keys and functional dependencies (FDs) on a relation schema R are CORRECT?",
+    "options": [
+      "A candidate key is a minimal superkey; no proper subset of a candidate key can be a superkey.",
+      "The closure of a set of attributes X, denoted as X+, contains all attributes functionally determined by X.",
+      "If X -> Y holds, then any transaction updating R must ensure that duplicate X values map to identical Y values.",
+      "An attribute that is not part of any candidate key is called a non-prime attribute."
+    ],
+    "answer_id": "GCS27-DB-E-MSQ-302",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "FD properties"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-MSQ-303",
+    "subject": "DB",
+    "topic": "Functional Dependencies",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MSQ",
+    "question": "Which of the following statements regarding candidate keys and functional dependencies (FDs) on a relation schema R are CORRECT?",
+    "options": [
+      "A candidate key is a minimal superkey; no proper subset of a candidate key can be a superkey.",
+      "The closure of a set of attributes X, denoted as X+, contains all attributes functionally determined by X.",
+      "If X -> Y holds, then any transaction updating R must ensure that duplicate X values map to identical Y values.",
+      "An attribute that is not part of any candidate key is called a non-prime attribute."
+    ],
+    "answer_id": "GCS27-DB-E-MSQ-303",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "FD properties"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-MSQ-304",
+    "subject": "DB",
+    "topic": "Functional Dependencies",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MSQ",
+    "question": "Which of the following statements regarding candidate keys and functional dependencies (FDs) on a relation schema R are CORRECT?",
+    "options": [
+      "A candidate key is a minimal superkey; no proper subset of a candidate key can be a superkey.",
+      "The closure of a set of attributes X, denoted as X+, contains all attributes functionally determined by X.",
+      "If X -> Y holds, then any transaction updating R must ensure that duplicate X values map to identical Y values.",
+      "An attribute that is not part of any candidate key is called a non-prime attribute."
+    ],
+    "answer_id": "GCS27-DB-E-MSQ-304",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "FD properties"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-MSQ-305",
+    "subject": "DB",
+    "topic": "Functional Dependencies",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MSQ",
+    "question": "Which of the following statements regarding candidate keys and functional dependencies (FDs) on a relation schema R are CORRECT?",
+    "options": [
+      "A candidate key is a minimal superkey; no proper subset of a candidate key can be a superkey.",
+      "The closure of a set of attributes X, denoted as X+, contains all attributes functionally determined by X.",
+      "If X -> Y holds, then any transaction updating R must ensure that duplicate X values map to identical Y values.",
+      "An attribute that is not part of any candidate key is called a non-prime attribute."
+    ],
+    "answer_id": "GCS27-DB-E-MSQ-305",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "FD properties"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-MSQ-306",
+    "subject": "DB",
+    "topic": "Functional Dependencies",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MSQ",
+    "question": "Which of the following statements regarding candidate keys and functional dependencies (FDs) on a relation schema R are CORRECT?",
+    "options": [
+      "A candidate key is a minimal superkey; no proper subset of a candidate key can be a superkey.",
+      "The closure of a set of attributes X, denoted as X+, contains all attributes functionally determined by X.",
+      "If X -> Y holds, then any transaction updating R must ensure that duplicate X values map to identical Y values.",
+      "An attribute that is not part of any candidate key is called a non-prime attribute."
+    ],
+    "answer_id": "GCS27-DB-E-MSQ-306",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "FD properties"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-MSQ-307",
+    "subject": "DB",
+    "topic": "Functional Dependencies",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MSQ",
+    "question": "Which of the following statements regarding candidate keys and functional dependencies (FDs) on a relation schema R are CORRECT?",
+    "options": [
+      "A candidate key is a minimal superkey; no proper subset of a candidate key can be a superkey.",
+      "The closure of a set of attributes X, denoted as X+, contains all attributes functionally determined by X.",
+      "If X -> Y holds, then any transaction updating R must ensure that duplicate X values map to identical Y values.",
+      "An attribute that is not part of any candidate key is called a non-prime attribute."
+    ],
+    "answer_id": "GCS27-DB-E-MSQ-307",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "FD properties"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-MSQ-308",
+    "subject": "DB",
+    "topic": "Functional Dependencies",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MSQ",
+    "question": "Which of the following statements regarding candidate keys and functional dependencies (FDs) on a relation schema R are CORRECT?",
+    "options": [
+      "A candidate key is a minimal superkey; no proper subset of a candidate key can be a superkey.",
+      "The closure of a set of attributes X, denoted as X+, contains all attributes functionally determined by X.",
+      "If X -> Y holds, then any transaction updating R must ensure that duplicate X values map to identical Y values.",
+      "An attribute that is not part of any candidate key is called a non-prime attribute."
+    ],
+    "answer_id": "GCS27-DB-E-MSQ-308",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "FD properties"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-MSQ-309",
+    "subject": "DB",
+    "topic": "Functional Dependencies",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MSQ",
+    "question": "Which of the following statements regarding candidate keys and functional dependencies (FDs) on a relation schema R are CORRECT?",
+    "options": [
+      "A candidate key is a minimal superkey; no proper subset of a candidate key can be a superkey.",
+      "The closure of a set of attributes X, denoted as X+, contains all attributes functionally determined by X.",
+      "If X -> Y holds, then any transaction updating R must ensure that duplicate X values map to identical Y values.",
+      "An attribute that is not part of any candidate key is called a non-prime attribute."
+    ],
+    "answer_id": "GCS27-DB-E-MSQ-309",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "FD properties"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-MSQ-310",
+    "subject": "DB",
+    "topic": "Functional Dependencies",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MSQ",
+    "question": "Which of the following statements regarding candidate keys and functional dependencies (FDs) on a relation schema R are CORRECT?",
+    "options": [
+      "A candidate key is a minimal superkey; no proper subset of a candidate key can be a superkey.",
+      "The closure of a set of attributes X, denoted as X+, contains all attributes functionally determined by X.",
+      "If X -> Y holds, then any transaction updating R must ensure that duplicate X values map to identical Y values.",
+      "An attribute that is not part of any candidate key is called a non-prime attribute."
+    ],
+    "answer_id": "GCS27-DB-E-MSQ-310",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "FD properties"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-MSQ-311",
+    "subject": "DB",
+    "topic": "Functional Dependencies",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MSQ",
+    "question": "Which of the following statements regarding candidate keys and functional dependencies (FDs) on a relation schema R are CORRECT?",
+    "options": [
+      "A candidate key is a minimal superkey; no proper subset of a candidate key can be a superkey.",
+      "The closure of a set of attributes X, denoted as X+, contains all attributes functionally determined by X.",
+      "If X -> Y holds, then any transaction updating R must ensure that duplicate X values map to identical Y values.",
+      "An attribute that is not part of any candidate key is called a non-prime attribute."
+    ],
+    "answer_id": "GCS27-DB-E-MSQ-311",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "FD properties"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-MSQ-312",
+    "subject": "DB",
+    "topic": "Functional Dependencies",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MSQ",
+    "question": "Which of the following statements regarding candidate keys and functional dependencies (FDs) on a relation schema R are CORRECT?",
+    "options": [
+      "A candidate key is a minimal superkey; no proper subset of a candidate key can be a superkey.",
+      "The closure of a set of attributes X, denoted as X+, contains all attributes functionally determined by X.",
+      "If X -> Y holds, then any transaction updating R must ensure that duplicate X values map to identical Y values.",
+      "An attribute that is not part of any candidate key is called a non-prime attribute."
+    ],
+    "answer_id": "GCS27-DB-E-MSQ-312",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "FD properties"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-MSQ-313",
+    "subject": "DB",
+    "topic": "Functional Dependencies",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MSQ",
+    "question": "Which of the following statements regarding candidate keys and functional dependencies (FDs) on a relation schema R are CORRECT?",
+    "options": [
+      "A candidate key is a minimal superkey; no proper subset of a candidate key can be a superkey.",
+      "The closure of a set of attributes X, denoted as X+, contains all attributes functionally determined by X.",
+      "If X -> Y holds, then any transaction updating R must ensure that duplicate X values map to identical Y values.",
+      "An attribute that is not part of any candidate key is called a non-prime attribute."
+    ],
+    "answer_id": "GCS27-DB-E-MSQ-313",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "FD properties"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-MSQ-314",
+    "subject": "DB",
+    "topic": "Functional Dependencies",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MSQ",
+    "question": "Which of the following statements regarding candidate keys and functional dependencies (FDs) on a relation schema R are CORRECT?",
+    "options": [
+      "A candidate key is a minimal superkey; no proper subset of a candidate key can be a superkey.",
+      "The closure of a set of attributes X, denoted as X+, contains all attributes functionally determined by X.",
+      "If X -> Y holds, then any transaction updating R must ensure that duplicate X values map to identical Y values.",
+      "An attribute that is not part of any candidate key is called a non-prime attribute."
+    ],
+    "answer_id": "GCS27-DB-E-MSQ-314",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "FD properties"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-MSQ-315",
+    "subject": "DB",
+    "topic": "Functional Dependencies",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MSQ",
+    "question": "Which of the following statements regarding candidate keys and functional dependencies (FDs) on a relation schema R are CORRECT?",
+    "options": [
+      "A candidate key is a minimal superkey; no proper subset of a candidate key can be a superkey.",
+      "The closure of a set of attributes X, denoted as X+, contains all attributes functionally determined by X.",
+      "If X -> Y holds, then any transaction updating R must ensure that duplicate X values map to identical Y values.",
+      "An attribute that is not part of any candidate key is called a non-prime attribute."
+    ],
+    "answer_id": "GCS27-DB-E-MSQ-315",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "FD properties"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-MSQ-316",
+    "subject": "DB",
+    "topic": "Functional Dependencies",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MSQ",
+    "question": "Which of the following statements regarding candidate keys and functional dependencies (FDs) on a relation schema R are CORRECT?",
+    "options": [
+      "A candidate key is a minimal superkey; no proper subset of a candidate key can be a superkey.",
+      "The closure of a set of attributes X, denoted as X+, contains all attributes functionally determined by X.",
+      "If X -> Y holds, then any transaction updating R must ensure that duplicate X values map to identical Y values.",
+      "An attribute that is not part of any candidate key is called a non-prime attribute."
+    ],
+    "answer_id": "GCS27-DB-E-MSQ-316",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "FD properties"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-MSQ-317",
+    "subject": "DB",
+    "topic": "Functional Dependencies",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MSQ",
+    "question": "Which of the following statements regarding candidate keys and functional dependencies (FDs) on a relation schema R are CORRECT?",
+    "options": [
+      "A candidate key is a minimal superkey; no proper subset of a candidate key can be a superkey.",
+      "The closure of a set of attributes X, denoted as X+, contains all attributes functionally determined by X.",
+      "If X -> Y holds, then any transaction updating R must ensure that duplicate X values map to identical Y values.",
+      "An attribute that is not part of any candidate key is called a non-prime attribute."
+    ],
+    "answer_id": "GCS27-DB-E-MSQ-317",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "FD properties"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-MSQ-318",
+    "subject": "DB",
+    "topic": "Functional Dependencies",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MSQ",
+    "question": "Which of the following statements regarding candidate keys and functional dependencies (FDs) on a relation schema R are CORRECT?",
+    "options": [
+      "A candidate key is a minimal superkey; no proper subset of a candidate key can be a superkey.",
+      "The closure of a set of attributes X, denoted as X+, contains all attributes functionally determined by X.",
+      "If X -> Y holds, then any transaction updating R must ensure that duplicate X values map to identical Y values.",
+      "An attribute that is not part of any candidate key is called a non-prime attribute."
+    ],
+    "answer_id": "GCS27-DB-E-MSQ-318",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "FD properties"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-MSQ-319",
+    "subject": "DB",
+    "topic": "Functional Dependencies",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MSQ",
+    "question": "Which of the following statements regarding candidate keys and functional dependencies (FDs) on a relation schema R are CORRECT?",
+    "options": [
+      "A candidate key is a minimal superkey; no proper subset of a candidate key can be a superkey.",
+      "The closure of a set of attributes X, denoted as X+, contains all attributes functionally determined by X.",
+      "If X -> Y holds, then any transaction updating R must ensure that duplicate X values map to identical Y values.",
+      "An attribute that is not part of any candidate key is called a non-prime attribute."
+    ],
+    "answer_id": "GCS27-DB-E-MSQ-319",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "FD properties"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-MSQ-320",
+    "subject": "DB",
+    "topic": "Functional Dependencies",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MSQ",
+    "question": "Which of the following statements regarding candidate keys and functional dependencies (FDs) on a relation schema R are CORRECT?",
+    "options": [
+      "A candidate key is a minimal superkey; no proper subset of a candidate key can be a superkey.",
+      "The closure of a set of attributes X, denoted as X+, contains all attributes functionally determined by X.",
+      "If X -> Y holds, then any transaction updating R must ensure that duplicate X values map to identical Y values.",
+      "An attribute that is not part of any candidate key is called a non-prime attribute."
+    ],
+    "answer_id": "GCS27-DB-E-MSQ-320",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "FD properties"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-MSQ-321",
+    "subject": "DB",
+    "topic": "Functional Dependencies",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MSQ",
+    "question": "Which of the following statements regarding candidate keys and functional dependencies (FDs) on a relation schema R are CORRECT?",
+    "options": [
+      "A candidate key is a minimal superkey; no proper subset of a candidate key can be a superkey.",
+      "The closure of a set of attributes X, denoted as X+, contains all attributes functionally determined by X.",
+      "If X -> Y holds, then any transaction updating R must ensure that duplicate X values map to identical Y values.",
+      "An attribute that is not part of any candidate key is called a non-prime attribute."
+    ],
+    "answer_id": "GCS27-DB-E-MSQ-321",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "FD properties"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-MSQ-322",
+    "subject": "DB",
+    "topic": "Functional Dependencies",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MSQ",
+    "question": "Which of the following statements regarding candidate keys and functional dependencies (FDs) on a relation schema R are CORRECT?",
+    "options": [
+      "A candidate key is a minimal superkey; no proper subset of a candidate key can be a superkey.",
+      "The closure of a set of attributes X, denoted as X+, contains all attributes functionally determined by X.",
+      "If X -> Y holds, then any transaction updating R must ensure that duplicate X values map to identical Y values.",
+      "An attribute that is not part of any candidate key is called a non-prime attribute."
+    ],
+    "answer_id": "GCS27-DB-E-MSQ-322",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "FD properties"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-MSQ-323",
+    "subject": "DB",
+    "topic": "Functional Dependencies",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MSQ",
+    "question": "Which of the following statements regarding candidate keys and functional dependencies (FDs) on a relation schema R are CORRECT?",
+    "options": [
+      "A candidate key is a minimal superkey; no proper subset of a candidate key can be a superkey.",
+      "The closure of a set of attributes X, denoted as X+, contains all attributes functionally determined by X.",
+      "If X -> Y holds, then any transaction updating R must ensure that duplicate X values map to identical Y values.",
+      "An attribute that is not part of any candidate key is called a non-prime attribute."
+    ],
+    "answer_id": "GCS27-DB-E-MSQ-323",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "FD properties"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-MSQ-324",
+    "subject": "DB",
+    "topic": "Functional Dependencies",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MSQ",
+    "question": "Which of the following statements regarding candidate keys and functional dependencies (FDs) on a relation schema R are CORRECT?",
+    "options": [
+      "A candidate key is a minimal superkey; no proper subset of a candidate key can be a superkey.",
+      "The closure of a set of attributes X, denoted as X+, contains all attributes functionally determined by X.",
+      "If X -> Y holds, then any transaction updating R must ensure that duplicate X values map to identical Y values.",
+      "An attribute that is not part of any candidate key is called a non-prime attribute."
+    ],
+    "answer_id": "GCS27-DB-E-MSQ-324",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "FD properties"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-MSQ-325",
+    "subject": "DB",
+    "topic": "Functional Dependencies",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MSQ",
+    "question": "Which of the following statements regarding candidate keys and functional dependencies (FDs) on a relation schema R are CORRECT?",
+    "options": [
+      "A candidate key is a minimal superkey; no proper subset of a candidate key can be a superkey.",
+      "The closure of a set of attributes X, denoted as X+, contains all attributes functionally determined by X.",
+      "If X -> Y holds, then any transaction updating R must ensure that duplicate X values map to identical Y values.",
+      "An attribute that is not part of any candidate key is called a non-prime attribute."
+    ],
+    "answer_id": "GCS27-DB-E-MSQ-325",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "FD properties"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-NAT-301",
+    "subject": "DB",
+    "topic": "Functional Dependencies",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "NAT",
+    "question": "Let $R(A, B, C, D)$ be a relation schema. The set of functional dependencies on $R$ is:\n\n$$F = \\{ A \\rightarrow B, \\quad B \\rightarrow C \\}$$\n\nWhat is the size (number of attributes) of the single candidate key of $R$?",
+    "options": [],
+    "answer_id": "GCS27-DB-E-NAT-301",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "FD closure analysis"
+    ],
+    "representation": [
+      "notation"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-NAT-302",
+    "subject": "DB",
+    "topic": "Functional Dependencies",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "NAT",
+    "question": "Let $R(A, B, C, D)$ be a relation schema. The set of functional dependencies on $R$ is:\n\n$$F = \\{ A \\rightarrow B, \\quad B \\rightarrow C \\}$$\n\nWhat is the size (number of attributes) of the single candidate key of $R$?",
+    "options": [],
+    "answer_id": "GCS27-DB-E-NAT-302",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "FD closure analysis"
+    ],
+    "representation": [
+      "notation"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-NAT-303",
+    "subject": "DB",
+    "topic": "Functional Dependencies",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "NAT",
+    "question": "Let $R(A, B, C, D)$ be a relation schema. The set of functional dependencies on $R$ is:\n\n$$F = \\{ A \\rightarrow B, \\quad B \\rightarrow C \\}$$\n\nWhat is the size (number of attributes) of the single candidate key of $R$?",
+    "options": [],
+    "answer_id": "GCS27-DB-E-NAT-303",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "FD closure analysis"
+    ],
+    "representation": [
+      "notation"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-NAT-304",
+    "subject": "DB",
+    "topic": "Functional Dependencies",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "NAT",
+    "question": "Let $R(A, B, C, D)$ be a relation schema. The set of functional dependencies on $R$ is:\n\n$$F = \\{ A \\rightarrow B, \\quad B \\rightarrow C \\}$$\n\nWhat is the size (number of attributes) of the single candidate key of $R$?",
+    "options": [],
+    "answer_id": "GCS27-DB-E-NAT-304",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "FD closure analysis"
+    ],
+    "representation": [
+      "notation"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-NAT-305",
+    "subject": "DB",
+    "topic": "Functional Dependencies",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "NAT",
+    "question": "Let $R(A, B, C, D)$ be a relation schema. The set of functional dependencies on $R$ is:\n\n$$F = \\{ A \\rightarrow B, \\quad B \\rightarrow C \\}$$\n\nWhat is the size (number of attributes) of the single candidate key of $R$?",
+    "options": [],
+    "answer_id": "GCS27-DB-E-NAT-305",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "FD closure analysis"
+    ],
+    "representation": [
+      "notation"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-NAT-306",
+    "subject": "DB",
+    "topic": "Functional Dependencies",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "NAT",
+    "question": "Let $R(A, B, C, D)$ be a relation schema. The set of functional dependencies on $R$ is:\n\n$$F = \\{ A \\rightarrow B, \\quad B \\rightarrow C \\}$$\n\nWhat is the size (number of attributes) of the single candidate key of $R$?",
+    "options": [],
+    "answer_id": "GCS27-DB-E-NAT-306",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "FD closure analysis"
+    ],
+    "representation": [
+      "notation"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-NAT-307",
+    "subject": "DB",
+    "topic": "Functional Dependencies",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "NAT",
+    "question": "Let $R(A, B, C, D)$ be a relation schema. The set of functional dependencies on $R$ is:\n\n$$F = \\{ A \\rightarrow B, \\quad B \\rightarrow C \\}$$\n\nWhat is the size (number of attributes) of the single candidate key of $R$?",
+    "options": [],
+    "answer_id": "GCS27-DB-E-NAT-307",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "FD closure analysis"
+    ],
+    "representation": [
+      "notation"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-NAT-308",
+    "subject": "DB",
+    "topic": "Functional Dependencies",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "NAT",
+    "question": "Let $R(A, B, C, D)$ be a relation schema. The set of functional dependencies on $R$ is:\n\n$$F = \\{ A \\rightarrow B, \\quad B \\rightarrow C \\}$$\n\nWhat is the size (number of attributes) of the single candidate key of $R$?",
+    "options": [],
+    "answer_id": "GCS27-DB-E-NAT-308",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "FD closure analysis"
+    ],
+    "representation": [
+      "notation"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-NAT-309",
+    "subject": "DB",
+    "topic": "Functional Dependencies",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "NAT",
+    "question": "Let $R(A, B, C, D)$ be a relation schema. The set of functional dependencies on $R$ is:\n\n$$F = \\{ A \\rightarrow B, \\quad B \\rightarrow C \\}$$\n\nWhat is the size (number of attributes) of the single candidate key of $R$?",
+    "options": [],
+    "answer_id": "GCS27-DB-E-NAT-309",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "FD closure analysis"
+    ],
+    "representation": [
+      "notation"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-NAT-310",
+    "subject": "DB",
+    "topic": "Functional Dependencies",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "NAT",
+    "question": "Let $R(A, B, C, D)$ be a relation schema. The set of functional dependencies on $R$ is:\n\n$$F = \\{ A \\rightarrow B, \\quad B \\rightarrow C \\}$$\n\nWhat is the size (number of attributes) of the single candidate key of $R$?",
+    "options": [],
+    "answer_id": "GCS27-DB-E-NAT-310",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "FD closure analysis"
+    ],
+    "representation": [
+      "notation"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-NAT-311",
+    "subject": "DB",
+    "topic": "Functional Dependencies",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "NAT",
+    "question": "Let $R(A, B, C, D)$ be a relation schema. The set of functional dependencies on $R$ is:\n\n$$F = \\{ A \\rightarrow B, \\quad B \\rightarrow C \\}$$\n\nWhat is the size (number of attributes) of the single candidate key of $R$?",
+    "options": [],
+    "answer_id": "GCS27-DB-E-NAT-311",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "FD closure analysis"
+    ],
+    "representation": [
+      "notation"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-NAT-312",
+    "subject": "DB",
+    "topic": "Functional Dependencies",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "NAT",
+    "question": "Let $R(A, B, C, D)$ be a relation schema. The set of functional dependencies on $R$ is:\n\n$$F = \\{ A \\rightarrow B, \\quad B \\rightarrow C \\}$$\n\nWhat is the size (number of attributes) of the single candidate key of $R$?",
+    "options": [],
+    "answer_id": "GCS27-DB-E-NAT-312",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "FD closure analysis"
+    ],
+    "representation": [
+      "notation"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-NAT-313",
+    "subject": "DB",
+    "topic": "Functional Dependencies",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "NAT",
+    "question": "Let $R(A, B, C, D)$ be a relation schema. The set of functional dependencies on $R$ is:\n\n$$F = \\{ A \\rightarrow B, \\quad B \\rightarrow C \\}$$\n\nWhat is the size (number of attributes) of the single candidate key of $R$?",
+    "options": [],
+    "answer_id": "GCS27-DB-E-NAT-313",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "FD closure analysis"
+    ],
+    "representation": [
+      "notation"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-NAT-314",
+    "subject": "DB",
+    "topic": "Functional Dependencies",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "NAT",
+    "question": "Let $R(A, B, C, D)$ be a relation schema. The set of functional dependencies on $R$ is:\n\n$$F = \\{ A \\rightarrow B, \\quad B \\rightarrow C \\}$$\n\nWhat is the size (number of attributes) of the single candidate key of $R$?",
+    "options": [],
+    "answer_id": "GCS27-DB-E-NAT-314",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "FD closure analysis"
+    ],
+    "representation": [
+      "notation"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-NAT-315",
+    "subject": "DB",
+    "topic": "Functional Dependencies",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "NAT",
+    "question": "Let $R(A, B, C, D)$ be a relation schema. The set of functional dependencies on $R$ is:\n\n$$F = \\{ A \\rightarrow B, \\quad B \\rightarrow C \\}$$\n\nWhat is the size (number of attributes) of the single candidate key of $R$?",
+    "options": [],
+    "answer_id": "GCS27-DB-E-NAT-315",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "FD closure analysis"
+    ],
+    "representation": [
+      "notation"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-NAT-316",
+    "subject": "DB",
+    "topic": "Functional Dependencies",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "NAT",
+    "question": "Let $R(A, B, C, D)$ be a relation schema. The set of functional dependencies on $R$ is:\n\n$$F = \\{ A \\rightarrow B, \\quad B \\rightarrow C \\}$$\n\nWhat is the size (number of attributes) of the single candidate key of $R$?",
+    "options": [],
+    "answer_id": "GCS27-DB-E-NAT-316",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "FD closure analysis"
+    ],
+    "representation": [
+      "notation"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-NAT-317",
+    "subject": "DB",
+    "topic": "Functional Dependencies",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "NAT",
+    "question": "Let $R(A, B, C, D)$ be a relation schema. The set of functional dependencies on $R$ is:\n\n$$F = \\{ A \\rightarrow B, \\quad B \\rightarrow C \\}$$\n\nWhat is the size (number of attributes) of the single candidate key of $R$?",
+    "options": [],
+    "answer_id": "GCS27-DB-E-NAT-317",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "FD closure analysis"
+    ],
+    "representation": [
+      "notation"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-NAT-318",
+    "subject": "DB",
+    "topic": "Functional Dependencies",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "NAT",
+    "question": "Let $R(A, B, C, D)$ be a relation schema. The set of functional dependencies on $R$ is:\n\n$$F = \\{ A \\rightarrow B, \\quad B \\rightarrow C \\}$$\n\nWhat is the size (number of attributes) of the single candidate key of $R$?",
+    "options": [],
+    "answer_id": "GCS27-DB-E-NAT-318",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "FD closure analysis"
+    ],
+    "representation": [
+      "notation"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-NAT-319",
+    "subject": "DB",
+    "topic": "Functional Dependencies",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "NAT",
+    "question": "Let $R(A, B, C, D)$ be a relation schema. The set of functional dependencies on $R$ is:\n\n$$F = \\{ A \\rightarrow B, \\quad B \\rightarrow C \\}$$\n\nWhat is the size (number of attributes) of the single candidate key of $R$?",
+    "options": [],
+    "answer_id": "GCS27-DB-E-NAT-319",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "FD closure analysis"
+    ],
+    "representation": [
+      "notation"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-NAT-320",
+    "subject": "DB",
+    "topic": "Functional Dependencies",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "NAT",
+    "question": "Let $R(A, B, C, D)$ be a relation schema. The set of functional dependencies on $R$ is:\n\n$$F = \\{ A \\rightarrow B, \\quad B \\rightarrow C \\}$$\n\nWhat is the size (number of attributes) of the single candidate key of $R$?",
+    "options": [],
+    "answer_id": "GCS27-DB-E-NAT-320",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "FD closure analysis"
+    ],
+    "representation": [
+      "notation"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-NAT-321",
+    "subject": "DB",
+    "topic": "Functional Dependencies",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "NAT",
+    "question": "Let $R(A, B, C, D)$ be a relation schema. The set of functional dependencies on $R$ is:\n\n$$F = \\{ A \\rightarrow B, \\quad B \\rightarrow C \\}$$\n\nWhat is the size (number of attributes) of the single candidate key of $R$?",
+    "options": [],
+    "answer_id": "GCS27-DB-E-NAT-321",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "FD closure analysis"
+    ],
+    "representation": [
+      "notation"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-NAT-322",
+    "subject": "DB",
+    "topic": "Functional Dependencies",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "NAT",
+    "question": "Let $R(A, B, C, D)$ be a relation schema. The set of functional dependencies on $R$ is:\n\n$$F = \\{ A \\rightarrow B, \\quad B \\rightarrow C \\}$$\n\nWhat is the size (number of attributes) of the single candidate key of $R$?",
+    "options": [],
+    "answer_id": "GCS27-DB-E-NAT-322",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "FD closure analysis"
+    ],
+    "representation": [
+      "notation"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-NAT-323",
+    "subject": "DB",
+    "topic": "Functional Dependencies",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "NAT",
+    "question": "Let $R(A, B, C, D)$ be a relation schema. The set of functional dependencies on $R$ is:\n\n$$F = \\{ A \\rightarrow B, \\quad B \\rightarrow C \\}$$\n\nWhat is the size (number of attributes) of the single candidate key of $R$?",
+    "options": [],
+    "answer_id": "GCS27-DB-E-NAT-323",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "FD closure analysis"
+    ],
+    "representation": [
+      "notation"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-NAT-324",
+    "subject": "DB",
+    "topic": "Functional Dependencies",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "NAT",
+    "question": "Let $R(A, B, C, D)$ be a relation schema. The set of functional dependencies on $R$ is:\n\n$$F = \\{ A \\rightarrow B, \\quad B \\rightarrow C \\}$$\n\nWhat is the size (number of attributes) of the single candidate key of $R$?",
+    "options": [],
+    "answer_id": "GCS27-DB-E-NAT-324",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "FD closure analysis"
+    ],
+    "representation": [
+      "notation"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-NAT-325",
+    "subject": "DB",
+    "topic": "Functional Dependencies",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "NAT",
+    "question": "Let $R(A, B, C, D)$ be a relation schema. The set of functional dependencies on $R$ is:\n\n$$F = \\{ A \\rightarrow B, \\quad B \\rightarrow C \\}$$\n\nWhat is the size (number of attributes) of the single candidate key of $R$?",
+    "options": [],
+    "answer_id": "GCS27-DB-E-NAT-325",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "FD closure analysis"
+    ],
+    "representation": [
+      "notation"
+    ]
+  }
+]

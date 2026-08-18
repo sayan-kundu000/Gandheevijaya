@@ -1,0 +1,66 @@
+[
+  {
+    "id": "GCS27-TOC-E-MCQ-133",
+    "subject": "TOC",
+    "topic": "Automata",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "Which machine model accepts Context-Free Languages?",
+    "options": [
+      "Linear Bounded Automata (LBA)",
+      "Turing Machine (TM)",
+      "Deterministic Finite Automata (DFA)",
+      "Pushdown Automata (PDA)"
+    ],
+    "answer_id": "GCS27-TOC-E-MCQ-133",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "automaton classification"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-TOC-E-MSQ-133",
+    "subject": "TOC",
+    "topic": "Regular Languages",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MSQ",
+    "question": "Which of the following languages are regular?",
+    "options": [
+      "L = { a^n b^m | n >= 0, m >= 0 }",
+      "L = { w | length of w is even }",
+      "L = { w | w contains substring 'aba' }",
+      "L = { a^n b^n | n >= 0 }"
+    ],
+    "answer_id": "GCS27-TOC-E-MSQ-133",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "language classification"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-TOC-E-NAT-133",
+    "subject": "TOC",
+    "topic": "Finite Automata",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "NAT",
+    "question": "Find the minimum number of states in a DFA that recognizes the language: { w in {a, b}* | w ends with 'a' }.",
+    "options": null,
+    "answer_id": "GCS27-TOC-E-NAT-133",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "dfa minimization"
+    ],
+    "representation": [
+      "text"
+    ]
+  }
+]

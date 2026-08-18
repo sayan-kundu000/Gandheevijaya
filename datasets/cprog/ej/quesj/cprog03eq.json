@@ -1,0 +1,1602 @@
+[
+  {
+    "id": "GCS27-PDS-E-MCQ-051",
+    "subject": "PDS",
+    "topic": "Operators and Expressions",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "What will be the output of the following C program which demonstrates logical short-circuit evaluation with prefix increment operators?\n\n```c\n#include <stdio.h>\nint main() {\n    int x = 11, y = 11, z = 36;\n    int result = x < y || ++z > 40;\n    printf(\"%d %d\", result, z);\n    return 0;\n}\n```",
+    "options": [
+      "0 37",
+      "1 36",
+      "0 36",
+      "1 37"
+    ],
+    "answer_id": "GCS27-PDS-E-MCQ-051",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "short-circuiting"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-MCQ-052",
+    "subject": "PDS",
+    "topic": "Operators and Expressions",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "What will be the output of the following C program which demonstrates logical short-circuit evaluation with prefix increment operators?\n\n```c\n#include <stdio.h>\nint main() {\n    int p = 12, q = 12, r = 37;\n    int result = p > q && ++r > 40;\n    printf(\"%d %d\", result, r);\n    return 0;\n}\n```",
+    "options": [
+      "1 38",
+      "0 38",
+      "0 37",
+      "1 37"
+    ],
+    "answer_id": "GCS27-PDS-E-MCQ-052",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "short-circuiting"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-MCQ-053",
+    "subject": "PDS",
+    "topic": "Operators and Expressions",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "What will be the output of the following C program which demonstrates logical short-circuit evaluation with prefix increment operators?\n\n```c\n#include <stdio.h>\nint main() {\n    int val = 13, num = 13, res = 38;\n    int result = val < num || ++res > 40;\n    printf(\"%d %d\", result, res);\n    return 0;\n}\n```",
+    "options": [
+      "1 38",
+      "0 38",
+      "0 39",
+      "1 39"
+    ],
+    "answer_id": "GCS27-PDS-E-MCQ-053",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "short-circuiting"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-MCQ-054",
+    "subject": "PDS",
+    "topic": "Operators and Expressions",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "What will be the output of the following C program which demonstrates logical short-circuit evaluation with prefix increment operators?\n\n```c\n#include <stdio.h>\nint main() {\n    int alpha = 14, beta = 14, gamma = 39;\n    int result = alpha > beta && ++gamma > 40;\n    printf(\"%d %d\", result, gamma);\n    return 0;\n}\n```",
+    "options": [
+      "0 39",
+      "1 39",
+      "1 40",
+      "0 40"
+    ],
+    "answer_id": "GCS27-PDS-E-MCQ-054",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "short-circuiting"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-MCQ-055",
+    "subject": "PDS",
+    "topic": "Operators and Expressions",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "What will be the output of the following C program which demonstrates logical short-circuit evaluation with prefix increment operators?\n\n```c\n#include <stdio.h>\nint main() {\n    int i = 15, j = 15, k = 40;\n    int result = i < j || ++k > 40;\n    printf(\"%d %d\", result, k);\n    return 0;\n}\n```",
+    "options": [
+      "1 41",
+      "0 40",
+      "0 41",
+      "1 40"
+    ],
+    "answer_id": "GCS27-PDS-E-MCQ-055",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "short-circuiting"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-MCQ-056",
+    "subject": "PDS",
+    "topic": "Operators and Expressions",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "What will be the output of the following C program which demonstrates logical short-circuit evaluation with prefix increment operators?\n\n```c\n#include <stdio.h>\nint main() {\n    int m = 16, n = 16, k = 41;\n    int result = m > n && ++k > 40;\n    printf(\"%d %d\", result, k);\n    return 0;\n}\n```",
+    "options": [
+      "1 42",
+      "1 41",
+      "0 42",
+      "0 41"
+    ],
+    "answer_id": "GCS27-PDS-E-MCQ-056",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "short-circuiting"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-MCQ-057",
+    "subject": "PDS",
+    "topic": "Operators and Expressions",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "What will be the output of the following C program which demonstrates logical short-circuit evaluation with prefix increment operators?\n\n```c\n#include <stdio.h>\nint main() {\n    int foo = 17, bar = 17, baz = 42;\n    int result = foo < bar || ++baz > 40;\n    printf(\"%d %d\", result, baz);\n    return 0;\n}\n```",
+    "options": [
+      "0 42",
+      "0 43",
+      "1 43",
+      "1 42"
+    ],
+    "answer_id": "GCS27-PDS-E-MCQ-057",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "short-circuiting"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-MCQ-058",
+    "subject": "PDS",
+    "topic": "Operators and Expressions",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "What will be the output of the following C program which demonstrates logical short-circuit evaluation with prefix increment operators?\n\n```c\n#include <stdio.h>\nint main() {\n    int temp = 18, data = 18, out = 43;\n    int result = temp > data && ++out > 40;\n    printf(\"%d %d\", result, out);\n    return 0;\n}\n```",
+    "options": [
+      "1 44",
+      "1 43",
+      "0 43",
+      "0 44"
+    ],
+    "answer_id": "GCS27-PDS-E-MCQ-058",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "short-circuiting"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-MCQ-059",
+    "subject": "PDS",
+    "topic": "Operators and Expressions",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "What will be the output of the following C program which demonstrates logical short-circuit evaluation with prefix increment operators?\n\n```c\n#include <stdio.h>\nint main() {\n    int start = 19, middle = 19, end = 44;\n    int result = start < middle || ++end > 40;\n    printf(\"%d %d\", result, end);\n    return 0;\n}\n```",
+    "options": [
+      "0 44",
+      "0 45",
+      "1 44",
+      "1 45"
+    ],
+    "answer_id": "GCS27-PDS-E-MCQ-059",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "short-circuiting"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-MCQ-060",
+    "subject": "PDS",
+    "topic": "Operators and Expressions",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "What will be the output of the following C program which demonstrates logical short-circuit evaluation with prefix increment operators?\n\n```c\n#include <stdio.h>\nint main() {\n    int a = 5, b = 20, c = 45;\n    int result = a > b && ++c > 40;\n    printf(\"%d %d\", result, c);\n    return 0;\n}\n```",
+    "options": [
+      "1 46",
+      "0 45",
+      "0 46",
+      "1 45"
+    ],
+    "answer_id": "GCS27-PDS-E-MCQ-060",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "short-circuiting"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-MCQ-061",
+    "subject": "PDS",
+    "topic": "Operators and Expressions",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "What will be the output of the following C program which demonstrates logical short-circuit evaluation with prefix increment operators?\n\n```c\n#include <stdio.h>\nint main() {\n    int x = 6, y = 21, z = 46;\n    int result = x < y || ++z > 40;\n    printf(\"%d %d\", result, z);\n    return 0;\n}\n```",
+    "options": [
+      "1 47",
+      "0 46",
+      "1 46",
+      "0 47"
+    ],
+    "answer_id": "GCS27-PDS-E-MCQ-061",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "short-circuiting"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-MCQ-062",
+    "subject": "PDS",
+    "topic": "Operators and Expressions",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "What will be the output of the following C program which demonstrates logical short-circuit evaluation with prefix increment operators?\n\n```c\n#include <stdio.h>\nint main() {\n    int p = 7, q = 22, r = 47;\n    int result = p > q && ++r > 40;\n    printf(\"%d %d\", result, r);\n    return 0;\n}\n```",
+    "options": [
+      "1 48",
+      "1 47",
+      "0 47",
+      "0 48"
+    ],
+    "answer_id": "GCS27-PDS-E-MCQ-062",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "short-circuiting"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-MCQ-063",
+    "subject": "PDS",
+    "topic": "Operators and Expressions",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "What will be the output of the following C program which demonstrates logical short-circuit evaluation with prefix increment operators?\n\n```c\n#include <stdio.h>\nint main() {\n    int val = 8, num = 23, res = 48;\n    int result = val < num || ++res > 40;\n    printf(\"%d %d\", result, res);\n    return 0;\n}\n```",
+    "options": [
+      "1 48",
+      "0 48",
+      "1 49",
+      "0 49"
+    ],
+    "answer_id": "GCS27-PDS-E-MCQ-063",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "short-circuiting"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-MCQ-064",
+    "subject": "PDS",
+    "topic": "Operators and Expressions",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "What will be the output of the following C program which demonstrates logical short-circuit evaluation with prefix increment operators?\n\n```c\n#include <stdio.h>\nint main() {\n    int alpha = 9, beta = 24, gamma = 49;\n    int result = alpha > beta && ++gamma > 40;\n    printf(\"%d %d\", result, gamma);\n    return 0;\n}\n```",
+    "options": [
+      "1 49",
+      "0 50",
+      "0 49",
+      "1 50"
+    ],
+    "answer_id": "GCS27-PDS-E-MCQ-064",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "short-circuiting"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-MCQ-065",
+    "subject": "PDS",
+    "topic": "Operators and Expressions",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "What will be the output of the following C program which demonstrates logical short-circuit evaluation with prefix increment operators?\n\n```c\n#include <stdio.h>\nint main() {\n    int i = 10, j = 25, k = 50;\n    int result = i < j || ++k > 40;\n    printf(\"%d %d\", result, k);\n    return 0;\n}\n```",
+    "options": [
+      "1 50",
+      "0 50",
+      "1 51",
+      "0 51"
+    ],
+    "answer_id": "GCS27-PDS-E-MCQ-065",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "short-circuiting"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-MCQ-066",
+    "subject": "PDS",
+    "topic": "Operators and Expressions",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "What will be the output of the following C program which demonstrates logical short-circuit evaluation with prefix increment operators?\n\n```c\n#include <stdio.h>\nint main() {\n    int m = 11, n = 26, k = 51;\n    int result = m > n && ++k > 40;\n    printf(\"%d %d\", result, k);\n    return 0;\n}\n```",
+    "options": [
+      "1 52",
+      "1 51",
+      "0 52",
+      "0 51"
+    ],
+    "answer_id": "GCS27-PDS-E-MCQ-066",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "short-circuiting"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-MCQ-067",
+    "subject": "PDS",
+    "topic": "Operators and Expressions",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "What will be the output of the following C program which demonstrates logical short-circuit evaluation with prefix increment operators?\n\n```c\n#include <stdio.h>\nint main() {\n    int foo = 12, bar = 27, baz = 52;\n    int result = foo < bar || ++baz > 40;\n    printf(\"%d %d\", result, baz);\n    return 0;\n}\n```",
+    "options": [
+      "0 52",
+      "1 53",
+      "0 53",
+      "1 52"
+    ],
+    "answer_id": "GCS27-PDS-E-MCQ-067",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "short-circuiting"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-MCQ-068",
+    "subject": "PDS",
+    "topic": "Operators and Expressions",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "What will be the output of the following C program which demonstrates logical short-circuit evaluation with prefix increment operators?\n\n```c\n#include <stdio.h>\nint main() {\n    int temp = 13, data = 28, out = 53;\n    int result = temp > data && ++out > 40;\n    printf(\"%d %d\", result, out);\n    return 0;\n}\n```",
+    "options": [
+      "0 54",
+      "0 53",
+      "1 53",
+      "1 54"
+    ],
+    "answer_id": "GCS27-PDS-E-MCQ-068",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "short-circuiting"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-MCQ-069",
+    "subject": "PDS",
+    "topic": "Operators and Expressions",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "What will be the output of the following C program which demonstrates logical short-circuit evaluation with prefix increment operators?\n\n```c\n#include <stdio.h>\nint main() {\n    int start = 14, middle = 29, end = 54;\n    int result = start < middle || ++end > 40;\n    printf(\"%d %d\", result, end);\n    return 0;\n}\n```",
+    "options": [
+      "1 55",
+      "0 54",
+      "0 55",
+      "1 54"
+    ],
+    "answer_id": "GCS27-PDS-E-MCQ-069",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "short-circuiting"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-MCQ-070",
+    "subject": "PDS",
+    "topic": "Operators and Expressions",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "What will be the output of the following C program which demonstrates logical short-circuit evaluation with prefix increment operators?\n\n```c\n#include <stdio.h>\nint main() {\n    int a = 15, b = 30, c = 20;\n    int result = a > b && ++c > 40;\n    printf(\"%d %d\", result, c);\n    return 0;\n}\n```",
+    "options": [
+      "1 21",
+      "1 20",
+      "0 21",
+      "0 20"
+    ],
+    "answer_id": "GCS27-PDS-E-MCQ-070",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "short-circuiting"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-MCQ-071",
+    "subject": "PDS",
+    "topic": "Operators and Expressions",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "What will be the output of the following C program which demonstrates logical short-circuit evaluation with prefix increment operators?\n\n```c\n#include <stdio.h>\nint main() {\n    int x = 16, y = 31, z = 21;\n    int result = x < y || ++z > 40;\n    printf(\"%d %d\", result, z);\n    return 0;\n}\n```",
+    "options": [
+      "1 22",
+      "1 21",
+      "0 22",
+      "0 21"
+    ],
+    "answer_id": "GCS27-PDS-E-MCQ-071",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "short-circuiting"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-MCQ-072",
+    "subject": "PDS",
+    "topic": "Operators and Expressions",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "What will be the output of the following C program which demonstrates logical short-circuit evaluation with prefix increment operators?\n\n```c\n#include <stdio.h>\nint main() {\n    int p = 17, q = 32, r = 22;\n    int result = p > q && ++r > 40;\n    printf(\"%d %d\", result, r);\n    return 0;\n}\n```",
+    "options": [
+      "0 23",
+      "1 23",
+      "1 22",
+      "0 22"
+    ],
+    "answer_id": "GCS27-PDS-E-MCQ-072",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "short-circuiting"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-MCQ-073",
+    "subject": "PDS",
+    "topic": "Operators and Expressions",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "What will be the output of the following C program which demonstrates logical short-circuit evaluation with prefix increment operators?\n\n```c\n#include <stdio.h>\nint main() {\n    int val = 18, num = 33, res = 23;\n    int result = val < num || ++res > 40;\n    printf(\"%d %d\", result, res);\n    return 0;\n}\n```",
+    "options": [
+      "0 24",
+      "1 24",
+      "1 23",
+      "0 23"
+    ],
+    "answer_id": "GCS27-PDS-E-MCQ-073",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "short-circuiting"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-MCQ-074",
+    "subject": "PDS",
+    "topic": "Operators and Expressions",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "What will be the output of the following C program which demonstrates logical short-circuit evaluation with prefix increment operators?\n\n```c\n#include <stdio.h>\nint main() {\n    int alpha = 19, beta = 34, gamma = 24;\n    int result = alpha > beta && ++gamma > 40;\n    printf(\"%d %d\", result, gamma);\n    return 0;\n}\n```",
+    "options": [
+      "1 24",
+      "1 25",
+      "0 25",
+      "0 24"
+    ],
+    "answer_id": "GCS27-PDS-E-MCQ-074",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "short-circuiting"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-MCQ-075",
+    "subject": "PDS",
+    "topic": "Operators and Expressions",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "What will be the output of the following C program which demonstrates logical short-circuit evaluation with prefix increment operators?\n\n```c\n#include <stdio.h>\nint main() {\n    int i = 5, j = 10, k = 25;\n    int result = i < j || ++k > 40;\n    printf(\"%d %d\", result, k);\n    return 0;\n}\n```",
+    "options": [
+      "1 25",
+      "1 26",
+      "0 25",
+      "0 26"
+    ],
+    "answer_id": "GCS27-PDS-E-MCQ-075",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "short-circuiting"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-MSQ-051",
+    "subject": "PDS",
+    "topic": "Preprocessors and Macros",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MSQ",
+    "question": "Consider the following macro definition in C:\n\n```c\n#define SQUARE(x) x * x\n```\nWhich of the following statements are CORRECT?",
+    "options": [
+      "SQUARE(5) evaluates to 25.",
+      "SQUARE(5+1) expands textually to 5 + 1 * 5 + 1.",
+      "SQUARE(5+1) evaluates to 11.",
+      "Parenthesizing the macro body prevents this precedence confusion."
+    ],
+    "answer_id": "GCS27-PDS-E-MSQ-051",
+    "pattern_type": "debugging-style",
+    "reasoning_type": [
+      "macro expansion"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-MSQ-052",
+    "subject": "PDS",
+    "topic": "Preprocessors and Macros",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MSQ",
+    "question": "Consider the following macro definition in C:\n\n```c\n#define SQUARE(x) x * x\n```\nWhich of the following statements are CORRECT?",
+    "options": [
+      "SQUARE(5) evaluates to 25.",
+      "SQUARE(5+1) expands textually to 5 + 1 * 5 + 1.",
+      "SQUARE(5+1) evaluates to 11.",
+      "Parenthesizing the macro body prevents this precedence confusion."
+    ],
+    "answer_id": "GCS27-PDS-E-MSQ-052",
+    "pattern_type": "debugging-style",
+    "reasoning_type": [
+      "macro expansion"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-MSQ-053",
+    "subject": "PDS",
+    "topic": "Preprocessors and Macros",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MSQ",
+    "question": "Consider the following macro definition in C:\n\n```c\n#define SQUARE(x) x * x\n```\nWhich of the following statements are CORRECT?",
+    "options": [
+      "SQUARE(5) evaluates to 25.",
+      "SQUARE(5+1) expands textually to 5 + 1 * 5 + 1.",
+      "SQUARE(5+1) evaluates to 11.",
+      "Parenthesizing the macro body prevents this precedence confusion."
+    ],
+    "answer_id": "GCS27-PDS-E-MSQ-053",
+    "pattern_type": "debugging-style",
+    "reasoning_type": [
+      "macro expansion"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-MSQ-054",
+    "subject": "PDS",
+    "topic": "Preprocessors and Macros",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MSQ",
+    "question": "Consider the following macro definition in C:\n\n```c\n#define SQUARE(x) x * x\n```\nWhich of the following statements are CORRECT?",
+    "options": [
+      "SQUARE(5) evaluates to 25.",
+      "SQUARE(5+1) expands textually to 5 + 1 * 5 + 1.",
+      "SQUARE(5+1) evaluates to 11.",
+      "Parenthesizing the macro body prevents this precedence confusion."
+    ],
+    "answer_id": "GCS27-PDS-E-MSQ-054",
+    "pattern_type": "debugging-style",
+    "reasoning_type": [
+      "macro expansion"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-MSQ-055",
+    "subject": "PDS",
+    "topic": "Preprocessors and Macros",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MSQ",
+    "question": "Consider the following macro definition in C:\n\n```c\n#define SQUARE(x) x * x\n```\nWhich of the following statements are CORRECT?",
+    "options": [
+      "SQUARE(5) evaluates to 25.",
+      "SQUARE(5+1) expands textually to 5 + 1 * 5 + 1.",
+      "SQUARE(5+1) evaluates to 11.",
+      "Parenthesizing the macro body prevents this precedence confusion."
+    ],
+    "answer_id": "GCS27-PDS-E-MSQ-055",
+    "pattern_type": "debugging-style",
+    "reasoning_type": [
+      "macro expansion"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-MSQ-056",
+    "subject": "PDS",
+    "topic": "Preprocessors and Macros",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MSQ",
+    "question": "Consider the following macro definition in C:\n\n```c\n#define SQUARE(x) x * x\n```\nWhich of the following statements are CORRECT?",
+    "options": [
+      "SQUARE(5) evaluates to 25.",
+      "SQUARE(5+1) expands textually to 5 + 1 * 5 + 1.",
+      "SQUARE(5+1) evaluates to 11.",
+      "Parenthesizing the macro body prevents this precedence confusion."
+    ],
+    "answer_id": "GCS27-PDS-E-MSQ-056",
+    "pattern_type": "debugging-style",
+    "reasoning_type": [
+      "macro expansion"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-MSQ-057",
+    "subject": "PDS",
+    "topic": "Preprocessors and Macros",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MSQ",
+    "question": "Consider the following macro definition in C:\n\n```c\n#define SQUARE(x) x * x\n```\nWhich of the following statements are CORRECT?",
+    "options": [
+      "SQUARE(5) evaluates to 25.",
+      "SQUARE(5+1) expands textually to 5 + 1 * 5 + 1.",
+      "SQUARE(5+1) evaluates to 11.",
+      "Parenthesizing the macro body prevents this precedence confusion."
+    ],
+    "answer_id": "GCS27-PDS-E-MSQ-057",
+    "pattern_type": "debugging-style",
+    "reasoning_type": [
+      "macro expansion"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-MSQ-058",
+    "subject": "PDS",
+    "topic": "Preprocessors and Macros",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MSQ",
+    "question": "Consider the following macro definition in C:\n\n```c\n#define SQUARE(x) x * x\n```\nWhich of the following statements are CORRECT?",
+    "options": [
+      "SQUARE(5) evaluates to 25.",
+      "SQUARE(5+1) expands textually to 5 + 1 * 5 + 1.",
+      "SQUARE(5+1) evaluates to 11.",
+      "Parenthesizing the macro body prevents this precedence confusion."
+    ],
+    "answer_id": "GCS27-PDS-E-MSQ-058",
+    "pattern_type": "debugging-style",
+    "reasoning_type": [
+      "macro expansion"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-MSQ-059",
+    "subject": "PDS",
+    "topic": "Preprocessors and Macros",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MSQ",
+    "question": "Consider the following macro definition in C:\n\n```c\n#define SQUARE(x) x * x\n```\nWhich of the following statements are CORRECT?",
+    "options": [
+      "SQUARE(5) evaluates to 25.",
+      "SQUARE(5+1) expands textually to 5 + 1 * 5 + 1.",
+      "SQUARE(5+1) evaluates to 11.",
+      "Parenthesizing the macro body prevents this precedence confusion."
+    ],
+    "answer_id": "GCS27-PDS-E-MSQ-059",
+    "pattern_type": "debugging-style",
+    "reasoning_type": [
+      "macro expansion"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-MSQ-060",
+    "subject": "PDS",
+    "topic": "Preprocessors and Macros",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MSQ",
+    "question": "Consider the following macro definition in C:\n\n```c\n#define SQUARE(x) x * x\n```\nWhich of the following statements are CORRECT?",
+    "options": [
+      "SQUARE(5) evaluates to 25.",
+      "SQUARE(5+1) expands textually to 5 + 1 * 5 + 1.",
+      "SQUARE(5+1) evaluates to 11.",
+      "Parenthesizing the macro body prevents this precedence confusion."
+    ],
+    "answer_id": "GCS27-PDS-E-MSQ-060",
+    "pattern_type": "debugging-style",
+    "reasoning_type": [
+      "macro expansion"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-MSQ-061",
+    "subject": "PDS",
+    "topic": "Preprocessors and Macros",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MSQ",
+    "question": "Consider the following macro definition in C:\n\n```c\n#define SQUARE(x) x * x\n```\nWhich of the following statements are CORRECT?",
+    "options": [
+      "SQUARE(5) evaluates to 25.",
+      "SQUARE(5+1) expands textually to 5 + 1 * 5 + 1.",
+      "SQUARE(5+1) evaluates to 11.",
+      "Parenthesizing the macro body prevents this precedence confusion."
+    ],
+    "answer_id": "GCS27-PDS-E-MSQ-061",
+    "pattern_type": "debugging-style",
+    "reasoning_type": [
+      "macro expansion"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-MSQ-062",
+    "subject": "PDS",
+    "topic": "Preprocessors and Macros",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MSQ",
+    "question": "Consider the following macro definition in C:\n\n```c\n#define SQUARE(x) x * x\n```\nWhich of the following statements are CORRECT?",
+    "options": [
+      "SQUARE(5) evaluates to 25.",
+      "SQUARE(5+1) expands textually to 5 + 1 * 5 + 1.",
+      "SQUARE(5+1) evaluates to 11.",
+      "Parenthesizing the macro body prevents this precedence confusion."
+    ],
+    "answer_id": "GCS27-PDS-E-MSQ-062",
+    "pattern_type": "debugging-style",
+    "reasoning_type": [
+      "macro expansion"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-MSQ-063",
+    "subject": "PDS",
+    "topic": "Preprocessors and Macros",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MSQ",
+    "question": "Consider the following macro definition in C:\n\n```c\n#define SQUARE(x) x * x\n```\nWhich of the following statements are CORRECT?",
+    "options": [
+      "SQUARE(5) evaluates to 25.",
+      "SQUARE(5+1) expands textually to 5 + 1 * 5 + 1.",
+      "SQUARE(5+1) evaluates to 11.",
+      "Parenthesizing the macro body prevents this precedence confusion."
+    ],
+    "answer_id": "GCS27-PDS-E-MSQ-063",
+    "pattern_type": "debugging-style",
+    "reasoning_type": [
+      "macro expansion"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-MSQ-064",
+    "subject": "PDS",
+    "topic": "Preprocessors and Macros",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MSQ",
+    "question": "Consider the following macro definition in C:\n\n```c\n#define SQUARE(x) x * x\n```\nWhich of the following statements are CORRECT?",
+    "options": [
+      "SQUARE(5) evaluates to 25.",
+      "SQUARE(5+1) expands textually to 5 + 1 * 5 + 1.",
+      "SQUARE(5+1) evaluates to 11.",
+      "Parenthesizing the macro body prevents this precedence confusion."
+    ],
+    "answer_id": "GCS27-PDS-E-MSQ-064",
+    "pattern_type": "debugging-style",
+    "reasoning_type": [
+      "macro expansion"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-MSQ-065",
+    "subject": "PDS",
+    "topic": "Preprocessors and Macros",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MSQ",
+    "question": "Consider the following macro definition in C:\n\n```c\n#define SQUARE(x) x * x\n```\nWhich of the following statements are CORRECT?",
+    "options": [
+      "SQUARE(5) evaluates to 25.",
+      "SQUARE(5+1) expands textually to 5 + 1 * 5 + 1.",
+      "SQUARE(5+1) evaluates to 11.",
+      "Parenthesizing the macro body prevents this precedence confusion."
+    ],
+    "answer_id": "GCS27-PDS-E-MSQ-065",
+    "pattern_type": "debugging-style",
+    "reasoning_type": [
+      "macro expansion"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-MSQ-066",
+    "subject": "PDS",
+    "topic": "Preprocessors and Macros",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MSQ",
+    "question": "Consider the following macro definition in C:\n\n```c\n#define SQUARE(x) x * x\n```\nWhich of the following statements are CORRECT?",
+    "options": [
+      "SQUARE(5) evaluates to 25.",
+      "SQUARE(5+1) expands textually to 5 + 1 * 5 + 1.",
+      "SQUARE(5+1) evaluates to 11.",
+      "Parenthesizing the macro body prevents this precedence confusion."
+    ],
+    "answer_id": "GCS27-PDS-E-MSQ-066",
+    "pattern_type": "debugging-style",
+    "reasoning_type": [
+      "macro expansion"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-MSQ-067",
+    "subject": "PDS",
+    "topic": "Preprocessors and Macros",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MSQ",
+    "question": "Consider the following macro definition in C:\n\n```c\n#define SQUARE(x) x * x\n```\nWhich of the following statements are CORRECT?",
+    "options": [
+      "SQUARE(5) evaluates to 25.",
+      "SQUARE(5+1) expands textually to 5 + 1 * 5 + 1.",
+      "SQUARE(5+1) evaluates to 11.",
+      "Parenthesizing the macro body prevents this precedence confusion."
+    ],
+    "answer_id": "GCS27-PDS-E-MSQ-067",
+    "pattern_type": "debugging-style",
+    "reasoning_type": [
+      "macro expansion"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-MSQ-068",
+    "subject": "PDS",
+    "topic": "Preprocessors and Macros",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MSQ",
+    "question": "Consider the following macro definition in C:\n\n```c\n#define SQUARE(x) x * x\n```\nWhich of the following statements are CORRECT?",
+    "options": [
+      "SQUARE(5) evaluates to 25.",
+      "SQUARE(5+1) expands textually to 5 + 1 * 5 + 1.",
+      "SQUARE(5+1) evaluates to 11.",
+      "Parenthesizing the macro body prevents this precedence confusion."
+    ],
+    "answer_id": "GCS27-PDS-E-MSQ-068",
+    "pattern_type": "debugging-style",
+    "reasoning_type": [
+      "macro expansion"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-MSQ-069",
+    "subject": "PDS",
+    "topic": "Preprocessors and Macros",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MSQ",
+    "question": "Consider the following macro definition in C:\n\n```c\n#define SQUARE(x) x * x\n```\nWhich of the following statements are CORRECT?",
+    "options": [
+      "SQUARE(5) evaluates to 25.",
+      "SQUARE(5+1) expands textually to 5 + 1 * 5 + 1.",
+      "SQUARE(5+1) evaluates to 11.",
+      "Parenthesizing the macro body prevents this precedence confusion."
+    ],
+    "answer_id": "GCS27-PDS-E-MSQ-069",
+    "pattern_type": "debugging-style",
+    "reasoning_type": [
+      "macro expansion"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-MSQ-070",
+    "subject": "PDS",
+    "topic": "Preprocessors and Macros",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MSQ",
+    "question": "Consider the following macro definition in C:\n\n```c\n#define SQUARE(x) x * x\n```\nWhich of the following statements are CORRECT?",
+    "options": [
+      "SQUARE(5) evaluates to 25.",
+      "SQUARE(5+1) expands textually to 5 + 1 * 5 + 1.",
+      "SQUARE(5+1) evaluates to 11.",
+      "Parenthesizing the macro body prevents this precedence confusion."
+    ],
+    "answer_id": "GCS27-PDS-E-MSQ-070",
+    "pattern_type": "debugging-style",
+    "reasoning_type": [
+      "macro expansion"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-MSQ-071",
+    "subject": "PDS",
+    "topic": "Preprocessors and Macros",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MSQ",
+    "question": "Consider the following macro definition in C:\n\n```c\n#define SQUARE(x) x * x\n```\nWhich of the following statements are CORRECT?",
+    "options": [
+      "SQUARE(5) evaluates to 25.",
+      "SQUARE(5+1) expands textually to 5 + 1 * 5 + 1.",
+      "SQUARE(5+1) evaluates to 11.",
+      "Parenthesizing the macro body prevents this precedence confusion."
+    ],
+    "answer_id": "GCS27-PDS-E-MSQ-071",
+    "pattern_type": "debugging-style",
+    "reasoning_type": [
+      "macro expansion"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-MSQ-072",
+    "subject": "PDS",
+    "topic": "Preprocessors and Macros",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MSQ",
+    "question": "Consider the following macro definition in C:\n\n```c\n#define SQUARE(x) x * x\n```\nWhich of the following statements are CORRECT?",
+    "options": [
+      "SQUARE(5) evaluates to 25.",
+      "SQUARE(5+1) expands textually to 5 + 1 * 5 + 1.",
+      "SQUARE(5+1) evaluates to 11.",
+      "Parenthesizing the macro body prevents this precedence confusion."
+    ],
+    "answer_id": "GCS27-PDS-E-MSQ-072",
+    "pattern_type": "debugging-style",
+    "reasoning_type": [
+      "macro expansion"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-MSQ-073",
+    "subject": "PDS",
+    "topic": "Preprocessors and Macros",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MSQ",
+    "question": "Consider the following macro definition in C:\n\n```c\n#define SQUARE(x) x * x\n```\nWhich of the following statements are CORRECT?",
+    "options": [
+      "SQUARE(5) evaluates to 25.",
+      "SQUARE(5+1) expands textually to 5 + 1 * 5 + 1.",
+      "SQUARE(5+1) evaluates to 11.",
+      "Parenthesizing the macro body prevents this precedence confusion."
+    ],
+    "answer_id": "GCS27-PDS-E-MSQ-073",
+    "pattern_type": "debugging-style",
+    "reasoning_type": [
+      "macro expansion"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-MSQ-074",
+    "subject": "PDS",
+    "topic": "Preprocessors and Macros",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MSQ",
+    "question": "Consider the following macro definition in C:\n\n```c\n#define SQUARE(x) x * x\n```\nWhich of the following statements are CORRECT?",
+    "options": [
+      "SQUARE(5) evaluates to 25.",
+      "SQUARE(5+1) expands textually to 5 + 1 * 5 + 1.",
+      "SQUARE(5+1) evaluates to 11.",
+      "Parenthesizing the macro body prevents this precedence confusion."
+    ],
+    "answer_id": "GCS27-PDS-E-MSQ-074",
+    "pattern_type": "debugging-style",
+    "reasoning_type": [
+      "macro expansion"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-MSQ-075",
+    "subject": "PDS",
+    "topic": "Preprocessors and Macros",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MSQ",
+    "question": "Consider the following macro definition in C:\n\n```c\n#define SQUARE(x) x * x\n```\nWhich of the following statements are CORRECT?",
+    "options": [
+      "SQUARE(5) evaluates to 25.",
+      "SQUARE(5+1) expands textually to 5 + 1 * 5 + 1.",
+      "SQUARE(5+1) evaluates to 11.",
+      "Parenthesizing the macro body prevents this precedence confusion."
+    ],
+    "answer_id": "GCS27-PDS-E-MSQ-075",
+    "pattern_type": "debugging-style",
+    "reasoning_type": [
+      "macro expansion"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-NAT-051",
+    "subject": "PDS",
+    "topic": "Arrays and Pointer Arithmetic",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "NAT",
+    "question": "What is the output of the following C program?\n\n```c\n#include <stdio.h>\nint main() {\n    int arr[5] = {11, 16, 21, 26, 31};\n    int *ptr = arr;\n    ptr += 4;\n    printf(\"%d\", *ptr);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-E-NAT-051",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "pointer arithmetic"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-NAT-052",
+    "subject": "PDS",
+    "topic": "Arrays and Pointer Arithmetic",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "NAT",
+    "question": "What is the output of the following C program?\n\n```c\n#include <stdio.h>\nint main() {\n    int arr[5] = {12, 17, 22, 27, 32};\n    int *ptr = arr;\n    ptr += 1;\n    printf(\"%d\", *ptr);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-E-NAT-052",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "pointer arithmetic"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-NAT-053",
+    "subject": "PDS",
+    "topic": "Arrays and Pointer Arithmetic",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "NAT",
+    "question": "What is the output of the following C program?\n\n```c\n#include <stdio.h>\nint main() {\n    int arr[5] = {13, 18, 23, 28, 33};\n    int *ptr = arr;\n    ptr += 2;\n    printf(\"%d\", *ptr);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-E-NAT-053",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "pointer arithmetic"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-NAT-054",
+    "subject": "PDS",
+    "topic": "Arrays and Pointer Arithmetic",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "NAT",
+    "question": "What is the output of the following C program?\n\n```c\n#include <stdio.h>\nint main() {\n    int arr[5] = {14, 19, 24, 29, 34};\n    int *ptr = arr;\n    ptr += 3;\n    printf(\"%d\", *ptr);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-E-NAT-054",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "pointer arithmetic"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-NAT-055",
+    "subject": "PDS",
+    "topic": "Arrays and Pointer Arithmetic",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "NAT",
+    "question": "What is the output of the following C program?\n\n```c\n#include <stdio.h>\nint main() {\n    int arr[5] = {15, 20, 25, 30, 35};\n    int *ptr = arr;\n    ptr += 4;\n    printf(\"%d\", *ptr);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-E-NAT-055",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "pointer arithmetic"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-NAT-056",
+    "subject": "PDS",
+    "topic": "Arrays and Pointer Arithmetic",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "NAT",
+    "question": "What is the output of the following C program?\n\n```c\n#include <stdio.h>\nint main() {\n    int arr[5] = {16, 21, 26, 31, 36};\n    int *ptr = arr;\n    ptr += 1;\n    printf(\"%d\", *ptr);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-E-NAT-056",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "pointer arithmetic"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-NAT-057",
+    "subject": "PDS",
+    "topic": "Arrays and Pointer Arithmetic",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "NAT",
+    "question": "What is the output of the following C program?\n\n```c\n#include <stdio.h>\nint main() {\n    int arr[5] = {17, 22, 27, 32, 37};\n    int *ptr = arr;\n    ptr += 2;\n    printf(\"%d\", *ptr);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-E-NAT-057",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "pointer arithmetic"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-NAT-058",
+    "subject": "PDS",
+    "topic": "Arrays and Pointer Arithmetic",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "NAT",
+    "question": "What is the output of the following C program?\n\n```c\n#include <stdio.h>\nint main() {\n    int arr[5] = {18, 23, 28, 33, 38};\n    int *ptr = arr;\n    ptr += 3;\n    printf(\"%d\", *ptr);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-E-NAT-058",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "pointer arithmetic"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-NAT-059",
+    "subject": "PDS",
+    "topic": "Arrays and Pointer Arithmetic",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "NAT",
+    "question": "What is the output of the following C program?\n\n```c\n#include <stdio.h>\nint main() {\n    int arr[5] = {19, 24, 29, 34, 39};\n    int *ptr = arr;\n    ptr += 4;\n    printf(\"%d\", *ptr);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-E-NAT-059",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "pointer arithmetic"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-NAT-060",
+    "subject": "PDS",
+    "topic": "Arrays and Pointer Arithmetic",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "NAT",
+    "question": "What is the output of the following C program?\n\n```c\n#include <stdio.h>\nint main() {\n    int arr[5] = {5, 10, 15, 20, 25};\n    int *ptr = arr;\n    ptr += 1;\n    printf(\"%d\", *ptr);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-E-NAT-060",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "pointer arithmetic"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-NAT-061",
+    "subject": "PDS",
+    "topic": "Arrays and Pointer Arithmetic",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "NAT",
+    "question": "What is the output of the following C program?\n\n```c\n#include <stdio.h>\nint main() {\n    int arr[5] = {6, 11, 16, 21, 26};\n    int *ptr = arr;\n    ptr += 2;\n    printf(\"%d\", *ptr);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-E-NAT-061",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "pointer arithmetic"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-NAT-062",
+    "subject": "PDS",
+    "topic": "Arrays and Pointer Arithmetic",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "NAT",
+    "question": "What is the output of the following C program?\n\n```c\n#include <stdio.h>\nint main() {\n    int arr[5] = {7, 12, 17, 22, 27};\n    int *ptr = arr;\n    ptr += 3;\n    printf(\"%d\", *ptr);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-E-NAT-062",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "pointer arithmetic"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-NAT-063",
+    "subject": "PDS",
+    "topic": "Arrays and Pointer Arithmetic",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "NAT",
+    "question": "What is the output of the following C program?\n\n```c\n#include <stdio.h>\nint main() {\n    int arr[5] = {8, 13, 18, 23, 28};\n    int *ptr = arr;\n    ptr += 4;\n    printf(\"%d\", *ptr);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-E-NAT-063",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "pointer arithmetic"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-NAT-064",
+    "subject": "PDS",
+    "topic": "Arrays and Pointer Arithmetic",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "NAT",
+    "question": "What is the output of the following C program?\n\n```c\n#include <stdio.h>\nint main() {\n    int arr[5] = {9, 14, 19, 24, 29};\n    int *ptr = arr;\n    ptr += 1;\n    printf(\"%d\", *ptr);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-E-NAT-064",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "pointer arithmetic"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-NAT-065",
+    "subject": "PDS",
+    "topic": "Arrays and Pointer Arithmetic",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "NAT",
+    "question": "What is the output of the following C program?\n\n```c\n#include <stdio.h>\nint main() {\n    int arr[5] = {10, 15, 20, 25, 30};\n    int *ptr = arr;\n    ptr += 2;\n    printf(\"%d\", *ptr);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-E-NAT-065",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "pointer arithmetic"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-NAT-066",
+    "subject": "PDS",
+    "topic": "Arrays and Pointer Arithmetic",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "NAT",
+    "question": "What is the output of the following C program?\n\n```c\n#include <stdio.h>\nint main() {\n    int arr[5] = {11, 16, 21, 26, 31};\n    int *ptr = arr;\n    ptr += 3;\n    printf(\"%d\", *ptr);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-E-NAT-066",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "pointer arithmetic"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-NAT-067",
+    "subject": "PDS",
+    "topic": "Arrays and Pointer Arithmetic",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "NAT",
+    "question": "What is the output of the following C program?\n\n```c\n#include <stdio.h>\nint main() {\n    int arr[5] = {12, 17, 22, 27, 32};\n    int *ptr = arr;\n    ptr += 4;\n    printf(\"%d\", *ptr);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-E-NAT-067",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "pointer arithmetic"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-NAT-068",
+    "subject": "PDS",
+    "topic": "Arrays and Pointer Arithmetic",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "NAT",
+    "question": "What is the output of the following C program?\n\n```c\n#include <stdio.h>\nint main() {\n    int arr[5] = {13, 18, 23, 28, 33};\n    int *ptr = arr;\n    ptr += 1;\n    printf(\"%d\", *ptr);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-E-NAT-068",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "pointer arithmetic"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-NAT-069",
+    "subject": "PDS",
+    "topic": "Arrays and Pointer Arithmetic",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "NAT",
+    "question": "What is the output of the following C program?\n\n```c\n#include <stdio.h>\nint main() {\n    int arr[5] = {14, 19, 24, 29, 34};\n    int *ptr = arr;\n    ptr += 2;\n    printf(\"%d\", *ptr);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-E-NAT-069",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "pointer arithmetic"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-NAT-070",
+    "subject": "PDS",
+    "topic": "Arrays and Pointer Arithmetic",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "NAT",
+    "question": "What is the output of the following C program?\n\n```c\n#include <stdio.h>\nint main() {\n    int arr[5] = {15, 20, 25, 30, 35};\n    int *ptr = arr;\n    ptr += 3;\n    printf(\"%d\", *ptr);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-E-NAT-070",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "pointer arithmetic"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-NAT-071",
+    "subject": "PDS",
+    "topic": "Arrays and Pointer Arithmetic",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "NAT",
+    "question": "What is the output of the following C program?\n\n```c\n#include <stdio.h>\nint main() {\n    int arr[5] = {16, 21, 26, 31, 36};\n    int *ptr = arr;\n    ptr += 4;\n    printf(\"%d\", *ptr);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-E-NAT-071",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "pointer arithmetic"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-NAT-072",
+    "subject": "PDS",
+    "topic": "Arrays and Pointer Arithmetic",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "NAT",
+    "question": "What is the output of the following C program?\n\n```c\n#include <stdio.h>\nint main() {\n    int arr[5] = {17, 22, 27, 32, 37};\n    int *ptr = arr;\n    ptr += 1;\n    printf(\"%d\", *ptr);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-E-NAT-072",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "pointer arithmetic"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-NAT-073",
+    "subject": "PDS",
+    "topic": "Arrays and Pointer Arithmetic",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "NAT",
+    "question": "What is the output of the following C program?\n\n```c\n#include <stdio.h>\nint main() {\n    int arr[5] = {18, 23, 28, 33, 38};\n    int *ptr = arr;\n    ptr += 2;\n    printf(\"%d\", *ptr);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-E-NAT-073",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "pointer arithmetic"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-NAT-074",
+    "subject": "PDS",
+    "topic": "Arrays and Pointer Arithmetic",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "NAT",
+    "question": "What is the output of the following C program?\n\n```c\n#include <stdio.h>\nint main() {\n    int arr[5] = {19, 24, 29, 34, 39};\n    int *ptr = arr;\n    ptr += 3;\n    printf(\"%d\", *ptr);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-E-NAT-074",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "pointer arithmetic"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-NAT-075",
+    "subject": "PDS",
+    "topic": "Arrays and Pointer Arithmetic",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "NAT",
+    "question": "What is the output of the following C program?\n\n```c\n#include <stdio.h>\nint main() {\n    int arr[5] = {5, 10, 15, 20, 25};\n    int *ptr = arr;\n    ptr += 4;\n    printf(\"%d\", *ptr);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-E-NAT-075",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "pointer arithmetic"
+    ],
+    "representation": [
+      "code"
+    ]
+  }
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "id": "GCS27-COA-M-MCQ-051",
+    "explanation": "1. Block Size = 16 bytes => Offset bits = log2(16) = 4.\n2. Cache Lines = 19 KB / 16 B = 1216 => Index bits = log2(1216) = 10.\n3. Tag bits = 32 - Index - Offset = 32 - 10 - 4 = 18.\nAnswer: 18 | 10 | 4."
+  },
+  {
+    "id": "GCS27-COA-M-MCQ-052",
+    "explanation": "1. Block Size = 32 bytes => Offset bits = log2(32) = 5.\n2. Cache Lines = 20 KB / 32 B = 640 => Index bits = log2(640) = 9.\n3. Tag bits = 32 - Index - Offset = 32 - 9 - 5 = 18.\nAnswer: 18 | 9 | 5."
+  },
+  {
+    "id": "GCS27-COA-M-MCQ-053",
+    "explanation": "1. Block Size = 64 bytes => Offset bits = log2(64) = 6.\n2. Cache Lines = 21 KB / 64 B = 336 => Index bits = log2(336) = 8.\n3. Tag bits = 32 - Index - Offset = 32 - 8 - 6 = 18.\nAnswer: 18 | 8 | 6."
+  },
+  {
+    "id": "GCS27-COA-M-MCQ-054",
+    "explanation": "1. Block Size = 16 bytes => Offset bits = log2(16) = 4.\n2. Cache Lines = 22 KB / 16 B = 1408 => Index bits = log2(1408) = 10.\n3. Tag bits = 32 - Index - Offset = 32 - 10 - 4 = 18.\nAnswer: 18 | 10 | 4."
+  },
+  {
+    "id": "GCS27-COA-M-MCQ-055",
+    "explanation": "1. Block Size = 32 bytes => Offset bits = log2(32) = 5.\n2. Cache Lines = 23 KB / 32 B = 736 => Index bits = log2(736) = 9.\n3. Tag bits = 32 - Index - Offset = 32 - 9 - 5 = 18.\nAnswer: 18 | 9 | 5."
+  },
+  {
+    "id": "GCS27-COA-M-MCQ-056",
+    "explanation": "1. Block Size = 64 bytes => Offset bits = log2(64) = 6.\n2. Cache Lines = 24 KB / 64 B = 384 => Index bits = log2(384) = 8.\n3. Tag bits = 32 - Index - Offset = 32 - 8 - 6 = 18.\nAnswer: 18 | 8 | 6."
+  },
+  {
+    "id": "GCS27-COA-M-MCQ-057",
+    "explanation": "1. Block Size = 16 bytes => Offset bits = log2(16) = 4.\n2. Cache Lines = 25 KB / 16 B = 1600 => Index bits = log2(1600) = 10.\n3. Tag bits = 32 - Index - Offset = 32 - 10 - 4 = 18.\nAnswer: 18 | 10 | 4."
+  },
+  {
+    "id": "GCS27-COA-M-MCQ-058",
+    "explanation": "1. Block Size = 32 bytes => Offset bits = log2(32) = 5.\n2. Cache Lines = 26 KB / 32 B = 832 => Index bits = log2(832) = 9.\n3. Tag bits = 32 - Index - Offset = 32 - 9 - 5 = 18.\nAnswer: 18 | 9 | 5."
+  },
+  {
+    "id": "GCS27-COA-M-MCQ-059",
+    "explanation": "1. Block Size = 64 bytes => Offset bits = log2(64) = 6.\n2. Cache Lines = 27 KB / 64 B = 432 => Index bits = log2(432) = 8.\n3. Tag bits = 32 - Index - Offset = 32 - 8 - 6 = 18.\nAnswer: 18 | 8 | 6."
+  },
+  {
+    "id": "GCS27-COA-M-MCQ-060",
+    "explanation": "1. Block Size = 16 bytes => Offset bits = log2(16) = 4.\n2. Cache Lines = 28 KB / 16 B = 1792 => Index bits = log2(1792) = 10.\n3. Tag bits = 32 - Index - Offset = 32 - 10 - 4 = 18.\nAnswer: 18 | 10 | 4."
+  },
+  {
+    "id": "GCS27-COA-M-MCQ-061",
+    "explanation": "1. Block Size = 32 bytes => Offset bits = log2(32) = 5.\n2. Cache Lines = 29 KB / 32 B = 928 => Index bits = log2(928) = 9.\n3. Tag bits = 32 - Index - Offset = 32 - 9 - 5 = 18.\nAnswer: 18 | 9 | 5."
+  },
+  {
+    "id": "GCS27-COA-M-MCQ-062",
+    "explanation": "1. Block Size = 64 bytes => Offset bits = log2(64) = 6.\n2. Cache Lines = 30 KB / 64 B = 480 => Index bits = log2(480) = 8.\n3. Tag bits = 32 - Index - Offset = 32 - 8 - 6 = 18.\nAnswer: 18 | 8 | 6."
+  },
+  {
+    "id": "GCS27-COA-M-MCQ-063",
+    "explanation": "1. Block Size = 16 bytes => Offset bits = log2(16) = 4.\n2. Cache Lines = 31 KB / 16 B = 1984 => Index bits = log2(1984) = 10.\n3. Tag bits = 32 - Index - Offset = 32 - 10 - 4 = 18.\nAnswer: 18 | 10 | 4."
+  },
+  {
+    "id": "GCS27-COA-M-MCQ-064",
+    "explanation": "1. Block Size = 32 bytes => Offset bits = log2(32) = 5.\n2. Cache Lines = 16 KB / 32 B = 512 => Index bits = log2(512) = 9.\n3. Tag bits = 32 - Index - Offset = 32 - 9 - 5 = 18.\nAnswer: 18 | 9 | 5."
+  },
+  {
+    "id": "GCS27-COA-M-MCQ-065",
+    "explanation": "1. Block Size = 64 bytes => Offset bits = log2(64) = 6.\n2. Cache Lines = 17 KB / 64 B = 272 => Index bits = log2(272) = 8.\n3. Tag bits = 32 - Index - Offset = 32 - 8 - 6 = 18.\nAnswer: 18 | 8 | 6."
+  },
+  {
+    "id": "GCS27-COA-M-MCQ-066",
+    "explanation": "1. Block Size = 16 bytes => Offset bits = log2(16) = 4.\n2. Cache Lines = 18 KB / 16 B = 1152 => Index bits = log2(1152) = 10.\n3. Tag bits = 32 - Index - Offset = 32 - 10 - 4 = 18.\nAnswer: 18 | 10 | 4."
+  },
+  {
+    "id": "GCS27-COA-M-MCQ-067",
+    "explanation": "1. Block Size = 32 bytes => Offset bits = log2(32) = 5.\n2. Cache Lines = 19 KB / 32 B = 608 => Index bits = log2(608) = 9.\n3. Tag bits = 32 - Index - Offset = 32 - 9 - 5 = 18.\nAnswer: 18 | 9 | 5."
+  },
+  {
+    "id": "GCS27-COA-M-MCQ-068",
+    "explanation": "1. Block Size = 64 bytes => Offset bits = log2(64) = 6.\n2. Cache Lines = 20 KB / 64 B = 320 => Index bits = log2(320) = 8.\n3. Tag bits = 32 - Index - Offset = 32 - 8 - 6 = 18.\nAnswer: 18 | 8 | 6."
+  },
+  {
+    "id": "GCS27-COA-M-MCQ-069",
+    "explanation": "1. Block Size = 16 bytes => Offset bits = log2(16) = 4.\n2. Cache Lines = 21 KB / 16 B = 1344 => Index bits = log2(1344) = 10.\n3. Tag bits = 32 - Index - Offset = 32 - 10 - 4 = 18.\nAnswer: 18 | 10 | 4."
+  },
+  {
+    "id": "GCS27-COA-M-MCQ-070",
+    "explanation": "1. Block Size = 32 bytes => Offset bits = log2(32) = 5.\n2. Cache Lines = 22 KB / 32 B = 704 => Index bits = log2(704) = 9.\n3. Tag bits = 32 - Index - Offset = 32 - 9 - 5 = 18.\nAnswer: 18 | 9 | 5."
+  },
+  {
+    "id": "GCS27-COA-M-MCQ-071",
+    "explanation": "1. Block Size = 64 bytes => Offset bits = log2(64) = 6.\n2. Cache Lines = 23 KB / 64 B = 368 => Index bits = log2(368) = 8.\n3. Tag bits = 32 - Index - Offset = 32 - 8 - 6 = 18.\nAnswer: 18 | 8 | 6."
+  },
+  {
+    "id": "GCS27-COA-M-MCQ-072",
+    "explanation": "1. Block Size = 16 bytes => Offset bits = log2(16) = 4.\n2. Cache Lines = 24 KB / 16 B = 1536 => Index bits = log2(1536) = 10.\n3. Tag bits = 32 - Index - Offset = 32 - 10 - 4 = 18.\nAnswer: 18 | 10 | 4."
+  },
+  {
+    "id": "GCS27-COA-M-MCQ-073",
+    "explanation": "1. Block Size = 32 bytes => Offset bits = log2(32) = 5.\n2. Cache Lines = 25 KB / 32 B = 800 => Index bits = log2(800) = 9.\n3. Tag bits = 32 - Index - Offset = 32 - 9 - 5 = 18.\nAnswer: 18 | 9 | 5."
+  },
+  {
+    "id": "GCS27-COA-M-MCQ-074",
+    "explanation": "1. Block Size = 64 bytes => Offset bits = log2(64) = 6.\n2. Cache Lines = 26 KB / 64 B = 416 => Index bits = log2(416) = 8.\n3. Tag bits = 32 - Index - Offset = 32 - 8 - 6 = 18.\nAnswer: 18 | 8 | 6."
+  },
+  {
+    "id": "GCS27-COA-M-MCQ-075",
+    "explanation": "1. Block Size = 16 bytes => Offset bits = log2(16) = 4.\n2. Cache Lines = 27 KB / 16 B = 1728 => Index bits = log2(1728) = 10.\n3. Tag bits = 32 - Index - Offset = 32 - 10 - 4 = 18.\nAnswer: 18 | 10 | 4."
+  },
+  {
+    "id": "GCS27-COA-M-MSQ-051",
+    "explanation": "These are core characteristics of DMA and Interrupt I/O interface execution policies.\nAnswer Verification: A, B, C, D are correct."
+  },
+  {
+    "id": "GCS27-COA-M-MSQ-052",
+    "explanation": "These are core characteristics of DMA and Interrupt I/O interface execution policies.\nAnswer Verification: A, B, C, D are correct."
+  },
+  {
+    "id": "GCS27-COA-M-MSQ-053",
+    "explanation": "These are core characteristics of DMA and Interrupt I/O interface execution policies.\nAnswer Verification: A, B, C, D are correct."
+  },
+  {
+    "id": "GCS27-COA-M-MSQ-054",
+    "explanation": "These are core characteristics of DMA and Interrupt I/O interface execution policies.\nAnswer Verification: A, B, C, D are correct."
+  },
+  {
+    "id": "GCS27-COA-M-MSQ-055",
+    "explanation": "These are core characteristics of DMA and Interrupt I/O interface execution policies.\nAnswer Verification: A, B, C, D are correct."
+  },
+  {
+    "id": "GCS27-COA-M-MSQ-056",
+    "explanation": "These are core characteristics of DMA and Interrupt I/O interface execution policies.\nAnswer Verification: A, B, C, D are correct."
+  },
+  {
+    "id": "GCS27-COA-M-MSQ-057",
+    "explanation": "These are core characteristics of DMA and Interrupt I/O interface execution policies.\nAnswer Verification: A, B, C, D are correct."
+  },
+  {
+    "id": "GCS27-COA-M-MSQ-058",
+    "explanation": "These are core characteristics of DMA and Interrupt I/O interface execution policies.\nAnswer Verification: A, B, C, D are correct."
+  },
+  {
+    "id": "GCS27-COA-M-MSQ-059",
+    "explanation": "These are core characteristics of DMA and Interrupt I/O interface execution policies.\nAnswer Verification: A, B, C, D are correct."
+  },
+  {
+    "id": "GCS27-COA-M-MSQ-060",
+    "explanation": "These are core characteristics of DMA and Interrupt I/O interface execution policies.\nAnswer Verification: A, B, C, D are correct."
+  },
+  {
+    "id": "GCS27-COA-M-MSQ-061",
+    "explanation": "These are core characteristics of DMA and Interrupt I/O interface execution policies.\nAnswer Verification: A, B, C, D are correct."
+  },
+  {
+    "id": "GCS27-COA-M-MSQ-062",
+    "explanation": "These are core characteristics of DMA and Interrupt I/O interface execution policies.\nAnswer Verification: A, B, C, D are correct."
+  },
+  {
+    "id": "GCS27-COA-M-MSQ-063",
+    "explanation": "These are core characteristics of DMA and Interrupt I/O interface execution policies.\nAnswer Verification: A, B, C, D are correct."
+  },
+  {
+    "id": "GCS27-COA-M-MSQ-064",
+    "explanation": "These are core characteristics of DMA and Interrupt I/O interface execution policies.\nAnswer Verification: A, B, C, D are correct."
+  },
+  {
+    "id": "GCS27-COA-M-MSQ-065",
+    "explanation": "These are core characteristics of DMA and Interrupt I/O interface execution policies.\nAnswer Verification: A, B, C, D are correct."
+  },
+  {
+    "id": "GCS27-COA-M-MSQ-066",
+    "explanation": "These are core characteristics of DMA and Interrupt I/O interface execution policies.\nAnswer Verification: A, B, C, D are correct."
+  },
+  {
+    "id": "GCS27-COA-M-MSQ-067",
+    "explanation": "These are core characteristics of DMA and Interrupt I/O interface execution policies.\nAnswer Verification: A, B, C, D are correct."
+  },
+  {
+    "id": "GCS27-COA-M-MSQ-068",
+    "explanation": "These are core characteristics of DMA and Interrupt I/O interface execution policies.\nAnswer Verification: A, B, C, D are correct."
+  },
+  {
+    "id": "GCS27-COA-M-MSQ-069",
+    "explanation": "These are core characteristics of DMA and Interrupt I/O interface execution policies.\nAnswer Verification: A, B, C, D are correct."
+  },
+  {
+    "id": "GCS27-COA-M-MSQ-070",
+    "explanation": "These are core characteristics of DMA and Interrupt I/O interface execution policies.\nAnswer Verification: A, B, C, D are correct."
+  },
+  {
+    "id": "GCS27-COA-M-MSQ-071",
+    "explanation": "These are core characteristics of DMA and Interrupt I/O interface execution policies.\nAnswer Verification: A, B, C, D are correct."
+  },
+  {
+    "id": "GCS27-COA-M-MSQ-072",
+    "explanation": "These are core characteristics of DMA and Interrupt I/O interface execution policies.\nAnswer Verification: A, B, C, D are correct."
+  },
+  {
+    "id": "GCS27-COA-M-MSQ-073",
+    "explanation": "These are core characteristics of DMA and Interrupt I/O interface execution policies.\nAnswer Verification: A, B, C, D are correct."
+  },
+  {
+    "id": "GCS27-COA-M-MSQ-074",
+    "explanation": "These are core characteristics of DMA and Interrupt I/O interface execution policies.\nAnswer Verification: A, B, C, D are correct."
+  },
+  {
+    "id": "GCS27-COA-M-MSQ-075",
+    "explanation": "These are core characteristics of DMA and Interrupt I/O interface execution policies.\nAnswer Verification: A, B, C, D are correct."
+  },
+  {
+    "id": "GCS27-COA-M-NAT-051",
+    "explanation": "EAT = Hit_Ratio * T_Cache + (1 - Hit_Ratio) * (T_Cache + T_Mem)\nEAT = 0.93 * 2 + 0.07 * (2 + 71) = 6.97 ns.\nRounded: 7."
+  },
+  {
+    "id": "GCS27-COA-M-NAT-052",
+    "explanation": "EAT = Hit_Ratio * T_Cache + (1 - Hit_Ratio) * (T_Cache + T_Mem)\nEAT = 0.94 * 1 + 0.06 * (1 + 72) = 5.32 ns.\nRounded: 5."
+  },
+  {
+    "id": "GCS27-COA-M-NAT-053",
+    "explanation": "EAT = Hit_Ratio * T_Cache + (1 - Hit_Ratio) * (T_Cache + T_Mem)\nEAT = 0.95 * 2 + 0.05 * (2 + 73) = 5.65 ns.\nRounded: 6."
+  },
+  {
+    "id": "GCS27-COA-M-NAT-054",
+    "explanation": "EAT = Hit_Ratio * T_Cache + (1 - Hit_Ratio) * (T_Cache + T_Mem)\nEAT = 0.96 * 1 + 0.04 * (1 + 74) = 3.96 ns.\nRounded: 4."
+  },
+  {
+    "id": "GCS27-COA-M-NAT-055",
+    "explanation": "EAT = Hit_Ratio * T_Cache + (1 - Hit_Ratio) * (T_Cache + T_Mem)\nEAT = 0.97 * 2 + 0.03 * (2 + 75) = 4.25 ns.\nRounded: 4."
+  },
+  {
+    "id": "GCS27-COA-M-NAT-056",
+    "explanation": "EAT = Hit_Ratio * T_Cache + (1 - Hit_Ratio) * (T_Cache + T_Mem)\nEAT = 0.9 * 1 + 0.10 * (1 + 76) = 8.60 ns.\nRounded: 9."
+  },
+  {
+    "id": "GCS27-COA-M-NAT-057",
+    "explanation": "EAT = Hit_Ratio * T_Cache + (1 - Hit_Ratio) * (T_Cache + T_Mem)\nEAT = 0.91 * 2 + 0.09 * (2 + 77) = 8.93 ns.\nRounded: 9."
+  },
+  {
+    "id": "GCS27-COA-M-NAT-058",
+    "explanation": "EAT = Hit_Ratio * T_Cache + (1 - Hit_Ratio) * (T_Cache + T_Mem)\nEAT = 0.92 * 1 + 0.08 * (1 + 78) = 7.24 ns.\nRounded: 7."
+  },
+  {
+    "id": "GCS27-COA-M-NAT-059",
+    "explanation": "EAT = Hit_Ratio * T_Cache + (1 - Hit_Ratio) * (T_Cache + T_Mem)\nEAT = 0.93 * 2 + 0.07 * (2 + 79) = 7.53 ns.\nRounded: 8."
+  },
+  {
+    "id": "GCS27-COA-M-NAT-060",
+    "explanation": "EAT = Hit_Ratio * T_Cache + (1 - Hit_Ratio) * (T_Cache + T_Mem)\nEAT = 0.94 * 1 + 0.06 * (1 + 50) = 4.00 ns.\nRounded: 4."
+  },
+  {
+    "id": "GCS27-COA-M-NAT-061",
+    "explanation": "EAT = Hit_Ratio * T_Cache + (1 - Hit_Ratio) * (T_Cache + T_Mem)\nEAT = 0.95 * 2 + 0.05 * (2 + 51) = 4.55 ns.\nRounded: 5."
+  },
+  {
+    "id": "GCS27-COA-M-NAT-062",
+    "explanation": "EAT = Hit_Ratio * T_Cache + (1 - Hit_Ratio) * (T_Cache + T_Mem)\nEAT = 0.96 * 1 + 0.04 * (1 + 52) = 3.08 ns.\nRounded: 3."
+  },
+  {
+    "id": "GCS27-COA-M-NAT-063",
+    "explanation": "EAT = Hit_Ratio * T_Cache + (1 - Hit_Ratio) * (T_Cache + T_Mem)\nEAT = 0.97 * 2 + 0.03 * (2 + 53) = 3.59 ns.\nRounded: 4."
+  },
+  {
+    "id": "GCS27-COA-M-NAT-064",
+    "explanation": "EAT = Hit_Ratio * T_Cache + (1 - Hit_Ratio) * (T_Cache + T_Mem)\nEAT = 0.9 * 1 + 0.10 * (1 + 54) = 6.40 ns.\nRounded: 6."
+  },
+  {
+    "id": "GCS27-COA-M-NAT-065",
+    "explanation": "EAT = Hit_Ratio * T_Cache + (1 - Hit_Ratio) * (T_Cache + T_Mem)\nEAT = 0.91 * 2 + 0.09 * (2 + 55) = 6.95 ns.\nRounded: 7."
+  },
+  {
+    "id": "GCS27-COA-M-NAT-066",
+    "explanation": "EAT = Hit_Ratio * T_Cache + (1 - Hit_Ratio) * (T_Cache + T_Mem)\nEAT = 0.92 * 1 + 0.08 * (1 + 56) = 5.48 ns.\nRounded: 5."
+  },
+  {
+    "id": "GCS27-COA-M-NAT-067",
+    "explanation": "EAT = Hit_Ratio * T_Cache + (1 - Hit_Ratio) * (T_Cache + T_Mem)\nEAT = 0.93 * 2 + 0.07 * (2 + 57) = 5.99 ns.\nRounded: 6."
+  },
+  {
+    "id": "GCS27-COA-M-NAT-068",
+    "explanation": "EAT = Hit_Ratio * T_Cache + (1 - Hit_Ratio) * (T_Cache + T_Mem)\nEAT = 0.94 * 1 + 0.06 * (1 + 58) = 4.48 ns.\nRounded: 4."
+  },
+  {
+    "id": "GCS27-COA-M-NAT-069",
+    "explanation": "EAT = Hit_Ratio * T_Cache + (1 - Hit_Ratio) * (T_Cache + T_Mem)\nEAT = 0.95 * 2 + 0.05 * (2 + 59) = 4.95 ns.\nRounded: 5."
+  },
+  {
+    "id": "GCS27-COA-M-NAT-070",
+    "explanation": "EAT = Hit_Ratio * T_Cache + (1 - Hit_Ratio) * (T_Cache + T_Mem)\nEAT = 0.96 * 1 + 0.04 * (1 + 60) = 3.40 ns.\nRounded: 3."
+  },
+  {
+    "id": "GCS27-COA-M-NAT-071",
+    "explanation": "EAT = Hit_Ratio * T_Cache + (1 - Hit_Ratio) * (T_Cache + T_Mem)\nEAT = 0.97 * 2 + 0.03 * (2 + 61) = 3.83 ns.\nRounded: 4."
+  },
+  {
+    "id": "GCS27-COA-M-NAT-072",
+    "explanation": "EAT = Hit_Ratio * T_Cache + (1 - Hit_Ratio) * (T_Cache + T_Mem)\nEAT = 0.9 * 1 + 0.10 * (1 + 62) = 7.20 ns.\nRounded: 7."
+  },
+  {
+    "id": "GCS27-COA-M-NAT-073",
+    "explanation": "EAT = Hit_Ratio * T_Cache + (1 - Hit_Ratio) * (T_Cache + T_Mem)\nEAT = 0.91 * 2 + 0.09 * (2 + 63) = 7.67 ns.\nRounded: 8."
+  },
+  {
+    "id": "GCS27-COA-M-NAT-074",
+    "explanation": "EAT = Hit_Ratio * T_Cache + (1 - Hit_Ratio) * (T_Cache + T_Mem)\nEAT = 0.92 * 1 + 0.08 * (1 + 64) = 6.12 ns.\nRounded: 6."
+  },
+  {
+    "id": "GCS27-COA-M-NAT-075",
+    "explanation": "EAT = Hit_Ratio * T_Cache + (1 - Hit_Ratio) * (T_Cache + T_Mem)\nEAT = 0.93 * 2 + 0.07 * (2 + 65) = 6.55 ns.\nRounded: 7."
+  }
+]

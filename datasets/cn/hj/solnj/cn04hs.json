@@ -1,0 +1,302 @@
+[
+  {
+    "id": "GCS27-CN-H-MCQ-076",
+    "explanation": "Bellman-Ford calculation at A:\nCost(A->D1) = min(Cost(A->B) + Cost(B->D1), Cost(A->C) + Cost(C->D1)) = min(1+2, 2+5) = 3.\nCost(A->D2) = min(Cost(A->B) + Cost(B->D2), Cost(A->C) + Cost(C->D2)) = min(1+6, 2+3) = 5.\nResult: D1: 3, D2: 5."
+  },
+  {
+    "id": "GCS27-CN-H-MCQ-077",
+    "explanation": "Bellman-Ford calculation at A:\nCost(A->D1) = min(Cost(A->B) + Cost(B->D1), Cost(A->C) + Cost(C->D1)) = min(1+2, 3+5) = 3.\nCost(A->D2) = min(Cost(A->B) + Cost(B->D2), Cost(A->C) + Cost(C->D2)) = min(1+6, 3+3) = 6.\nResult: D1: 3, D2: 6."
+  },
+  {
+    "id": "GCS27-CN-H-MCQ-078",
+    "explanation": "Bellman-Ford calculation at A:\nCost(A->D1) = min(Cost(A->B) + Cost(B->D1), Cost(A->C) + Cost(C->D1)) = min(1+2, 4+5) = 3.\nCost(A->D2) = min(Cost(A->B) + Cost(B->D2), Cost(A->C) + Cost(C->D2)) = min(1+6, 4+3) = 7.\nResult: D1: 3, D2: 7."
+  },
+  {
+    "id": "GCS27-CN-H-MCQ-079",
+    "explanation": "Bellman-Ford calculation at A:\nCost(A->D1) = min(Cost(A->B) + Cost(B->D1), Cost(A->C) + Cost(C->D1)) = min(1+2, 5+5) = 3.\nCost(A->D2) = min(Cost(A->B) + Cost(B->D2), Cost(A->C) + Cost(C->D2)) = min(1+6, 5+3) = 7.\nResult: D1: 3, D2: 7."
+  },
+  {
+    "id": "GCS27-CN-H-MCQ-080",
+    "explanation": "Bellman-Ford calculation at A:\nCost(A->D1) = min(Cost(A->B) + Cost(B->D1), Cost(A->C) + Cost(C->D1)) = min(1+2, 1+5) = 3.\nCost(A->D2) = min(Cost(A->B) + Cost(B->D2), Cost(A->C) + Cost(C->D2)) = min(1+6, 1+3) = 4.\nResult: D1: 3, D2: 4."
+  },
+  {
+    "id": "GCS27-CN-H-MCQ-081",
+    "explanation": "Bellman-Ford calculation at A:\nCost(A->D1) = min(Cost(A->B) + Cost(B->D1), Cost(A->C) + Cost(C->D1)) = min(1+2, 2+5) = 3.\nCost(A->D2) = min(Cost(A->B) + Cost(B->D2), Cost(A->C) + Cost(C->D2)) = min(1+6, 2+3) = 5.\nResult: D1: 3, D2: 5."
+  },
+  {
+    "id": "GCS27-CN-H-MCQ-082",
+    "explanation": "Bellman-Ford calculation at A:\nCost(A->D1) = min(Cost(A->B) + Cost(B->D1), Cost(A->C) + Cost(C->D1)) = min(1+2, 3+5) = 3.\nCost(A->D2) = min(Cost(A->B) + Cost(B->D2), Cost(A->C) + Cost(C->D2)) = min(1+6, 3+3) = 6.\nResult: D1: 3, D2: 6."
+  },
+  {
+    "id": "GCS27-CN-H-MCQ-083",
+    "explanation": "Bellman-Ford calculation at A:\nCost(A->D1) = min(Cost(A->B) + Cost(B->D1), Cost(A->C) + Cost(C->D1)) = min(1+2, 4+5) = 3.\nCost(A->D2) = min(Cost(A->B) + Cost(B->D2), Cost(A->C) + Cost(C->D2)) = min(1+6, 4+3) = 7.\nResult: D1: 3, D2: 7."
+  },
+  {
+    "id": "GCS27-CN-H-MCQ-084",
+    "explanation": "Bellman-Ford calculation at A:\nCost(A->D1) = min(Cost(A->B) + Cost(B->D1), Cost(A->C) + Cost(C->D1)) = min(1+2, 5+5) = 3.\nCost(A->D2) = min(Cost(A->B) + Cost(B->D2), Cost(A->C) + Cost(C->D2)) = min(1+6, 5+3) = 7.\nResult: D1: 3, D2: 7."
+  },
+  {
+    "id": "GCS27-CN-H-MCQ-085",
+    "explanation": "Bellman-Ford calculation at A:\nCost(A->D1) = min(Cost(A->B) + Cost(B->D1), Cost(A->C) + Cost(C->D1)) = min(1+2, 1+5) = 3.\nCost(A->D2) = min(Cost(A->B) + Cost(B->D2), Cost(A->C) + Cost(C->D2)) = min(1+6, 1+3) = 4.\nResult: D1: 3, D2: 4."
+  },
+  {
+    "id": "GCS27-CN-H-MCQ-086",
+    "explanation": "Bellman-Ford calculation at A:\nCost(A->D1) = min(Cost(A->B) + Cost(B->D1), Cost(A->C) + Cost(C->D1)) = min(1+2, 2+5) = 3.\nCost(A->D2) = min(Cost(A->B) + Cost(B->D2), Cost(A->C) + Cost(C->D2)) = min(1+6, 2+3) = 5.\nResult: D1: 3, D2: 5."
+  },
+  {
+    "id": "GCS27-CN-H-MCQ-087",
+    "explanation": "Bellman-Ford calculation at A:\nCost(A->D1) = min(Cost(A->B) + Cost(B->D1), Cost(A->C) + Cost(C->D1)) = min(1+2, 3+5) = 3.\nCost(A->D2) = min(Cost(A->B) + Cost(B->D2), Cost(A->C) + Cost(C->D2)) = min(1+6, 3+3) = 6.\nResult: D1: 3, D2: 6."
+  },
+  {
+    "id": "GCS27-CN-H-MCQ-088",
+    "explanation": "Bellman-Ford calculation at A:\nCost(A->D1) = min(Cost(A->B) + Cost(B->D1), Cost(A->C) + Cost(C->D1)) = min(1+2, 4+5) = 3.\nCost(A->D2) = min(Cost(A->B) + Cost(B->D2), Cost(A->C) + Cost(C->D2)) = min(1+6, 4+3) = 7.\nResult: D1: 3, D2: 7."
+  },
+  {
+    "id": "GCS27-CN-H-MCQ-089",
+    "explanation": "Bellman-Ford calculation at A:\nCost(A->D1) = min(Cost(A->B) + Cost(B->D1), Cost(A->C) + Cost(C->D1)) = min(1+2, 5+5) = 3.\nCost(A->D2) = min(Cost(A->B) + Cost(B->D2), Cost(A->C) + Cost(C->D2)) = min(1+6, 5+3) = 7.\nResult: D1: 3, D2: 7."
+  },
+  {
+    "id": "GCS27-CN-H-MCQ-090",
+    "explanation": "Bellman-Ford calculation at A:\nCost(A->D1) = min(Cost(A->B) + Cost(B->D1), Cost(A->C) + Cost(C->D1)) = min(1+2, 1+5) = 3.\nCost(A->D2) = min(Cost(A->B) + Cost(B->D2), Cost(A->C) + Cost(C->D2)) = min(1+6, 1+3) = 4.\nResult: D1: 3, D2: 4."
+  },
+  {
+    "id": "GCS27-CN-H-MCQ-091",
+    "explanation": "Bellman-Ford calculation at A:\nCost(A->D1) = min(Cost(A->B) + Cost(B->D1), Cost(A->C) + Cost(C->D1)) = min(1+2, 2+5) = 3.\nCost(A->D2) = min(Cost(A->B) + Cost(B->D2), Cost(A->C) + Cost(C->D2)) = min(1+6, 2+3) = 5.\nResult: D1: 3, D2: 5."
+  },
+  {
+    "id": "GCS27-CN-H-MCQ-092",
+    "explanation": "Bellman-Ford calculation at A:\nCost(A->D1) = min(Cost(A->B) + Cost(B->D1), Cost(A->C) + Cost(C->D1)) = min(1+2, 3+5) = 3.\nCost(A->D2) = min(Cost(A->B) + Cost(B->D2), Cost(A->C) + Cost(C->D2)) = min(1+6, 3+3) = 6.\nResult: D1: 3, D2: 6."
+  },
+  {
+    "id": "GCS27-CN-H-MCQ-093",
+    "explanation": "Bellman-Ford calculation at A:\nCost(A->D1) = min(Cost(A->B) + Cost(B->D1), Cost(A->C) + Cost(C->D1)) = min(1+2, 4+5) = 3.\nCost(A->D2) = min(Cost(A->B) + Cost(B->D2), Cost(A->C) + Cost(C->D2)) = min(1+6, 4+3) = 7.\nResult: D1: 3, D2: 7."
+  },
+  {
+    "id": "GCS27-CN-H-MCQ-094",
+    "explanation": "Bellman-Ford calculation at A:\nCost(A->D1) = min(Cost(A->B) + Cost(B->D1), Cost(A->C) + Cost(C->D1)) = min(1+2, 5+5) = 3.\nCost(A->D2) = min(Cost(A->B) + Cost(B->D2), Cost(A->C) + Cost(C->D2)) = min(1+6, 5+3) = 7.\nResult: D1: 3, D2: 7."
+  },
+  {
+    "id": "GCS27-CN-H-MCQ-095",
+    "explanation": "Bellman-Ford calculation at A:\nCost(A->D1) = min(Cost(A->B) + Cost(B->D1), Cost(A->C) + Cost(C->D1)) = min(1+2, 1+5) = 3.\nCost(A->D2) = min(Cost(A->B) + Cost(B->D2), Cost(A->C) + Cost(C->D2)) = min(1+6, 1+3) = 4.\nResult: D1: 3, D2: 4."
+  },
+  {
+    "id": "GCS27-CN-H-MCQ-096",
+    "explanation": "Bellman-Ford calculation at A:\nCost(A->D1) = min(Cost(A->B) + Cost(B->D1), Cost(A->C) + Cost(C->D1)) = min(1+2, 2+5) = 3.\nCost(A->D2) = min(Cost(A->B) + Cost(B->D2), Cost(A->C) + Cost(C->D2)) = min(1+6, 2+3) = 5.\nResult: D1: 3, D2: 5."
+  },
+  {
+    "id": "GCS27-CN-H-MCQ-097",
+    "explanation": "Bellman-Ford calculation at A:\nCost(A->D1) = min(Cost(A->B) + Cost(B->D1), Cost(A->C) + Cost(C->D1)) = min(1+2, 3+5) = 3.\nCost(A->D2) = min(Cost(A->B) + Cost(B->D2), Cost(A->C) + Cost(C->D2)) = min(1+6, 3+3) = 6.\nResult: D1: 3, D2: 6."
+  },
+  {
+    "id": "GCS27-CN-H-MCQ-098",
+    "explanation": "Bellman-Ford calculation at A:\nCost(A->D1) = min(Cost(A->B) + Cost(B->D1), Cost(A->C) + Cost(C->D1)) = min(1+2, 4+5) = 3.\nCost(A->D2) = min(Cost(A->B) + Cost(B->D2), Cost(A->C) + Cost(C->D2)) = min(1+6, 4+3) = 7.\nResult: D1: 3, D2: 7."
+  },
+  {
+    "id": "GCS27-CN-H-MCQ-099",
+    "explanation": "Bellman-Ford calculation at A:\nCost(A->D1) = min(Cost(A->B) + Cost(B->D1), Cost(A->C) + Cost(C->D1)) = min(1+2, 5+5) = 3.\nCost(A->D2) = min(Cost(A->B) + Cost(B->D2), Cost(A->C) + Cost(C->D2)) = min(1+6, 5+3) = 7.\nResult: D1: 3, D2: 7."
+  },
+  {
+    "id": "GCS27-CN-H-MCQ-100",
+    "explanation": "Bellman-Ford calculation at A:\nCost(A->D1) = min(Cost(A->B) + Cost(B->D1), Cost(A->C) + Cost(C->D1)) = min(1+2, 1+5) = 3.\nCost(A->D2) = min(Cost(A->B) + Cost(B->D2), Cost(A->C) + Cost(C->D2)) = min(1+6, 1+3) = 4.\nResult: D1: 3, D2: 4."
+  },
+  {
+    "id": "GCS27-CN-H-MSQ-076",
+    "explanation": "All statements correctly describe TCP Tahoe and Reno Congestion Control window mutations.\nAnswer Verification: A, B, C, D are correct."
+  },
+  {
+    "id": "GCS27-CN-H-MSQ-077",
+    "explanation": "All statements correctly describe TCP Tahoe and Reno Congestion Control window mutations.\nAnswer Verification: A, B, C, D are correct."
+  },
+  {
+    "id": "GCS27-CN-H-MSQ-078",
+    "explanation": "All statements correctly describe TCP Tahoe and Reno Congestion Control window mutations.\nAnswer Verification: A, B, C, D are correct."
+  },
+  {
+    "id": "GCS27-CN-H-MSQ-079",
+    "explanation": "All statements correctly describe TCP Tahoe and Reno Congestion Control window mutations.\nAnswer Verification: A, B, C, D are correct."
+  },
+  {
+    "id": "GCS27-CN-H-MSQ-080",
+    "explanation": "All statements correctly describe TCP Tahoe and Reno Congestion Control window mutations.\nAnswer Verification: A, B, C, D are correct."
+  },
+  {
+    "id": "GCS27-CN-H-MSQ-081",
+    "explanation": "All statements correctly describe TCP Tahoe and Reno Congestion Control window mutations.\nAnswer Verification: A, B, C, D are correct."
+  },
+  {
+    "id": "GCS27-CN-H-MSQ-082",
+    "explanation": "All statements correctly describe TCP Tahoe and Reno Congestion Control window mutations.\nAnswer Verification: A, B, C, D are correct."
+  },
+  {
+    "id": "GCS27-CN-H-MSQ-083",
+    "explanation": "All statements correctly describe TCP Tahoe and Reno Congestion Control window mutations.\nAnswer Verification: A, B, C, D are correct."
+  },
+  {
+    "id": "GCS27-CN-H-MSQ-084",
+    "explanation": "All statements correctly describe TCP Tahoe and Reno Congestion Control window mutations.\nAnswer Verification: A, B, C, D are correct."
+  },
+  {
+    "id": "GCS27-CN-H-MSQ-085",
+    "explanation": "All statements correctly describe TCP Tahoe and Reno Congestion Control window mutations.\nAnswer Verification: A, B, C, D are correct."
+  },
+  {
+    "id": "GCS27-CN-H-MSQ-086",
+    "explanation": "All statements correctly describe TCP Tahoe and Reno Congestion Control window mutations.\nAnswer Verification: A, B, C, D are correct."
+  },
+  {
+    "id": "GCS27-CN-H-MSQ-087",
+    "explanation": "All statements correctly describe TCP Tahoe and Reno Congestion Control window mutations.\nAnswer Verification: A, B, C, D are correct."
+  },
+  {
+    "id": "GCS27-CN-H-MSQ-088",
+    "explanation": "All statements correctly describe TCP Tahoe and Reno Congestion Control window mutations.\nAnswer Verification: A, B, C, D are correct."
+  },
+  {
+    "id": "GCS27-CN-H-MSQ-089",
+    "explanation": "All statements correctly describe TCP Tahoe and Reno Congestion Control window mutations.\nAnswer Verification: A, B, C, D are correct."
+  },
+  {
+    "id": "GCS27-CN-H-MSQ-090",
+    "explanation": "All statements correctly describe TCP Tahoe and Reno Congestion Control window mutations.\nAnswer Verification: A, B, C, D are correct."
+  },
+  {
+    "id": "GCS27-CN-H-MSQ-091",
+    "explanation": "All statements correctly describe TCP Tahoe and Reno Congestion Control window mutations.\nAnswer Verification: A, B, C, D are correct."
+  },
+  {
+    "id": "GCS27-CN-H-MSQ-092",
+    "explanation": "All statements correctly describe TCP Tahoe and Reno Congestion Control window mutations.\nAnswer Verification: A, B, C, D are correct."
+  },
+  {
+    "id": "GCS27-CN-H-MSQ-093",
+    "explanation": "All statements correctly describe TCP Tahoe and Reno Congestion Control window mutations.\nAnswer Verification: A, B, C, D are correct."
+  },
+  {
+    "id": "GCS27-CN-H-MSQ-094",
+    "explanation": "All statements correctly describe TCP Tahoe and Reno Congestion Control window mutations.\nAnswer Verification: A, B, C, D are correct."
+  },
+  {
+    "id": "GCS27-CN-H-MSQ-095",
+    "explanation": "All statements correctly describe TCP Tahoe and Reno Congestion Control window mutations.\nAnswer Verification: A, B, C, D are correct."
+  },
+  {
+    "id": "GCS27-CN-H-MSQ-096",
+    "explanation": "All statements correctly describe TCP Tahoe and Reno Congestion Control window mutations.\nAnswer Verification: A, B, C, D are correct."
+  },
+  {
+    "id": "GCS27-CN-H-MSQ-097",
+    "explanation": "All statements correctly describe TCP Tahoe and Reno Congestion Control window mutations.\nAnswer Verification: A, B, C, D are correct."
+  },
+  {
+    "id": "GCS27-CN-H-MSQ-098",
+    "explanation": "All statements correctly describe TCP Tahoe and Reno Congestion Control window mutations.\nAnswer Verification: A, B, C, D are correct."
+  },
+  {
+    "id": "GCS27-CN-H-MSQ-099",
+    "explanation": "All statements correctly describe TCP Tahoe and Reno Congestion Control window mutations.\nAnswer Verification: A, B, C, D are correct."
+  },
+  {
+    "id": "GCS27-CN-H-MSQ-100",
+    "explanation": "All statements correctly describe TCP Tahoe and Reno Congestion Control window mutations.\nAnswer Verification: A, B, C, D are correct."
+  },
+  {
+    "id": "GCS27-CN-H-NAT-076",
+    "explanation": "Selective Repeat steps:\n1. Transmit frames 1, 2, ..., 4 (frame 4 is lost).\n2. Sender continues to transmit 4+1, 4+2, 4+3.\n3. Upon timeout, ONLY the lost frame 4 is retransmitted.\nTotal transmissions = 4 original + 1 retransmission = 5."
+  },
+  {
+    "id": "GCS27-CN-H-NAT-077",
+    "explanation": "Selective Repeat steps:\n1. Transmit frames 1, 2, ..., 5 (frame 5 is lost).\n2. Sender continues to transmit 5+1, 5+2, 5+3.\n3. Upon timeout, ONLY the lost frame 5 is retransmitted.\nTotal transmissions = 5 original + 1 retransmission = 6."
+  },
+  {
+    "id": "GCS27-CN-H-NAT-078",
+    "explanation": "Selective Repeat steps:\n1. Transmit frames 1, 2, ..., 3 (frame 3 is lost).\n2. Sender continues to transmit 3+1, 3+2, 3+3.\n3. Upon timeout, ONLY the lost frame 3 is retransmitted.\nTotal transmissions = 3 original + 1 retransmission = 4."
+  },
+  {
+    "id": "GCS27-CN-H-NAT-079",
+    "explanation": "Selective Repeat steps:\n1. Transmit frames 1, 2, ..., 4 (frame 4 is lost).\n2. Sender continues to transmit 4+1, 4+2, 4+3.\n3. Upon timeout, ONLY the lost frame 4 is retransmitted.\nTotal transmissions = 4 original + 1 retransmission = 5."
+  },
+  {
+    "id": "GCS27-CN-H-NAT-080",
+    "explanation": "Selective Repeat steps:\n1. Transmit frames 1, 2, ..., 5 (frame 5 is lost).\n2. Sender continues to transmit 5+1, 5+2, 5+3.\n3. Upon timeout, ONLY the lost frame 5 is retransmitted.\nTotal transmissions = 5 original + 1 retransmission = 6."
+  },
+  {
+    "id": "GCS27-CN-H-NAT-081",
+    "explanation": "Selective Repeat steps:\n1. Transmit frames 1, 2, ..., 3 (frame 3 is lost).\n2. Sender continues to transmit 3+1, 3+2, 3+3.\n3. Upon timeout, ONLY the lost frame 3 is retransmitted.\nTotal transmissions = 3 original + 1 retransmission = 4."
+  },
+  {
+    "id": "GCS27-CN-H-NAT-082",
+    "explanation": "Selective Repeat steps:\n1. Transmit frames 1, 2, ..., 4 (frame 4 is lost).\n2. Sender continues to transmit 4+1, 4+2, 4+3.\n3. Upon timeout, ONLY the lost frame 4 is retransmitted.\nTotal transmissions = 4 original + 1 retransmission = 5."
+  },
+  {
+    "id": "GCS27-CN-H-NAT-083",
+    "explanation": "Selective Repeat steps:\n1. Transmit frames 1, 2, ..., 5 (frame 5 is lost).\n2. Sender continues to transmit 5+1, 5+2, 5+3.\n3. Upon timeout, ONLY the lost frame 5 is retransmitted.\nTotal transmissions = 5 original + 1 retransmission = 6."
+  },
+  {
+    "id": "GCS27-CN-H-NAT-084",
+    "explanation": "Selective Repeat steps:\n1. Transmit frames 1, 2, ..., 3 (frame 3 is lost).\n2. Sender continues to transmit 3+1, 3+2, 3+3.\n3. Upon timeout, ONLY the lost frame 3 is retransmitted.\nTotal transmissions = 3 original + 1 retransmission = 4."
+  },
+  {
+    "id": "GCS27-CN-H-NAT-085",
+    "explanation": "Selective Repeat steps:\n1. Transmit frames 1, 2, ..., 4 (frame 4 is lost).\n2. Sender continues to transmit 4+1, 4+2, 4+3.\n3. Upon timeout, ONLY the lost frame 4 is retransmitted.\nTotal transmissions = 4 original + 1 retransmission = 5."
+  },
+  {
+    "id": "GCS27-CN-H-NAT-086",
+    "explanation": "Selective Repeat steps:\n1. Transmit frames 1, 2, ..., 5 (frame 5 is lost).\n2. Sender continues to transmit 5+1, 5+2, 5+3.\n3. Upon timeout, ONLY the lost frame 5 is retransmitted.\nTotal transmissions = 5 original + 1 retransmission = 6."
+  },
+  {
+    "id": "GCS27-CN-H-NAT-087",
+    "explanation": "Selective Repeat steps:\n1. Transmit frames 1, 2, ..., 3 (frame 3 is lost).\n2. Sender continues to transmit 3+1, 3+2, 3+3.\n3. Upon timeout, ONLY the lost frame 3 is retransmitted.\nTotal transmissions = 3 original + 1 retransmission = 4."
+  },
+  {
+    "id": "GCS27-CN-H-NAT-088",
+    "explanation": "Selective Repeat steps:\n1. Transmit frames 1, 2, ..., 4 (frame 4 is lost).\n2. Sender continues to transmit 4+1, 4+2, 4+3.\n3. Upon timeout, ONLY the lost frame 4 is retransmitted.\nTotal transmissions = 4 original + 1 retransmission = 5."
+  },
+  {
+    "id": "GCS27-CN-H-NAT-089",
+    "explanation": "Selective Repeat steps:\n1. Transmit frames 1, 2, ..., 5 (frame 5 is lost).\n2. Sender continues to transmit 5+1, 5+2, 5+3.\n3. Upon timeout, ONLY the lost frame 5 is retransmitted.\nTotal transmissions = 5 original + 1 retransmission = 6."
+  },
+  {
+    "id": "GCS27-CN-H-NAT-090",
+    "explanation": "Selective Repeat steps:\n1. Transmit frames 1, 2, ..., 3 (frame 3 is lost).\n2. Sender continues to transmit 3+1, 3+2, 3+3.\n3. Upon timeout, ONLY the lost frame 3 is retransmitted.\nTotal transmissions = 3 original + 1 retransmission = 4."
+  },
+  {
+    "id": "GCS27-CN-H-NAT-091",
+    "explanation": "Selective Repeat steps:\n1. Transmit frames 1, 2, ..., 4 (frame 4 is lost).\n2. Sender continues to transmit 4+1, 4+2, 4+3.\n3. Upon timeout, ONLY the lost frame 4 is retransmitted.\nTotal transmissions = 4 original + 1 retransmission = 5."
+  },
+  {
+    "id": "GCS27-CN-H-NAT-092",
+    "explanation": "Selective Repeat steps:\n1. Transmit frames 1, 2, ..., 5 (frame 5 is lost).\n2. Sender continues to transmit 5+1, 5+2, 5+3.\n3. Upon timeout, ONLY the lost frame 5 is retransmitted.\nTotal transmissions = 5 original + 1 retransmission = 6."
+  },
+  {
+    "id": "GCS27-CN-H-NAT-093",
+    "explanation": "Selective Repeat steps:\n1. Transmit frames 1, 2, ..., 3 (frame 3 is lost).\n2. Sender continues to transmit 3+1, 3+2, 3+3.\n3. Upon timeout, ONLY the lost frame 3 is retransmitted.\nTotal transmissions = 3 original + 1 retransmission = 4."
+  },
+  {
+    "id": "GCS27-CN-H-NAT-094",
+    "explanation": "Selective Repeat steps:\n1. Transmit frames 1, 2, ..., 4 (frame 4 is lost).\n2. Sender continues to transmit 4+1, 4+2, 4+3.\n3. Upon timeout, ONLY the lost frame 4 is retransmitted.\nTotal transmissions = 4 original + 1 retransmission = 5."
+  },
+  {
+    "id": "GCS27-CN-H-NAT-095",
+    "explanation": "Selective Repeat steps:\n1. Transmit frames 1, 2, ..., 5 (frame 5 is lost).\n2. Sender continues to transmit 5+1, 5+2, 5+3.\n3. Upon timeout, ONLY the lost frame 5 is retransmitted.\nTotal transmissions = 5 original + 1 retransmission = 6."
+  },
+  {
+    "id": "GCS27-CN-H-NAT-096",
+    "explanation": "Selective Repeat steps:\n1. Transmit frames 1, 2, ..., 3 (frame 3 is lost).\n2. Sender continues to transmit 3+1, 3+2, 3+3.\n3. Upon timeout, ONLY the lost frame 3 is retransmitted.\nTotal transmissions = 3 original + 1 retransmission = 4."
+  },
+  {
+    "id": "GCS27-CN-H-NAT-097",
+    "explanation": "Selective Repeat steps:\n1. Transmit frames 1, 2, ..., 4 (frame 4 is lost).\n2. Sender continues to transmit 4+1, 4+2, 4+3.\n3. Upon timeout, ONLY the lost frame 4 is retransmitted.\nTotal transmissions = 4 original + 1 retransmission = 5."
+  },
+  {
+    "id": "GCS27-CN-H-NAT-098",
+    "explanation": "Selective Repeat steps:\n1. Transmit frames 1, 2, ..., 5 (frame 5 is lost).\n2. Sender continues to transmit 5+1, 5+2, 5+3.\n3. Upon timeout, ONLY the lost frame 5 is retransmitted.\nTotal transmissions = 5 original + 1 retransmission = 6."
+  },
+  {
+    "id": "GCS27-CN-H-NAT-099",
+    "explanation": "Selective Repeat steps:\n1. Transmit frames 1, 2, ..., 3 (frame 3 is lost).\n2. Sender continues to transmit 3+1, 3+2, 3+3.\n3. Upon timeout, ONLY the lost frame 3 is retransmitted.\nTotal transmissions = 3 original + 1 retransmission = 4."
+  },
+  {
+    "id": "GCS27-CN-H-NAT-100",
+    "explanation": "Selective Repeat steps:\n1. Transmit frames 1, 2, ..., 4 (frame 4 is lost).\n2. Sender continues to transmit 4+1, 4+2, 4+3.\n3. Upon timeout, ONLY the lost frame 4 is retransmitted.\nTotal transmissions = 4 original + 1 retransmission = 5."
+  }
+]

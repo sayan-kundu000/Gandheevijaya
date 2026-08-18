@@ -1,0 +1,66 @@
+[
+  {
+    "id": "GCS27-COA-H-MCQ-134",
+    "subject": "COA",
+    "topic": "Pipelining",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "A 5-stage pipeline has 20% branch instructions. If branch penalty is 2 cycles, what is the average CPI? (Assume base CPI without branches is 1).",
+    "options": [
+      "1.4",
+      "1.8",
+      "1.6",
+      "1.2"
+    ],
+    "answer_id": "GCS27-COA-H-MCQ-134",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "pipeline hazards math"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-COA-H-MSQ-134",
+    "subject": "COA",
+    "topic": "Input-Output System",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Which of the following statements about DMA (Direct Memory Access) mode of transfer are CORRECT?",
+    "options": [
+      "DMA bypasses the CPU for data transfers between memory and I/O devices.",
+      "The DMA controller becomes the bus master during transfers.",
+      "Cycle stealing mode allows DMA to transfer one word at a time, interlaced with CPU cycles.",
+      "Burst mode transfers block of data continuously until finished."
+    ],
+    "answer_id": "GCS27-COA-H-MSQ-134",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "property validation"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-COA-H-NAT-134",
+    "subject": "COA",
+    "topic": "Pipelining",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "A processor executes instructions with base CPI = 1.0. If 5% of instructions cause a cache miss that stalls the processor for 100 cycles, what is the new CPI?",
+    "options": null,
+    "answer_id": "GCS27-COA-H-NAT-134",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "pipeline hazards math"
+    ],
+    "representation": [
+      "text"
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "GCS27-DB-M-MCQ-044",
+    "explanation": "The attribute closure of A is {A}+ = {A, B, C, D}. Thus A is a candidate key."
+  },
+  {
+    "id": "GCS27-DB-M-MSQ-044",
+    "explanation": "All options represent correct definitions of standard SQL JOIN operations."
+  },
+  {
+    "id": "GCS27-DB-M-NAT-044",
+    "explanation": "Candidate keys are AB and BC. AB -> C satisfies BCNF (AB is key). C -> A: A is prime attribute, which is allowed in 3NF. But C is not a superkey, violating BCNF. Thus the highest normal form satisfied is 3NF (3)."
+  }
+]

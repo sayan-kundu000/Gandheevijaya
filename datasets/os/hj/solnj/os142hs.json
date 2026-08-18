@@ -1,0 +1,14 @@
+[
+  {
+    "id": "GCS27-OS-H-MCQ-142",
+    "explanation": "To avoid deadlock, total instances >= processes * (k - 1) + 1. 4 >= 3 * (k - 1) + 1 => 3 >= 3(k-1) => 1 >= k - 1 => k <= 2. Max value is 2."
+  },
+  {
+    "id": "GCS27-OS-H-MSQ-142",
+    "explanation": "All options represent correct operational differences and properties of semaphores and mutexes."
+  },
+  {
+    "id": "GCS27-OS-H-NAT-142",
+    "explanation": "From 100, the closer request is 90 (distance 10) vs 150 (distance 50). Head moves 100->90. From 90, head moves 90->150 (distance 60). Total = 10 + 60 = 70 cylinders."
+  }
+]

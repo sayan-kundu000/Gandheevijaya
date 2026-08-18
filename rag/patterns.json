@@ -1,0 +1,90 @@
+[
+  {
+    "subject": "PDS",
+    "topic": "Programming_in_C",
+    "subtopic": "Pointers and Memory Layout",
+    "concept": "Pointers and Pointer Arithmetic",
+    "archetype": "multi-step deduction",
+    "reasoning_type": ["pointer tracing", "arithmetic deduction"],
+    "required_knowledge": "Pointer arithmetic rules, array-pointer equivalence, precedence of * and ++ operators",
+    "reasoning_steps": 5,
+    "pattern_text": "An array of pointers is defined, which point to elements in another array of strings or integers. A pointer to the pointer array is then created. Arithmetic operations (increments, additions, decrements) are applied to the pointer-to-pointer, and the values are printed using dereferences. The student must trace each dereference step-by-step, accounting for modification of the pointers during evaluation."
+  },
+  {
+    "subject": "PDS",
+    "topic": "Programming_in_C",
+    "subtopic": "Recursion and Call Stack",
+    "concept": "Recursion and Call Stack",
+    "archetype": "output prediction",
+    "reasoning_type": ["state tracking", "recursion tree analysis"],
+    "required_knowledge": "Static variable behavior in recursive functions, base conditions, activation record stack tracking",
+    "reasoning_steps": 4,
+    "pattern_text": "A recursive function includes a static variable that increments or performs state updates across multiple recursive calls. The function makes multiple recursive calls per invocation (e.g., binary tree-like recursion) and returns a value computed from the recursive results and the static variable. The student must compute the exact return value of the initial function call."
+  },
+  {
+    "subject": "PDS",
+    "topic": "Programming_in_C",
+    "subtopic": "Structures, Unions, and Padding",
+    "concept": "Structures, Unions, and Padding",
+    "archetype": "memory reasoning",
+    "reasoning_type": ["boundary-case reasoning", "constraint analysis"],
+    "required_knowledge": "Structure member alignment rules, padding requirements (n-byte alignment), size estimation of unions and nested structs",
+    "reasoning_steps": 3,
+    "pattern_text": "A structure contains members of varying data types (char, int, short, double, and pointer types) arranged in a specific order. The system specifies the alignment requirements (e.g., 32-bit vs 64-bit architecture alignment rules). The student must compute the total size of the structure in bytes, considering alignment padding rules and nesting structures/unions."
+  },
+  {
+    "subject": "PDS",
+    "topic": "Programming_in_C",
+    "subtopic": "Operators and Expressions",
+    "concept": "Operators and Expressions",
+    "archetype": "state-transition reasoning",
+    "reasoning_type": ["short-circuit evaluation", "precedence analysis"],
+    "required_knowledge": "Short-circuit behavior of logical operators (&&, ||), sequence points, operator precedence, prefix vs postfix increment/decrement side effects",
+    "reasoning_steps": 4,
+    "pattern_text": "An expression evaluates multiple side-effect operations (like post/pre increments) combined using logical AND (&&) and logical OR (||) operators. The student must determine the final values of the variables after evaluation, paying attention to whether certain sub-expressions are bypassed due to short-circuit rules."
+  },
+  {
+    "subject": "PDS",
+    "topic": "Programming_in_C",
+    "subtopic": "Preprocessors and Macros",
+    "concept": "Preprocessors and Macros",
+    "archetype": "debugging-style",
+    "reasoning_type": ["macro expansion", "precedence pitfalls"],
+    "required_knowledge": "Textual substitution rules of preprocessor macros, operator precedence of arguments compared to macro bodies",
+    "reasoning_steps": 2,
+    "pattern_text": "A macro is defined to perform arithmetic (e.g., squaring, adding) without surrounding the macro parameters or the whole body with parentheses. It is called inside an expression that uses operators with higher or lower precedence (e.g., division or multiplication). The student must compute the output of the code after textual expansion."
+  },
+  {
+    "subject": "PDS",
+    "topic": "Programming_in_C",
+    "subtopic": "Storage Classes and Scoping Rules",
+    "concept": "Storage Classes and Scoping Rules",
+    "archetype": "boundary-case",
+    "reasoning_type": ["variable lifetime tracking", "scoping analysis"],
+    "required_knowledge": "Scope of local vs global variables, file scope vs block scope, static storage lifetime, register and extern keywords",
+    "reasoning_steps": 3,
+    "pattern_text": "A program contains global variables, static global variables, local variables, and static local variables with duplicate identifiers. Functions mutate these variables in different scopes (block scope nested in loops, function scope, etc.). The student must track variable shadow rules and determine which values are printed at various stages."
+  },
+  {
+    "subject": "PDS",
+    "topic": "Programming_in_C",
+    "subtopic": "Arrays and Pointer Arithmetic",
+    "concept": "Arrays and Pointer Arithmetic",
+    "archetype": "invariant reasoning",
+    "reasoning_type": ["multidimensional decay tracking", "index manipulation"],
+    "required_knowledge": "Row-major storage of 2D/3D arrays, decay of array names to pointers, pointer type casting, difference between ptr+1 and (cast)+1",
+    "reasoning_steps": 5,
+    "pattern_text": "A multidimensional array is declared and accessed using pointer notations, index notation, and casting. Expression values include arithmetic like `*(*(arr + i) + j)` and type castings. The student must analyze the memory layout, pointer decay, and determine what the arithmetic resolves to in terms of indexing or memory offset."
+  },
+  {
+    "subject": "PDS",
+    "topic": "Programming_in_C",
+    "subtopic": "Data Types and Type Conversions",
+    "concept": "Data Types and Type Conversions",
+    "archetype": "arithmetic",
+    "reasoning_type": ["bit-level analysis", "promotion rules"],
+    "required_knowledge": "Signedness promotion rules in C (integer promotion), two's complement representation, bitwise operator behavior on negative values, float to int truncation",
+    "reasoning_steps": 4,
+    "pattern_text": "A program performs bitwise operations and arithmetic comparisons between signed and unsigned integers of different widths (e.g., char, short, unsigned int). The student must track implicit integer promotions, two's complement transformations, and the true/false evaluation of relational operators on mixed sign inputs."
+  }
+]

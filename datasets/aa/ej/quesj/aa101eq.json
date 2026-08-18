@@ -1,0 +1,66 @@
+[
+  {
+    "id": "GCS27-AA-E-MCQ-101",
+    "subject": "AA",
+    "topic": "Data Interpretation",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "Consider the sales table:\n\n| Company | Year 1 Sales (M$) | Year 2 Sales (M$) |\n|---|---|---|\n| Company A | 21 | 20 |\n| Company B | 30 | 19 |\n\nWhat is the ratio of Company A's Year 1 sales to Company B's Year 2 sales?",
+    "options": [
+      "23:19",
+      "21:21",
+      "1:1",
+      "21:19"
+    ],
+    "answer_id": "GCS27-AA-E-MCQ-101",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "data reading"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-AA-E-MSQ-101",
+    "subject": "AA",
+    "topic": "Data Interpretation",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MSQ",
+    "question": "Which of the following statements regarding general data analysis are CORRECT?",
+    "options": [
+      "Sales growth can be calculated as (Year 2 - Year 1) / Year 1.",
+      "If sales increase while costs remain constant, profit must increase.",
+      "A pie chart represents the proportional share of components to a total sum.",
+      "A line graph is ideal for representing continuous trend updates over time."
+    ],
+    "answer_id": "GCS27-AA-E-MSQ-101",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "property validation"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-AA-E-NAT-101",
+    "subject": "AA",
+    "topic": "Data Interpretation",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "NAT",
+    "question": "Calculate the average sales (in millions) across the two years: Year 1 = 46, Year 2 = 52.",
+    "options": null,
+    "answer_id": "GCS27-AA-E-NAT-101",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "arithmetic math"
+    ],
+    "representation": [
+      "table"
+    ]
+  }
+]

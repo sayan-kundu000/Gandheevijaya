@@ -1,0 +1,1602 @@
+[
+  {
+    "id": "GCS27-PDS-H-MCQ-576",
+    "subject": "PDS",
+    "topic": "Pointers and Memory Layout",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "What is the output of the following double-pointer arithmetic C program?\n\n```c\n#include <stdio.h>\nint main() {\n    char *argv[] = {\"m\", \"n\", \"exam\", \"prep\", \"engine\"};\n    char **ptr[] = {argv + 3, argv + 2, argv + 1, argv};\n    char ***p = ptr;\n    p++;\n    printf(\"%s %s\", **p, *(*p + 1) + 1);\n    return 0;\n}\n```",
+    "options": [
+      "prep exam",
+      "exam prep",
+      "exam rep",
+      "cs exam"
+    ],
+    "answer_id": "GCS27-PDS-H-MCQ-576",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "pointer dereference"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-MCQ-577",
+    "subject": "PDS",
+    "topic": "Pointers and Memory Layout",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "What is the output of the following double-pointer arithmetic C program?\n\n```c\n#include <stdio.h>\nint main() {\n    char *argv[] = {\"foo\", \"bar\", \"exam\", \"prep\", \"engine\"};\n    char **ptr[] = {argv + 3, argv + 2, argv + 1, argv};\n    char ***p = ptr;\n    p++;\n    printf(\"%s %s\", **p, *(*p + 1) + 1);\n    return 0;\n}\n```",
+    "options": [
+      "exam prep",
+      "exam rep",
+      "prep exam",
+      "cs exam"
+    ],
+    "answer_id": "GCS27-PDS-H-MCQ-577",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "pointer dereference"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-MCQ-578",
+    "subject": "PDS",
+    "topic": "Pointers and Memory Layout",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "What is the output of the following double-pointer arithmetic C program?\n\n```c\n#include <stdio.h>\nint main() {\n    char *argv[] = {\"temp\", \"data\", \"exam\", \"prep\", \"engine\"};\n    char **ptr[] = {argv + 3, argv + 2, argv + 1, argv};\n    char ***p = ptr;\n    p++;\n    printf(\"%s %s\", **p, *(*p + 1) + 1);\n    return 0;\n}\n```",
+    "options": [
+      "cs exam",
+      "prep exam",
+      "exam rep",
+      "exam prep"
+    ],
+    "answer_id": "GCS27-PDS-H-MCQ-578",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "pointer dereference"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-MCQ-579",
+    "subject": "PDS",
+    "topic": "Pointers and Memory Layout",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "What is the output of the following double-pointer arithmetic C program?\n\n```c\n#include <stdio.h>\nint main() {\n    char *argv[] = {\"start\", \"middle\", \"exam\", \"prep\", \"engine\"};\n    char **ptr[] = {argv + 3, argv + 2, argv + 1, argv};\n    char ***p = ptr;\n    p++;\n    printf(\"%s %s\", **p, *(*p + 1) + 1);\n    return 0;\n}\n```",
+    "options": [
+      "exam rep",
+      "cs exam",
+      "prep exam",
+      "exam prep"
+    ],
+    "answer_id": "GCS27-PDS-H-MCQ-579",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "pointer dereference"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-MCQ-580",
+    "subject": "PDS",
+    "topic": "Pointers and Memory Layout",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "What is the output of the following double-pointer arithmetic C program?\n\n```c\n#include <stdio.h>\nint main() {\n    char *argv[] = {\"a\", \"b\", \"exam\", \"prep\", \"engine\"};\n    char **ptr[] = {argv + 3, argv + 2, argv + 1, argv};\n    char ***p = ptr;\n    p++;\n    printf(\"%s %s\", **p, *(*p + 1) + 1);\n    return 0;\n}\n```",
+    "options": [
+      "cs exam",
+      "prep exam",
+      "exam rep",
+      "exam prep"
+    ],
+    "answer_id": "GCS27-PDS-H-MCQ-580",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "pointer dereference"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-MCQ-581",
+    "subject": "PDS",
+    "topic": "Pointers and Memory Layout",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "What is the output of the following double-pointer arithmetic C program?\n\n```c\n#include <stdio.h>\nint main() {\n    char *argv[] = {\"x\", \"y\", \"exam\", \"prep\", \"engine\"};\n    char **ptr[] = {argv + 3, argv + 2, argv + 1, argv};\n    char ***p = ptr;\n    p++;\n    printf(\"%s %s\", **p, *(*p + 1) + 1);\n    return 0;\n}\n```",
+    "options": [
+      "exam prep",
+      "prep exam",
+      "cs exam",
+      "exam rep"
+    ],
+    "answer_id": "GCS27-PDS-H-MCQ-581",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "pointer dereference"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-MCQ-582",
+    "subject": "PDS",
+    "topic": "Pointers and Memory Layout",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "What is the output of the following double-pointer arithmetic C program?\n\n```c\n#include <stdio.h>\nint main() {\n    char *argv[] = {\"p\", \"q\", \"exam\", \"prep\", \"engine\"};\n    char **ptr[] = {argv + 3, argv + 2, argv + 1, argv};\n    char ***p = ptr;\n    p++;\n    printf(\"%s %s\", **p, *(*p + 1) + 1);\n    return 0;\n}\n```",
+    "options": [
+      "cs exam",
+      "exam rep",
+      "exam prep",
+      "prep exam"
+    ],
+    "answer_id": "GCS27-PDS-H-MCQ-582",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "pointer dereference"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-MCQ-583",
+    "subject": "PDS",
+    "topic": "Pointers and Memory Layout",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "What is the output of the following double-pointer arithmetic C program?\n\n```c\n#include <stdio.h>\nint main() {\n    char *argv[] = {\"val\", \"num\", \"exam\", \"prep\", \"engine\"};\n    char **ptr[] = {argv + 3, argv + 2, argv + 1, argv};\n    char ***p = ptr;\n    p++;\n    printf(\"%s %s\", **p, *(*p + 1) + 1);\n    return 0;\n}\n```",
+    "options": [
+      "exam prep",
+      "cs exam",
+      "prep exam",
+      "exam rep"
+    ],
+    "answer_id": "GCS27-PDS-H-MCQ-583",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "pointer dereference"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-MCQ-584",
+    "subject": "PDS",
+    "topic": "Pointers and Memory Layout",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "What is the output of the following double-pointer arithmetic C program?\n\n```c\n#include <stdio.h>\nint main() {\n    char *argv[] = {\"alpha\", \"beta\", \"exam\", \"prep\", \"engine\"};\n    char **ptr[] = {argv + 3, argv + 2, argv + 1, argv};\n    char ***p = ptr;\n    p++;\n    printf(\"%s %s\", **p, *(*p + 1) + 1);\n    return 0;\n}\n```",
+    "options": [
+      "prep exam",
+      "cs exam",
+      "exam rep",
+      "exam prep"
+    ],
+    "answer_id": "GCS27-PDS-H-MCQ-584",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "pointer dereference"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-MCQ-585",
+    "subject": "PDS",
+    "topic": "Pointers and Memory Layout",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "What is the output of the following double-pointer arithmetic C program?\n\n```c\n#include <stdio.h>\nint main() {\n    char *argv[] = {\"i\", \"j\", \"exam\", \"prep\", \"engine\"};\n    char **ptr[] = {argv + 3, argv + 2, argv + 1, argv};\n    char ***p = ptr;\n    p++;\n    printf(\"%s %s\", **p, *(*p + 1) + 1);\n    return 0;\n}\n```",
+    "options": [
+      "prep exam",
+      "exam prep",
+      "cs exam",
+      "exam rep"
+    ],
+    "answer_id": "GCS27-PDS-H-MCQ-585",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "pointer dereference"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-MCQ-586",
+    "subject": "PDS",
+    "topic": "Pointers and Memory Layout",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "What is the output of the following double-pointer arithmetic C program?\n\n```c\n#include <stdio.h>\nint main() {\n    char *argv[] = {\"m\", \"n\", \"exam\", \"prep\", \"engine\"};\n    char **ptr[] = {argv + 3, argv + 2, argv + 1, argv};\n    char ***p = ptr;\n    p++;\n    printf(\"%s %s\", **p, *(*p + 1) + 1);\n    return 0;\n}\n```",
+    "options": [
+      "cs exam",
+      "prep exam",
+      "exam rep",
+      "exam prep"
+    ],
+    "answer_id": "GCS27-PDS-H-MCQ-586",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "pointer dereference"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-MCQ-587",
+    "subject": "PDS",
+    "topic": "Pointers and Memory Layout",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "What is the output of the following double-pointer arithmetic C program?\n\n```c\n#include <stdio.h>\nint main() {\n    char *argv[] = {\"foo\", \"bar\", \"exam\", \"prep\", \"engine\"};\n    char **ptr[] = {argv + 3, argv + 2, argv + 1, argv};\n    char ***p = ptr;\n    p++;\n    printf(\"%s %s\", **p, *(*p + 1) + 1);\n    return 0;\n}\n```",
+    "options": [
+      "cs exam",
+      "prep exam",
+      "exam rep",
+      "exam prep"
+    ],
+    "answer_id": "GCS27-PDS-H-MCQ-587",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "pointer dereference"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-MCQ-588",
+    "subject": "PDS",
+    "topic": "Pointers and Memory Layout",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "What is the output of the following double-pointer arithmetic C program?\n\n```c\n#include <stdio.h>\nint main() {\n    char *argv[] = {\"temp\", \"data\", \"exam\", \"prep\", \"engine\"};\n    char **ptr[] = {argv + 3, argv + 2, argv + 1, argv};\n    char ***p = ptr;\n    p++;\n    printf(\"%s %s\", **p, *(*p + 1) + 1);\n    return 0;\n}\n```",
+    "options": [
+      "exam prep",
+      "exam rep",
+      "prep exam",
+      "cs exam"
+    ],
+    "answer_id": "GCS27-PDS-H-MCQ-588",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "pointer dereference"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-MCQ-589",
+    "subject": "PDS",
+    "topic": "Pointers and Memory Layout",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "What is the output of the following double-pointer arithmetic C program?\n\n```c\n#include <stdio.h>\nint main() {\n    char *argv[] = {\"start\", \"middle\", \"exam\", \"prep\", \"engine\"};\n    char **ptr[] = {argv + 3, argv + 2, argv + 1, argv};\n    char ***p = ptr;\n    p++;\n    printf(\"%s %s\", **p, *(*p + 1) + 1);\n    return 0;\n}\n```",
+    "options": [
+      "exam prep",
+      "cs exam",
+      "prep exam",
+      "exam rep"
+    ],
+    "answer_id": "GCS27-PDS-H-MCQ-589",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "pointer dereference"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-MCQ-590",
+    "subject": "PDS",
+    "topic": "Pointers and Memory Layout",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "What is the output of the following double-pointer arithmetic C program?\n\n```c\n#include <stdio.h>\nint main() {\n    char *argv[] = {\"a\", \"b\", \"exam\", \"prep\", \"engine\"};\n    char **ptr[] = {argv + 3, argv + 2, argv + 1, argv};\n    char ***p = ptr;\n    p++;\n    printf(\"%s %s\", **p, *(*p + 1) + 1);\n    return 0;\n}\n```",
+    "options": [
+      "exam prep",
+      "prep exam",
+      "cs exam",
+      "exam rep"
+    ],
+    "answer_id": "GCS27-PDS-H-MCQ-590",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "pointer dereference"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-MCQ-591",
+    "subject": "PDS",
+    "topic": "Pointers and Memory Layout",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "What is the output of the following double-pointer arithmetic C program?\n\n```c\n#include <stdio.h>\nint main() {\n    char *argv[] = {\"x\", \"y\", \"exam\", \"prep\", \"engine\"};\n    char **ptr[] = {argv + 3, argv + 2, argv + 1, argv};\n    char ***p = ptr;\n    p++;\n    printf(\"%s %s\", **p, *(*p + 1) + 1);\n    return 0;\n}\n```",
+    "options": [
+      "prep exam",
+      "exam rep",
+      "exam prep",
+      "cs exam"
+    ],
+    "answer_id": "GCS27-PDS-H-MCQ-591",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "pointer dereference"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-MCQ-592",
+    "subject": "PDS",
+    "topic": "Pointers and Memory Layout",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "What is the output of the following double-pointer arithmetic C program?\n\n```c\n#include <stdio.h>\nint main() {\n    char *argv[] = {\"p\", \"q\", \"exam\", \"prep\", \"engine\"};\n    char **ptr[] = {argv + 3, argv + 2, argv + 1, argv};\n    char ***p = ptr;\n    p++;\n    printf(\"%s %s\", **p, *(*p + 1) + 1);\n    return 0;\n}\n```",
+    "options": [
+      "exam prep",
+      "cs exam",
+      "prep exam",
+      "exam rep"
+    ],
+    "answer_id": "GCS27-PDS-H-MCQ-592",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "pointer dereference"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-MCQ-593",
+    "subject": "PDS",
+    "topic": "Pointers and Memory Layout",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "What is the output of the following double-pointer arithmetic C program?\n\n```c\n#include <stdio.h>\nint main() {\n    char *argv[] = {\"val\", \"num\", \"exam\", \"prep\", \"engine\"};\n    char **ptr[] = {argv + 3, argv + 2, argv + 1, argv};\n    char ***p = ptr;\n    p++;\n    printf(\"%s %s\", **p, *(*p + 1) + 1);\n    return 0;\n}\n```",
+    "options": [
+      "exam rep",
+      "cs exam",
+      "prep exam",
+      "exam prep"
+    ],
+    "answer_id": "GCS27-PDS-H-MCQ-593",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "pointer dereference"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-MCQ-594",
+    "subject": "PDS",
+    "topic": "Pointers and Memory Layout",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "What is the output of the following double-pointer arithmetic C program?\n\n```c\n#include <stdio.h>\nint main() {\n    char *argv[] = {\"alpha\", \"beta\", \"exam\", \"prep\", \"engine\"};\n    char **ptr[] = {argv + 3, argv + 2, argv + 1, argv};\n    char ***p = ptr;\n    p++;\n    printf(\"%s %s\", **p, *(*p + 1) + 1);\n    return 0;\n}\n```",
+    "options": [
+      "exam prep",
+      "exam rep",
+      "cs exam",
+      "prep exam"
+    ],
+    "answer_id": "GCS27-PDS-H-MCQ-594",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "pointer dereference"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-MCQ-595",
+    "subject": "PDS",
+    "topic": "Pointers and Memory Layout",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "What is the output of the following double-pointer arithmetic C program?\n\n```c\n#include <stdio.h>\nint main() {\n    char *argv[] = {\"i\", \"j\", \"exam\", \"prep\", \"engine\"};\n    char **ptr[] = {argv + 3, argv + 2, argv + 1, argv};\n    char ***p = ptr;\n    p++;\n    printf(\"%s %s\", **p, *(*p + 1) + 1);\n    return 0;\n}\n```",
+    "options": [
+      "exam rep",
+      "cs exam",
+      "prep exam",
+      "exam prep"
+    ],
+    "answer_id": "GCS27-PDS-H-MCQ-595",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "pointer dereference"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-MCQ-596",
+    "subject": "PDS",
+    "topic": "Pointers and Memory Layout",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "What is the output of the following double-pointer arithmetic C program?\n\n```c\n#include <stdio.h>\nint main() {\n    char *argv[] = {\"m\", \"n\", \"exam\", \"prep\", \"engine\"};\n    char **ptr[] = {argv + 3, argv + 2, argv + 1, argv};\n    char ***p = ptr;\n    p++;\n    printf(\"%s %s\", **p, *(*p + 1) + 1);\n    return 0;\n}\n```",
+    "options": [
+      "prep exam",
+      "exam prep",
+      "exam rep",
+      "cs exam"
+    ],
+    "answer_id": "GCS27-PDS-H-MCQ-596",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "pointer dereference"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-MCQ-597",
+    "subject": "PDS",
+    "topic": "Pointers and Memory Layout",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "What is the output of the following double-pointer arithmetic C program?\n\n```c\n#include <stdio.h>\nint main() {\n    char *argv[] = {\"foo\", \"bar\", \"exam\", \"prep\", \"engine\"};\n    char **ptr[] = {argv + 3, argv + 2, argv + 1, argv};\n    char ***p = ptr;\n    p++;\n    printf(\"%s %s\", **p, *(*p + 1) + 1);\n    return 0;\n}\n```",
+    "options": [
+      "exam prep",
+      "prep exam",
+      "cs exam",
+      "exam rep"
+    ],
+    "answer_id": "GCS27-PDS-H-MCQ-597",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "pointer dereference"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-MCQ-598",
+    "subject": "PDS",
+    "topic": "Pointers and Memory Layout",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "What is the output of the following double-pointer arithmetic C program?\n\n```c\n#include <stdio.h>\nint main() {\n    char *argv[] = {\"temp\", \"data\", \"exam\", \"prep\", \"engine\"};\n    char **ptr[] = {argv + 3, argv + 2, argv + 1, argv};\n    char ***p = ptr;\n    p++;\n    printf(\"%s %s\", **p, *(*p + 1) + 1);\n    return 0;\n}\n```",
+    "options": [
+      "cs exam",
+      "prep exam",
+      "exam prep",
+      "exam rep"
+    ],
+    "answer_id": "GCS27-PDS-H-MCQ-598",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "pointer dereference"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-MCQ-599",
+    "subject": "PDS",
+    "topic": "Pointers and Memory Layout",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "What is the output of the following double-pointer arithmetic C program?\n\n```c\n#include <stdio.h>\nint main() {\n    char *argv[] = {\"start\", \"middle\", \"exam\", \"prep\", \"engine\"};\n    char **ptr[] = {argv + 3, argv + 2, argv + 1, argv};\n    char ***p = ptr;\n    p++;\n    printf(\"%s %s\", **p, *(*p + 1) + 1);\n    return 0;\n}\n```",
+    "options": [
+      "exam prep",
+      "cs exam",
+      "prep exam",
+      "exam rep"
+    ],
+    "answer_id": "GCS27-PDS-H-MCQ-599",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "pointer dereference"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-MCQ-600",
+    "subject": "PDS",
+    "topic": "Pointers and Memory Layout",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "What is the output of the following double-pointer arithmetic C program?\n\n```c\n#include <stdio.h>\nint main() {\n    char *argv[] = {\"a\", \"b\", \"exam\", \"prep\", \"engine\"};\n    char **ptr[] = {argv + 3, argv + 2, argv + 1, argv};\n    char ***p = ptr;\n    p++;\n    printf(\"%s %s\", **p, *(*p + 1) + 1);\n    return 0;\n}\n```",
+    "options": [
+      "exam rep",
+      "cs exam",
+      "prep exam",
+      "exam prep"
+    ],
+    "answer_id": "GCS27-PDS-H-MCQ-600",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "pointer dereference"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-MSQ-576",
+    "subject": "PDS",
+    "topic": "Arrays and Pointer Arithmetic",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Consider the array `int a[3][4]` and pointers `int (*p)[4] = a` and `int *q = (int *)(a + 1)`. Which of the following expressions evaluate to 6?\n\n```c\nint a[3][4] = {\n    {1, 2, 3, 4},\n    {5, 6, 7, 8},\n    {9, 10, 11, 12}\n};\n```",
+    "options": [
+      "*(*(p + 1) + 1)",
+      "*(q + 1)",
+      "*( *(a + 1) + 1)",
+      "(*p)[5]"
+    ],
+    "answer_id": "GCS27-PDS-H-MSQ-576",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "pointer scaling"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-MSQ-577",
+    "subject": "PDS",
+    "topic": "Arrays and Pointer Arithmetic",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Consider the array `int a[3][4]` and pointers `int (*p)[4] = a` and `int *q = (int *)(a + 1)`. Which of the following expressions evaluate to 6?\n\n```c\nint a[3][4] = {\n    {1, 2, 3, 4},\n    {5, 6, 7, 8},\n    {9, 10, 11, 12}\n};\n```",
+    "options": [
+      "*(*(p + 1) + 1)",
+      "*(q + 1)",
+      "*( *(a + 1) + 1)",
+      "(*p)[5]"
+    ],
+    "answer_id": "GCS27-PDS-H-MSQ-577",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "pointer scaling"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-MSQ-578",
+    "subject": "PDS",
+    "topic": "Arrays and Pointer Arithmetic",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Consider the array `int a[3][4]` and pointers `int (*p)[4] = a` and `int *q = (int *)(a + 1)`. Which of the following expressions evaluate to 6?\n\n```c\nint a[3][4] = {\n    {1, 2, 3, 4},\n    {5, 6, 7, 8},\n    {9, 10, 11, 12}\n};\n```",
+    "options": [
+      "*(*(p + 1) + 1)",
+      "*(q + 1)",
+      "*( *(a + 1) + 1)",
+      "(*p)[5]"
+    ],
+    "answer_id": "GCS27-PDS-H-MSQ-578",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "pointer scaling"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-MSQ-579",
+    "subject": "PDS",
+    "topic": "Arrays and Pointer Arithmetic",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Consider the array `int a[3][4]` and pointers `int (*p)[4] = a` and `int *q = (int *)(a + 1)`. Which of the following expressions evaluate to 6?\n\n```c\nint a[3][4] = {\n    {1, 2, 3, 4},\n    {5, 6, 7, 8},\n    {9, 10, 11, 12}\n};\n```",
+    "options": [
+      "*(*(p + 1) + 1)",
+      "*(q + 1)",
+      "*( *(a + 1) + 1)",
+      "(*p)[5]"
+    ],
+    "answer_id": "GCS27-PDS-H-MSQ-579",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "pointer scaling"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-MSQ-580",
+    "subject": "PDS",
+    "topic": "Arrays and Pointer Arithmetic",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Consider the array `int a[3][4]` and pointers `int (*p)[4] = a` and `int *q = (int *)(a + 1)`. Which of the following expressions evaluate to 6?\n\n```c\nint a[3][4] = {\n    {1, 2, 3, 4},\n    {5, 6, 7, 8},\n    {9, 10, 11, 12}\n};\n```",
+    "options": [
+      "*(*(p + 1) + 1)",
+      "*(q + 1)",
+      "*( *(a + 1) + 1)",
+      "(*p)[5]"
+    ],
+    "answer_id": "GCS27-PDS-H-MSQ-580",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "pointer scaling"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-MSQ-581",
+    "subject": "PDS",
+    "topic": "Arrays and Pointer Arithmetic",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Consider the array `int a[3][4]` and pointers `int (*p)[4] = a` and `int *q = (int *)(a + 1)`. Which of the following expressions evaluate to 6?\n\n```c\nint a[3][4] = {\n    {1, 2, 3, 4},\n    {5, 6, 7, 8},\n    {9, 10, 11, 12}\n};\n```",
+    "options": [
+      "*(*(p + 1) + 1)",
+      "*(q + 1)",
+      "*( *(a + 1) + 1)",
+      "(*p)[5]"
+    ],
+    "answer_id": "GCS27-PDS-H-MSQ-581",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "pointer scaling"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-MSQ-582",
+    "subject": "PDS",
+    "topic": "Arrays and Pointer Arithmetic",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Consider the array `int a[3][4]` and pointers `int (*p)[4] = a` and `int *q = (int *)(a + 1)`. Which of the following expressions evaluate to 6?\n\n```c\nint a[3][4] = {\n    {1, 2, 3, 4},\n    {5, 6, 7, 8},\n    {9, 10, 11, 12}\n};\n```",
+    "options": [
+      "*(*(p + 1) + 1)",
+      "*(q + 1)",
+      "*( *(a + 1) + 1)",
+      "(*p)[5]"
+    ],
+    "answer_id": "GCS27-PDS-H-MSQ-582",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "pointer scaling"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-MSQ-583",
+    "subject": "PDS",
+    "topic": "Arrays and Pointer Arithmetic",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Consider the array `int a[3][4]` and pointers `int (*p)[4] = a` and `int *q = (int *)(a + 1)`. Which of the following expressions evaluate to 6?\n\n```c\nint a[3][4] = {\n    {1, 2, 3, 4},\n    {5, 6, 7, 8},\n    {9, 10, 11, 12}\n};\n```",
+    "options": [
+      "*(*(p + 1) + 1)",
+      "*(q + 1)",
+      "*( *(a + 1) + 1)",
+      "(*p)[5]"
+    ],
+    "answer_id": "GCS27-PDS-H-MSQ-583",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "pointer scaling"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-MSQ-584",
+    "subject": "PDS",
+    "topic": "Arrays and Pointer Arithmetic",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Consider the array `int a[3][4]` and pointers `int (*p)[4] = a` and `int *q = (int *)(a + 1)`. Which of the following expressions evaluate to 6?\n\n```c\nint a[3][4] = {\n    {1, 2, 3, 4},\n    {5, 6, 7, 8},\n    {9, 10, 11, 12}\n};\n```",
+    "options": [
+      "*(*(p + 1) + 1)",
+      "*(q + 1)",
+      "*( *(a + 1) + 1)",
+      "(*p)[5]"
+    ],
+    "answer_id": "GCS27-PDS-H-MSQ-584",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "pointer scaling"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-MSQ-585",
+    "subject": "PDS",
+    "topic": "Arrays and Pointer Arithmetic",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Consider the array `int a[3][4]` and pointers `int (*p)[4] = a` and `int *q = (int *)(a + 1)`. Which of the following expressions evaluate to 6?\n\n```c\nint a[3][4] = {\n    {1, 2, 3, 4},\n    {5, 6, 7, 8},\n    {9, 10, 11, 12}\n};\n```",
+    "options": [
+      "*(*(p + 1) + 1)",
+      "*(q + 1)",
+      "*( *(a + 1) + 1)",
+      "(*p)[5]"
+    ],
+    "answer_id": "GCS27-PDS-H-MSQ-585",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "pointer scaling"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-MSQ-586",
+    "subject": "PDS",
+    "topic": "Arrays and Pointer Arithmetic",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Consider the array `int a[3][4]` and pointers `int (*p)[4] = a` and `int *q = (int *)(a + 1)`. Which of the following expressions evaluate to 6?\n\n```c\nint a[3][4] = {\n    {1, 2, 3, 4},\n    {5, 6, 7, 8},\n    {9, 10, 11, 12}\n};\n```",
+    "options": [
+      "*(*(p + 1) + 1)",
+      "*(q + 1)",
+      "*( *(a + 1) + 1)",
+      "(*p)[5]"
+    ],
+    "answer_id": "GCS27-PDS-H-MSQ-586",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "pointer scaling"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-MSQ-587",
+    "subject": "PDS",
+    "topic": "Arrays and Pointer Arithmetic",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Consider the array `int a[3][4]` and pointers `int (*p)[4] = a` and `int *q = (int *)(a + 1)`. Which of the following expressions evaluate to 6?\n\n```c\nint a[3][4] = {\n    {1, 2, 3, 4},\n    {5, 6, 7, 8},\n    {9, 10, 11, 12}\n};\n```",
+    "options": [
+      "*(*(p + 1) + 1)",
+      "*(q + 1)",
+      "*( *(a + 1) + 1)",
+      "(*p)[5]"
+    ],
+    "answer_id": "GCS27-PDS-H-MSQ-587",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "pointer scaling"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-MSQ-588",
+    "subject": "PDS",
+    "topic": "Arrays and Pointer Arithmetic",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Consider the array `int a[3][4]` and pointers `int (*p)[4] = a` and `int *q = (int *)(a + 1)`. Which of the following expressions evaluate to 6?\n\n```c\nint a[3][4] = {\n    {1, 2, 3, 4},\n    {5, 6, 7, 8},\n    {9, 10, 11, 12}\n};\n```",
+    "options": [
+      "*(*(p + 1) + 1)",
+      "*(q + 1)",
+      "*( *(a + 1) + 1)",
+      "(*p)[5]"
+    ],
+    "answer_id": "GCS27-PDS-H-MSQ-588",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "pointer scaling"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-MSQ-589",
+    "subject": "PDS",
+    "topic": "Arrays and Pointer Arithmetic",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Consider the array `int a[3][4]` and pointers `int (*p)[4] = a` and `int *q = (int *)(a + 1)`. Which of the following expressions evaluate to 6?\n\n```c\nint a[3][4] = {\n    {1, 2, 3, 4},\n    {5, 6, 7, 8},\n    {9, 10, 11, 12}\n};\n```",
+    "options": [
+      "*(*(p + 1) + 1)",
+      "*(q + 1)",
+      "*( *(a + 1) + 1)",
+      "(*p)[5]"
+    ],
+    "answer_id": "GCS27-PDS-H-MSQ-589",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "pointer scaling"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-MSQ-590",
+    "subject": "PDS",
+    "topic": "Arrays and Pointer Arithmetic",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Consider the array `int a[3][4]` and pointers `int (*p)[4] = a` and `int *q = (int *)(a + 1)`. Which of the following expressions evaluate to 6?\n\n```c\nint a[3][4] = {\n    {1, 2, 3, 4},\n    {5, 6, 7, 8},\n    {9, 10, 11, 12}\n};\n```",
+    "options": [
+      "*(*(p + 1) + 1)",
+      "*(q + 1)",
+      "*( *(a + 1) + 1)",
+      "(*p)[5]"
+    ],
+    "answer_id": "GCS27-PDS-H-MSQ-590",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "pointer scaling"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-MSQ-591",
+    "subject": "PDS",
+    "topic": "Arrays and Pointer Arithmetic",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Consider the array `int a[3][4]` and pointers `int (*p)[4] = a` and `int *q = (int *)(a + 1)`. Which of the following expressions evaluate to 6?\n\n```c\nint a[3][4] = {\n    {1, 2, 3, 4},\n    {5, 6, 7, 8},\n    {9, 10, 11, 12}\n};\n```",
+    "options": [
+      "*(*(p + 1) + 1)",
+      "*(q + 1)",
+      "*( *(a + 1) + 1)",
+      "(*p)[5]"
+    ],
+    "answer_id": "GCS27-PDS-H-MSQ-591",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "pointer scaling"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-MSQ-592",
+    "subject": "PDS",
+    "topic": "Arrays and Pointer Arithmetic",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Consider the array `int a[3][4]` and pointers `int (*p)[4] = a` and `int *q = (int *)(a + 1)`. Which of the following expressions evaluate to 6?\n\n```c\nint a[3][4] = {\n    {1, 2, 3, 4},\n    {5, 6, 7, 8},\n    {9, 10, 11, 12}\n};\n```",
+    "options": [
+      "*(*(p + 1) + 1)",
+      "*(q + 1)",
+      "*( *(a + 1) + 1)",
+      "(*p)[5]"
+    ],
+    "answer_id": "GCS27-PDS-H-MSQ-592",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "pointer scaling"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-MSQ-593",
+    "subject": "PDS",
+    "topic": "Arrays and Pointer Arithmetic",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Consider the array `int a[3][4]` and pointers `int (*p)[4] = a` and `int *q = (int *)(a + 1)`. Which of the following expressions evaluate to 6?\n\n```c\nint a[3][4] = {\n    {1, 2, 3, 4},\n    {5, 6, 7, 8},\n    {9, 10, 11, 12}\n};\n```",
+    "options": [
+      "*(*(p + 1) + 1)",
+      "*(q + 1)",
+      "*( *(a + 1) + 1)",
+      "(*p)[5]"
+    ],
+    "answer_id": "GCS27-PDS-H-MSQ-593",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "pointer scaling"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-MSQ-594",
+    "subject": "PDS",
+    "topic": "Arrays and Pointer Arithmetic",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Consider the array `int a[3][4]` and pointers `int (*p)[4] = a` and `int *q = (int *)(a + 1)`. Which of the following expressions evaluate to 6?\n\n```c\nint a[3][4] = {\n    {1, 2, 3, 4},\n    {5, 6, 7, 8},\n    {9, 10, 11, 12}\n};\n```",
+    "options": [
+      "*(*(p + 1) + 1)",
+      "*(q + 1)",
+      "*( *(a + 1) + 1)",
+      "(*p)[5]"
+    ],
+    "answer_id": "GCS27-PDS-H-MSQ-594",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "pointer scaling"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-MSQ-595",
+    "subject": "PDS",
+    "topic": "Arrays and Pointer Arithmetic",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Consider the array `int a[3][4]` and pointers `int (*p)[4] = a` and `int *q = (int *)(a + 1)`. Which of the following expressions evaluate to 6?\n\n```c\nint a[3][4] = {\n    {1, 2, 3, 4},\n    {5, 6, 7, 8},\n    {9, 10, 11, 12}\n};\n```",
+    "options": [
+      "*(*(p + 1) + 1)",
+      "*(q + 1)",
+      "*( *(a + 1) + 1)",
+      "(*p)[5]"
+    ],
+    "answer_id": "GCS27-PDS-H-MSQ-595",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "pointer scaling"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-MSQ-596",
+    "subject": "PDS",
+    "topic": "Arrays and Pointer Arithmetic",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Consider the array `int a[3][4]` and pointers `int (*p)[4] = a` and `int *q = (int *)(a + 1)`. Which of the following expressions evaluate to 6?\n\n```c\nint a[3][4] = {\n    {1, 2, 3, 4},\n    {5, 6, 7, 8},\n    {9, 10, 11, 12}\n};\n```",
+    "options": [
+      "*(*(p + 1) + 1)",
+      "*(q + 1)",
+      "*( *(a + 1) + 1)",
+      "(*p)[5]"
+    ],
+    "answer_id": "GCS27-PDS-H-MSQ-596",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "pointer scaling"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-MSQ-597",
+    "subject": "PDS",
+    "topic": "Arrays and Pointer Arithmetic",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Consider the array `int a[3][4]` and pointers `int (*p)[4] = a` and `int *q = (int *)(a + 1)`. Which of the following expressions evaluate to 6?\n\n```c\nint a[3][4] = {\n    {1, 2, 3, 4},\n    {5, 6, 7, 8},\n    {9, 10, 11, 12}\n};\n```",
+    "options": [
+      "*(*(p + 1) + 1)",
+      "*(q + 1)",
+      "*( *(a + 1) + 1)",
+      "(*p)[5]"
+    ],
+    "answer_id": "GCS27-PDS-H-MSQ-597",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "pointer scaling"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-MSQ-598",
+    "subject": "PDS",
+    "topic": "Arrays and Pointer Arithmetic",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Consider the array `int a[3][4]` and pointers `int (*p)[4] = a` and `int *q = (int *)(a + 1)`. Which of the following expressions evaluate to 6?\n\n```c\nint a[3][4] = {\n    {1, 2, 3, 4},\n    {5, 6, 7, 8},\n    {9, 10, 11, 12}\n};\n```",
+    "options": [
+      "*(*(p + 1) + 1)",
+      "*(q + 1)",
+      "*( *(a + 1) + 1)",
+      "(*p)[5]"
+    ],
+    "answer_id": "GCS27-PDS-H-MSQ-598",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "pointer scaling"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-MSQ-599",
+    "subject": "PDS",
+    "topic": "Arrays and Pointer Arithmetic",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Consider the array `int a[3][4]` and pointers `int (*p)[4] = a` and `int *q = (int *)(a + 1)`. Which of the following expressions evaluate to 6?\n\n```c\nint a[3][4] = {\n    {1, 2, 3, 4},\n    {5, 6, 7, 8},\n    {9, 10, 11, 12}\n};\n```",
+    "options": [
+      "*(*(p + 1) + 1)",
+      "*(q + 1)",
+      "*( *(a + 1) + 1)",
+      "(*p)[5]"
+    ],
+    "answer_id": "GCS27-PDS-H-MSQ-599",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "pointer scaling"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-MSQ-600",
+    "subject": "PDS",
+    "topic": "Arrays and Pointer Arithmetic",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Consider the array `int a[3][4]` and pointers `int (*p)[4] = a` and `int *q = (int *)(a + 1)`. Which of the following expressions evaluate to 6?\n\n```c\nint a[3][4] = {\n    {1, 2, 3, 4},\n    {5, 6, 7, 8},\n    {9, 10, 11, 12}\n};\n```",
+    "options": [
+      "*(*(p + 1) + 1)",
+      "*(q + 1)",
+      "*( *(a + 1) + 1)",
+      "(*p)[5]"
+    ],
+    "answer_id": "GCS27-PDS-H-MSQ-600",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "pointer scaling"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-NAT-576",
+    "subject": "PDS",
+    "topic": "Data Types and Type Conversions",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "What is the output of the following C program demonstrating unsigned comparison promotions?\n\n```c\n#include <stdio.h>\nint main() {\n    unsigned int x = 11;\n    int y = -11;\n    int res = (x + y > 0) ? 1 : 2;\n    printf(\"%d\", res);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-H-NAT-576",
+    "pattern_type": "arithmetic",
+    "reasoning_type": [
+      "type promotions"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-NAT-577",
+    "subject": "PDS",
+    "topic": "Data Types and Type Conversions",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "What is the output of the following C program demonstrating unsigned comparison promotions?\n\n```c\n#include <stdio.h>\nint main() {\n    unsigned int x = 12;\n    int y = -12;\n    int res = (x + y > 0) ? 1 : 2;\n    printf(\"%d\", res);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-H-NAT-577",
+    "pattern_type": "arithmetic",
+    "reasoning_type": [
+      "type promotions"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-NAT-578",
+    "subject": "PDS",
+    "topic": "Data Types and Type Conversions",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "What is the output of the following C program demonstrating unsigned comparison promotions?\n\n```c\n#include <stdio.h>\nint main() {\n    unsigned int x = 13;\n    int y = -13;\n    int res = (x + y > 0) ? 1 : 2;\n    printf(\"%d\", res);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-H-NAT-578",
+    "pattern_type": "arithmetic",
+    "reasoning_type": [
+      "type promotions"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-NAT-579",
+    "subject": "PDS",
+    "topic": "Data Types and Type Conversions",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "What is the output of the following C program demonstrating unsigned comparison promotions?\n\n```c\n#include <stdio.h>\nint main() {\n    unsigned int x = 14;\n    int y = -14;\n    int res = (x + y > 0) ? 1 : 2;\n    printf(\"%d\", res);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-H-NAT-579",
+    "pattern_type": "arithmetic",
+    "reasoning_type": [
+      "type promotions"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-NAT-580",
+    "subject": "PDS",
+    "topic": "Data Types and Type Conversions",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "What is the output of the following C program demonstrating unsigned comparison promotions?\n\n```c\n#include <stdio.h>\nint main() {\n    unsigned int x = 15;\n    int y = -15;\n    int res = (x + y > 0) ? 1 : 2;\n    printf(\"%d\", res);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-H-NAT-580",
+    "pattern_type": "arithmetic",
+    "reasoning_type": [
+      "type promotions"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-NAT-581",
+    "subject": "PDS",
+    "topic": "Data Types and Type Conversions",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "What is the output of the following C program demonstrating unsigned comparison promotions?\n\n```c\n#include <stdio.h>\nint main() {\n    unsigned int x = 16;\n    int y = -16;\n    int res = (x + y > 0) ? 1 : 2;\n    printf(\"%d\", res);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-H-NAT-581",
+    "pattern_type": "arithmetic",
+    "reasoning_type": [
+      "type promotions"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-NAT-582",
+    "subject": "PDS",
+    "topic": "Data Types and Type Conversions",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "What is the output of the following C program demonstrating unsigned comparison promotions?\n\n```c\n#include <stdio.h>\nint main() {\n    unsigned int x = 17;\n    int y = -17;\n    int res = (x + y > 0) ? 1 : 2;\n    printf(\"%d\", res);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-H-NAT-582",
+    "pattern_type": "arithmetic",
+    "reasoning_type": [
+      "type promotions"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-NAT-583",
+    "subject": "PDS",
+    "topic": "Data Types and Type Conversions",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "What is the output of the following C program demonstrating unsigned comparison promotions?\n\n```c\n#include <stdio.h>\nint main() {\n    unsigned int x = 18;\n    int y = -18;\n    int res = (x + y > 0) ? 1 : 2;\n    printf(\"%d\", res);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-H-NAT-583",
+    "pattern_type": "arithmetic",
+    "reasoning_type": [
+      "type promotions"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-NAT-584",
+    "subject": "PDS",
+    "topic": "Data Types and Type Conversions",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "What is the output of the following C program demonstrating unsigned comparison promotions?\n\n```c\n#include <stdio.h>\nint main() {\n    unsigned int x = 19;\n    int y = -19;\n    int res = (x + y > 0) ? 1 : 2;\n    printf(\"%d\", res);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-H-NAT-584",
+    "pattern_type": "arithmetic",
+    "reasoning_type": [
+      "type promotions"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-NAT-585",
+    "subject": "PDS",
+    "topic": "Data Types and Type Conversions",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "What is the output of the following C program demonstrating unsigned comparison promotions?\n\n```c\n#include <stdio.h>\nint main() {\n    unsigned int x = 5;\n    int y = -20;\n    int res = (x + y > 0) ? 1 : 2;\n    printf(\"%d\", res);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-H-NAT-585",
+    "pattern_type": "arithmetic",
+    "reasoning_type": [
+      "type promotions"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-NAT-586",
+    "subject": "PDS",
+    "topic": "Data Types and Type Conversions",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "What is the output of the following C program demonstrating unsigned comparison promotions?\n\n```c\n#include <stdio.h>\nint main() {\n    unsigned int x = 6;\n    int y = -21;\n    int res = (x + y > 0) ? 1 : 2;\n    printf(\"%d\", res);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-H-NAT-586",
+    "pattern_type": "arithmetic",
+    "reasoning_type": [
+      "type promotions"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-NAT-587",
+    "subject": "PDS",
+    "topic": "Data Types and Type Conversions",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "What is the output of the following C program demonstrating unsigned comparison promotions?\n\n```c\n#include <stdio.h>\nint main() {\n    unsigned int x = 7;\n    int y = -22;\n    int res = (x + y > 0) ? 1 : 2;\n    printf(\"%d\", res);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-H-NAT-587",
+    "pattern_type": "arithmetic",
+    "reasoning_type": [
+      "type promotions"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-NAT-588",
+    "subject": "PDS",
+    "topic": "Data Types and Type Conversions",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "What is the output of the following C program demonstrating unsigned comparison promotions?\n\n```c\n#include <stdio.h>\nint main() {\n    unsigned int x = 8;\n    int y = -23;\n    int res = (x + y > 0) ? 1 : 2;\n    printf(\"%d\", res);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-H-NAT-588",
+    "pattern_type": "arithmetic",
+    "reasoning_type": [
+      "type promotions"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-NAT-589",
+    "subject": "PDS",
+    "topic": "Data Types and Type Conversions",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "What is the output of the following C program demonstrating unsigned comparison promotions?\n\n```c\n#include <stdio.h>\nint main() {\n    unsigned int x = 9;\n    int y = -24;\n    int res = (x + y > 0) ? 1 : 2;\n    printf(\"%d\", res);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-H-NAT-589",
+    "pattern_type": "arithmetic",
+    "reasoning_type": [
+      "type promotions"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-NAT-590",
+    "subject": "PDS",
+    "topic": "Data Types and Type Conversions",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "What is the output of the following C program demonstrating unsigned comparison promotions?\n\n```c\n#include <stdio.h>\nint main() {\n    unsigned int x = 10;\n    int y = -25;\n    int res = (x + y > 0) ? 1 : 2;\n    printf(\"%d\", res);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-H-NAT-590",
+    "pattern_type": "arithmetic",
+    "reasoning_type": [
+      "type promotions"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-NAT-591",
+    "subject": "PDS",
+    "topic": "Data Types and Type Conversions",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "What is the output of the following C program demonstrating unsigned comparison promotions?\n\n```c\n#include <stdio.h>\nint main() {\n    unsigned int x = 11;\n    int y = -26;\n    int res = (x + y > 0) ? 1 : 2;\n    printf(\"%d\", res);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-H-NAT-591",
+    "pattern_type": "arithmetic",
+    "reasoning_type": [
+      "type promotions"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-NAT-592",
+    "subject": "PDS",
+    "topic": "Data Types and Type Conversions",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "What is the output of the following C program demonstrating unsigned comparison promotions?\n\n```c\n#include <stdio.h>\nint main() {\n    unsigned int x = 12;\n    int y = -27;\n    int res = (x + y > 0) ? 1 : 2;\n    printf(\"%d\", res);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-H-NAT-592",
+    "pattern_type": "arithmetic",
+    "reasoning_type": [
+      "type promotions"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-NAT-593",
+    "subject": "PDS",
+    "topic": "Data Types and Type Conversions",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "What is the output of the following C program demonstrating unsigned comparison promotions?\n\n```c\n#include <stdio.h>\nint main() {\n    unsigned int x = 13;\n    int y = -28;\n    int res = (x + y > 0) ? 1 : 2;\n    printf(\"%d\", res);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-H-NAT-593",
+    "pattern_type": "arithmetic",
+    "reasoning_type": [
+      "type promotions"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-NAT-594",
+    "subject": "PDS",
+    "topic": "Data Types and Type Conversions",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "What is the output of the following C program demonstrating unsigned comparison promotions?\n\n```c\n#include <stdio.h>\nint main() {\n    unsigned int x = 14;\n    int y = -29;\n    int res = (x + y > 0) ? 1 : 2;\n    printf(\"%d\", res);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-H-NAT-594",
+    "pattern_type": "arithmetic",
+    "reasoning_type": [
+      "type promotions"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-NAT-595",
+    "subject": "PDS",
+    "topic": "Data Types and Type Conversions",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "What is the output of the following C program demonstrating unsigned comparison promotions?\n\n```c\n#include <stdio.h>\nint main() {\n    unsigned int x = 15;\n    int y = -30;\n    int res = (x + y > 0) ? 1 : 2;\n    printf(\"%d\", res);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-H-NAT-595",
+    "pattern_type": "arithmetic",
+    "reasoning_type": [
+      "type promotions"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-NAT-596",
+    "subject": "PDS",
+    "topic": "Data Types and Type Conversions",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "What is the output of the following C program demonstrating unsigned comparison promotions?\n\n```c\n#include <stdio.h>\nint main() {\n    unsigned int x = 16;\n    int y = -31;\n    int res = (x + y > 0) ? 1 : 2;\n    printf(\"%d\", res);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-H-NAT-596",
+    "pattern_type": "arithmetic",
+    "reasoning_type": [
+      "type promotions"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-NAT-597",
+    "subject": "PDS",
+    "topic": "Data Types and Type Conversions",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "What is the output of the following C program demonstrating unsigned comparison promotions?\n\n```c\n#include <stdio.h>\nint main() {\n    unsigned int x = 17;\n    int y = -32;\n    int res = (x + y > 0) ? 1 : 2;\n    printf(\"%d\", res);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-H-NAT-597",
+    "pattern_type": "arithmetic",
+    "reasoning_type": [
+      "type promotions"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-NAT-598",
+    "subject": "PDS",
+    "topic": "Data Types and Type Conversions",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "What is the output of the following C program demonstrating unsigned comparison promotions?\n\n```c\n#include <stdio.h>\nint main() {\n    unsigned int x = 18;\n    int y = -33;\n    int res = (x + y > 0) ? 1 : 2;\n    printf(\"%d\", res);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-H-NAT-598",
+    "pattern_type": "arithmetic",
+    "reasoning_type": [
+      "type promotions"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-NAT-599",
+    "subject": "PDS",
+    "topic": "Data Types and Type Conversions",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "What is the output of the following C program demonstrating unsigned comparison promotions?\n\n```c\n#include <stdio.h>\nint main() {\n    unsigned int x = 19;\n    int y = -34;\n    int res = (x + y > 0) ? 1 : 2;\n    printf(\"%d\", res);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-H-NAT-599",
+    "pattern_type": "arithmetic",
+    "reasoning_type": [
+      "type promotions"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-NAT-600",
+    "subject": "PDS",
+    "topic": "Data Types and Type Conversions",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "What is the output of the following C program demonstrating unsigned comparison promotions?\n\n```c\n#include <stdio.h>\nint main() {\n    unsigned int x = 5;\n    int y = -10;\n    int res = (x + y > 0) ? 1 : 2;\n    printf(\"%d\", res);\n    return 0;\n}\n```",
+    "options": [],
+    "answer_id": "GCS27-PDS-H-NAT-600",
+    "pattern_type": "arithmetic",
+    "reasoning_type": [
+      "type promotions"
+    ],
+    "representation": [
+      "code"
+    ]
+  }
+]

@@ -1,0 +1,111 @@
+{
+  "subjects": {
+    "EM": {
+      "name": "Engineering Mathematics",
+      "chapters": {
+        "Linear_Algebra": ["Matrices", "Determinants", "Systems of Linear Equations", "Eigenvalues and Eigenvectors"],
+        "Calculus": ["Limits, Continuity, and Differentiability", "Maxima and Minima", "Mean Value Theorems", "Integration"],
+        "Probability_Statistics": ["Mean, Median, Mode", "Conditional Probability", "Random Variables", "Distributions"]
+      }
+    },
+    "DM": {
+      "name": "Discrete Mathematics",
+      "chapters": {
+        "Mathematical_Logic": ["Propositional Logic", "First-Order Logic", "Equivalences and Inference rules"],
+        "Set_Theory_Relations": ["Sets and Functions", "Relations and Equivalences", "Partial Orders and Lattices"],
+        "Group_Theory": ["Groups", "Monoids", "Semigroups", "Algebraic Structures"],
+        "Combinatorics": ["Permutations and Combinations", "Generating Functions", "Recurrence Relations"],
+        "Graph_Theory": ["Graph Connectivity", "Matching and Coloring", "Euler and Hamilton Paths"]
+      }
+    },
+    "DL": {
+      "name": "Digital Logic",
+      "chapters": {
+        "Boolean_Algebra": ["Logic Gates", "Boolean Minimization", "Karnaugh Maps"],
+        "Computer_Arithmetic": ["Number Representations", "Signed and Unsigned Numbers", "Fixed and Floating Point Representations"],
+        "Combinational_Circuits": ["Multiplexers", "Decoders", "Adders and Subtractors"],
+        "Sequential_Circuits": ["Flip-Flops", "Latches", "Counters", "Registers"]
+      }
+    },
+    "COA": {
+      "name": "Computer Organization and Architecture",
+      "chapters": {
+        "Instruction_Execution": ["Addressing Modes", "Machine Instructions", "Execution Cycles"],
+        "Pipelining": ["Instruction Pipelining", "Data, Control, and Structural Hazards"],
+        "Memory_Hierarchy": ["Cache Mapping", "Cache Coherence", "Virtual Memory", "DRAM and SRAM"],
+        "IO_Interface": ["Interrupts", "DMA", "Programmed IO"]
+      }
+    },
+    "PDS": {
+      "name": "Programming and Data Structures",
+      "chapters": {
+        "Programming_in_C": [
+          "Data Types and Type Conversions",
+          "Operators and Expressions",
+          "Control Flow and Loops",
+          "Functions and Parameter Passing",
+          "Recursion and Call Stack",
+          "Pointers and Memory Layout",
+          "Arrays and Pointer Arithmetic",
+          "Strings and Character Manipulation",
+          "Structures, Unions, and Padding",
+          "Storage Classes and Scoping Rules",
+          "Preprocessors and Macros"
+        ],
+        "Linear_Data_Structures": ["Arrays", "Stacks", "Queues", "Linked Lists"],
+        "Non_Linear_Data_Structures": ["Binary Trees", "Binary Search Trees", "Heaps", "Graphs"]
+      }
+    },
+    "AL": {
+      "name": "Algorithms",
+      "chapters": {
+        "Analysis_Complexity": ["Asymptotic Analysis", "Recurrence Relations", "Space-Time Trade-offs"],
+        "Searching_Sorting_Hashing": ["Linear and Binary Search", "Sorting Algorithms", "Hashing Techniques"],
+        "Algorithm_Design": ["Greedy Algorithms", "Dynamic Programming", "Divide and Conquer"],
+        "Graph_Algorithms": ["Breadth-First and Depth-First Search", "Minimum Spanning Trees", "Shortest Paths"]
+      }
+    },
+    "TOC": {
+      "name": "Theory of Computation",
+      "chapters": {
+        "Automata": ["DFA and NFA", "Regular Expressions", "Pumping Lemma for Regular Languages"],
+        "Grammars": ["Context-Free Grammars", "Pushdown Automata", "Context-Free Languages"],
+        "Computability": ["Turing Machines", "Decidability", "Halting Problem"]
+      }
+    },
+    "CD": {
+      "name": "Compiler Design",
+      "chapters": {
+        "Lexical_Syntax": ["Lexical Analysis", "Parsing Techniques", "LL(1) and LR Parsing"],
+        "Runtime_Environments": ["Runtime Environments", "Stack Allocation", "Parameter Passing Mechanisms"],
+        "Translation_Optimization": ["Syntax-Directed Translation", "Intermediate Code Generation", "Code Optimization"]
+      }
+    },
+    "OS": {
+      "name": "Operating Systems",
+      "chapters": {
+        "Process_Management": ["Process States", "CPU Scheduling Algorithms", "Threads", "Inter-process Communication"],
+        "Concurrency_Deadlocks": ["Semaphores and Mutexes", "Classical Synchronization Problems", "Deadlock Prevention and Avoidance"],
+        "Memory_Disk": ["Paging and Segmentation", "Page Replacement Algorithms", "Disk Scheduling"],
+        "File_Systems": ["File System Structures", "Directory Implementations", "File Allocation Methods"]
+      }
+    },
+    "DB": {
+      "name": "Databases",
+      "chapters": {
+        "Relational_Model": ["ER Modeling", "Relational Algebra", "Relational Calculus", "SQL Queries"],
+        "Normalization": ["Functional Dependencies", "1NF, 2NF, 3NF", "BCNF"],
+        "File_Organization_Indexing": ["B and B+ Trees", "File Organization", "Indexing Techniques"],
+        "Transactions": ["ACID Properties", "Concurrency Control", "Serialization", "Locking Protocols"]
+      }
+    },
+    "CN": {
+      "name": "Computer Networks",
+      "chapters": {
+        "Layering_Protocols": ["OSI and TCP/IP Reference Model", "Flow and Error Control", "Framing", "Ethernet and LAN Technologies"],
+        "Routing_Addressing": ["IPv4 and IPv6 Addressing", "Subnetting and Supernetting", "Routing Algorithms"],
+        "Transport_Application": ["TCP and UDP Connections", "Congestion Control", "DNS, HTTP, SMTP", "Socket Programming Basics"]
+      }
+    }
+  }
+}

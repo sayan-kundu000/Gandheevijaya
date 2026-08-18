@@ -1,0 +1,66 @@
+[
+  {
+    "id": "GCS27-PDS-M-MCQ-143",
+    "subject": "PDS",
+    "topic": "Arrays",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "Consider the following C snippet:\n```c\nint arr[] = {1, 2, 3, 4, 5};\nint *p = arr;\np += 0;\nprintf(\"%d\", *p);\n```\nWhat is printed?",
+    "options": [
+      "1",
+      "2",
+      "1",
+      "Error"
+    ],
+    "answer_id": "GCS27-PDS-M-MCQ-143",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "pointer arithmetic"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-MSQ-143",
+    "subject": "PDS",
+    "topic": "Memory Management",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MSQ",
+    "question": "Which of the following statements about C dynamic memory allocation functions are CORRECT?",
+    "options": [
+      "malloc allocates memory blocks without initializing them.",
+      "calloc initializes all bits of allocated memory to zero.",
+      "free deallocates the memory allocated by malloc/calloc.",
+      "realloc can increase or decrease the size of allocated memory."
+    ],
+    "answer_id": "GCS27-PDS-M-MSQ-143",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "standard properties checks"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-M-NAT-143",
+    "subject": "PDS",
+    "topic": "Loops",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "NAT",
+    "question": "Calculate the number of times `printf` is executed in the code below:\n```c\nfor(int i = 1; i <= 4; i++) {\n    for(int j = 1; j <= i; j++) {\n        printf(\"*\");\n    }\n}\n```",
+    "options": null,
+    "answer_id": "GCS27-PDS-M-NAT-143",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "nested loop analysis"
+    ],
+    "representation": [
+      "code"
+    ]
+  }
+]

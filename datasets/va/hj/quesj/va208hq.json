@@ -1,0 +1,66 @@
+[
+  {
+    "id": "GCS27-VA-H-MCQ-208",
+    "subject": "VA",
+    "topic": "Grammar",
+    "subtopic": "Active-Passive Voice",
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Choose the statement that represents the correct passive voice conversion of the sentence:\n\n`The developers completed the prototype testing yesterday.`",
+    "options": [
+      "The prototype testing had completed by the developers yesterday.",
+      "Yesterday, the developers were completing the prototype testing.",
+      "The prototype testing was completed by the developers yesterday.",
+      "The prototype testing has been completed by the developers yesterday."
+    ],
+    "answer_id": "GCS27-VA-H-MCQ-208",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "grammar parsing"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-VA-H-MSQ-208",
+    "subject": "VA",
+    "topic": "Grammar",
+    "subtopic": "Errors",
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Which of the following sentences contain grammatical errors?",
+    "options": [
+      "He is one of those programmers who is always coding.",
+      "Hardly had we begun our meeting when the power went out.",
+      "I look forward to meeting you.",
+      "The reason why he failed is because he did not prepare."
+    ],
+    "answer_id": "GCS27-VA-H-MSQ-208",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "grammar parsing"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-VA-H-NAT-208",
+    "subject": "VA",
+    "topic": "Grammar",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "In the sentence: `He is a software engineer.`, how many times does the letter 'e' (case-insensitive) occur?",
+    "options": null,
+    "answer_id": "GCS27-VA-H-NAT-208",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "string analysis"
+    ],
+    "representation": [
+      "text"
+    ]
+  }
+]

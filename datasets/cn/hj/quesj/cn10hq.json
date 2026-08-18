@@ -1,0 +1,1602 @@
+[
+  {
+    "id": "GCS27-CN-H-MCQ-226",
+    "subject": "CN",
+    "topic": "Routing Algorithms",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider a network node A connected to neighbors B and C. The current routing vectors at B and C are:\n\n| Destination | Cost from B | Cost from C |\n|---|---|---|\n| D1 | 2 | 5 |\n| D2 | 6 | 3 |\n\nThe edge weights from A to B is 1, and A to C is 2. Which of the following represents the updated cost entries for Destinations (D1, D2) in the routing table of Node A after receiving vector updates from B and C?",
+    "options": [
+      "D1: 2, D2: 3",
+      "D1: 3, D2: 5",
+      "D1: 4, D2: 6",
+      "D1: 3, D2: 7"
+    ],
+    "answer_id": "GCS27-CN-H-MCQ-226",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "Bellman-Ford vector updates"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-MCQ-227",
+    "subject": "CN",
+    "topic": "Routing Algorithms",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider a network node A connected to neighbors B and C. The current routing vectors at B and C are:\n\n| Destination | Cost from B | Cost from C |\n|---|---|---|\n| D1 | 2 | 5 |\n| D2 | 6 | 3 |\n\nThe edge weights from A to B is 1, and A to C is 3. Which of the following represents the updated cost entries for Destinations (D1, D2) in the routing table of Node A after receiving vector updates from B and C?",
+    "options": [
+      "D1: 4, D2: 7",
+      "D1: 3, D2: 6",
+      "D1: 2, D2: 3",
+      "D1: 3, D2: 7"
+    ],
+    "answer_id": "GCS27-CN-H-MCQ-227",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "Bellman-Ford vector updates"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-MCQ-228",
+    "subject": "CN",
+    "topic": "Routing Algorithms",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider a network node A connected to neighbors B and C. The current routing vectors at B and C are:\n\n| Destination | Cost from B | Cost from C |\n|---|---|---|\n| D1 | 2 | 5 |\n| D2 | 6 | 3 |\n\nThe edge weights from A to B is 1, and A to C is 4. Which of the following represents the updated cost entries for Destinations (D1, D2) in the routing table of Node A after receiving vector updates from B and C?",
+    "options": [
+      "D1: 5, D2: 9",
+      "D1: 3, D2: 7",
+      "D1: 4, D2: 8",
+      "D1: 2, D2: 3"
+    ],
+    "answer_id": "GCS27-CN-H-MCQ-228",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "Bellman-Ford vector updates"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-MCQ-229",
+    "subject": "CN",
+    "topic": "Routing Algorithms",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider a network node A connected to neighbors B and C. The current routing vectors at B and C are:\n\n| Destination | Cost from B | Cost from C |\n|---|---|---|\n| D1 | 2 | 5 |\n| D2 | 6 | 3 |\n\nThe edge weights from A to B is 1, and A to C is 5. Which of the following represents the updated cost entries for Destinations (D1, D2) in the routing table of Node A after receiving vector updates from B and C?",
+    "options": [
+      "D1: 4, D2: 8",
+      "D1: 5, D2: 9",
+      "D1: 3, D2: 7",
+      "D1: 2, D2: 3"
+    ],
+    "answer_id": "GCS27-CN-H-MCQ-229",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "Bellman-Ford vector updates"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-MCQ-230",
+    "subject": "CN",
+    "topic": "Routing Algorithms",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider a network node A connected to neighbors B and C. The current routing vectors at B and C are:\n\n| Destination | Cost from B | Cost from C |\n|---|---|---|\n| D1 | 2 | 5 |\n| D2 | 6 | 3 |\n\nThe edge weights from A to B is 1, and A to C is 1. Which of the following represents the updated cost entries for Destinations (D1, D2) in the routing table of Node A after receiving vector updates from B and C?",
+    "options": [
+      "D1: 2, D2: 3",
+      "D1: 3, D2: 7",
+      "D1: 4, D2: 5",
+      "D1: 3, D2: 4"
+    ],
+    "answer_id": "GCS27-CN-H-MCQ-230",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "Bellman-Ford vector updates"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-MCQ-231",
+    "subject": "CN",
+    "topic": "Routing Algorithms",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider a network node A connected to neighbors B and C. The current routing vectors at B and C are:\n\n| Destination | Cost from B | Cost from C |\n|---|---|---|\n| D1 | 2 | 5 |\n| D2 | 6 | 3 |\n\nThe edge weights from A to B is 1, and A to C is 2. Which of the following represents the updated cost entries for Destinations (D1, D2) in the routing table of Node A after receiving vector updates from B and C?",
+    "options": [
+      "D1: 3, D2: 5",
+      "D1: 2, D2: 3",
+      "D1: 3, D2: 7",
+      "D1: 4, D2: 6"
+    ],
+    "answer_id": "GCS27-CN-H-MCQ-231",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "Bellman-Ford vector updates"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-MCQ-232",
+    "subject": "CN",
+    "topic": "Routing Algorithms",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider a network node A connected to neighbors B and C. The current routing vectors at B and C are:\n\n| Destination | Cost from B | Cost from C |\n|---|---|---|\n| D1 | 2 | 5 |\n| D2 | 6 | 3 |\n\nThe edge weights from A to B is 1, and A to C is 3. Which of the following represents the updated cost entries for Destinations (D1, D2) in the routing table of Node A after receiving vector updates from B and C?",
+    "options": [
+      "D1: 3, D2: 6",
+      "D1: 3, D2: 7",
+      "D1: 4, D2: 7",
+      "D1: 2, D2: 3"
+    ],
+    "answer_id": "GCS27-CN-H-MCQ-232",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "Bellman-Ford vector updates"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-MCQ-233",
+    "subject": "CN",
+    "topic": "Routing Algorithms",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider a network node A connected to neighbors B and C. The current routing vectors at B and C are:\n\n| Destination | Cost from B | Cost from C |\n|---|---|---|\n| D1 | 2 | 5 |\n| D2 | 6 | 3 |\n\nThe edge weights from A to B is 1, and A to C is 4. Which of the following represents the updated cost entries for Destinations (D1, D2) in the routing table of Node A after receiving vector updates from B and C?",
+    "options": [
+      "D1: 5, D2: 9",
+      "D1: 3, D2: 7",
+      "D1: 4, D2: 8",
+      "D1: 2, D2: 3"
+    ],
+    "answer_id": "GCS27-CN-H-MCQ-233",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "Bellman-Ford vector updates"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-MCQ-234",
+    "subject": "CN",
+    "topic": "Routing Algorithms",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider a network node A connected to neighbors B and C. The current routing vectors at B and C are:\n\n| Destination | Cost from B | Cost from C |\n|---|---|---|\n| D1 | 2 | 5 |\n| D2 | 6 | 3 |\n\nThe edge weights from A to B is 1, and A to C is 5. Which of the following represents the updated cost entries for Destinations (D1, D2) in the routing table of Node A after receiving vector updates from B and C?",
+    "options": [
+      "D1: 5, D2: 9",
+      "D1: 3, D2: 7",
+      "D1: 2, D2: 3",
+      "D1: 4, D2: 8"
+    ],
+    "answer_id": "GCS27-CN-H-MCQ-234",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "Bellman-Ford vector updates"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-MCQ-235",
+    "subject": "CN",
+    "topic": "Routing Algorithms",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider a network node A connected to neighbors B and C. The current routing vectors at B and C are:\n\n| Destination | Cost from B | Cost from C |\n|---|---|---|\n| D1 | 2 | 5 |\n| D2 | 6 | 3 |\n\nThe edge weights from A to B is 1, and A to C is 1. Which of the following represents the updated cost entries for Destinations (D1, D2) in the routing table of Node A after receiving vector updates from B and C?",
+    "options": [
+      "D1: 3, D2: 4",
+      "D1: 3, D2: 7",
+      "D1: 4, D2: 5",
+      "D1: 2, D2: 3"
+    ],
+    "answer_id": "GCS27-CN-H-MCQ-235",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "Bellman-Ford vector updates"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-MCQ-236",
+    "subject": "CN",
+    "topic": "Routing Algorithms",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider a network node A connected to neighbors B and C. The current routing vectors at B and C are:\n\n| Destination | Cost from B | Cost from C |\n|---|---|---|\n| D1 | 2 | 5 |\n| D2 | 6 | 3 |\n\nThe edge weights from A to B is 1, and A to C is 2. Which of the following represents the updated cost entries for Destinations (D1, D2) in the routing table of Node A after receiving vector updates from B and C?",
+    "options": [
+      "D1: 4, D2: 6",
+      "D1: 3, D2: 7",
+      "D1: 2, D2: 3",
+      "D1: 3, D2: 5"
+    ],
+    "answer_id": "GCS27-CN-H-MCQ-236",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "Bellman-Ford vector updates"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-MCQ-237",
+    "subject": "CN",
+    "topic": "Routing Algorithms",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider a network node A connected to neighbors B and C. The current routing vectors at B and C are:\n\n| Destination | Cost from B | Cost from C |\n|---|---|---|\n| D1 | 2 | 5 |\n| D2 | 6 | 3 |\n\nThe edge weights from A to B is 1, and A to C is 3. Which of the following represents the updated cost entries for Destinations (D1, D2) in the routing table of Node A after receiving vector updates from B and C?",
+    "options": [
+      "D1: 3, D2: 6",
+      "D1: 2, D2: 3",
+      "D1: 4, D2: 7",
+      "D1: 3, D2: 7"
+    ],
+    "answer_id": "GCS27-CN-H-MCQ-237",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "Bellman-Ford vector updates"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-MCQ-238",
+    "subject": "CN",
+    "topic": "Routing Algorithms",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider a network node A connected to neighbors B and C. The current routing vectors at B and C are:\n\n| Destination | Cost from B | Cost from C |\n|---|---|---|\n| D1 | 2 | 5 |\n| D2 | 6 | 3 |\n\nThe edge weights from A to B is 1, and A to C is 4. Which of the following represents the updated cost entries for Destinations (D1, D2) in the routing table of Node A after receiving vector updates from B and C?",
+    "options": [
+      "D1: 5, D2: 9",
+      "D1: 2, D2: 3",
+      "D1: 3, D2: 7",
+      "D1: 4, D2: 8"
+    ],
+    "answer_id": "GCS27-CN-H-MCQ-238",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "Bellman-Ford vector updates"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-MCQ-239",
+    "subject": "CN",
+    "topic": "Routing Algorithms",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider a network node A connected to neighbors B and C. The current routing vectors at B and C are:\n\n| Destination | Cost from B | Cost from C |\n|---|---|---|\n| D1 | 2 | 5 |\n| D2 | 6 | 3 |\n\nThe edge weights from A to B is 1, and A to C is 5. Which of the following represents the updated cost entries for Destinations (D1, D2) in the routing table of Node A after receiving vector updates from B and C?",
+    "options": [
+      "D1: 2, D2: 3",
+      "D1: 4, D2: 8",
+      "D1: 5, D2: 9",
+      "D1: 3, D2: 7"
+    ],
+    "answer_id": "GCS27-CN-H-MCQ-239",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "Bellman-Ford vector updates"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-MCQ-240",
+    "subject": "CN",
+    "topic": "Routing Algorithms",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider a network node A connected to neighbors B and C. The current routing vectors at B and C are:\n\n| Destination | Cost from B | Cost from C |\n|---|---|---|\n| D1 | 2 | 5 |\n| D2 | 6 | 3 |\n\nThe edge weights from A to B is 1, and A to C is 1. Which of the following represents the updated cost entries for Destinations (D1, D2) in the routing table of Node A after receiving vector updates from B and C?",
+    "options": [
+      "D1: 2, D2: 3",
+      "D1: 3, D2: 4",
+      "D1: 4, D2: 5",
+      "D1: 3, D2: 7"
+    ],
+    "answer_id": "GCS27-CN-H-MCQ-240",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "Bellman-Ford vector updates"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-MCQ-241",
+    "subject": "CN",
+    "topic": "Routing Algorithms",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider a network node A connected to neighbors B and C. The current routing vectors at B and C are:\n\n| Destination | Cost from B | Cost from C |\n|---|---|---|\n| D1 | 2 | 5 |\n| D2 | 6 | 3 |\n\nThe edge weights from A to B is 1, and A to C is 2. Which of the following represents the updated cost entries for Destinations (D1, D2) in the routing table of Node A after receiving vector updates from B and C?",
+    "options": [
+      "D1: 3, D2: 5",
+      "D1: 3, D2: 7",
+      "D1: 2, D2: 3",
+      "D1: 4, D2: 6"
+    ],
+    "answer_id": "GCS27-CN-H-MCQ-241",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "Bellman-Ford vector updates"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-MCQ-242",
+    "subject": "CN",
+    "topic": "Routing Algorithms",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider a network node A connected to neighbors B and C. The current routing vectors at B and C are:\n\n| Destination | Cost from B | Cost from C |\n|---|---|---|\n| D1 | 2 | 5 |\n| D2 | 6 | 3 |\n\nThe edge weights from A to B is 1, and A to C is 3. Which of the following represents the updated cost entries for Destinations (D1, D2) in the routing table of Node A after receiving vector updates from B and C?",
+    "options": [
+      "D1: 3, D2: 7",
+      "D1: 3, D2: 6",
+      "D1: 4, D2: 7",
+      "D1: 2, D2: 3"
+    ],
+    "answer_id": "GCS27-CN-H-MCQ-242",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "Bellman-Ford vector updates"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-MCQ-243",
+    "subject": "CN",
+    "topic": "Routing Algorithms",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider a network node A connected to neighbors B and C. The current routing vectors at B and C are:\n\n| Destination | Cost from B | Cost from C |\n|---|---|---|\n| D1 | 2 | 5 |\n| D2 | 6 | 3 |\n\nThe edge weights from A to B is 1, and A to C is 4. Which of the following represents the updated cost entries for Destinations (D1, D2) in the routing table of Node A after receiving vector updates from B and C?",
+    "options": [
+      "D1: 5, D2: 9",
+      "D1: 3, D2: 7",
+      "D1: 2, D2: 3",
+      "D1: 4, D2: 8"
+    ],
+    "answer_id": "GCS27-CN-H-MCQ-243",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "Bellman-Ford vector updates"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-MCQ-244",
+    "subject": "CN",
+    "topic": "Routing Algorithms",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider a network node A connected to neighbors B and C. The current routing vectors at B and C are:\n\n| Destination | Cost from B | Cost from C |\n|---|---|---|\n| D1 | 2 | 5 |\n| D2 | 6 | 3 |\n\nThe edge weights from A to B is 1, and A to C is 5. Which of the following represents the updated cost entries for Destinations (D1, D2) in the routing table of Node A after receiving vector updates from B and C?",
+    "options": [
+      "D1: 3, D2: 7",
+      "D1: 4, D2: 8",
+      "D1: 2, D2: 3",
+      "D1: 5, D2: 9"
+    ],
+    "answer_id": "GCS27-CN-H-MCQ-244",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "Bellman-Ford vector updates"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-MCQ-245",
+    "subject": "CN",
+    "topic": "Routing Algorithms",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider a network node A connected to neighbors B and C. The current routing vectors at B and C are:\n\n| Destination | Cost from B | Cost from C |\n|---|---|---|\n| D1 | 2 | 5 |\n| D2 | 6 | 3 |\n\nThe edge weights from A to B is 1, and A to C is 1. Which of the following represents the updated cost entries for Destinations (D1, D2) in the routing table of Node A after receiving vector updates from B and C?",
+    "options": [
+      "D1: 3, D2: 7",
+      "D1: 2, D2: 3",
+      "D1: 4, D2: 5",
+      "D1: 3, D2: 4"
+    ],
+    "answer_id": "GCS27-CN-H-MCQ-245",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "Bellman-Ford vector updates"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-MCQ-246",
+    "subject": "CN",
+    "topic": "Routing Algorithms",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider a network node A connected to neighbors B and C. The current routing vectors at B and C are:\n\n| Destination | Cost from B | Cost from C |\n|---|---|---|\n| D1 | 2 | 5 |\n| D2 | 6 | 3 |\n\nThe edge weights from A to B is 1, and A to C is 2. Which of the following represents the updated cost entries for Destinations (D1, D2) in the routing table of Node A after receiving vector updates from B and C?",
+    "options": [
+      "D1: 3, D2: 7",
+      "D1: 2, D2: 3",
+      "D1: 3, D2: 5",
+      "D1: 4, D2: 6"
+    ],
+    "answer_id": "GCS27-CN-H-MCQ-246",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "Bellman-Ford vector updates"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-MCQ-247",
+    "subject": "CN",
+    "topic": "Routing Algorithms",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider a network node A connected to neighbors B and C. The current routing vectors at B and C are:\n\n| Destination | Cost from B | Cost from C |\n|---|---|---|\n| D1 | 2 | 5 |\n| D2 | 6 | 3 |\n\nThe edge weights from A to B is 1, and A to C is 3. Which of the following represents the updated cost entries for Destinations (D1, D2) in the routing table of Node A after receiving vector updates from B and C?",
+    "options": [
+      "D1: 2, D2: 3",
+      "D1: 4, D2: 7",
+      "D1: 3, D2: 6",
+      "D1: 3, D2: 7"
+    ],
+    "answer_id": "GCS27-CN-H-MCQ-247",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "Bellman-Ford vector updates"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-MCQ-248",
+    "subject": "CN",
+    "topic": "Routing Algorithms",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider a network node A connected to neighbors B and C. The current routing vectors at B and C are:\n\n| Destination | Cost from B | Cost from C |\n|---|---|---|\n| D1 | 2 | 5 |\n| D2 | 6 | 3 |\n\nThe edge weights from A to B is 1, and A to C is 4. Which of the following represents the updated cost entries for Destinations (D1, D2) in the routing table of Node A after receiving vector updates from B and C?",
+    "options": [
+      "D1: 3, D2: 7",
+      "D1: 2, D2: 3",
+      "D1: 4, D2: 8",
+      "D1: 5, D2: 9"
+    ],
+    "answer_id": "GCS27-CN-H-MCQ-248",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "Bellman-Ford vector updates"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-MCQ-249",
+    "subject": "CN",
+    "topic": "Routing Algorithms",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider a network node A connected to neighbors B and C. The current routing vectors at B and C are:\n\n| Destination | Cost from B | Cost from C |\n|---|---|---|\n| D1 | 2 | 5 |\n| D2 | 6 | 3 |\n\nThe edge weights from A to B is 1, and A to C is 5. Which of the following represents the updated cost entries for Destinations (D1, D2) in the routing table of Node A after receiving vector updates from B and C?",
+    "options": [
+      "D1: 3, D2: 7",
+      "D1: 2, D2: 3",
+      "D1: 5, D2: 9",
+      "D1: 4, D2: 8"
+    ],
+    "answer_id": "GCS27-CN-H-MCQ-249",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "Bellman-Ford vector updates"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-MCQ-250",
+    "subject": "CN",
+    "topic": "Routing Algorithms",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider a network node A connected to neighbors B and C. The current routing vectors at B and C are:\n\n| Destination | Cost from B | Cost from C |\n|---|---|---|\n| D1 | 2 | 5 |\n| D2 | 6 | 3 |\n\nThe edge weights from A to B is 1, and A to C is 1. Which of the following represents the updated cost entries for Destinations (D1, D2) in the routing table of Node A after receiving vector updates from B and C?",
+    "options": [
+      "D1: 2, D2: 3",
+      "D1: 3, D2: 7",
+      "D1: 3, D2: 4",
+      "D1: 4, D2: 5"
+    ],
+    "answer_id": "GCS27-CN-H-MCQ-250",
+    "pattern_type": "multi-step deduction",
+    "reasoning_type": [
+      "Bellman-Ford vector updates"
+    ],
+    "representation": [
+      "table"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-MSQ-226",
+    "subject": "CN",
+    "topic": "Congestion Control",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "A TCP connection performs congestion control using Slow Start, Congestion Avoidance, Fast Retransmit, and Fast Recovery. Which of the following statements about TCP window size boundaries are CORRECT?",
+    "options": [
+      "During the Slow Start phase, the congestion window size (cwnd) increases exponentially, doubling every round-trip time (RTT).",
+      "During the Congestion Avoidance phase, cwnd increases linearly by 1 MSS (Maximum Segment Size) per RTT.",
+      "If a timeout occurs, the congestion threshold (ssthresh) is set to max(cwnd/2, 2 MSS) and cwnd resets to 1 MSS.",
+      "Receipt of 3 duplicate ACKs triggers Fast Retransmit, setting ssthresh to cwnd/2 and cwnd to ssthresh + 3 MSS."
+    ],
+    "answer_id": "GCS27-CN-H-MSQ-226",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "comparative checks"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-MSQ-227",
+    "subject": "CN",
+    "topic": "Congestion Control",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "A TCP connection performs congestion control using Slow Start, Congestion Avoidance, Fast Retransmit, and Fast Recovery. Which of the following statements about TCP window size boundaries are CORRECT?",
+    "options": [
+      "During the Slow Start phase, the congestion window size (cwnd) increases exponentially, doubling every round-trip time (RTT).",
+      "During the Congestion Avoidance phase, cwnd increases linearly by 1 MSS (Maximum Segment Size) per RTT.",
+      "If a timeout occurs, the congestion threshold (ssthresh) is set to max(cwnd/2, 2 MSS) and cwnd resets to 1 MSS.",
+      "Receipt of 3 duplicate ACKs triggers Fast Retransmit, setting ssthresh to cwnd/2 and cwnd to ssthresh + 3 MSS."
+    ],
+    "answer_id": "GCS27-CN-H-MSQ-227",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "comparative checks"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-MSQ-228",
+    "subject": "CN",
+    "topic": "Congestion Control",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "A TCP connection performs congestion control using Slow Start, Congestion Avoidance, Fast Retransmit, and Fast Recovery. Which of the following statements about TCP window size boundaries are CORRECT?",
+    "options": [
+      "During the Slow Start phase, the congestion window size (cwnd) increases exponentially, doubling every round-trip time (RTT).",
+      "During the Congestion Avoidance phase, cwnd increases linearly by 1 MSS (Maximum Segment Size) per RTT.",
+      "If a timeout occurs, the congestion threshold (ssthresh) is set to max(cwnd/2, 2 MSS) and cwnd resets to 1 MSS.",
+      "Receipt of 3 duplicate ACKs triggers Fast Retransmit, setting ssthresh to cwnd/2 and cwnd to ssthresh + 3 MSS."
+    ],
+    "answer_id": "GCS27-CN-H-MSQ-228",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "comparative checks"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-MSQ-229",
+    "subject": "CN",
+    "topic": "Congestion Control",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "A TCP connection performs congestion control using Slow Start, Congestion Avoidance, Fast Retransmit, and Fast Recovery. Which of the following statements about TCP window size boundaries are CORRECT?",
+    "options": [
+      "During the Slow Start phase, the congestion window size (cwnd) increases exponentially, doubling every round-trip time (RTT).",
+      "During the Congestion Avoidance phase, cwnd increases linearly by 1 MSS (Maximum Segment Size) per RTT.",
+      "If a timeout occurs, the congestion threshold (ssthresh) is set to max(cwnd/2, 2 MSS) and cwnd resets to 1 MSS.",
+      "Receipt of 3 duplicate ACKs triggers Fast Retransmit, setting ssthresh to cwnd/2 and cwnd to ssthresh + 3 MSS."
+    ],
+    "answer_id": "GCS27-CN-H-MSQ-229",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "comparative checks"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-MSQ-230",
+    "subject": "CN",
+    "topic": "Congestion Control",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "A TCP connection performs congestion control using Slow Start, Congestion Avoidance, Fast Retransmit, and Fast Recovery. Which of the following statements about TCP window size boundaries are CORRECT?",
+    "options": [
+      "During the Slow Start phase, the congestion window size (cwnd) increases exponentially, doubling every round-trip time (RTT).",
+      "During the Congestion Avoidance phase, cwnd increases linearly by 1 MSS (Maximum Segment Size) per RTT.",
+      "If a timeout occurs, the congestion threshold (ssthresh) is set to max(cwnd/2, 2 MSS) and cwnd resets to 1 MSS.",
+      "Receipt of 3 duplicate ACKs triggers Fast Retransmit, setting ssthresh to cwnd/2 and cwnd to ssthresh + 3 MSS."
+    ],
+    "answer_id": "GCS27-CN-H-MSQ-230",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "comparative checks"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-MSQ-231",
+    "subject": "CN",
+    "topic": "Congestion Control",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "A TCP connection performs congestion control using Slow Start, Congestion Avoidance, Fast Retransmit, and Fast Recovery. Which of the following statements about TCP window size boundaries are CORRECT?",
+    "options": [
+      "During the Slow Start phase, the congestion window size (cwnd) increases exponentially, doubling every round-trip time (RTT).",
+      "During the Congestion Avoidance phase, cwnd increases linearly by 1 MSS (Maximum Segment Size) per RTT.",
+      "If a timeout occurs, the congestion threshold (ssthresh) is set to max(cwnd/2, 2 MSS) and cwnd resets to 1 MSS.",
+      "Receipt of 3 duplicate ACKs triggers Fast Retransmit, setting ssthresh to cwnd/2 and cwnd to ssthresh + 3 MSS."
+    ],
+    "answer_id": "GCS27-CN-H-MSQ-231",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "comparative checks"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-MSQ-232",
+    "subject": "CN",
+    "topic": "Congestion Control",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "A TCP connection performs congestion control using Slow Start, Congestion Avoidance, Fast Retransmit, and Fast Recovery. Which of the following statements about TCP window size boundaries are CORRECT?",
+    "options": [
+      "During the Slow Start phase, the congestion window size (cwnd) increases exponentially, doubling every round-trip time (RTT).",
+      "During the Congestion Avoidance phase, cwnd increases linearly by 1 MSS (Maximum Segment Size) per RTT.",
+      "If a timeout occurs, the congestion threshold (ssthresh) is set to max(cwnd/2, 2 MSS) and cwnd resets to 1 MSS.",
+      "Receipt of 3 duplicate ACKs triggers Fast Retransmit, setting ssthresh to cwnd/2 and cwnd to ssthresh + 3 MSS."
+    ],
+    "answer_id": "GCS27-CN-H-MSQ-232",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "comparative checks"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-MSQ-233",
+    "subject": "CN",
+    "topic": "Congestion Control",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "A TCP connection performs congestion control using Slow Start, Congestion Avoidance, Fast Retransmit, and Fast Recovery. Which of the following statements about TCP window size boundaries are CORRECT?",
+    "options": [
+      "During the Slow Start phase, the congestion window size (cwnd) increases exponentially, doubling every round-trip time (RTT).",
+      "During the Congestion Avoidance phase, cwnd increases linearly by 1 MSS (Maximum Segment Size) per RTT.",
+      "If a timeout occurs, the congestion threshold (ssthresh) is set to max(cwnd/2, 2 MSS) and cwnd resets to 1 MSS.",
+      "Receipt of 3 duplicate ACKs triggers Fast Retransmit, setting ssthresh to cwnd/2 and cwnd to ssthresh + 3 MSS."
+    ],
+    "answer_id": "GCS27-CN-H-MSQ-233",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "comparative checks"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-MSQ-234",
+    "subject": "CN",
+    "topic": "Congestion Control",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "A TCP connection performs congestion control using Slow Start, Congestion Avoidance, Fast Retransmit, and Fast Recovery. Which of the following statements about TCP window size boundaries are CORRECT?",
+    "options": [
+      "During the Slow Start phase, the congestion window size (cwnd) increases exponentially, doubling every round-trip time (RTT).",
+      "During the Congestion Avoidance phase, cwnd increases linearly by 1 MSS (Maximum Segment Size) per RTT.",
+      "If a timeout occurs, the congestion threshold (ssthresh) is set to max(cwnd/2, 2 MSS) and cwnd resets to 1 MSS.",
+      "Receipt of 3 duplicate ACKs triggers Fast Retransmit, setting ssthresh to cwnd/2 and cwnd to ssthresh + 3 MSS."
+    ],
+    "answer_id": "GCS27-CN-H-MSQ-234",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "comparative checks"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-MSQ-235",
+    "subject": "CN",
+    "topic": "Congestion Control",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "A TCP connection performs congestion control using Slow Start, Congestion Avoidance, Fast Retransmit, and Fast Recovery. Which of the following statements about TCP window size boundaries are CORRECT?",
+    "options": [
+      "During the Slow Start phase, the congestion window size (cwnd) increases exponentially, doubling every round-trip time (RTT).",
+      "During the Congestion Avoidance phase, cwnd increases linearly by 1 MSS (Maximum Segment Size) per RTT.",
+      "If a timeout occurs, the congestion threshold (ssthresh) is set to max(cwnd/2, 2 MSS) and cwnd resets to 1 MSS.",
+      "Receipt of 3 duplicate ACKs triggers Fast Retransmit, setting ssthresh to cwnd/2 and cwnd to ssthresh + 3 MSS."
+    ],
+    "answer_id": "GCS27-CN-H-MSQ-235",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "comparative checks"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-MSQ-236",
+    "subject": "CN",
+    "topic": "Congestion Control",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "A TCP connection performs congestion control using Slow Start, Congestion Avoidance, Fast Retransmit, and Fast Recovery. Which of the following statements about TCP window size boundaries are CORRECT?",
+    "options": [
+      "During the Slow Start phase, the congestion window size (cwnd) increases exponentially, doubling every round-trip time (RTT).",
+      "During the Congestion Avoidance phase, cwnd increases linearly by 1 MSS (Maximum Segment Size) per RTT.",
+      "If a timeout occurs, the congestion threshold (ssthresh) is set to max(cwnd/2, 2 MSS) and cwnd resets to 1 MSS.",
+      "Receipt of 3 duplicate ACKs triggers Fast Retransmit, setting ssthresh to cwnd/2 and cwnd to ssthresh + 3 MSS."
+    ],
+    "answer_id": "GCS27-CN-H-MSQ-236",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "comparative checks"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-MSQ-237",
+    "subject": "CN",
+    "topic": "Congestion Control",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "A TCP connection performs congestion control using Slow Start, Congestion Avoidance, Fast Retransmit, and Fast Recovery. Which of the following statements about TCP window size boundaries are CORRECT?",
+    "options": [
+      "During the Slow Start phase, the congestion window size (cwnd) increases exponentially, doubling every round-trip time (RTT).",
+      "During the Congestion Avoidance phase, cwnd increases linearly by 1 MSS (Maximum Segment Size) per RTT.",
+      "If a timeout occurs, the congestion threshold (ssthresh) is set to max(cwnd/2, 2 MSS) and cwnd resets to 1 MSS.",
+      "Receipt of 3 duplicate ACKs triggers Fast Retransmit, setting ssthresh to cwnd/2 and cwnd to ssthresh + 3 MSS."
+    ],
+    "answer_id": "GCS27-CN-H-MSQ-237",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "comparative checks"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-MSQ-238",
+    "subject": "CN",
+    "topic": "Congestion Control",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "A TCP connection performs congestion control using Slow Start, Congestion Avoidance, Fast Retransmit, and Fast Recovery. Which of the following statements about TCP window size boundaries are CORRECT?",
+    "options": [
+      "During the Slow Start phase, the congestion window size (cwnd) increases exponentially, doubling every round-trip time (RTT).",
+      "During the Congestion Avoidance phase, cwnd increases linearly by 1 MSS (Maximum Segment Size) per RTT.",
+      "If a timeout occurs, the congestion threshold (ssthresh) is set to max(cwnd/2, 2 MSS) and cwnd resets to 1 MSS.",
+      "Receipt of 3 duplicate ACKs triggers Fast Retransmit, setting ssthresh to cwnd/2 and cwnd to ssthresh + 3 MSS."
+    ],
+    "answer_id": "GCS27-CN-H-MSQ-238",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "comparative checks"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-MSQ-239",
+    "subject": "CN",
+    "topic": "Congestion Control",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "A TCP connection performs congestion control using Slow Start, Congestion Avoidance, Fast Retransmit, and Fast Recovery. Which of the following statements about TCP window size boundaries are CORRECT?",
+    "options": [
+      "During the Slow Start phase, the congestion window size (cwnd) increases exponentially, doubling every round-trip time (RTT).",
+      "During the Congestion Avoidance phase, cwnd increases linearly by 1 MSS (Maximum Segment Size) per RTT.",
+      "If a timeout occurs, the congestion threshold (ssthresh) is set to max(cwnd/2, 2 MSS) and cwnd resets to 1 MSS.",
+      "Receipt of 3 duplicate ACKs triggers Fast Retransmit, setting ssthresh to cwnd/2 and cwnd to ssthresh + 3 MSS."
+    ],
+    "answer_id": "GCS27-CN-H-MSQ-239",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "comparative checks"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-MSQ-240",
+    "subject": "CN",
+    "topic": "Congestion Control",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "A TCP connection performs congestion control using Slow Start, Congestion Avoidance, Fast Retransmit, and Fast Recovery. Which of the following statements about TCP window size boundaries are CORRECT?",
+    "options": [
+      "During the Slow Start phase, the congestion window size (cwnd) increases exponentially, doubling every round-trip time (RTT).",
+      "During the Congestion Avoidance phase, cwnd increases linearly by 1 MSS (Maximum Segment Size) per RTT.",
+      "If a timeout occurs, the congestion threshold (ssthresh) is set to max(cwnd/2, 2 MSS) and cwnd resets to 1 MSS.",
+      "Receipt of 3 duplicate ACKs triggers Fast Retransmit, setting ssthresh to cwnd/2 and cwnd to ssthresh + 3 MSS."
+    ],
+    "answer_id": "GCS27-CN-H-MSQ-240",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "comparative checks"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-MSQ-241",
+    "subject": "CN",
+    "topic": "Congestion Control",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "A TCP connection performs congestion control using Slow Start, Congestion Avoidance, Fast Retransmit, and Fast Recovery. Which of the following statements about TCP window size boundaries are CORRECT?",
+    "options": [
+      "During the Slow Start phase, the congestion window size (cwnd) increases exponentially, doubling every round-trip time (RTT).",
+      "During the Congestion Avoidance phase, cwnd increases linearly by 1 MSS (Maximum Segment Size) per RTT.",
+      "If a timeout occurs, the congestion threshold (ssthresh) is set to max(cwnd/2, 2 MSS) and cwnd resets to 1 MSS.",
+      "Receipt of 3 duplicate ACKs triggers Fast Retransmit, setting ssthresh to cwnd/2 and cwnd to ssthresh + 3 MSS."
+    ],
+    "answer_id": "GCS27-CN-H-MSQ-241",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "comparative checks"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-MSQ-242",
+    "subject": "CN",
+    "topic": "Congestion Control",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "A TCP connection performs congestion control using Slow Start, Congestion Avoidance, Fast Retransmit, and Fast Recovery. Which of the following statements about TCP window size boundaries are CORRECT?",
+    "options": [
+      "During the Slow Start phase, the congestion window size (cwnd) increases exponentially, doubling every round-trip time (RTT).",
+      "During the Congestion Avoidance phase, cwnd increases linearly by 1 MSS (Maximum Segment Size) per RTT.",
+      "If a timeout occurs, the congestion threshold (ssthresh) is set to max(cwnd/2, 2 MSS) and cwnd resets to 1 MSS.",
+      "Receipt of 3 duplicate ACKs triggers Fast Retransmit, setting ssthresh to cwnd/2 and cwnd to ssthresh + 3 MSS."
+    ],
+    "answer_id": "GCS27-CN-H-MSQ-242",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "comparative checks"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-MSQ-243",
+    "subject": "CN",
+    "topic": "Congestion Control",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "A TCP connection performs congestion control using Slow Start, Congestion Avoidance, Fast Retransmit, and Fast Recovery. Which of the following statements about TCP window size boundaries are CORRECT?",
+    "options": [
+      "During the Slow Start phase, the congestion window size (cwnd) increases exponentially, doubling every round-trip time (RTT).",
+      "During the Congestion Avoidance phase, cwnd increases linearly by 1 MSS (Maximum Segment Size) per RTT.",
+      "If a timeout occurs, the congestion threshold (ssthresh) is set to max(cwnd/2, 2 MSS) and cwnd resets to 1 MSS.",
+      "Receipt of 3 duplicate ACKs triggers Fast Retransmit, setting ssthresh to cwnd/2 and cwnd to ssthresh + 3 MSS."
+    ],
+    "answer_id": "GCS27-CN-H-MSQ-243",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "comparative checks"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-MSQ-244",
+    "subject": "CN",
+    "topic": "Congestion Control",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "A TCP connection performs congestion control using Slow Start, Congestion Avoidance, Fast Retransmit, and Fast Recovery. Which of the following statements about TCP window size boundaries are CORRECT?",
+    "options": [
+      "During the Slow Start phase, the congestion window size (cwnd) increases exponentially, doubling every round-trip time (RTT).",
+      "During the Congestion Avoidance phase, cwnd increases linearly by 1 MSS (Maximum Segment Size) per RTT.",
+      "If a timeout occurs, the congestion threshold (ssthresh) is set to max(cwnd/2, 2 MSS) and cwnd resets to 1 MSS.",
+      "Receipt of 3 duplicate ACKs triggers Fast Retransmit, setting ssthresh to cwnd/2 and cwnd to ssthresh + 3 MSS."
+    ],
+    "answer_id": "GCS27-CN-H-MSQ-244",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "comparative checks"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-MSQ-245",
+    "subject": "CN",
+    "topic": "Congestion Control",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "A TCP connection performs congestion control using Slow Start, Congestion Avoidance, Fast Retransmit, and Fast Recovery. Which of the following statements about TCP window size boundaries are CORRECT?",
+    "options": [
+      "During the Slow Start phase, the congestion window size (cwnd) increases exponentially, doubling every round-trip time (RTT).",
+      "During the Congestion Avoidance phase, cwnd increases linearly by 1 MSS (Maximum Segment Size) per RTT.",
+      "If a timeout occurs, the congestion threshold (ssthresh) is set to max(cwnd/2, 2 MSS) and cwnd resets to 1 MSS.",
+      "Receipt of 3 duplicate ACKs triggers Fast Retransmit, setting ssthresh to cwnd/2 and cwnd to ssthresh + 3 MSS."
+    ],
+    "answer_id": "GCS27-CN-H-MSQ-245",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "comparative checks"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-MSQ-246",
+    "subject": "CN",
+    "topic": "Congestion Control",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "A TCP connection performs congestion control using Slow Start, Congestion Avoidance, Fast Retransmit, and Fast Recovery. Which of the following statements about TCP window size boundaries are CORRECT?",
+    "options": [
+      "During the Slow Start phase, the congestion window size (cwnd) increases exponentially, doubling every round-trip time (RTT).",
+      "During the Congestion Avoidance phase, cwnd increases linearly by 1 MSS (Maximum Segment Size) per RTT.",
+      "If a timeout occurs, the congestion threshold (ssthresh) is set to max(cwnd/2, 2 MSS) and cwnd resets to 1 MSS.",
+      "Receipt of 3 duplicate ACKs triggers Fast Retransmit, setting ssthresh to cwnd/2 and cwnd to ssthresh + 3 MSS."
+    ],
+    "answer_id": "GCS27-CN-H-MSQ-246",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "comparative checks"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-MSQ-247",
+    "subject": "CN",
+    "topic": "Congestion Control",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "A TCP connection performs congestion control using Slow Start, Congestion Avoidance, Fast Retransmit, and Fast Recovery. Which of the following statements about TCP window size boundaries are CORRECT?",
+    "options": [
+      "During the Slow Start phase, the congestion window size (cwnd) increases exponentially, doubling every round-trip time (RTT).",
+      "During the Congestion Avoidance phase, cwnd increases linearly by 1 MSS (Maximum Segment Size) per RTT.",
+      "If a timeout occurs, the congestion threshold (ssthresh) is set to max(cwnd/2, 2 MSS) and cwnd resets to 1 MSS.",
+      "Receipt of 3 duplicate ACKs triggers Fast Retransmit, setting ssthresh to cwnd/2 and cwnd to ssthresh + 3 MSS."
+    ],
+    "answer_id": "GCS27-CN-H-MSQ-247",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "comparative checks"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-MSQ-248",
+    "subject": "CN",
+    "topic": "Congestion Control",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "A TCP connection performs congestion control using Slow Start, Congestion Avoidance, Fast Retransmit, and Fast Recovery. Which of the following statements about TCP window size boundaries are CORRECT?",
+    "options": [
+      "During the Slow Start phase, the congestion window size (cwnd) increases exponentially, doubling every round-trip time (RTT).",
+      "During the Congestion Avoidance phase, cwnd increases linearly by 1 MSS (Maximum Segment Size) per RTT.",
+      "If a timeout occurs, the congestion threshold (ssthresh) is set to max(cwnd/2, 2 MSS) and cwnd resets to 1 MSS.",
+      "Receipt of 3 duplicate ACKs triggers Fast Retransmit, setting ssthresh to cwnd/2 and cwnd to ssthresh + 3 MSS."
+    ],
+    "answer_id": "GCS27-CN-H-MSQ-248",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "comparative checks"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-MSQ-249",
+    "subject": "CN",
+    "topic": "Congestion Control",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "A TCP connection performs congestion control using Slow Start, Congestion Avoidance, Fast Retransmit, and Fast Recovery. Which of the following statements about TCP window size boundaries are CORRECT?",
+    "options": [
+      "During the Slow Start phase, the congestion window size (cwnd) increases exponentially, doubling every round-trip time (RTT).",
+      "During the Congestion Avoidance phase, cwnd increases linearly by 1 MSS (Maximum Segment Size) per RTT.",
+      "If a timeout occurs, the congestion threshold (ssthresh) is set to max(cwnd/2, 2 MSS) and cwnd resets to 1 MSS.",
+      "Receipt of 3 duplicate ACKs triggers Fast Retransmit, setting ssthresh to cwnd/2 and cwnd to ssthresh + 3 MSS."
+    ],
+    "answer_id": "GCS27-CN-H-MSQ-249",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "comparative checks"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-MSQ-250",
+    "subject": "CN",
+    "topic": "Congestion Control",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "A TCP connection performs congestion control using Slow Start, Congestion Avoidance, Fast Retransmit, and Fast Recovery. Which of the following statements about TCP window size boundaries are CORRECT?",
+    "options": [
+      "During the Slow Start phase, the congestion window size (cwnd) increases exponentially, doubling every round-trip time (RTT).",
+      "During the Congestion Avoidance phase, cwnd increases linearly by 1 MSS (Maximum Segment Size) per RTT.",
+      "If a timeout occurs, the congestion threshold (ssthresh) is set to max(cwnd/2, 2 MSS) and cwnd resets to 1 MSS.",
+      "Receipt of 3 duplicate ACKs triggers Fast Retransmit, setting ssthresh to cwnd/2 and cwnd to ssthresh + 3 MSS."
+    ],
+    "answer_id": "GCS27-CN-H-MSQ-250",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "comparative checks"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-NAT-226",
+    "subject": "CN",
+    "topic": "Flow and Error Control",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "A sender uses the Selective Repeat sliding window protocol with a window size of 4 to transmit packets. During the transmission of a sequence of frames, the frame numbered 4 is lost on its first transmission. The sender continues transmitting subsequent frames in the window. When the timer expires for frame 4, the sender retransmits it. How many total frame transmissions (including original and retransmissions) occur until frame 4 is successfully received and acknowledged by the receiver?",
+    "options": [],
+    "answer_id": "GCS27-CN-H-NAT-226",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "sliding window simulation"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-NAT-227",
+    "subject": "CN",
+    "topic": "Flow and Error Control",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "A sender uses the Selective Repeat sliding window protocol with a window size of 4 to transmit packets. During the transmission of a sequence of frames, the frame numbered 5 is lost on its first transmission. The sender continues transmitting subsequent frames in the window. When the timer expires for frame 5, the sender retransmits it. How many total frame transmissions (including original and retransmissions) occur until frame 5 is successfully received and acknowledged by the receiver?",
+    "options": [],
+    "answer_id": "GCS27-CN-H-NAT-227",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "sliding window simulation"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-NAT-228",
+    "subject": "CN",
+    "topic": "Flow and Error Control",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "A sender uses the Selective Repeat sliding window protocol with a window size of 4 to transmit packets. During the transmission of a sequence of frames, the frame numbered 3 is lost on its first transmission. The sender continues transmitting subsequent frames in the window. When the timer expires for frame 3, the sender retransmits it. How many total frame transmissions (including original and retransmissions) occur until frame 3 is successfully received and acknowledged by the receiver?",
+    "options": [],
+    "answer_id": "GCS27-CN-H-NAT-228",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "sliding window simulation"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-NAT-229",
+    "subject": "CN",
+    "topic": "Flow and Error Control",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "A sender uses the Selective Repeat sliding window protocol with a window size of 4 to transmit packets. During the transmission of a sequence of frames, the frame numbered 4 is lost on its first transmission. The sender continues transmitting subsequent frames in the window. When the timer expires for frame 4, the sender retransmits it. How many total frame transmissions (including original and retransmissions) occur until frame 4 is successfully received and acknowledged by the receiver?",
+    "options": [],
+    "answer_id": "GCS27-CN-H-NAT-229",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "sliding window simulation"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-NAT-230",
+    "subject": "CN",
+    "topic": "Flow and Error Control",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "A sender uses the Selective Repeat sliding window protocol with a window size of 4 to transmit packets. During the transmission of a sequence of frames, the frame numbered 5 is lost on its first transmission. The sender continues transmitting subsequent frames in the window. When the timer expires for frame 5, the sender retransmits it. How many total frame transmissions (including original and retransmissions) occur until frame 5 is successfully received and acknowledged by the receiver?",
+    "options": [],
+    "answer_id": "GCS27-CN-H-NAT-230",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "sliding window simulation"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-NAT-231",
+    "subject": "CN",
+    "topic": "Flow and Error Control",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "A sender uses the Selective Repeat sliding window protocol with a window size of 4 to transmit packets. During the transmission of a sequence of frames, the frame numbered 3 is lost on its first transmission. The sender continues transmitting subsequent frames in the window. When the timer expires for frame 3, the sender retransmits it. How many total frame transmissions (including original and retransmissions) occur until frame 3 is successfully received and acknowledged by the receiver?",
+    "options": [],
+    "answer_id": "GCS27-CN-H-NAT-231",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "sliding window simulation"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-NAT-232",
+    "subject": "CN",
+    "topic": "Flow and Error Control",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "A sender uses the Selective Repeat sliding window protocol with a window size of 4 to transmit packets. During the transmission of a sequence of frames, the frame numbered 4 is lost on its first transmission. The sender continues transmitting subsequent frames in the window. When the timer expires for frame 4, the sender retransmits it. How many total frame transmissions (including original and retransmissions) occur until frame 4 is successfully received and acknowledged by the receiver?",
+    "options": [],
+    "answer_id": "GCS27-CN-H-NAT-232",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "sliding window simulation"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-NAT-233",
+    "subject": "CN",
+    "topic": "Flow and Error Control",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "A sender uses the Selective Repeat sliding window protocol with a window size of 4 to transmit packets. During the transmission of a sequence of frames, the frame numbered 5 is lost on its first transmission. The sender continues transmitting subsequent frames in the window. When the timer expires for frame 5, the sender retransmits it. How many total frame transmissions (including original and retransmissions) occur until frame 5 is successfully received and acknowledged by the receiver?",
+    "options": [],
+    "answer_id": "GCS27-CN-H-NAT-233",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "sliding window simulation"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-NAT-234",
+    "subject": "CN",
+    "topic": "Flow and Error Control",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "A sender uses the Selective Repeat sliding window protocol with a window size of 4 to transmit packets. During the transmission of a sequence of frames, the frame numbered 3 is lost on its first transmission. The sender continues transmitting subsequent frames in the window. When the timer expires for frame 3, the sender retransmits it. How many total frame transmissions (including original and retransmissions) occur until frame 3 is successfully received and acknowledged by the receiver?",
+    "options": [],
+    "answer_id": "GCS27-CN-H-NAT-234",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "sliding window simulation"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-NAT-235",
+    "subject": "CN",
+    "topic": "Flow and Error Control",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "A sender uses the Selective Repeat sliding window protocol with a window size of 4 to transmit packets. During the transmission of a sequence of frames, the frame numbered 4 is lost on its first transmission. The sender continues transmitting subsequent frames in the window. When the timer expires for frame 4, the sender retransmits it. How many total frame transmissions (including original and retransmissions) occur until frame 4 is successfully received and acknowledged by the receiver?",
+    "options": [],
+    "answer_id": "GCS27-CN-H-NAT-235",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "sliding window simulation"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-NAT-236",
+    "subject": "CN",
+    "topic": "Flow and Error Control",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "A sender uses the Selective Repeat sliding window protocol with a window size of 4 to transmit packets. During the transmission of a sequence of frames, the frame numbered 5 is lost on its first transmission. The sender continues transmitting subsequent frames in the window. When the timer expires for frame 5, the sender retransmits it. How many total frame transmissions (including original and retransmissions) occur until frame 5 is successfully received and acknowledged by the receiver?",
+    "options": [],
+    "answer_id": "GCS27-CN-H-NAT-236",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "sliding window simulation"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-NAT-237",
+    "subject": "CN",
+    "topic": "Flow and Error Control",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "A sender uses the Selective Repeat sliding window protocol with a window size of 4 to transmit packets. During the transmission of a sequence of frames, the frame numbered 3 is lost on its first transmission. The sender continues transmitting subsequent frames in the window. When the timer expires for frame 3, the sender retransmits it. How many total frame transmissions (including original and retransmissions) occur until frame 3 is successfully received and acknowledged by the receiver?",
+    "options": [],
+    "answer_id": "GCS27-CN-H-NAT-237",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "sliding window simulation"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-NAT-238",
+    "subject": "CN",
+    "topic": "Flow and Error Control",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "A sender uses the Selective Repeat sliding window protocol with a window size of 4 to transmit packets. During the transmission of a sequence of frames, the frame numbered 4 is lost on its first transmission. The sender continues transmitting subsequent frames in the window. When the timer expires for frame 4, the sender retransmits it. How many total frame transmissions (including original and retransmissions) occur until frame 4 is successfully received and acknowledged by the receiver?",
+    "options": [],
+    "answer_id": "GCS27-CN-H-NAT-238",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "sliding window simulation"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-NAT-239",
+    "subject": "CN",
+    "topic": "Flow and Error Control",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "A sender uses the Selective Repeat sliding window protocol with a window size of 4 to transmit packets. During the transmission of a sequence of frames, the frame numbered 5 is lost on its first transmission. The sender continues transmitting subsequent frames in the window. When the timer expires for frame 5, the sender retransmits it. How many total frame transmissions (including original and retransmissions) occur until frame 5 is successfully received and acknowledged by the receiver?",
+    "options": [],
+    "answer_id": "GCS27-CN-H-NAT-239",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "sliding window simulation"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-NAT-240",
+    "subject": "CN",
+    "topic": "Flow and Error Control",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "A sender uses the Selective Repeat sliding window protocol with a window size of 4 to transmit packets. During the transmission of a sequence of frames, the frame numbered 3 is lost on its first transmission. The sender continues transmitting subsequent frames in the window. When the timer expires for frame 3, the sender retransmits it. How many total frame transmissions (including original and retransmissions) occur until frame 3 is successfully received and acknowledged by the receiver?",
+    "options": [],
+    "answer_id": "GCS27-CN-H-NAT-240",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "sliding window simulation"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-NAT-241",
+    "subject": "CN",
+    "topic": "Flow and Error Control",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "A sender uses the Selective Repeat sliding window protocol with a window size of 4 to transmit packets. During the transmission of a sequence of frames, the frame numbered 4 is lost on its first transmission. The sender continues transmitting subsequent frames in the window. When the timer expires for frame 4, the sender retransmits it. How many total frame transmissions (including original and retransmissions) occur until frame 4 is successfully received and acknowledged by the receiver?",
+    "options": [],
+    "answer_id": "GCS27-CN-H-NAT-241",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "sliding window simulation"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-NAT-242",
+    "subject": "CN",
+    "topic": "Flow and Error Control",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "A sender uses the Selective Repeat sliding window protocol with a window size of 4 to transmit packets. During the transmission of a sequence of frames, the frame numbered 5 is lost on its first transmission. The sender continues transmitting subsequent frames in the window. When the timer expires for frame 5, the sender retransmits it. How many total frame transmissions (including original and retransmissions) occur until frame 5 is successfully received and acknowledged by the receiver?",
+    "options": [],
+    "answer_id": "GCS27-CN-H-NAT-242",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "sliding window simulation"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-NAT-243",
+    "subject": "CN",
+    "topic": "Flow and Error Control",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "A sender uses the Selective Repeat sliding window protocol with a window size of 4 to transmit packets. During the transmission of a sequence of frames, the frame numbered 3 is lost on its first transmission. The sender continues transmitting subsequent frames in the window. When the timer expires for frame 3, the sender retransmits it. How many total frame transmissions (including original and retransmissions) occur until frame 3 is successfully received and acknowledged by the receiver?",
+    "options": [],
+    "answer_id": "GCS27-CN-H-NAT-243",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "sliding window simulation"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-NAT-244",
+    "subject": "CN",
+    "topic": "Flow and Error Control",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "A sender uses the Selective Repeat sliding window protocol with a window size of 4 to transmit packets. During the transmission of a sequence of frames, the frame numbered 4 is lost on its first transmission. The sender continues transmitting subsequent frames in the window. When the timer expires for frame 4, the sender retransmits it. How many total frame transmissions (including original and retransmissions) occur until frame 4 is successfully received and acknowledged by the receiver?",
+    "options": [],
+    "answer_id": "GCS27-CN-H-NAT-244",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "sliding window simulation"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-NAT-245",
+    "subject": "CN",
+    "topic": "Flow and Error Control",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "A sender uses the Selective Repeat sliding window protocol with a window size of 4 to transmit packets. During the transmission of a sequence of frames, the frame numbered 5 is lost on its first transmission. The sender continues transmitting subsequent frames in the window. When the timer expires for frame 5, the sender retransmits it. How many total frame transmissions (including original and retransmissions) occur until frame 5 is successfully received and acknowledged by the receiver?",
+    "options": [],
+    "answer_id": "GCS27-CN-H-NAT-245",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "sliding window simulation"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-NAT-246",
+    "subject": "CN",
+    "topic": "Flow and Error Control",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "A sender uses the Selective Repeat sliding window protocol with a window size of 4 to transmit packets. During the transmission of a sequence of frames, the frame numbered 3 is lost on its first transmission. The sender continues transmitting subsequent frames in the window. When the timer expires for frame 3, the sender retransmits it. How many total frame transmissions (including original and retransmissions) occur until frame 3 is successfully received and acknowledged by the receiver?",
+    "options": [],
+    "answer_id": "GCS27-CN-H-NAT-246",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "sliding window simulation"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-NAT-247",
+    "subject": "CN",
+    "topic": "Flow and Error Control",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "A sender uses the Selective Repeat sliding window protocol with a window size of 4 to transmit packets. During the transmission of a sequence of frames, the frame numbered 4 is lost on its first transmission. The sender continues transmitting subsequent frames in the window. When the timer expires for frame 4, the sender retransmits it. How many total frame transmissions (including original and retransmissions) occur until frame 4 is successfully received and acknowledged by the receiver?",
+    "options": [],
+    "answer_id": "GCS27-CN-H-NAT-247",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "sliding window simulation"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-NAT-248",
+    "subject": "CN",
+    "topic": "Flow and Error Control",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "A sender uses the Selective Repeat sliding window protocol with a window size of 4 to transmit packets. During the transmission of a sequence of frames, the frame numbered 5 is lost on its first transmission. The sender continues transmitting subsequent frames in the window. When the timer expires for frame 5, the sender retransmits it. How many total frame transmissions (including original and retransmissions) occur until frame 5 is successfully received and acknowledged by the receiver?",
+    "options": [],
+    "answer_id": "GCS27-CN-H-NAT-248",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "sliding window simulation"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-NAT-249",
+    "subject": "CN",
+    "topic": "Flow and Error Control",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "A sender uses the Selective Repeat sliding window protocol with a window size of 4 to transmit packets. During the transmission of a sequence of frames, the frame numbered 3 is lost on its first transmission. The sender continues transmitting subsequent frames in the window. When the timer expires for frame 3, the sender retransmits it. How many total frame transmissions (including original and retransmissions) occur until frame 3 is successfully received and acknowledged by the receiver?",
+    "options": [],
+    "answer_id": "GCS27-CN-H-NAT-249",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "sliding window simulation"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-NAT-250",
+    "subject": "CN",
+    "topic": "Flow and Error Control",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "A sender uses the Selective Repeat sliding window protocol with a window size of 4 to transmit packets. During the transmission of a sequence of frames, the frame numbered 4 is lost on its first transmission. The sender continues transmitting subsequent frames in the window. When the timer expires for frame 4, the sender retransmits it. How many total frame transmissions (including original and retransmissions) occur until frame 4 is successfully received and acknowledged by the receiver?",
+    "options": [],
+    "answer_id": "GCS27-CN-H-NAT-250",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "sliding window simulation"
+    ],
+    "representation": [
+      "text"
+    ]
+  }
+]

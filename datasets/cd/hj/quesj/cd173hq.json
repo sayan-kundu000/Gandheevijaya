@@ -1,0 +1,66 @@
+[
+  {
+    "id": "GCS27-CD-H-MCQ-173",
+    "subject": "CD",
+    "topic": "Syntax Analysis",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "For a grammar with productions: S -> L = R | R, R -> L, L -> * R | id. Is this grammar LR(1) but NOT LALR(1)?",
+    "options": [
+      "SLR(1) Parser",
+      "LALR(1) Parser",
+      "LR(0) Parser",
+      "LR(1) Parser"
+    ],
+    "answer_id": "GCS27-CD-H-MCQ-173",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "parser comparisons"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-MSQ-173",
+    "subject": "CD",
+    "topic": "Code Optimization",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Which of the following compiler optimization strategies are commonly used to optimize loops?",
+    "options": [
+      "Loop Unrolling",
+      "Loop Invariant Code Motion",
+      "Loop Fusion",
+      "Loop Fission"
+    ],
+    "answer_id": "GCS27-CD-H-MSQ-173",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "optimization verification"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CD-H-NAT-173",
+    "subject": "CD",
+    "topic": "Code Optimization",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "How many basic blocks are in the three-address code sequence below?\n1: x = 0\n2: if x < 10 goto 5\n3: x = x + 1\n4: goto 2\n5: return x",
+    "options": null,
+    "answer_id": "GCS27-CD-H-NAT-173",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "basic block analysis"
+    ],
+    "representation": [
+      "text"
+    ]
+  }
+]

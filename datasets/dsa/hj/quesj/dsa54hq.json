@@ -1,0 +1,66 @@
+[
+  {
+    "id": "GCS27-DSA-H-MCQ-054",
+    "subject": "DSA",
+    "topic": "Red-Black Trees",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "What is the worst-case number of parent pointer updates when inserting an element into a red-black tree with n nodes?",
+    "options": [
+      "O(n)",
+      "O(log n)",
+      "O(n log n)",
+      "O(1)"
+    ],
+    "answer_id": "GCS27-DSA-H-MCQ-054",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "tree operations complexity"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-DSA-H-MSQ-054",
+    "subject": "DSA",
+    "topic": "Graphs",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Which of the following statements about Graph representations are CORRECT?",
+    "options": [
+      "Adjacency matrix representation requires O(V^2) space.",
+      "Adjacency list representation requires O(V + E) space.",
+      "Checking if edge (u, v) exists takes O(1) time in adjacency matrix.",
+      "Checking if edge (u, v) exists takes O(V) worst-case time in adjacency list."
+    ],
+    "answer_id": "GCS27-DSA-H-MSQ-054",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "property validation"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-DSA-H-NAT-054",
+    "subject": "DSA",
+    "topic": "B-Trees",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Find the maximum number of keys that can be stored in a B-Tree of height 2 (where height of root node alone is 0) and minimum degree t = 3.",
+    "options": null,
+    "answer_id": "GCS27-DSA-H-NAT-054",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "btree key counting"
+    ],
+    "representation": [
+      "text"
+    ]
+  }
+]

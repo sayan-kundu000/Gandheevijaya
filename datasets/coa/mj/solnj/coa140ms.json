@@ -1,0 +1,14 @@
+[
+  {
+    "id": "GCS27-COA-M-MCQ-140",
+    "explanation": "Block size = 64 B. Cache lines = 16 KB / 64 B = 256. Sets = 256 / 4 (associativity) = 64."
+  },
+  {
+    "id": "GCS27-COA-M-MSQ-140",
+    "explanation": "All options represent standard cache replacement strategies used to replace blocks on cache misses."
+  },
+  {
+    "id": "GCS27-COA-M-NAT-140",
+    "explanation": "AMAT = Cache Access + (1 - Hit Ratio) * Memory Access = 1 + (1 - 0.90) * 10 = 1 + 1 = 2 ns."
+  }
+]

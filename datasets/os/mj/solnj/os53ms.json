@@ -1,0 +1,14 @@
+[
+  {
+    "id": "GCS27-OS-M-MCQ-053",
+    "explanation": "1: fault (1,-,-); 2: fault (1,2,-); 3: fault (1,2,3); 4: fault (4,2,3); 1: fault (4,1,3); 2: fault (4,1,2). Total page faults = 6."
+  },
+  {
+    "id": "GCS27-OS-M-MSQ-053",
+    "explanation": "All options correctly describe characteristics of the paging memory management technique."
+  },
+  {
+    "id": "GCS27-OS-M-NAT-053",
+    "explanation": "EAT = hit_ratio * (tlb_access + ram_access) + (1 - hit_ratio) * (tlb_access + 2 * ram_access) = 0.90 * (20 + 100) + 0.10 * (20 + 2 * 100) = 108 + 22 = 130 ns."
+  }
+]

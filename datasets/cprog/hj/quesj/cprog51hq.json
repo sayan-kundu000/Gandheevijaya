@@ -1,0 +1,66 @@
+[
+  {
+    "id": "GCS27-PDS-H-MCQ-051",
+    "subject": "PDS",
+    "topic": "Structures",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Trace the output of the C snippet below:\n```c\n#include <stdio.h>\nstruct S {{\n    int x;\n    char y;\n}};\nint main() {{\n    struct S s1 = {{10, 'A'}};\n    struct S s2 = s1;\n    s2.x = 20;\n    printf(\"%d %c\", s1.x, s1.y);\n    return 0;\n}}\n```",
+    "options": [
+      "20 A",
+      "10 B",
+      "20 B",
+      "10 A"
+    ],
+    "answer_id": "GCS27-PDS-H-MCQ-051",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "structure assignment analysis"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-MSQ-051",
+    "subject": "PDS",
+    "topic": "Functions",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Which of the following statements about argument passing in C are CORRECT?",
+    "options": [
+      "C uses pass-by-value strictly for all primitive variables.",
+      "Passing a pointer to a function simulates pass-by-reference.",
+      "Modifying the dereferenced pointer inside the function affects the original caller variable.",
+      "Modifying the local pointer parameter copy inside the function does not change the original caller pointer."
+    ],
+    "answer_id": "GCS27-PDS-H-MSQ-051",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "parameter routing"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-H-NAT-051",
+    "subject": "PDS",
+    "topic": "Recursion",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider the following recursive C function with a static variable:\n```c\nint f(int n) {\n    if (n <= 1) return 1;\n    return n * f(n-1);\n}\n```\nWhat is the return value of `f(4)`?",
+    "options": null,
+    "answer_id": "GCS27-PDS-H-NAT-051",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "recursion parsing"
+    ],
+    "representation": [
+      "code"
+    ]
+  }
+]

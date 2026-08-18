@@ -1,0 +1,66 @@
+[
+  {
+    "id": "GCS27-DL-M-MCQ-116",
+    "subject": "DL",
+    "topic": "Combinational Circuits",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "A 4-to-1 Multiplexer has inputs I0, I1, I2, I3. If select lines are S1 S0 = 1 0, what is the output Y?",
+    "options": [
+      "I0",
+      "I2",
+      "I3",
+      "I1"
+    ],
+    "answer_id": "GCS27-DL-M-MCQ-116",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "mux routing"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-DL-M-MSQ-116",
+    "subject": "DL",
+    "topic": "Sequential Circuits",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MSQ",
+    "question": "Which of the following circuits belong to the class of sequential logic circuits?",
+    "options": [
+      "JK Flip-flop",
+      "Shift Register",
+      "Ripple Counter",
+      "Priority Encoder"
+    ],
+    "answer_id": "GCS27-DL-M-MSQ-116",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "circuit classification"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-DL-M-NAT-116",
+    "subject": "DL",
+    "topic": "Sequential Circuits",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "NAT",
+    "question": "Find the minimum number of flip-flops required to design a Mod-24 counter.",
+    "options": null,
+    "answer_id": "GCS27-DL-M-NAT-116",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "counter size math"
+    ],
+    "representation": [
+      "text"
+    ]
+  }
+]

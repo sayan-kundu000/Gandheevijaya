@@ -1,0 +1,66 @@
+[
+  {
+    "id": "GCS27-CN-H-MCQ-105",
+    "subject": "CN",
+    "topic": "Congestion Control",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "A TCP connection is in Congestion Avoidance state with cwnd = 10 MSS. If it receives three duplicate ACKs, what will be the new cwnd (in MSS) under TCP Reno?",
+    "options": [
+      "5",
+      "1",
+      "10",
+      "8"
+    ],
+    "answer_id": "GCS27-CN-H-MCQ-105",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "tcp timeline simulation"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-MSQ-105",
+    "subject": "CN",
+    "topic": "Routing",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Which of the following routing protocols are Link State routing protocols?",
+    "options": [
+      "OSPF (Open Shortest Path First)",
+      "IS-IS (Intermediate System to Intermediate System)",
+      "RIP (Routing Information Protocol)",
+      "BGP (Border Gateway Protocol)"
+    ],
+    "answer_id": "GCS27-CN-H-MSQ-105",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "protocol classification"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CN-H-NAT-105",
+    "subject": "CN",
+    "topic": "Sliding Window",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "In a Sliding Window protocol, packet size is 1000 bytes, bandwidth is 10 KB/s, propagation delay is 150 ms. If window size is 1, calculate the efficiency of the protocol in %.",
+    "options": null,
+    "answer_id": "GCS27-CN-H-NAT-105",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "efficiency calculation"
+    ],
+    "representation": [
+      "text"
+    ]
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "id": "GCS27-PDS-E-MCQ-111",
+    "subject": "PDS",
+    "topic": "Pointers",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "What is the output of the following C code snippet?\n```c\n#include <stdio.h>\nint main() {\n    int x = 7;\n    int *p = &x;\n    *p = *p + 5;\n    printf(\"%d\", x);\n    return 0;\n}\n```",
+    "options": [
+      "12",
+      "0",
+      "7",
+      "Error"
+    ],
+    "answer_id": "GCS27-PDS-E-MCQ-111",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "pointer dereference"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-MSQ-111",
+    "subject": "PDS",
+    "topic": "Syntax",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MSQ",
+    "question": "Which of the following are valid C variable declaration and initialization statements?",
+    "options": [
+      "int x = 10;",
+      "float y = 5.5f;",
+      "char c = 'A';",
+      "double z = 2.3e4;"
+    ],
+    "answer_id": "GCS27-PDS-E-MSQ-111",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "syntax check"
+    ],
+    "representation": [
+      "code"
+    ]
+  },
+  {
+    "id": "GCS27-PDS-E-NAT-111",
+    "subject": "PDS",
+    "topic": "Recursion",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "NAT",
+    "question": "Consider the following C function:\n```c\nint f(int n) {\n    if (n <= 1) return 7;\n    return f(n-1);\n}\n```\nFind the value returned by calling `f(4)`.",
+    "options": null,
+    "answer_id": "GCS27-PDS-E-NAT-111",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "recursion parsing"
+    ],
+    "representation": [
+      "code"
+    ]
+  }
+]

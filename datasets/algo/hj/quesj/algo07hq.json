@@ -1,0 +1,1602 @@
+[
+  {
+    "id": "GCS27-ALGO-H-MCQ-151",
+    "subject": "ALGO",
+    "topic": "Shortest Paths",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider the directed graph:\n\n```json\n{\n  \"vertices\": [\n    \"A\",\n    \"B\",\n    \"C\"\n  ],\n  \"edges\": [\n    [\n      \"A\",\n      \"B\",\n      1\n    ],\n    [\n      \"B\",\n      \"C\",\n      -3\n    ],\n    [\n      \"C\",\n      \"A\",\n      1\n    ]\n  ],\n  \"directed\": true,\n  \"weighted\": true\n}\n```\nWhat is the behavior of Bellman-Ford starting from source `A`?",
+    "options": [
+      "It converges correctly to find shortest path costs.",
+      "It terminates but reports the presence of a negative weight cycle.",
+      "It enters an infinite loop and does not terminate.",
+      "It returns incorrect positive values for all vertices."
+    ],
+    "answer_id": "GCS27-ALGO-H-MCQ-151",
+    "pattern_type": "analytical",
+    "reasoning_type": [
+      "algorithm analysis"
+    ],
+    "representation": [
+      "json"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-MCQ-152",
+    "subject": "ALGO",
+    "topic": "Shortest Paths",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider the directed graph:\n\n```json\n{\n  \"vertices\": [\n    \"A\",\n    \"B\",\n    \"C\"\n  ],\n  \"edges\": [\n    [\n      \"A\",\n      \"B\",\n      1\n    ],\n    [\n      \"B\",\n      \"C\",\n      -3\n    ],\n    [\n      \"C\",\n      \"A\",\n      1\n    ]\n  ],\n  \"directed\": true,\n  \"weighted\": true\n}\n```\nWhat is the behavior of Bellman-Ford starting from source `A`?",
+    "options": [
+      "It converges correctly to find shortest path costs.",
+      "It terminates but reports the presence of a negative weight cycle.",
+      "It enters an infinite loop and does not terminate.",
+      "It returns incorrect positive values for all vertices."
+    ],
+    "answer_id": "GCS27-ALGO-H-MCQ-152",
+    "pattern_type": "analytical",
+    "reasoning_type": [
+      "algorithm analysis"
+    ],
+    "representation": [
+      "json"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-MCQ-153",
+    "subject": "ALGO",
+    "topic": "Shortest Paths",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider the directed graph:\n\n```json\n{\n  \"vertices\": [\n    \"A\",\n    \"B\",\n    \"C\"\n  ],\n  \"edges\": [\n    [\n      \"A\",\n      \"B\",\n      1\n    ],\n    [\n      \"B\",\n      \"C\",\n      -3\n    ],\n    [\n      \"C\",\n      \"A\",\n      1\n    ]\n  ],\n  \"directed\": true,\n  \"weighted\": true\n}\n```\nWhat is the behavior of Bellman-Ford starting from source `A`?",
+    "options": [
+      "It converges correctly to find shortest path costs.",
+      "It enters an infinite loop and does not terminate.",
+      "It terminates but reports the presence of a negative weight cycle.",
+      "It returns incorrect positive values for all vertices."
+    ],
+    "answer_id": "GCS27-ALGO-H-MCQ-153",
+    "pattern_type": "analytical",
+    "reasoning_type": [
+      "algorithm analysis"
+    ],
+    "representation": [
+      "json"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-MCQ-154",
+    "subject": "ALGO",
+    "topic": "Shortest Paths",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider the directed graph:\n\n```json\n{\n  \"vertices\": [\n    \"A\",\n    \"B\",\n    \"C\"\n  ],\n  \"edges\": [\n    [\n      \"A\",\n      \"B\",\n      1\n    ],\n    [\n      \"B\",\n      \"C\",\n      -3\n    ],\n    [\n      \"C\",\n      \"A\",\n      1\n    ]\n  ],\n  \"directed\": true,\n  \"weighted\": true\n}\n```\nWhat is the behavior of Bellman-Ford starting from source `A`?",
+    "options": [
+      "It terminates but reports the presence of a negative weight cycle.",
+      "It enters an infinite loop and does not terminate.",
+      "It returns incorrect positive values for all vertices.",
+      "It converges correctly to find shortest path costs."
+    ],
+    "answer_id": "GCS27-ALGO-H-MCQ-154",
+    "pattern_type": "analytical",
+    "reasoning_type": [
+      "algorithm analysis"
+    ],
+    "representation": [
+      "json"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-MCQ-155",
+    "subject": "ALGO",
+    "topic": "Shortest Paths",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider the directed graph:\n\n```json\n{\n  \"vertices\": [\n    \"A\",\n    \"B\",\n    \"C\"\n  ],\n  \"edges\": [\n    [\n      \"A\",\n      \"B\",\n      1\n    ],\n    [\n      \"B\",\n      \"C\",\n      -3\n    ],\n    [\n      \"C\",\n      \"A\",\n      1\n    ]\n  ],\n  \"directed\": true,\n  \"weighted\": true\n}\n```\nWhat is the behavior of Bellman-Ford starting from source `A`?",
+    "options": [
+      "It terminates but reports the presence of a negative weight cycle.",
+      "It converges correctly to find shortest path costs.",
+      "It returns incorrect positive values for all vertices.",
+      "It enters an infinite loop and does not terminate."
+    ],
+    "answer_id": "GCS27-ALGO-H-MCQ-155",
+    "pattern_type": "analytical",
+    "reasoning_type": [
+      "algorithm analysis"
+    ],
+    "representation": [
+      "json"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-MCQ-156",
+    "subject": "ALGO",
+    "topic": "Shortest Paths",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider the directed graph:\n\n```json\n{\n  \"vertices\": [\n    \"A\",\n    \"B\",\n    \"C\"\n  ],\n  \"edges\": [\n    [\n      \"A\",\n      \"B\",\n      1\n    ],\n    [\n      \"B\",\n      \"C\",\n      -3\n    ],\n    [\n      \"C\",\n      \"A\",\n      1\n    ]\n  ],\n  \"directed\": true,\n  \"weighted\": true\n}\n```\nWhat is the behavior of Bellman-Ford starting from source `A`?",
+    "options": [
+      "It enters an infinite loop and does not terminate.",
+      "It terminates but reports the presence of a negative weight cycle.",
+      "It converges correctly to find shortest path costs.",
+      "It returns incorrect positive values for all vertices."
+    ],
+    "answer_id": "GCS27-ALGO-H-MCQ-156",
+    "pattern_type": "analytical",
+    "reasoning_type": [
+      "algorithm analysis"
+    ],
+    "representation": [
+      "json"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-MCQ-157",
+    "subject": "ALGO",
+    "topic": "Shortest Paths",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider the directed graph:\n\n```json\n{\n  \"vertices\": [\n    \"A\",\n    \"B\",\n    \"C\"\n  ],\n  \"edges\": [\n    [\n      \"A\",\n      \"B\",\n      1\n    ],\n    [\n      \"B\",\n      \"C\",\n      -3\n    ],\n    [\n      \"C\",\n      \"A\",\n      1\n    ]\n  ],\n  \"directed\": true,\n  \"weighted\": true\n}\n```\nWhat is the behavior of Bellman-Ford starting from source `A`?",
+    "options": [
+      "It converges correctly to find shortest path costs.",
+      "It enters an infinite loop and does not terminate.",
+      "It terminates but reports the presence of a negative weight cycle.",
+      "It returns incorrect positive values for all vertices."
+    ],
+    "answer_id": "GCS27-ALGO-H-MCQ-157",
+    "pattern_type": "analytical",
+    "reasoning_type": [
+      "algorithm analysis"
+    ],
+    "representation": [
+      "json"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-MCQ-158",
+    "subject": "ALGO",
+    "topic": "Shortest Paths",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider the directed graph:\n\n```json\n{\n  \"vertices\": [\n    \"A\",\n    \"B\",\n    \"C\"\n  ],\n  \"edges\": [\n    [\n      \"A\",\n      \"B\",\n      1\n    ],\n    [\n      \"B\",\n      \"C\",\n      -3\n    ],\n    [\n      \"C\",\n      \"A\",\n      1\n    ]\n  ],\n  \"directed\": true,\n  \"weighted\": true\n}\n```\nWhat is the behavior of Bellman-Ford starting from source `A`?",
+    "options": [
+      "It returns incorrect positive values for all vertices.",
+      "It enters an infinite loop and does not terminate.",
+      "It terminates but reports the presence of a negative weight cycle.",
+      "It converges correctly to find shortest path costs."
+    ],
+    "answer_id": "GCS27-ALGO-H-MCQ-158",
+    "pattern_type": "analytical",
+    "reasoning_type": [
+      "algorithm analysis"
+    ],
+    "representation": [
+      "json"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-MCQ-159",
+    "subject": "ALGO",
+    "topic": "Shortest Paths",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider the directed graph:\n\n```json\n{\n  \"vertices\": [\n    \"A\",\n    \"B\",\n    \"C\"\n  ],\n  \"edges\": [\n    [\n      \"A\",\n      \"B\",\n      1\n    ],\n    [\n      \"B\",\n      \"C\",\n      -3\n    ],\n    [\n      \"C\",\n      \"A\",\n      1\n    ]\n  ],\n  \"directed\": true,\n  \"weighted\": true\n}\n```\nWhat is the behavior of Bellman-Ford starting from source `A`?",
+    "options": [
+      "It enters an infinite loop and does not terminate.",
+      "It converges correctly to find shortest path costs.",
+      "It terminates but reports the presence of a negative weight cycle.",
+      "It returns incorrect positive values for all vertices."
+    ],
+    "answer_id": "GCS27-ALGO-H-MCQ-159",
+    "pattern_type": "analytical",
+    "reasoning_type": [
+      "algorithm analysis"
+    ],
+    "representation": [
+      "json"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-MCQ-160",
+    "subject": "ALGO",
+    "topic": "Shortest Paths",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider the directed graph:\n\n```json\n{\n  \"vertices\": [\n    \"A\",\n    \"B\",\n    \"C\"\n  ],\n  \"edges\": [\n    [\n      \"A\",\n      \"B\",\n      1\n    ],\n    [\n      \"B\",\n      \"C\",\n      -3\n    ],\n    [\n      \"C\",\n      \"A\",\n      1\n    ]\n  ],\n  \"directed\": true,\n  \"weighted\": true\n}\n```\nWhat is the behavior of Bellman-Ford starting from source `A`?",
+    "options": [
+      "It returns incorrect positive values for all vertices.",
+      "It converges correctly to find shortest path costs.",
+      "It enters an infinite loop and does not terminate.",
+      "It terminates but reports the presence of a negative weight cycle."
+    ],
+    "answer_id": "GCS27-ALGO-H-MCQ-160",
+    "pattern_type": "analytical",
+    "reasoning_type": [
+      "algorithm analysis"
+    ],
+    "representation": [
+      "json"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-MCQ-161",
+    "subject": "ALGO",
+    "topic": "Shortest Paths",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider the directed graph:\n\n```json\n{\n  \"vertices\": [\n    \"A\",\n    \"B\",\n    \"C\"\n  ],\n  \"edges\": [\n    [\n      \"A\",\n      \"B\",\n      1\n    ],\n    [\n      \"B\",\n      \"C\",\n      -3\n    ],\n    [\n      \"C\",\n      \"A\",\n      1\n    ]\n  ],\n  \"directed\": true,\n  \"weighted\": true\n}\n```\nWhat is the behavior of Bellman-Ford starting from source `A`?",
+    "options": [
+      "It returns incorrect positive values for all vertices.",
+      "It terminates but reports the presence of a negative weight cycle.",
+      "It enters an infinite loop and does not terminate.",
+      "It converges correctly to find shortest path costs."
+    ],
+    "answer_id": "GCS27-ALGO-H-MCQ-161",
+    "pattern_type": "analytical",
+    "reasoning_type": [
+      "algorithm analysis"
+    ],
+    "representation": [
+      "json"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-MCQ-162",
+    "subject": "ALGO",
+    "topic": "Shortest Paths",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider the directed graph:\n\n```json\n{\n  \"vertices\": [\n    \"A\",\n    \"B\",\n    \"C\"\n  ],\n  \"edges\": [\n    [\n      \"A\",\n      \"B\",\n      1\n    ],\n    [\n      \"B\",\n      \"C\",\n      -3\n    ],\n    [\n      \"C\",\n      \"A\",\n      1\n    ]\n  ],\n  \"directed\": true,\n  \"weighted\": true\n}\n```\nWhat is the behavior of Bellman-Ford starting from source `A`?",
+    "options": [
+      "It converges correctly to find shortest path costs.",
+      "It returns incorrect positive values for all vertices.",
+      "It enters an infinite loop and does not terminate.",
+      "It terminates but reports the presence of a negative weight cycle."
+    ],
+    "answer_id": "GCS27-ALGO-H-MCQ-162",
+    "pattern_type": "analytical",
+    "reasoning_type": [
+      "algorithm analysis"
+    ],
+    "representation": [
+      "json"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-MCQ-163",
+    "subject": "ALGO",
+    "topic": "Shortest Paths",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider the directed graph:\n\n```json\n{\n  \"vertices\": [\n    \"A\",\n    \"B\",\n    \"C\"\n  ],\n  \"edges\": [\n    [\n      \"A\",\n      \"B\",\n      1\n    ],\n    [\n      \"B\",\n      \"C\",\n      -3\n    ],\n    [\n      \"C\",\n      \"A\",\n      1\n    ]\n  ],\n  \"directed\": true,\n  \"weighted\": true\n}\n```\nWhat is the behavior of Bellman-Ford starting from source `A`?",
+    "options": [
+      "It converges correctly to find shortest path costs.",
+      "It terminates but reports the presence of a negative weight cycle.",
+      "It enters an infinite loop and does not terminate.",
+      "It returns incorrect positive values for all vertices."
+    ],
+    "answer_id": "GCS27-ALGO-H-MCQ-163",
+    "pattern_type": "analytical",
+    "reasoning_type": [
+      "algorithm analysis"
+    ],
+    "representation": [
+      "json"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-MCQ-164",
+    "subject": "ALGO",
+    "topic": "Shortest Paths",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider the directed graph:\n\n```json\n{\n  \"vertices\": [\n    \"A\",\n    \"B\",\n    \"C\"\n  ],\n  \"edges\": [\n    [\n      \"A\",\n      \"B\",\n      1\n    ],\n    [\n      \"B\",\n      \"C\",\n      -3\n    ],\n    [\n      \"C\",\n      \"A\",\n      1\n    ]\n  ],\n  \"directed\": true,\n  \"weighted\": true\n}\n```\nWhat is the behavior of Bellman-Ford starting from source `A`?",
+    "options": [
+      "It returns incorrect positive values for all vertices.",
+      "It converges correctly to find shortest path costs.",
+      "It enters an infinite loop and does not terminate.",
+      "It terminates but reports the presence of a negative weight cycle."
+    ],
+    "answer_id": "GCS27-ALGO-H-MCQ-164",
+    "pattern_type": "analytical",
+    "reasoning_type": [
+      "algorithm analysis"
+    ],
+    "representation": [
+      "json"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-MCQ-165",
+    "subject": "ALGO",
+    "topic": "Shortest Paths",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider the directed graph:\n\n```json\n{\n  \"vertices\": [\n    \"A\",\n    \"B\",\n    \"C\"\n  ],\n  \"edges\": [\n    [\n      \"A\",\n      \"B\",\n      1\n    ],\n    [\n      \"B\",\n      \"C\",\n      -3\n    ],\n    [\n      \"C\",\n      \"A\",\n      1\n    ]\n  ],\n  \"directed\": true,\n  \"weighted\": true\n}\n```\nWhat is the behavior of Bellman-Ford starting from source `A`?",
+    "options": [
+      "It enters an infinite loop and does not terminate.",
+      "It converges correctly to find shortest path costs.",
+      "It returns incorrect positive values for all vertices.",
+      "It terminates but reports the presence of a negative weight cycle."
+    ],
+    "answer_id": "GCS27-ALGO-H-MCQ-165",
+    "pattern_type": "analytical",
+    "reasoning_type": [
+      "algorithm analysis"
+    ],
+    "representation": [
+      "json"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-MCQ-166",
+    "subject": "ALGO",
+    "topic": "Shortest Paths",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider the directed graph:\n\n```json\n{\n  \"vertices\": [\n    \"A\",\n    \"B\",\n    \"C\"\n  ],\n  \"edges\": [\n    [\n      \"A\",\n      \"B\",\n      1\n    ],\n    [\n      \"B\",\n      \"C\",\n      -3\n    ],\n    [\n      \"C\",\n      \"A\",\n      1\n    ]\n  ],\n  \"directed\": true,\n  \"weighted\": true\n}\n```\nWhat is the behavior of Bellman-Ford starting from source `A`?",
+    "options": [
+      "It terminates but reports the presence of a negative weight cycle.",
+      "It returns incorrect positive values for all vertices.",
+      "It enters an infinite loop and does not terminate.",
+      "It converges correctly to find shortest path costs."
+    ],
+    "answer_id": "GCS27-ALGO-H-MCQ-166",
+    "pattern_type": "analytical",
+    "reasoning_type": [
+      "algorithm analysis"
+    ],
+    "representation": [
+      "json"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-MCQ-167",
+    "subject": "ALGO",
+    "topic": "Shortest Paths",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider the directed graph:\n\n```json\n{\n  \"vertices\": [\n    \"A\",\n    \"B\",\n    \"C\"\n  ],\n  \"edges\": [\n    [\n      \"A\",\n      \"B\",\n      1\n    ],\n    [\n      \"B\",\n      \"C\",\n      -3\n    ],\n    [\n      \"C\",\n      \"A\",\n      1\n    ]\n  ],\n  \"directed\": true,\n  \"weighted\": true\n}\n```\nWhat is the behavior of Bellman-Ford starting from source `A`?",
+    "options": [
+      "It enters an infinite loop and does not terminate.",
+      "It returns incorrect positive values for all vertices.",
+      "It terminates but reports the presence of a negative weight cycle.",
+      "It converges correctly to find shortest path costs."
+    ],
+    "answer_id": "GCS27-ALGO-H-MCQ-167",
+    "pattern_type": "analytical",
+    "reasoning_type": [
+      "algorithm analysis"
+    ],
+    "representation": [
+      "json"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-MCQ-168",
+    "subject": "ALGO",
+    "topic": "Shortest Paths",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider the directed graph:\n\n```json\n{\n  \"vertices\": [\n    \"A\",\n    \"B\",\n    \"C\"\n  ],\n  \"edges\": [\n    [\n      \"A\",\n      \"B\",\n      1\n    ],\n    [\n      \"B\",\n      \"C\",\n      -3\n    ],\n    [\n      \"C\",\n      \"A\",\n      1\n    ]\n  ],\n  \"directed\": true,\n  \"weighted\": true\n}\n```\nWhat is the behavior of Bellman-Ford starting from source `A`?",
+    "options": [
+      "It returns incorrect positive values for all vertices.",
+      "It converges correctly to find shortest path costs.",
+      "It enters an infinite loop and does not terminate.",
+      "It terminates but reports the presence of a negative weight cycle."
+    ],
+    "answer_id": "GCS27-ALGO-H-MCQ-168",
+    "pattern_type": "analytical",
+    "reasoning_type": [
+      "algorithm analysis"
+    ],
+    "representation": [
+      "json"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-MCQ-169",
+    "subject": "ALGO",
+    "topic": "Shortest Paths",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider the directed graph:\n\n```json\n{\n  \"vertices\": [\n    \"A\",\n    \"B\",\n    \"C\"\n  ],\n  \"edges\": [\n    [\n      \"A\",\n      \"B\",\n      1\n    ],\n    [\n      \"B\",\n      \"C\",\n      -3\n    ],\n    [\n      \"C\",\n      \"A\",\n      1\n    ]\n  ],\n  \"directed\": true,\n  \"weighted\": true\n}\n```\nWhat is the behavior of Bellman-Ford starting from source `A`?",
+    "options": [
+      "It converges correctly to find shortest path costs.",
+      "It terminates but reports the presence of a negative weight cycle.",
+      "It returns incorrect positive values for all vertices.",
+      "It enters an infinite loop and does not terminate."
+    ],
+    "answer_id": "GCS27-ALGO-H-MCQ-169",
+    "pattern_type": "analytical",
+    "reasoning_type": [
+      "algorithm analysis"
+    ],
+    "representation": [
+      "json"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-MCQ-170",
+    "subject": "ALGO",
+    "topic": "Shortest Paths",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider the directed graph:\n\n```json\n{\n  \"vertices\": [\n    \"A\",\n    \"B\",\n    \"C\"\n  ],\n  \"edges\": [\n    [\n      \"A\",\n      \"B\",\n      1\n    ],\n    [\n      \"B\",\n      \"C\",\n      -3\n    ],\n    [\n      \"C\",\n      \"A\",\n      1\n    ]\n  ],\n  \"directed\": true,\n  \"weighted\": true\n}\n```\nWhat is the behavior of Bellman-Ford starting from source `A`?",
+    "options": [
+      "It terminates but reports the presence of a negative weight cycle.",
+      "It converges correctly to find shortest path costs.",
+      "It returns incorrect positive values for all vertices.",
+      "It enters an infinite loop and does not terminate."
+    ],
+    "answer_id": "GCS27-ALGO-H-MCQ-170",
+    "pattern_type": "analytical",
+    "reasoning_type": [
+      "algorithm analysis"
+    ],
+    "representation": [
+      "json"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-MCQ-171",
+    "subject": "ALGO",
+    "topic": "Shortest Paths",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider the directed graph:\n\n```json\n{\n  \"vertices\": [\n    \"A\",\n    \"B\",\n    \"C\"\n  ],\n  \"edges\": [\n    [\n      \"A\",\n      \"B\",\n      1\n    ],\n    [\n      \"B\",\n      \"C\",\n      -3\n    ],\n    [\n      \"C\",\n      \"A\",\n      1\n    ]\n  ],\n  \"directed\": true,\n  \"weighted\": true\n}\n```\nWhat is the behavior of Bellman-Ford starting from source `A`?",
+    "options": [
+      "It enters an infinite loop and does not terminate.",
+      "It terminates but reports the presence of a negative weight cycle.",
+      "It converges correctly to find shortest path costs.",
+      "It returns incorrect positive values for all vertices."
+    ],
+    "answer_id": "GCS27-ALGO-H-MCQ-171",
+    "pattern_type": "analytical",
+    "reasoning_type": [
+      "algorithm analysis"
+    ],
+    "representation": [
+      "json"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-MCQ-172",
+    "subject": "ALGO",
+    "topic": "Shortest Paths",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider the directed graph:\n\n```json\n{\n  \"vertices\": [\n    \"A\",\n    \"B\",\n    \"C\"\n  ],\n  \"edges\": [\n    [\n      \"A\",\n      \"B\",\n      1\n    ],\n    [\n      \"B\",\n      \"C\",\n      -3\n    ],\n    [\n      \"C\",\n      \"A\",\n      1\n    ]\n  ],\n  \"directed\": true,\n  \"weighted\": true\n}\n```\nWhat is the behavior of Bellman-Ford starting from source `A`?",
+    "options": [
+      "It converges correctly to find shortest path costs.",
+      "It returns incorrect positive values for all vertices.",
+      "It terminates but reports the presence of a negative weight cycle.",
+      "It enters an infinite loop and does not terminate."
+    ],
+    "answer_id": "GCS27-ALGO-H-MCQ-172",
+    "pattern_type": "analytical",
+    "reasoning_type": [
+      "algorithm analysis"
+    ],
+    "representation": [
+      "json"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-MCQ-173",
+    "subject": "ALGO",
+    "topic": "Shortest Paths",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider the directed graph:\n\n```json\n{\n  \"vertices\": [\n    \"A\",\n    \"B\",\n    \"C\"\n  ],\n  \"edges\": [\n    [\n      \"A\",\n      \"B\",\n      1\n    ],\n    [\n      \"B\",\n      \"C\",\n      -3\n    ],\n    [\n      \"C\",\n      \"A\",\n      1\n    ]\n  ],\n  \"directed\": true,\n  \"weighted\": true\n}\n```\nWhat is the behavior of Bellman-Ford starting from source `A`?",
+    "options": [
+      "It terminates but reports the presence of a negative weight cycle.",
+      "It returns incorrect positive values for all vertices.",
+      "It converges correctly to find shortest path costs.",
+      "It enters an infinite loop and does not terminate."
+    ],
+    "answer_id": "GCS27-ALGO-H-MCQ-173",
+    "pattern_type": "analytical",
+    "reasoning_type": [
+      "algorithm analysis"
+    ],
+    "representation": [
+      "json"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-MCQ-174",
+    "subject": "ALGO",
+    "topic": "Shortest Paths",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider the directed graph:\n\n```json\n{\n  \"vertices\": [\n    \"A\",\n    \"B\",\n    \"C\"\n  ],\n  \"edges\": [\n    [\n      \"A\",\n      \"B\",\n      1\n    ],\n    [\n      \"B\",\n      \"C\",\n      -3\n    ],\n    [\n      \"C\",\n      \"A\",\n      1\n    ]\n  ],\n  \"directed\": true,\n  \"weighted\": true\n}\n```\nWhat is the behavior of Bellman-Ford starting from source `A`?",
+    "options": [
+      "It enters an infinite loop and does not terminate.",
+      "It returns incorrect positive values for all vertices.",
+      "It converges correctly to find shortest path costs.",
+      "It terminates but reports the presence of a negative weight cycle."
+    ],
+    "answer_id": "GCS27-ALGO-H-MCQ-174",
+    "pattern_type": "analytical",
+    "reasoning_type": [
+      "algorithm analysis"
+    ],
+    "representation": [
+      "json"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-MCQ-175",
+    "subject": "ALGO",
+    "topic": "Shortest Paths",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "Consider the directed graph:\n\n```json\n{\n  \"vertices\": [\n    \"A\",\n    \"B\",\n    \"C\"\n  ],\n  \"edges\": [\n    [\n      \"A\",\n      \"B\",\n      1\n    ],\n    [\n      \"B\",\n      \"C\",\n      -3\n    ],\n    [\n      \"C\",\n      \"A\",\n      1\n    ]\n  ],\n  \"directed\": true,\n  \"weighted\": true\n}\n```\nWhat is the behavior of Bellman-Ford starting from source `A`?",
+    "options": [
+      "It converges correctly to find shortest path costs.",
+      "It enters an infinite loop and does not terminate.",
+      "It terminates but reports the presence of a negative weight cycle.",
+      "It returns incorrect positive values for all vertices."
+    ],
+    "answer_id": "GCS27-ALGO-H-MCQ-175",
+    "pattern_type": "analytical",
+    "reasoning_type": [
+      "algorithm analysis"
+    ],
+    "representation": [
+      "json"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-MSQ-151",
+    "subject": "ALGO",
+    "topic": "Minimum Spanning Trees",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Let $G = (V, E)$ be a connected undirected graph with distinct positive weights, and $T$ be its MST. Which statements are CORRECT?",
+    "options": [
+      "Adding a positive constant $C > 0$ to all edge weights preserves $T$ as the MST.",
+      "Squaring positive distinct edge weights preserves $T$ as the MST.",
+      "The minimum weight edge of $G$ is always part of $T$.",
+      "The maximum weight edge of $G$ can never belong to $T$."
+    ],
+    "answer_id": "GCS27-ALGO-H-MSQ-151",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "MST invariants"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-MSQ-152",
+    "subject": "ALGO",
+    "topic": "Minimum Spanning Trees",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Let $G = (V, E)$ be a connected undirected graph with distinct positive weights, and $T$ be its MST. Which statements are CORRECT?",
+    "options": [
+      "Adding a positive constant $C > 0$ to all edge weights preserves $T$ as the MST.",
+      "Squaring positive distinct edge weights preserves $T$ as the MST.",
+      "The minimum weight edge of $G$ is always part of $T$.",
+      "The maximum weight edge of $G$ can never belong to $T$."
+    ],
+    "answer_id": "GCS27-ALGO-H-MSQ-152",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "MST invariants"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-MSQ-153",
+    "subject": "ALGO",
+    "topic": "Minimum Spanning Trees",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Let $G = (V, E)$ be a connected undirected graph with distinct positive weights, and $T$ be its MST. Which statements are CORRECT?",
+    "options": [
+      "Adding a positive constant $C > 0$ to all edge weights preserves $T$ as the MST.",
+      "Squaring positive distinct edge weights preserves $T$ as the MST.",
+      "The minimum weight edge of $G$ is always part of $T$.",
+      "The maximum weight edge of $G$ can never belong to $T$."
+    ],
+    "answer_id": "GCS27-ALGO-H-MSQ-153",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "MST invariants"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-MSQ-154",
+    "subject": "ALGO",
+    "topic": "Minimum Spanning Trees",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Let $G = (V, E)$ be a connected undirected graph with distinct positive weights, and $T$ be its MST. Which statements are CORRECT?",
+    "options": [
+      "Adding a positive constant $C > 0$ to all edge weights preserves $T$ as the MST.",
+      "Squaring positive distinct edge weights preserves $T$ as the MST.",
+      "The minimum weight edge of $G$ is always part of $T$.",
+      "The maximum weight edge of $G$ can never belong to $T$."
+    ],
+    "answer_id": "GCS27-ALGO-H-MSQ-154",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "MST invariants"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-MSQ-155",
+    "subject": "ALGO",
+    "topic": "Minimum Spanning Trees",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Let $G = (V, E)$ be a connected undirected graph with distinct positive weights, and $T$ be its MST. Which statements are CORRECT?",
+    "options": [
+      "Adding a positive constant $C > 0$ to all edge weights preserves $T$ as the MST.",
+      "Squaring positive distinct edge weights preserves $T$ as the MST.",
+      "The minimum weight edge of $G$ is always part of $T$.",
+      "The maximum weight edge of $G$ can never belong to $T$."
+    ],
+    "answer_id": "GCS27-ALGO-H-MSQ-155",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "MST invariants"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-MSQ-156",
+    "subject": "ALGO",
+    "topic": "Minimum Spanning Trees",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Let $G = (V, E)$ be a connected undirected graph with distinct positive weights, and $T$ be its MST. Which statements are CORRECT?",
+    "options": [
+      "Adding a positive constant $C > 0$ to all edge weights preserves $T$ as the MST.",
+      "Squaring positive distinct edge weights preserves $T$ as the MST.",
+      "The minimum weight edge of $G$ is always part of $T$.",
+      "The maximum weight edge of $G$ can never belong to $T$."
+    ],
+    "answer_id": "GCS27-ALGO-H-MSQ-156",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "MST invariants"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-MSQ-157",
+    "subject": "ALGO",
+    "topic": "Minimum Spanning Trees",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Let $G = (V, E)$ be a connected undirected graph with distinct positive weights, and $T$ be its MST. Which statements are CORRECT?",
+    "options": [
+      "Adding a positive constant $C > 0$ to all edge weights preserves $T$ as the MST.",
+      "Squaring positive distinct edge weights preserves $T$ as the MST.",
+      "The minimum weight edge of $G$ is always part of $T$.",
+      "The maximum weight edge of $G$ can never belong to $T$."
+    ],
+    "answer_id": "GCS27-ALGO-H-MSQ-157",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "MST invariants"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-MSQ-158",
+    "subject": "ALGO",
+    "topic": "Minimum Spanning Trees",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Let $G = (V, E)$ be a connected undirected graph with distinct positive weights, and $T$ be its MST. Which statements are CORRECT?",
+    "options": [
+      "Adding a positive constant $C > 0$ to all edge weights preserves $T$ as the MST.",
+      "Squaring positive distinct edge weights preserves $T$ as the MST.",
+      "The minimum weight edge of $G$ is always part of $T$.",
+      "The maximum weight edge of $G$ can never belong to $T$."
+    ],
+    "answer_id": "GCS27-ALGO-H-MSQ-158",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "MST invariants"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-MSQ-159",
+    "subject": "ALGO",
+    "topic": "Minimum Spanning Trees",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Let $G = (V, E)$ be a connected undirected graph with distinct positive weights, and $T$ be its MST. Which statements are CORRECT?",
+    "options": [
+      "Adding a positive constant $C > 0$ to all edge weights preserves $T$ as the MST.",
+      "Squaring positive distinct edge weights preserves $T$ as the MST.",
+      "The minimum weight edge of $G$ is always part of $T$.",
+      "The maximum weight edge of $G$ can never belong to $T$."
+    ],
+    "answer_id": "GCS27-ALGO-H-MSQ-159",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "MST invariants"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-MSQ-160",
+    "subject": "ALGO",
+    "topic": "Minimum Spanning Trees",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Let $G = (V, E)$ be a connected undirected graph with distinct positive weights, and $T$ be its MST. Which statements are CORRECT?",
+    "options": [
+      "Adding a positive constant $C > 0$ to all edge weights preserves $T$ as the MST.",
+      "Squaring positive distinct edge weights preserves $T$ as the MST.",
+      "The minimum weight edge of $G$ is always part of $T$.",
+      "The maximum weight edge of $G$ can never belong to $T$."
+    ],
+    "answer_id": "GCS27-ALGO-H-MSQ-160",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "MST invariants"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-MSQ-161",
+    "subject": "ALGO",
+    "topic": "Minimum Spanning Trees",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Let $G = (V, E)$ be a connected undirected graph with distinct positive weights, and $T$ be its MST. Which statements are CORRECT?",
+    "options": [
+      "Adding a positive constant $C > 0$ to all edge weights preserves $T$ as the MST.",
+      "Squaring positive distinct edge weights preserves $T$ as the MST.",
+      "The minimum weight edge of $G$ is always part of $T$.",
+      "The maximum weight edge of $G$ can never belong to $T$."
+    ],
+    "answer_id": "GCS27-ALGO-H-MSQ-161",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "MST invariants"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-MSQ-162",
+    "subject": "ALGO",
+    "topic": "Minimum Spanning Trees",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Let $G = (V, E)$ be a connected undirected graph with distinct positive weights, and $T$ be its MST. Which statements are CORRECT?",
+    "options": [
+      "Adding a positive constant $C > 0$ to all edge weights preserves $T$ as the MST.",
+      "Squaring positive distinct edge weights preserves $T$ as the MST.",
+      "The minimum weight edge of $G$ is always part of $T$.",
+      "The maximum weight edge of $G$ can never belong to $T$."
+    ],
+    "answer_id": "GCS27-ALGO-H-MSQ-162",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "MST invariants"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-MSQ-163",
+    "subject": "ALGO",
+    "topic": "Minimum Spanning Trees",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Let $G = (V, E)$ be a connected undirected graph with distinct positive weights, and $T$ be its MST. Which statements are CORRECT?",
+    "options": [
+      "Adding a positive constant $C > 0$ to all edge weights preserves $T$ as the MST.",
+      "Squaring positive distinct edge weights preserves $T$ as the MST.",
+      "The minimum weight edge of $G$ is always part of $T$.",
+      "The maximum weight edge of $G$ can never belong to $T$."
+    ],
+    "answer_id": "GCS27-ALGO-H-MSQ-163",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "MST invariants"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-MSQ-164",
+    "subject": "ALGO",
+    "topic": "Minimum Spanning Trees",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Let $G = (V, E)$ be a connected undirected graph with distinct positive weights, and $T$ be its MST. Which statements are CORRECT?",
+    "options": [
+      "Adding a positive constant $C > 0$ to all edge weights preserves $T$ as the MST.",
+      "Squaring positive distinct edge weights preserves $T$ as the MST.",
+      "The minimum weight edge of $G$ is always part of $T$.",
+      "The maximum weight edge of $G$ can never belong to $T$."
+    ],
+    "answer_id": "GCS27-ALGO-H-MSQ-164",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "MST invariants"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-MSQ-165",
+    "subject": "ALGO",
+    "topic": "Minimum Spanning Trees",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Let $G = (V, E)$ be a connected undirected graph with distinct positive weights, and $T$ be its MST. Which statements are CORRECT?",
+    "options": [
+      "Adding a positive constant $C > 0$ to all edge weights preserves $T$ as the MST.",
+      "Squaring positive distinct edge weights preserves $T$ as the MST.",
+      "The minimum weight edge of $G$ is always part of $T$.",
+      "The maximum weight edge of $G$ can never belong to $T$."
+    ],
+    "answer_id": "GCS27-ALGO-H-MSQ-165",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "MST invariants"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-MSQ-166",
+    "subject": "ALGO",
+    "topic": "Minimum Spanning Trees",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Let $G = (V, E)$ be a connected undirected graph with distinct positive weights, and $T$ be its MST. Which statements are CORRECT?",
+    "options": [
+      "Adding a positive constant $C > 0$ to all edge weights preserves $T$ as the MST.",
+      "Squaring positive distinct edge weights preserves $T$ as the MST.",
+      "The minimum weight edge of $G$ is always part of $T$.",
+      "The maximum weight edge of $G$ can never belong to $T$."
+    ],
+    "answer_id": "GCS27-ALGO-H-MSQ-166",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "MST invariants"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-MSQ-167",
+    "subject": "ALGO",
+    "topic": "Minimum Spanning Trees",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Let $G = (V, E)$ be a connected undirected graph with distinct positive weights, and $T$ be its MST. Which statements are CORRECT?",
+    "options": [
+      "Adding a positive constant $C > 0$ to all edge weights preserves $T$ as the MST.",
+      "Squaring positive distinct edge weights preserves $T$ as the MST.",
+      "The minimum weight edge of $G$ is always part of $T$.",
+      "The maximum weight edge of $G$ can never belong to $T$."
+    ],
+    "answer_id": "GCS27-ALGO-H-MSQ-167",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "MST invariants"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-MSQ-168",
+    "subject": "ALGO",
+    "topic": "Minimum Spanning Trees",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Let $G = (V, E)$ be a connected undirected graph with distinct positive weights, and $T$ be its MST. Which statements are CORRECT?",
+    "options": [
+      "Adding a positive constant $C > 0$ to all edge weights preserves $T$ as the MST.",
+      "Squaring positive distinct edge weights preserves $T$ as the MST.",
+      "The minimum weight edge of $G$ is always part of $T$.",
+      "The maximum weight edge of $G$ can never belong to $T$."
+    ],
+    "answer_id": "GCS27-ALGO-H-MSQ-168",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "MST invariants"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-MSQ-169",
+    "subject": "ALGO",
+    "topic": "Minimum Spanning Trees",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Let $G = (V, E)$ be a connected undirected graph with distinct positive weights, and $T$ be its MST. Which statements are CORRECT?",
+    "options": [
+      "Adding a positive constant $C > 0$ to all edge weights preserves $T$ as the MST.",
+      "Squaring positive distinct edge weights preserves $T$ as the MST.",
+      "The minimum weight edge of $G$ is always part of $T$.",
+      "The maximum weight edge of $G$ can never belong to $T$."
+    ],
+    "answer_id": "GCS27-ALGO-H-MSQ-169",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "MST invariants"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-MSQ-170",
+    "subject": "ALGO",
+    "topic": "Minimum Spanning Trees",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Let $G = (V, E)$ be a connected undirected graph with distinct positive weights, and $T$ be its MST. Which statements are CORRECT?",
+    "options": [
+      "Adding a positive constant $C > 0$ to all edge weights preserves $T$ as the MST.",
+      "Squaring positive distinct edge weights preserves $T$ as the MST.",
+      "The minimum weight edge of $G$ is always part of $T$.",
+      "The maximum weight edge of $G$ can never belong to $T$."
+    ],
+    "answer_id": "GCS27-ALGO-H-MSQ-170",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "MST invariants"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-MSQ-171",
+    "subject": "ALGO",
+    "topic": "Minimum Spanning Trees",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Let $G = (V, E)$ be a connected undirected graph with distinct positive weights, and $T$ be its MST. Which statements are CORRECT?",
+    "options": [
+      "Adding a positive constant $C > 0$ to all edge weights preserves $T$ as the MST.",
+      "Squaring positive distinct edge weights preserves $T$ as the MST.",
+      "The minimum weight edge of $G$ is always part of $T$.",
+      "The maximum weight edge of $G$ can never belong to $T$."
+    ],
+    "answer_id": "GCS27-ALGO-H-MSQ-171",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "MST invariants"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-MSQ-172",
+    "subject": "ALGO",
+    "topic": "Minimum Spanning Trees",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Let $G = (V, E)$ be a connected undirected graph with distinct positive weights, and $T$ be its MST. Which statements are CORRECT?",
+    "options": [
+      "Adding a positive constant $C > 0$ to all edge weights preserves $T$ as the MST.",
+      "Squaring positive distinct edge weights preserves $T$ as the MST.",
+      "The minimum weight edge of $G$ is always part of $T$.",
+      "The maximum weight edge of $G$ can never belong to $T$."
+    ],
+    "answer_id": "GCS27-ALGO-H-MSQ-172",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "MST invariants"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-MSQ-173",
+    "subject": "ALGO",
+    "topic": "Minimum Spanning Trees",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Let $G = (V, E)$ be a connected undirected graph with distinct positive weights, and $T$ be its MST. Which statements are CORRECT?",
+    "options": [
+      "Adding a positive constant $C > 0$ to all edge weights preserves $T$ as the MST.",
+      "Squaring positive distinct edge weights preserves $T$ as the MST.",
+      "The minimum weight edge of $G$ is always part of $T$.",
+      "The maximum weight edge of $G$ can never belong to $T$."
+    ],
+    "answer_id": "GCS27-ALGO-H-MSQ-173",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "MST invariants"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-MSQ-174",
+    "subject": "ALGO",
+    "topic": "Minimum Spanning Trees",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Let $G = (V, E)$ be a connected undirected graph with distinct positive weights, and $T$ be its MST. Which statements are CORRECT?",
+    "options": [
+      "Adding a positive constant $C > 0$ to all edge weights preserves $T$ as the MST.",
+      "Squaring positive distinct edge weights preserves $T$ as the MST.",
+      "The minimum weight edge of $G$ is always part of $T$.",
+      "The maximum weight edge of $G$ can never belong to $T$."
+    ],
+    "answer_id": "GCS27-ALGO-H-MSQ-174",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "MST invariants"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-MSQ-175",
+    "subject": "ALGO",
+    "topic": "Minimum Spanning Trees",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "Let $G = (V, E)$ be a connected undirected graph with distinct positive weights, and $T$ be its MST. Which statements are CORRECT?",
+    "options": [
+      "Adding a positive constant $C > 0$ to all edge weights preserves $T$ as the MST.",
+      "Squaring positive distinct edge weights preserves $T$ as the MST.",
+      "The minimum weight edge of $G$ is always part of $T$.",
+      "The maximum weight edge of $G$ can never belong to $T$."
+    ],
+    "answer_id": "GCS27-ALGO-H-MSQ-175",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "MST invariants"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-NAT-151",
+    "subject": "ALGO",
+    "topic": "Topological Sorting",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a DAG with vertices `A, B, C, D` and dependency constraints: `A -> B`, `A -> C`, `B -> D`, `C -> D`. How many distinct topological sorting orderings are possible?",
+    "options": [],
+    "answer_id": "GCS27-ALGO-H-NAT-151",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "graph order permutations"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-NAT-152",
+    "subject": "ALGO",
+    "topic": "Topological Sorting",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a DAG with vertices `A, B, C, D` and dependency constraints: `A -> B`, `A -> C`, `B -> D`, `C -> D`. How many distinct topological sorting orderings are possible?",
+    "options": [],
+    "answer_id": "GCS27-ALGO-H-NAT-152",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "graph order permutations"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-NAT-153",
+    "subject": "ALGO",
+    "topic": "Topological Sorting",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a DAG with vertices `A, B, C, D` and dependency constraints: `A -> B`, `A -> C`, `B -> D`, `C -> D`. How many distinct topological sorting orderings are possible?",
+    "options": [],
+    "answer_id": "GCS27-ALGO-H-NAT-153",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "graph order permutations"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-NAT-154",
+    "subject": "ALGO",
+    "topic": "Topological Sorting",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a DAG with vertices `A, B, C, D` and dependency constraints: `A -> B`, `A -> C`, `B -> D`, `C -> D`. How many distinct topological sorting orderings are possible?",
+    "options": [],
+    "answer_id": "GCS27-ALGO-H-NAT-154",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "graph order permutations"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-NAT-155",
+    "subject": "ALGO",
+    "topic": "Topological Sorting",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a DAG with vertices `A, B, C, D` and dependency constraints: `A -> B`, `A -> C`, `B -> D`, `C -> D`. How many distinct topological sorting orderings are possible?",
+    "options": [],
+    "answer_id": "GCS27-ALGO-H-NAT-155",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "graph order permutations"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-NAT-156",
+    "subject": "ALGO",
+    "topic": "Topological Sorting",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a DAG with vertices `A, B, C, D` and dependency constraints: `A -> B`, `A -> C`, `B -> D`, `C -> D`. How many distinct topological sorting orderings are possible?",
+    "options": [],
+    "answer_id": "GCS27-ALGO-H-NAT-156",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "graph order permutations"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-NAT-157",
+    "subject": "ALGO",
+    "topic": "Topological Sorting",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a DAG with vertices `A, B, C, D` and dependency constraints: `A -> B`, `A -> C`, `B -> D`, `C -> D`. How many distinct topological sorting orderings are possible?",
+    "options": [],
+    "answer_id": "GCS27-ALGO-H-NAT-157",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "graph order permutations"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-NAT-158",
+    "subject": "ALGO",
+    "topic": "Topological Sorting",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a DAG with vertices `A, B, C, D` and dependency constraints: `A -> B`, `A -> C`, `B -> D`, `C -> D`. How many distinct topological sorting orderings are possible?",
+    "options": [],
+    "answer_id": "GCS27-ALGO-H-NAT-158",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "graph order permutations"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-NAT-159",
+    "subject": "ALGO",
+    "topic": "Topological Sorting",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a DAG with vertices `A, B, C, D` and dependency constraints: `A -> B`, `A -> C`, `B -> D`, `C -> D`. How many distinct topological sorting orderings are possible?",
+    "options": [],
+    "answer_id": "GCS27-ALGO-H-NAT-159",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "graph order permutations"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-NAT-160",
+    "subject": "ALGO",
+    "topic": "Topological Sorting",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a DAG with vertices `A, B, C, D` and dependency constraints: `A -> B`, `A -> C`, `B -> D`, `C -> D`. How many distinct topological sorting orderings are possible?",
+    "options": [],
+    "answer_id": "GCS27-ALGO-H-NAT-160",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "graph order permutations"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-NAT-161",
+    "subject": "ALGO",
+    "topic": "Topological Sorting",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a DAG with vertices `A, B, C, D` and dependency constraints: `A -> B`, `A -> C`, `B -> D`, `C -> D`. How many distinct topological sorting orderings are possible?",
+    "options": [],
+    "answer_id": "GCS27-ALGO-H-NAT-161",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "graph order permutations"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-NAT-162",
+    "subject": "ALGO",
+    "topic": "Topological Sorting",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a DAG with vertices `A, B, C, D` and dependency constraints: `A -> B`, `A -> C`, `B -> D`, `C -> D`. How many distinct topological sorting orderings are possible?",
+    "options": [],
+    "answer_id": "GCS27-ALGO-H-NAT-162",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "graph order permutations"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-NAT-163",
+    "subject": "ALGO",
+    "topic": "Topological Sorting",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a DAG with vertices `A, B, C, D` and dependency constraints: `A -> B`, `A -> C`, `B -> D`, `C -> D`. How many distinct topological sorting orderings are possible?",
+    "options": [],
+    "answer_id": "GCS27-ALGO-H-NAT-163",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "graph order permutations"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-NAT-164",
+    "subject": "ALGO",
+    "topic": "Topological Sorting",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a DAG with vertices `A, B, C, D` and dependency constraints: `A -> B`, `A -> C`, `B -> D`, `C -> D`. How many distinct topological sorting orderings are possible?",
+    "options": [],
+    "answer_id": "GCS27-ALGO-H-NAT-164",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "graph order permutations"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-NAT-165",
+    "subject": "ALGO",
+    "topic": "Topological Sorting",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a DAG with vertices `A, B, C, D` and dependency constraints: `A -> B`, `A -> C`, `B -> D`, `C -> D`. How many distinct topological sorting orderings are possible?",
+    "options": [],
+    "answer_id": "GCS27-ALGO-H-NAT-165",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "graph order permutations"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-NAT-166",
+    "subject": "ALGO",
+    "topic": "Topological Sorting",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a DAG with vertices `A, B, C, D` and dependency constraints: `A -> B`, `A -> C`, `B -> D`, `C -> D`. How many distinct topological sorting orderings are possible?",
+    "options": [],
+    "answer_id": "GCS27-ALGO-H-NAT-166",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "graph order permutations"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-NAT-167",
+    "subject": "ALGO",
+    "topic": "Topological Sorting",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a DAG with vertices `A, B, C, D` and dependency constraints: `A -> B`, `A -> C`, `B -> D`, `C -> D`. How many distinct topological sorting orderings are possible?",
+    "options": [],
+    "answer_id": "GCS27-ALGO-H-NAT-167",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "graph order permutations"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-NAT-168",
+    "subject": "ALGO",
+    "topic": "Topological Sorting",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a DAG with vertices `A, B, C, D` and dependency constraints: `A -> B`, `A -> C`, `B -> D`, `C -> D`. How many distinct topological sorting orderings are possible?",
+    "options": [],
+    "answer_id": "GCS27-ALGO-H-NAT-168",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "graph order permutations"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-NAT-169",
+    "subject": "ALGO",
+    "topic": "Topological Sorting",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a DAG with vertices `A, B, C, D` and dependency constraints: `A -> B`, `A -> C`, `B -> D`, `C -> D`. How many distinct topological sorting orderings are possible?",
+    "options": [],
+    "answer_id": "GCS27-ALGO-H-NAT-169",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "graph order permutations"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-NAT-170",
+    "subject": "ALGO",
+    "topic": "Topological Sorting",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a DAG with vertices `A, B, C, D` and dependency constraints: `A -> B`, `A -> C`, `B -> D`, `C -> D`. How many distinct topological sorting orderings are possible?",
+    "options": [],
+    "answer_id": "GCS27-ALGO-H-NAT-170",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "graph order permutations"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-NAT-171",
+    "subject": "ALGO",
+    "topic": "Topological Sorting",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a DAG with vertices `A, B, C, D` and dependency constraints: `A -> B`, `A -> C`, `B -> D`, `C -> D`. How many distinct topological sorting orderings are possible?",
+    "options": [],
+    "answer_id": "GCS27-ALGO-H-NAT-171",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "graph order permutations"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-NAT-172",
+    "subject": "ALGO",
+    "topic": "Topological Sorting",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a DAG with vertices `A, B, C, D` and dependency constraints: `A -> B`, `A -> C`, `B -> D`, `C -> D`. How many distinct topological sorting orderings are possible?",
+    "options": [],
+    "answer_id": "GCS27-ALGO-H-NAT-172",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "graph order permutations"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-NAT-173",
+    "subject": "ALGO",
+    "topic": "Topological Sorting",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a DAG with vertices `A, B, C, D` and dependency constraints: `A -> B`, `A -> C`, `B -> D`, `C -> D`. How many distinct topological sorting orderings are possible?",
+    "options": [],
+    "answer_id": "GCS27-ALGO-H-NAT-173",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "graph order permutations"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-NAT-174",
+    "subject": "ALGO",
+    "topic": "Topological Sorting",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a DAG with vertices `A, B, C, D` and dependency constraints: `A -> B`, `A -> C`, `B -> D`, `C -> D`. How many distinct topological sorting orderings are possible?",
+    "options": [],
+    "answer_id": "GCS27-ALGO-H-NAT-174",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "graph order permutations"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-ALGO-H-NAT-175",
+    "subject": "ALGO",
+    "topic": "Topological Sorting",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Consider a DAG with vertices `A, B, C, D` and dependency constraints: `A -> B`, `A -> C`, `B -> D`, `C -> D`. How many distinct topological sorting orderings are possible?",
+    "options": [],
+    "answer_id": "GCS27-ALGO-H-NAT-175",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "graph order permutations"
+    ],
+    "representation": [
+      "text"
+    ]
+  }
+]

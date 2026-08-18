@@ -1,0 +1,51 @@
+{
+  "difficulty_calibration": {
+    "easy": {
+      "max_reasoning_steps": 2,
+      "max_interacting_concepts": 1,
+      "calculation_complexity": "low",
+      "description": "Tests a single dominant concept with straightforward application and minimal steps."
+    },
+    "medium": {
+      "max_reasoning_steps": 4,
+      "max_interacting_concepts": 2,
+      "calculation_complexity": "moderate",
+      "description": "Requires multi-step reasoning, combination of two related concepts, boundary awareness, or simple logic traps."
+    },
+    "hard": {
+      "max_reasoning_steps": 7,
+      "max_interacting_concepts": 4,
+      "calculation_complexity": "high",
+      "description": "Requires multi-concept synthesis, non-obvious mathematical invariants, deep code tracing, or counterintuitive edge cases."
+    }
+  },
+  "quality_scoring": {
+    "minimum_passing_score": 85,
+    "review_threshold": 92,
+    "weights": {
+      "correctness": 30,
+      "originality": 25,
+      "gate_relevance": 15,
+      "difficulty_accuracy": 10,
+      "distractor_quality": 10,
+      "explanation_clarity": 10
+    }
+  },
+  "distractor_strategies": [
+    "off_by_one_error",
+    "operator_precedence_inversion",
+    "scoping_override_neglect",
+    "pointer_vs_value_confusion",
+    "recursion_base_case_neglect",
+    "uninitialized_memory_read",
+    "array_bounds_overflow",
+    "type_promotion_sign_extension",
+    "macro_expansion_precedence",
+    "struct_padding_size_neglect"
+  ],
+  "originality": {
+    "max_lexical_similarity": 0.50,
+    "max_semantic_similarity": 0.50,
+    "max_template_similarity": 0.30
+  }
+}

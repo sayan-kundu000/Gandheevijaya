@@ -1,0 +1,66 @@
+[
+  {
+    "id": "GCS27-DB-E-MCQ-060",
+    "subject": "DB",
+    "topic": "Normalization",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "A relation is in 2NF (Second Normal Form) if it is in 1NF and:",
+    "options": [
+      "Every non-prime attribute is fully functionally dependent on the primary key.",
+      "Every attribute is atomic.",
+      "It contains no multivalued dependencies.",
+      "It has no transitive dependencies."
+    ],
+    "answer_id": "GCS27-DB-E-MCQ-060",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "normalization checks"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-MSQ-060",
+    "subject": "DB",
+    "topic": "Transactions",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "MSQ",
+    "question": "Which of the following represent the ACID properties of database transactions?",
+    "options": [
+      "Atomicity",
+      "Consistency",
+      "Isolation",
+      "Durability"
+    ],
+    "answer_id": "GCS27-DB-E-MSQ-060",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "property validation"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-DB-E-NAT-060",
+    "subject": "DB",
+    "topic": "Relational Algebra",
+    "subtopic": null,
+    "difficulty": "easy",
+    "type": "NAT",
+    "question": "If relation R contains 3 tuples and relation S contains 10 tuples, how many tuples are in the Cartesian product of R and S?",
+    "options": null,
+    "answer_id": "GCS27-DB-E-NAT-060",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "relational math"
+    ],
+    "representation": [
+      "text"
+    ]
+  }
+]

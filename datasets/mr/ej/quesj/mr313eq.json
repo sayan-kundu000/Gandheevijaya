@@ -1,0 +1,66 @@
+[
+  {
+    "id": "GCS27-MR-E-MCQ-313",
+    "subject": "MR",
+    "topic": "Deductive Logic",
+    "subtopic": "Implications",
+    "difficulty": "easy",
+    "type": "MCQ",
+    "question": "If 'P implies Q' and 'Q implies R', which of the following MUST be logically true?",
+    "options": [
+      "P implies R",
+      "Q implies P",
+      "not P implies not R",
+      "R implies P"
+    ],
+    "answer_id": "GCS27-MR-E-MCQ-313",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "logical deduction"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-MR-E-MSQ-313",
+    "subject": "MR",
+    "topic": "Deductive Logic",
+    "subtopic": "Equivalence",
+    "difficulty": "easy",
+    "type": "MSQ",
+    "question": "Which of the following propositions are logically equivalent to $P \\implies Q$?",
+    "options": [
+      "$\\neg P \\lor Q$",
+      "$\\neg Q \\implies \\neg P$",
+      "$\\neg (P \\land \\neg Q)$",
+      "$Q \\implies P$"
+    ],
+    "answer_id": "GCS27-MR-E-MSQ-313",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "property validation"
+    ],
+    "representation": [
+      "notation"
+    ]
+  },
+  {
+    "id": "GCS27-MR-E-NAT-313",
+    "subject": "MR",
+    "topic": "Deductive Logic",
+    "subtopic": "Truth Tables",
+    "difficulty": "easy",
+    "type": "NAT",
+    "question": "How many distinct truth assignments (rows in a truth table) exist for a logical formula containing 4 distinct variables?",
+    "options": null,
+    "answer_id": "GCS27-MR-E-NAT-313",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "algebra math"
+    ],
+    "representation": [
+      "text"
+    ]
+  }
+]

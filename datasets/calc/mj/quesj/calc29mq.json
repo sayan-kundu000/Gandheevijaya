@@ -1,0 +1,66 @@
+[
+  {
+    "id": "GCS27-CALC-M-MCQ-029",
+    "subject": "CALC",
+    "topic": "Limits",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MCQ",
+    "question": "Find the limit: $\\lim_{x \\to 0} \\sin(5x) / x$.",
+    "options": [
+      "1",
+      "0",
+      "1/5",
+      "5"
+    ],
+    "answer_id": "GCS27-CALC-M-MCQ-029",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "limit calculus"
+    ],
+    "representation": [
+      "notation"
+    ]
+  },
+  {
+    "id": "GCS27-CALC-M-MSQ-029",
+    "subject": "CALC",
+    "topic": "Optimization",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "MSQ",
+    "question": "Which of the following conditions are necessary for a function f(x) to have a local maximum at x = c?",
+    "options": [
+      "f'(c) = 0 or f'(c) is undefined (critical point).",
+      "If f''(c) exists, then f''(c) <= 0.",
+      "The first derivative f'(x) changes sign from positive to negative at c.",
+      "f(c) is greater than all values of f(x) in some interval containing c."
+    ],
+    "answer_id": "GCS27-CALC-M-MSQ-029",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "optimization criteria check"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-CALC-M-NAT-029",
+    "subject": "CALC",
+    "topic": "Integration",
+    "subtopic": null,
+    "difficulty": "medium",
+    "type": "NAT",
+    "question": "Evaluate the definite integral: $\\int_{0}^{5} 2x \\, dx$.",
+    "options": null,
+    "answer_id": "GCS27-CALC-M-NAT-029",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "integral calculus"
+    ],
+    "representation": [
+      "notation"
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "GCS27-CD-H-MCQ-080",
+    "explanation": "LR(1) parser splits states based on lookaheads, resulting in significantly more states than LALR(1) or SLR(1), which merge states with identical core items."
+  },
+  {
+    "id": "GCS27-CD-H-MSQ-080",
+    "explanation": "All options represent standard loop transformation and optimization techniques."
+  },
+  {
+    "id": "GCS27-CD-H-NAT-080",
+    "explanation": "Leaders are: 1 (entry statement), 2 (target of goto at 4), 3 (statement following conditional branch at 2), 5 (target of conditional branch at 2). Blocks are: Block 1 (line 1), Block 2 (line 2), Block 3 (lines 3-4), Block 4 (line 5). Total basic blocks = 4."
+  }
+]

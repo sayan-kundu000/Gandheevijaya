@@ -1,0 +1,66 @@
+[
+  {
+    "id": "GCS27-LA-H-MCQ-079",
+    "subject": "LA",
+    "topic": "Eigenvalues",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MCQ",
+    "question": "If matrix A has eigenvalues 2 and 3, what is the sum of the eigenvalues of A^2?",
+    "options": [
+      "13",
+      "6",
+      "5",
+      "36"
+    ],
+    "answer_id": "GCS27-LA-H-MCQ-079",
+    "pattern_type": "state-transition reasoning",
+    "reasoning_type": [
+      "eigenvalues math"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-LA-H-MSQ-079",
+    "subject": "LA",
+    "topic": "Linear Systems",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "MSQ",
+    "question": "For a system of linear equations Ax = B (where A is square), which of the following statements are CORRECT?",
+    "options": [
+      "If det(A) != 0, the system has a unique solution.",
+      "If det(A) == 0 and (adj A)B == 0, the system has infinitely many solutions.",
+      "If det(A) == 0 and (adj A)B != 0, the system has no solution.",
+      "If B = 0 (homogeneous system) and det(A) != 0, only the trivial solution exists."
+    ],
+    "answer_id": "GCS27-LA-H-MSQ-079",
+    "pattern_type": "invariant reasoning",
+    "reasoning_type": [
+      "consistency verification"
+    ],
+    "representation": [
+      "text"
+    ]
+  },
+  {
+    "id": "GCS27-LA-H-NAT-079",
+    "subject": "LA",
+    "topic": "Linear Systems",
+    "subtopic": null,
+    "difficulty": "hard",
+    "type": "NAT",
+    "question": "Solve the system of equations for x:\n\n$$x + y = 3$$\n$$x - y = 1$$",
+    "options": null,
+    "answer_id": "GCS27-LA-H-NAT-079",
+    "pattern_type": "computational",
+    "reasoning_type": [
+      "algebra math"
+    ],
+    "representation": [
+      "notation"
+    ]
+  }
+]

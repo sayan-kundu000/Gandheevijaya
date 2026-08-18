@@ -1,0 +1,302 @@
+[
+  {
+    "id": "GCS27-OS-H-MCQ-001",
+    "explanation": "Safe state evaluation using Banker's Algorithm:\nNeeds: P1=1, P2=2, P3=1.\nAvailable = 1.\n1. Can allocate to P1 (Need 1 <= 1). P1 finishes, work = 1 + 1 = 2.\n2. Can allocate to P3 (Need 1 <= 2). P3 finishes, work = 2 + 3 = 5.\n3. Can allocate to P2 (Need 2 <= 5). P2 finishes.\nSafe sequence: P1 -> P3 -> P2."
+  },
+  {
+    "id": "GCS27-OS-H-MCQ-002",
+    "explanation": "Safe state evaluation using Banker's Algorithm:\nNeeds: P1=1, P2=2, P3=1.\nAvailable = 1.\n1. Can allocate to P1 (Need 1 <= 1). P1 finishes, work = 1 + 1 = 2.\n2. Can allocate to P3 (Need 1 <= 2). P3 finishes, work = 2 + 3 = 5.\n3. Can allocate to P2 (Need 2 <= 5). P2 finishes.\nSafe sequence: P1 -> P3 -> P2."
+  },
+  {
+    "id": "GCS27-OS-H-MCQ-003",
+    "explanation": "Safe state evaluation using Banker's Algorithm:\nNeeds: P1=1, P2=2, P3=1.\nAvailable = 1.\n1. Can allocate to P1 (Need 1 <= 1). P1 finishes, work = 1 + 1 = 2.\n2. Can allocate to P3 (Need 1 <= 2). P3 finishes, work = 2 + 3 = 5.\n3. Can allocate to P2 (Need 2 <= 5). P2 finishes.\nSafe sequence: P1 -> P3 -> P2."
+  },
+  {
+    "id": "GCS27-OS-H-MCQ-004",
+    "explanation": "Safe state evaluation using Banker's Algorithm:\nNeeds: P1=1, P2=2, P3=1.\nAvailable = 1.\n1. Can allocate to P1 (Need 1 <= 1). P1 finishes, work = 1 + 1 = 2.\n2. Can allocate to P3 (Need 1 <= 2). P3 finishes, work = 2 + 3 = 5.\n3. Can allocate to P2 (Need 2 <= 5). P2 finishes.\nSafe sequence: P1 -> P3 -> P2."
+  },
+  {
+    "id": "GCS27-OS-H-MCQ-005",
+    "explanation": "Safe state evaluation using Banker's Algorithm:\nNeeds: P1=1, P2=2, P3=1.\nAvailable = 1.\n1. Can allocate to P1 (Need 1 <= 1). P1 finishes, work = 1 + 1 = 2.\n2. Can allocate to P3 (Need 1 <= 2). P3 finishes, work = 2 + 3 = 5.\n3. Can allocate to P2 (Need 2 <= 5). P2 finishes.\nSafe sequence: P1 -> P3 -> P2."
+  },
+  {
+    "id": "GCS27-OS-H-MCQ-006",
+    "explanation": "Safe state evaluation using Banker's Algorithm:\nNeeds: P1=1, P2=2, P3=1.\nAvailable = 1.\n1. Can allocate to P1 (Need 1 <= 1). P1 finishes, work = 1 + 1 = 2.\n2. Can allocate to P3 (Need 1 <= 2). P3 finishes, work = 2 + 3 = 5.\n3. Can allocate to P2 (Need 2 <= 5). P2 finishes.\nSafe sequence: P1 -> P3 -> P2."
+  },
+  {
+    "id": "GCS27-OS-H-MCQ-007",
+    "explanation": "Safe state evaluation using Banker's Algorithm:\nNeeds: P1=1, P2=2, P3=1.\nAvailable = 1.\n1. Can allocate to P1 (Need 1 <= 1). P1 finishes, work = 1 + 1 = 2.\n2. Can allocate to P3 (Need 1 <= 2). P3 finishes, work = 2 + 3 = 5.\n3. Can allocate to P2 (Need 2 <= 5). P2 finishes.\nSafe sequence: P1 -> P3 -> P2."
+  },
+  {
+    "id": "GCS27-OS-H-MCQ-008",
+    "explanation": "Safe state evaluation using Banker's Algorithm:\nNeeds: P1=1, P2=2, P3=1.\nAvailable = 1.\n1. Can allocate to P1 (Need 1 <= 1). P1 finishes, work = 1 + 1 = 2.\n2. Can allocate to P3 (Need 1 <= 2). P3 finishes, work = 2 + 3 = 5.\n3. Can allocate to P2 (Need 2 <= 5). P2 finishes.\nSafe sequence: P1 -> P3 -> P2."
+  },
+  {
+    "id": "GCS27-OS-H-MCQ-009",
+    "explanation": "Safe state evaluation using Banker's Algorithm:\nNeeds: P1=1, P2=2, P3=1.\nAvailable = 1.\n1. Can allocate to P1 (Need 1 <= 1). P1 finishes, work = 1 + 1 = 2.\n2. Can allocate to P3 (Need 1 <= 2). P3 finishes, work = 2 + 3 = 5.\n3. Can allocate to P2 (Need 2 <= 5). P2 finishes.\nSafe sequence: P1 -> P3 -> P2."
+  },
+  {
+    "id": "GCS27-OS-H-MCQ-010",
+    "explanation": "Safe state evaluation using Banker's Algorithm:\nNeeds: P1=1, P2=2, P3=1.\nAvailable = 1.\n1. Can allocate to P1 (Need 1 <= 1). P1 finishes, work = 1 + 1 = 2.\n2. Can allocate to P3 (Need 1 <= 2). P3 finishes, work = 2 + 3 = 5.\n3. Can allocate to P2 (Need 2 <= 5). P2 finishes.\nSafe sequence: P1 -> P3 -> P2."
+  },
+  {
+    "id": "GCS27-OS-H-MCQ-011",
+    "explanation": "Safe state evaluation using Banker's Algorithm:\nNeeds: P1=1, P2=2, P3=1.\nAvailable = 1.\n1. Can allocate to P1 (Need 1 <= 1). P1 finishes, work = 1 + 1 = 2.\n2. Can allocate to P3 (Need 1 <= 2). P3 finishes, work = 2 + 3 = 5.\n3. Can allocate to P2 (Need 2 <= 5). P2 finishes.\nSafe sequence: P1 -> P3 -> P2."
+  },
+  {
+    "id": "GCS27-OS-H-MCQ-012",
+    "explanation": "Safe state evaluation using Banker's Algorithm:\nNeeds: P1=1, P2=2, P3=1.\nAvailable = 1.\n1. Can allocate to P1 (Need 1 <= 1). P1 finishes, work = 1 + 1 = 2.\n2. Can allocate to P3 (Need 1 <= 2). P3 finishes, work = 2 + 3 = 5.\n3. Can allocate to P2 (Need 2 <= 5). P2 finishes.\nSafe sequence: P1 -> P3 -> P2."
+  },
+  {
+    "id": "GCS27-OS-H-MCQ-013",
+    "explanation": "Safe state evaluation using Banker's Algorithm:\nNeeds: P1=1, P2=2, P3=1.\nAvailable = 1.\n1. Can allocate to P1 (Need 1 <= 1). P1 finishes, work = 1 + 1 = 2.\n2. Can allocate to P3 (Need 1 <= 2). P3 finishes, work = 2 + 3 = 5.\n3. Can allocate to P2 (Need 2 <= 5). P2 finishes.\nSafe sequence: P1 -> P3 -> P2."
+  },
+  {
+    "id": "GCS27-OS-H-MCQ-014",
+    "explanation": "Safe state evaluation using Banker's Algorithm:\nNeeds: P1=1, P2=2, P3=1.\nAvailable = 1.\n1. Can allocate to P1 (Need 1 <= 1). P1 finishes, work = 1 + 1 = 2.\n2. Can allocate to P3 (Need 1 <= 2). P3 finishes, work = 2 + 3 = 5.\n3. Can allocate to P2 (Need 2 <= 5). P2 finishes.\nSafe sequence: P1 -> P3 -> P2."
+  },
+  {
+    "id": "GCS27-OS-H-MCQ-015",
+    "explanation": "Safe state evaluation using Banker's Algorithm:\nNeeds: P1=1, P2=2, P3=1.\nAvailable = 1.\n1. Can allocate to P1 (Need 1 <= 1). P1 finishes, work = 1 + 1 = 2.\n2. Can allocate to P3 (Need 1 <= 2). P3 finishes, work = 2 + 3 = 5.\n3. Can allocate to P2 (Need 2 <= 5). P2 finishes.\nSafe sequence: P1 -> P3 -> P2."
+  },
+  {
+    "id": "GCS27-OS-H-MCQ-016",
+    "explanation": "Safe state evaluation using Banker's Algorithm:\nNeeds: P1=1, P2=2, P3=1.\nAvailable = 1.\n1. Can allocate to P1 (Need 1 <= 1). P1 finishes, work = 1 + 1 = 2.\n2. Can allocate to P3 (Need 1 <= 2). P3 finishes, work = 2 + 3 = 5.\n3. Can allocate to P2 (Need 2 <= 5). P2 finishes.\nSafe sequence: P1 -> P3 -> P2."
+  },
+  {
+    "id": "GCS27-OS-H-MCQ-017",
+    "explanation": "Safe state evaluation using Banker's Algorithm:\nNeeds: P1=1, P2=2, P3=1.\nAvailable = 1.\n1. Can allocate to P1 (Need 1 <= 1). P1 finishes, work = 1 + 1 = 2.\n2. Can allocate to P3 (Need 1 <= 2). P3 finishes, work = 2 + 3 = 5.\n3. Can allocate to P2 (Need 2 <= 5). P2 finishes.\nSafe sequence: P1 -> P3 -> P2."
+  },
+  {
+    "id": "GCS27-OS-H-MCQ-018",
+    "explanation": "Safe state evaluation using Banker's Algorithm:\nNeeds: P1=1, P2=2, P3=1.\nAvailable = 1.\n1. Can allocate to P1 (Need 1 <= 1). P1 finishes, work = 1 + 1 = 2.\n2. Can allocate to P3 (Need 1 <= 2). P3 finishes, work = 2 + 3 = 5.\n3. Can allocate to P2 (Need 2 <= 5). P2 finishes.\nSafe sequence: P1 -> P3 -> P2."
+  },
+  {
+    "id": "GCS27-OS-H-MCQ-019",
+    "explanation": "Safe state evaluation using Banker's Algorithm:\nNeeds: P1=1, P2=2, P3=1.\nAvailable = 1.\n1. Can allocate to P1 (Need 1 <= 1). P1 finishes, work = 1 + 1 = 2.\n2. Can allocate to P3 (Need 1 <= 2). P3 finishes, work = 2 + 3 = 5.\n3. Can allocate to P2 (Need 2 <= 5). P2 finishes.\nSafe sequence: P1 -> P3 -> P2."
+  },
+  {
+    "id": "GCS27-OS-H-MCQ-020",
+    "explanation": "Safe state evaluation using Banker's Algorithm:\nNeeds: P1=1, P2=2, P3=1.\nAvailable = 1.\n1. Can allocate to P1 (Need 1 <= 1). P1 finishes, work = 1 + 1 = 2.\n2. Can allocate to P3 (Need 1 <= 2). P3 finishes, work = 2 + 3 = 5.\n3. Can allocate to P2 (Need 2 <= 5). P2 finishes.\nSafe sequence: P1 -> P3 -> P2."
+  },
+  {
+    "id": "GCS27-OS-H-MCQ-021",
+    "explanation": "Safe state evaluation using Banker's Algorithm:\nNeeds: P1=1, P2=2, P3=1.\nAvailable = 1.\n1. Can allocate to P1 (Need 1 <= 1). P1 finishes, work = 1 + 1 = 2.\n2. Can allocate to P3 (Need 1 <= 2). P3 finishes, work = 2 + 3 = 5.\n3. Can allocate to P2 (Need 2 <= 5). P2 finishes.\nSafe sequence: P1 -> P3 -> P2."
+  },
+  {
+    "id": "GCS27-OS-H-MCQ-022",
+    "explanation": "Safe state evaluation using Banker's Algorithm:\nNeeds: P1=1, P2=2, P3=1.\nAvailable = 1.\n1. Can allocate to P1 (Need 1 <= 1). P1 finishes, work = 1 + 1 = 2.\n2. Can allocate to P3 (Need 1 <= 2). P3 finishes, work = 2 + 3 = 5.\n3. Can allocate to P2 (Need 2 <= 5). P2 finishes.\nSafe sequence: P1 -> P3 -> P2."
+  },
+  {
+    "id": "GCS27-OS-H-MCQ-023",
+    "explanation": "Safe state evaluation using Banker's Algorithm:\nNeeds: P1=1, P2=2, P3=1.\nAvailable = 1.\n1. Can allocate to P1 (Need 1 <= 1). P1 finishes, work = 1 + 1 = 2.\n2. Can allocate to P3 (Need 1 <= 2). P3 finishes, work = 2 + 3 = 5.\n3. Can allocate to P2 (Need 2 <= 5). P2 finishes.\nSafe sequence: P1 -> P3 -> P2."
+  },
+  {
+    "id": "GCS27-OS-H-MCQ-024",
+    "explanation": "Safe state evaluation using Banker's Algorithm:\nNeeds: P1=1, P2=2, P3=1.\nAvailable = 1.\n1. Can allocate to P1 (Need 1 <= 1). P1 finishes, work = 1 + 1 = 2.\n2. Can allocate to P3 (Need 1 <= 2). P3 finishes, work = 2 + 3 = 5.\n3. Can allocate to P2 (Need 2 <= 5). P2 finishes.\nSafe sequence: P1 -> P3 -> P2."
+  },
+  {
+    "id": "GCS27-OS-H-MCQ-025",
+    "explanation": "Safe state evaluation using Banker's Algorithm:\nNeeds: P1=1, P2=2, P3=1.\nAvailable = 1.\n1. Can allocate to P1 (Need 1 <= 1). P1 finishes, work = 1 + 1 = 2.\n2. Can allocate to P3 (Need 1 <= 2). P3 finishes, work = 2 + 3 = 5.\n3. Can allocate to P2 (Need 2 <= 5). P2 finishes.\nSafe sequence: P1 -> P3 -> P2."
+  },
+  {
+    "id": "GCS27-OS-H-MSQ-001",
+    "explanation": "SSTF is greedy and can starve requests. SCAN goes to the end boundary. C-SCAN goes back to start without servicing, providing uniform wait times. SSTF often has fewer cylinder jumps than SCAN, so D is incorrect.\nAnswer Verification: A, B, C are correct."
+  },
+  {
+    "id": "GCS27-OS-H-MSQ-002",
+    "explanation": "SSTF is greedy and can starve requests. SCAN goes to the end boundary. C-SCAN goes back to start without servicing, providing uniform wait times. SSTF often has fewer cylinder jumps than SCAN, so D is incorrect.\nAnswer Verification: A, B, C are correct."
+  },
+  {
+    "id": "GCS27-OS-H-MSQ-003",
+    "explanation": "SSTF is greedy and can starve requests. SCAN goes to the end boundary. C-SCAN goes back to start without servicing, providing uniform wait times. SSTF often has fewer cylinder jumps than SCAN, so D is incorrect.\nAnswer Verification: A, B, C are correct."
+  },
+  {
+    "id": "GCS27-OS-H-MSQ-004",
+    "explanation": "SSTF is greedy and can starve requests. SCAN goes to the end boundary. C-SCAN goes back to start without servicing, providing uniform wait times. SSTF often has fewer cylinder jumps than SCAN, so D is incorrect.\nAnswer Verification: A, B, C are correct."
+  },
+  {
+    "id": "GCS27-OS-H-MSQ-005",
+    "explanation": "SSTF is greedy and can starve requests. SCAN goes to the end boundary. C-SCAN goes back to start without servicing, providing uniform wait times. SSTF often has fewer cylinder jumps than SCAN, so D is incorrect.\nAnswer Verification: A, B, C are correct."
+  },
+  {
+    "id": "GCS27-OS-H-MSQ-006",
+    "explanation": "SSTF is greedy and can starve requests. SCAN goes to the end boundary. C-SCAN goes back to start without servicing, providing uniform wait times. SSTF often has fewer cylinder jumps than SCAN, so D is incorrect.\nAnswer Verification: A, B, C are correct."
+  },
+  {
+    "id": "GCS27-OS-H-MSQ-007",
+    "explanation": "SSTF is greedy and can starve requests. SCAN goes to the end boundary. C-SCAN goes back to start without servicing, providing uniform wait times. SSTF often has fewer cylinder jumps than SCAN, so D is incorrect.\nAnswer Verification: A, B, C are correct."
+  },
+  {
+    "id": "GCS27-OS-H-MSQ-008",
+    "explanation": "SSTF is greedy and can starve requests. SCAN goes to the end boundary. C-SCAN goes back to start without servicing, providing uniform wait times. SSTF often has fewer cylinder jumps than SCAN, so D is incorrect.\nAnswer Verification: A, B, C are correct."
+  },
+  {
+    "id": "GCS27-OS-H-MSQ-009",
+    "explanation": "SSTF is greedy and can starve requests. SCAN goes to the end boundary. C-SCAN goes back to start without servicing, providing uniform wait times. SSTF often has fewer cylinder jumps than SCAN, so D is incorrect.\nAnswer Verification: A, B, C are correct."
+  },
+  {
+    "id": "GCS27-OS-H-MSQ-010",
+    "explanation": "SSTF is greedy and can starve requests. SCAN goes to the end boundary. C-SCAN goes back to start without servicing, providing uniform wait times. SSTF often has fewer cylinder jumps than SCAN, so D is incorrect.\nAnswer Verification: A, B, C are correct."
+  },
+  {
+    "id": "GCS27-OS-H-MSQ-011",
+    "explanation": "SSTF is greedy and can starve requests. SCAN goes to the end boundary. C-SCAN goes back to start without servicing, providing uniform wait times. SSTF often has fewer cylinder jumps than SCAN, so D is incorrect.\nAnswer Verification: A, B, C are correct."
+  },
+  {
+    "id": "GCS27-OS-H-MSQ-012",
+    "explanation": "SSTF is greedy and can starve requests. SCAN goes to the end boundary. C-SCAN goes back to start without servicing, providing uniform wait times. SSTF often has fewer cylinder jumps than SCAN, so D is incorrect.\nAnswer Verification: A, B, C are correct."
+  },
+  {
+    "id": "GCS27-OS-H-MSQ-013",
+    "explanation": "SSTF is greedy and can starve requests. SCAN goes to the end boundary. C-SCAN goes back to start without servicing, providing uniform wait times. SSTF often has fewer cylinder jumps than SCAN, so D is incorrect.\nAnswer Verification: A, B, C are correct."
+  },
+  {
+    "id": "GCS27-OS-H-MSQ-014",
+    "explanation": "SSTF is greedy and can starve requests. SCAN goes to the end boundary. C-SCAN goes back to start without servicing, providing uniform wait times. SSTF often has fewer cylinder jumps than SCAN, so D is incorrect.\nAnswer Verification: A, B, C are correct."
+  },
+  {
+    "id": "GCS27-OS-H-MSQ-015",
+    "explanation": "SSTF is greedy and can starve requests. SCAN goes to the end boundary. C-SCAN goes back to start without servicing, providing uniform wait times. SSTF often has fewer cylinder jumps than SCAN, so D is incorrect.\nAnswer Verification: A, B, C are correct."
+  },
+  {
+    "id": "GCS27-OS-H-MSQ-016",
+    "explanation": "SSTF is greedy and can starve requests. SCAN goes to the end boundary. C-SCAN goes back to start without servicing, providing uniform wait times. SSTF often has fewer cylinder jumps than SCAN, so D is incorrect.\nAnswer Verification: A, B, C are correct."
+  },
+  {
+    "id": "GCS27-OS-H-MSQ-017",
+    "explanation": "SSTF is greedy and can starve requests. SCAN goes to the end boundary. C-SCAN goes back to start without servicing, providing uniform wait times. SSTF often has fewer cylinder jumps than SCAN, so D is incorrect.\nAnswer Verification: A, B, C are correct."
+  },
+  {
+    "id": "GCS27-OS-H-MSQ-018",
+    "explanation": "SSTF is greedy and can starve requests. SCAN goes to the end boundary. C-SCAN goes back to start without servicing, providing uniform wait times. SSTF often has fewer cylinder jumps than SCAN, so D is incorrect.\nAnswer Verification: A, B, C are correct."
+  },
+  {
+    "id": "GCS27-OS-H-MSQ-019",
+    "explanation": "SSTF is greedy and can starve requests. SCAN goes to the end boundary. C-SCAN goes back to start without servicing, providing uniform wait times. SSTF often has fewer cylinder jumps than SCAN, so D is incorrect.\nAnswer Verification: A, B, C are correct."
+  },
+  {
+    "id": "GCS27-OS-H-MSQ-020",
+    "explanation": "SSTF is greedy and can starve requests. SCAN goes to the end boundary. C-SCAN goes back to start without servicing, providing uniform wait times. SSTF often has fewer cylinder jumps than SCAN, so D is incorrect.\nAnswer Verification: A, B, C are correct."
+  },
+  {
+    "id": "GCS27-OS-H-MSQ-021",
+    "explanation": "SSTF is greedy and can starve requests. SCAN goes to the end boundary. C-SCAN goes back to start without servicing, providing uniform wait times. SSTF often has fewer cylinder jumps than SCAN, so D is incorrect.\nAnswer Verification: A, B, C are correct."
+  },
+  {
+    "id": "GCS27-OS-H-MSQ-022",
+    "explanation": "SSTF is greedy and can starve requests. SCAN goes to the end boundary. C-SCAN goes back to start without servicing, providing uniform wait times. SSTF often has fewer cylinder jumps than SCAN, so D is incorrect.\nAnswer Verification: A, B, C are correct."
+  },
+  {
+    "id": "GCS27-OS-H-MSQ-023",
+    "explanation": "SSTF is greedy and can starve requests. SCAN goes to the end boundary. C-SCAN goes back to start without servicing, providing uniform wait times. SSTF often has fewer cylinder jumps than SCAN, so D is incorrect.\nAnswer Verification: A, B, C are correct."
+  },
+  {
+    "id": "GCS27-OS-H-MSQ-024",
+    "explanation": "SSTF is greedy and can starve requests. SCAN goes to the end boundary. C-SCAN goes back to start without servicing, providing uniform wait times. SSTF often has fewer cylinder jumps than SCAN, so D is incorrect.\nAnswer Verification: A, B, C are correct."
+  },
+  {
+    "id": "GCS27-OS-H-MSQ-025",
+    "explanation": "SSTF is greedy and can starve requests. SCAN goes to the end boundary. C-SCAN goes back to start without servicing, providing uniform wait times. SSTF often has fewer cylinder jumps than SCAN, so D is incorrect.\nAnswer Verification: A, B, C are correct."
+  },
+  {
+    "id": "GCS27-OS-H-NAT-001",
+    "explanation": "LRU tracking with 4 frames:\nFor sequence [1, 2, 3, 4, 1, 2, 5, 1], tracing the page allocations shows page replacement step by step.\nTotal page faults count is 5."
+  },
+  {
+    "id": "GCS27-OS-H-NAT-002",
+    "explanation": "LRU tracking with 3 frames:\nFor sequence [7, 0, 1, 2, 0, 3, 0, 4], tracing the page allocations shows page replacement step by step.\nTotal page faults count is 6."
+  },
+  {
+    "id": "GCS27-OS-H-NAT-003",
+    "explanation": "LRU tracking with 4 frames:\nFor sequence [1, 2, 3, 4, 1, 2, 5, 1], tracing the page allocations shows page replacement step by step.\nTotal page faults count is 5."
+  },
+  {
+    "id": "GCS27-OS-H-NAT-004",
+    "explanation": "LRU tracking with 3 frames:\nFor sequence [7, 0, 1, 2, 0, 3, 0, 4], tracing the page allocations shows page replacement step by step.\nTotal page faults count is 6."
+  },
+  {
+    "id": "GCS27-OS-H-NAT-005",
+    "explanation": "LRU tracking with 4 frames:\nFor sequence [1, 2, 3, 4, 1, 2, 5, 1], tracing the page allocations shows page replacement step by step.\nTotal page faults count is 5."
+  },
+  {
+    "id": "GCS27-OS-H-NAT-006",
+    "explanation": "LRU tracking with 3 frames:\nFor sequence [7, 0, 1, 2, 0, 3, 0, 4], tracing the page allocations shows page replacement step by step.\nTotal page faults count is 6."
+  },
+  {
+    "id": "GCS27-OS-H-NAT-007",
+    "explanation": "LRU tracking with 4 frames:\nFor sequence [1, 2, 3, 4, 1, 2, 5, 1], tracing the page allocations shows page replacement step by step.\nTotal page faults count is 5."
+  },
+  {
+    "id": "GCS27-OS-H-NAT-008",
+    "explanation": "LRU tracking with 3 frames:\nFor sequence [7, 0, 1, 2, 0, 3, 0, 4], tracing the page allocations shows page replacement step by step.\nTotal page faults count is 6."
+  },
+  {
+    "id": "GCS27-OS-H-NAT-009",
+    "explanation": "LRU tracking with 4 frames:\nFor sequence [1, 2, 3, 4, 1, 2, 5, 1], tracing the page allocations shows page replacement step by step.\nTotal page faults count is 5."
+  },
+  {
+    "id": "GCS27-OS-H-NAT-010",
+    "explanation": "LRU tracking with 3 frames:\nFor sequence [7, 0, 1, 2, 0, 3, 0, 4], tracing the page allocations shows page replacement step by step.\nTotal page faults count is 6."
+  },
+  {
+    "id": "GCS27-OS-H-NAT-011",
+    "explanation": "LRU tracking with 4 frames:\nFor sequence [1, 2, 3, 4, 1, 2, 5, 1], tracing the page allocations shows page replacement step by step.\nTotal page faults count is 5."
+  },
+  {
+    "id": "GCS27-OS-H-NAT-012",
+    "explanation": "LRU tracking with 3 frames:\nFor sequence [7, 0, 1, 2, 0, 3, 0, 4], tracing the page allocations shows page replacement step by step.\nTotal page faults count is 6."
+  },
+  {
+    "id": "GCS27-OS-H-NAT-013",
+    "explanation": "LRU tracking with 4 frames:\nFor sequence [1, 2, 3, 4, 1, 2, 5, 1], tracing the page allocations shows page replacement step by step.\nTotal page faults count is 5."
+  },
+  {
+    "id": "GCS27-OS-H-NAT-014",
+    "explanation": "LRU tracking with 3 frames:\nFor sequence [7, 0, 1, 2, 0, 3, 0, 4], tracing the page allocations shows page replacement step by step.\nTotal page faults count is 6."
+  },
+  {
+    "id": "GCS27-OS-H-NAT-015",
+    "explanation": "LRU tracking with 4 frames:\nFor sequence [1, 2, 3, 4, 1, 2, 5, 1], tracing the page allocations shows page replacement step by step.\nTotal page faults count is 5."
+  },
+  {
+    "id": "GCS27-OS-H-NAT-016",
+    "explanation": "LRU tracking with 3 frames:\nFor sequence [7, 0, 1, 2, 0, 3, 0, 4], tracing the page allocations shows page replacement step by step.\nTotal page faults count is 6."
+  },
+  {
+    "id": "GCS27-OS-H-NAT-017",
+    "explanation": "LRU tracking with 4 frames:\nFor sequence [1, 2, 3, 4, 1, 2, 5, 1], tracing the page allocations shows page replacement step by step.\nTotal page faults count is 5."
+  },
+  {
+    "id": "GCS27-OS-H-NAT-018",
+    "explanation": "LRU tracking with 3 frames:\nFor sequence [7, 0, 1, 2, 0, 3, 0, 4], tracing the page allocations shows page replacement step by step.\nTotal page faults count is 6."
+  },
+  {
+    "id": "GCS27-OS-H-NAT-019",
+    "explanation": "LRU tracking with 4 frames:\nFor sequence [1, 2, 3, 4, 1, 2, 5, 1], tracing the page allocations shows page replacement step by step.\nTotal page faults count is 5."
+  },
+  {
+    "id": "GCS27-OS-H-NAT-020",
+    "explanation": "LRU tracking with 3 frames:\nFor sequence [7, 0, 1, 2, 0, 3, 0, 4], tracing the page allocations shows page replacement step by step.\nTotal page faults count is 6."
+  },
+  {
+    "id": "GCS27-OS-H-NAT-021",
+    "explanation": "LRU tracking with 4 frames:\nFor sequence [1, 2, 3, 4, 1, 2, 5, 1], tracing the page allocations shows page replacement step by step.\nTotal page faults count is 5."
+  },
+  {
+    "id": "GCS27-OS-H-NAT-022",
+    "explanation": "LRU tracking with 3 frames:\nFor sequence [7, 0, 1, 2, 0, 3, 0, 4], tracing the page allocations shows page replacement step by step.\nTotal page faults count is 6."
+  },
+  {
+    "id": "GCS27-OS-H-NAT-023",
+    "explanation": "LRU tracking with 4 frames:\nFor sequence [1, 2, 3, 4, 1, 2, 5, 1], tracing the page allocations shows page replacement step by step.\nTotal page faults count is 5."
+  },
+  {
+    "id": "GCS27-OS-H-NAT-024",
+    "explanation": "LRU tracking with 3 frames:\nFor sequence [7, 0, 1, 2, 0, 3, 0, 4], tracing the page allocations shows page replacement step by step.\nTotal page faults count is 6."
+  },
+  {
+    "id": "GCS27-OS-H-NAT-025",
+    "explanation": "LRU tracking with 4 frames:\nFor sequence [1, 2, 3, 4, 1, 2, 5, 1], tracing the page allocations shows page replacement step by step.\nTotal page faults count is 5."
+  }
+]
