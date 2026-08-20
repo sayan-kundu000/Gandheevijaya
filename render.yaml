@@ -7,10 +7,12 @@ services:
     env: python
     region: singapore
     plan: free
-    buildCommand: "pip install -r backend/requirements.txt && alembic -c backend/alembic.ini upgrade head"
-    startCommand: "uvicorn backend.app.main:app --host 0.0.0.0 --port $PORT"
+    buildCommand: "pip install -r backend/requirements.txt"
+    startCommand: "python -m alembic -c backend/alembic.ini upgrade head && uvicorn backend.app.main:app --host 0.0.0.0 --port $PORT"
     healthCheckPath: /api/v1/health
     envVars:
+      - key: PYTHONPATH
+        value: .
       - key: APP_ENV
         value: production
       - key: DEBUG
