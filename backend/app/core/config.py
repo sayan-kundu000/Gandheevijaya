@@ -48,6 +48,16 @@ class Settings(BaseSettings):
     TRUSTED_HOSTS: Union[str, List[str]] = ["*"]
 
 
+    @field_validator("DATABASE_URL", mode="before")
+    @classmethod
+    def normalize_database_url(cls, v: str) -> str:
+        if isinstance(v, str):
+            if v.startswith("postgres://"):
+                return v.replace("postgres://", "postgresql+psycopg://", 1)
+            elif v.startswith("postgresql://") and not v.startswith("postgresql+"):
+                return v.replace("postgresql://", "postgresql+psycopg://", 1)
+        return v
+
     @field_validator("PORT", mode="before")
     @classmethod
     def assemble_port(cls, v: Union[str, int]) -> int:
